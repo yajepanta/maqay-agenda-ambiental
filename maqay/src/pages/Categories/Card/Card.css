@@ -1,0 +1,43 @@
+.container-proposal{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 320px;
+    height: 270px;
+    color: #ffffff;
+    background: url('../../../assets/img/climateChange.png');
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.container-proposal > .content {
+    background: rgb(246, 168, 24, 0.9);
+    border-radius: inherit;
+    width: 280px;
+    height: 230px;
+    padding: 20px;
+    
+}
+.container-proposal-title{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.container-proposal-content{
+    margin: 18px 0 18px 0;
+    font-size: 1em;
+    text-align:left;
+}
+.text-small{
+    font-size: 0.8em;
+}
+.container-proposals-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.partie-logo{
+    width: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 5px;
+    justify-self: flex-start;
+}
