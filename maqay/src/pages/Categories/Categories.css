@@ -27,15 +27,20 @@ main {
 }
 
 nav {
+    
     display: flex;
     flex-direction: column;
     width: 28vw;
     border: 1px #C4C4C4 solid;
     height: 80vh;
-    justify-self: flex-end;
-    
+    justify-self: flex-end;    
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
 nav > span {
     border-bottom: 1px #C4C4C4 solid;
     height: 15%;

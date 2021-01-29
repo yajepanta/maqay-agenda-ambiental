@@ -9,12 +9,12 @@
 }
 
 .container-proposal > .content {
-    background: rgb(246, 168, 24, 0.9);
+    /* background: rgb(246, 168, 24, 0.9); */
+    background: rgb(242, 144, 0, 0.9);
     border-radius: inherit;
     width: 280px;
     height: 230px;
     padding: 20px;
-    
 }
 .container-proposal-title{
     font-size: 1.2em;
@@ -40,4 +40,12 @@
     border-radius: 50%;
     padding: 5px;
     justify-self: flex-start;
+}
+
+.alert-gree {
+    background: rgb(0, 155, 58, 0.9);
+}
+
+.alert-red {
+    background: rgb(215, 10, 10, 0.9);
 }

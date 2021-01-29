@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Categories.css";
 import Card from "./Card/Card";
-import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav";
+import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
 import getAllPosts from "../../controller/getAllPosts.js";
 import getTagsByGroupName from "../../controller/getTagsByGroupName.js";
 import getAllTagsNameAndNumber from "../../controller/getAllTagsNameAndNumber.js";
@@ -51,7 +51,7 @@ const Categories = () => {
     });
   }, []);
 
-  /* Si categoria seleccionada es Tema ambiental, debe hacer la busqueda de tema para NAV */
+ 
   /* NAVIGATION BAR Functions 
   DEBE CONVERTIRSE FX PURA CON ARGUMENTO ENVIRONMENTAL O POLITICAL Y VARIAR SEGUN CATEGORY SELECTED*/
   useEffect(() => {
@@ -68,8 +68,7 @@ const Categories = () => {
     setNavBarTags(newArray);
   }, []); */
 
-  /* Create property "politicalParties" with only tag number of politicalparties*/
-
+  /* Create property "politicalParties" with only tag number of politicalparties from every post*/
   const tagName = () => {
     // post.tags es el array de tags de cada post
     return allPosts.map((post) => {
@@ -77,12 +76,10 @@ const Categories = () => {
       const array = politicalPartiesTags.filter((politicalTagNumber) => {
         return tags.includes(politicalTagNumber);
       });
-      console.log(array, "politicalparties");
       return (post.politicalParties = array);
     });
   };
   console.log("tagName: ", tagName());
-  console.log("topicSelected: ", topicSelected);
 
   /* Filters posts by topic selected on NavBar */
   const filterByTopic = (id, tagByTopic) => {
@@ -122,7 +119,6 @@ const Categories = () => {
         <nav>
           <span> Regresar</span>
           <span>Cambiar de tema ambiental</span>
-
           {navBarTags.map((tag) => {
             return (
               <ButtonFilterNav
