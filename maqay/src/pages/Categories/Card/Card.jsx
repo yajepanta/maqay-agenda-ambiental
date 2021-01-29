@@ -4,16 +4,28 @@ import Share from '../Share/Share.js';
 
 const Card = ({post}) => {
 
+    const alertColor = (alertTag) =>{
+        if(alertTag.includes(39)){
+            return "content alert-red";
+        }
+        else if (alertTag.includes(40)){
+            return "content alert-green";
+        }
+        else {
+            return "content alert-none";
+        }
+    }
+
     const shareContent = {
         url: "maqay.org",
         content: post.content.rendered.substring(0,80)
     }
     return (
-        /* container proposals es ahora container-card */
+        /* container proposals es "container-proposal" ahora container-card */
         <div className="container-proposal">
             {/* content sera container header */}
-            <div  className="content">
-                <span className="container-proposal-title">{post.title.rendered}</span>
+            <div className={alertColor(post.tags)}>
+                <div className="container-proposal-title">{post.title.rendered}</div>
                 
                 <div className="container-proposal-content">{`${post.content.rendered}`}</div>
         
