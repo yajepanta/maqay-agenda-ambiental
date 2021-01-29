@@ -20,9 +20,9 @@ const Categories = () => {
   const [navBarTags, setNavBarTags] = useState([]);
 
   /* posts to render: posts ya filtrados */
-  const [posts, setPosts] = useState([]);
+  const [filteredPosts, setFilteredPosts] = useState([]);
   /* array de objeto con nr y name elegido */
-  const [tagSelected, setTagSelected] = useState([]);
+  const [topicSelected, setTopicSelected] = useState([]);
   /* array con los numeros de etiqueta filtrados */
   const [tagsNumbersByGroupName, setTagsNumbersByGroupName] = useState([]);
 
@@ -31,7 +31,7 @@ const Categories = () => {
   const [arrayOfTagsNumbersInNav, setArrayOfTagsNumbersInNav] = useState([]);
 
   /* array con los nombres de las etiquetas nameTagFromNumber */
- /*  const [nameTags, setNameTags] = useState([]); */
+  /*  const [nameTags, setNameTags] = useState([]); */
 
   /* We bring all posts from Wordpress within category Environmental, with a number set by WP */
 
@@ -42,7 +42,7 @@ const Categories = () => {
         res.filter((posts) => posts.categories[0] === categoryAmbiental)
       )
       .then((res) => {
-        setPosts(res);
+        setFilteredPosts(res);
         return setAllPosts(res);
       });
   }, []);
@@ -70,7 +70,8 @@ const Categories = () => {
   }, []);
 
   /* Si categoria seleccionada es Tema ambiental, debe hacer la busqueda de tema para NAV */
-  /* NAVIGATION BAR Functions */
+  /* NAVIGATION BAR Functions 
+  DEBE CONVERTIRSE FX PURA CON ARGUMENTO ENVIRONMENTAL O POLITICAL Y VARIAR SEGUN CATEGORY SELECTED*/
   useEffect(() => {
     const newArray = allTagsNameAndNumber.filter((tag) => {
       return environmentalTags.includes(tag.number);
@@ -78,28 +79,18 @@ const Categories = () => {
     setNavBarTags(newArray);
   }, [allTagsNameAndNumber, environmentalTags]);
 
-
-  /* useEffect(() => {
-    arrayOfTagsNumbersInNav.map((nameTag) => {
-      return getTagName(nameTag).then((name) => {
-        return setNameTags((prevState) => [
-          ...prevState,
-          { name: name, number: nameTag },
-        ]);
-      });
+  /*  useEffect(() => {
+    const newArray = allTagsNameAndNumber.filter((tag) => {
+      return politicalPartiesTags.includes(tag.number);
     });
-  }, [arrayOfTagsNumbersInNav]); */
-  /* console.log("arrayTag Partidos politicos: ", tagsNumbersByGroupName);
-  console.log("arrayTag Tema ambiental: ", arrayOfTagsNumbersInNav);
-  console.log("nameTags", nameTags); */
-  /* debemos encontrar los nros similares en cada array y retornarlos, para sacar su nombre 
-tagsNumbersByGroupName.includes(post.tags);*/
+    setNavBarTags(newArray);
+  }, []); */
 
   /* Create property "politicalParties" with only tag number of politicalparties*/
   /* Debe ser llamada con ALGO
 podría entrar dentro de la llamada a todos los Posts al pintar */
 
-  /* const tagName = () => {
+  const tagName = () => {
     // post.tags es el array de tags de cada post
     return allPosts.map((post) => {
       const tags = post.tags;
@@ -110,54 +101,50 @@ podría entrar dentro de la llamada a todos los Posts al pintar */
       return (post.politicalParties = array);
     });
   };
-  console.log("tagName: ", tagName()); */
+  console.log("tagName: ", tagName());
 
   const filterByTopic = (target, nameTagByTopic) => {
-    setTagSelected(nameTagByTopic);
+    setTopicSelected(nameTagByTopic);
     const arr = allPosts.filter((post) => {
       const tag = post.tags;
       return tag.includes(parseInt(target.id));
     });
-    console.log(arr);
-    return setPosts(arr);
+    return setFilteredPosts(arr);
   };
 
   return (
     <div>
       <header>
-        <span>{tagSelected.name}</span>
+        <span>{topicSelected.name}</span>
       </header>
       {/* main debe ser grilla: cardscontainer + nav */}
       <main>
-        {/* cards-container incluye cada carta */}
         <section className="view-categories">
-            <span>HEMOS IDENTIFICADO {posts.length} PROPUESTAS</span>
+          <span>HEMOS IDENTIFICADO {filteredPosts.length} PROPUESTAS</span>
           <p>
             Un cambio climático se define como la variación en el estado del
             sistema climático terrestre, formado por la atmósfera, la
             hidrosfera, la criosfera, la litosfera y la biosfera, que perdura
             durante periodos de tiempo suficientemente largos (décadas o más
-            tiempo hasta alcanzar un nuevo equilibrio. Puede afectar tanto a los
-            valores medios meteorológicos como a su variabilidad y extremos.
+            tiempo hasta alcanzar un nuevo equilibrio.
           </p>
-          
+
           <div className="cards-container">
-            {/* Se le deberian pasar los posts ya filtrados segun el tema seleccionado */}
-            {posts.map((post) => {
+            {/* Recibe los posts filtrados según el tema seleccionado */}
+            {filteredPosts.map((post) => {
               return <Card key={post.id} post={post} />;
             })}
           </div>
         </section>
-        {/* nav recibe nombres de todas las categorías */}
 
         <nav>
           <span> Regresar</span>
           <span>Cambiar de tema ambiental</span>
-          {/* nameTagByTopic es un objeto con key ID(number, hay q cambiar a id) y Name 
-            tag es bojeto con number y name*/}
+
           {navBarTags.map((tag) => {
             return (
               <ButtonFilterNav
+                key={tag.name}
                 tagByTopic={tag}
                 filterByTopic={filterByTopic}
               />
