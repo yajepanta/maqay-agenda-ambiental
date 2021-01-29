@@ -1,40 +1,24 @@
 import React, { useEffect, useState } from "react";
 import "./Categories.css";
 import Card from "./Card/Card";
-/* should be btnFilterMenu */
 import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav";
 import getAllPosts from "../../controller/getAllPosts.js";
 import getTagsByGroupName from "../../controller/getTagsByGroupName.js";
-import filteredPostsByTagNumber from "../../utils/filter.js";
-import getTagName from "../../controller/getTagName.js";
 import getAllTagsNameAndNumber from "../../controller/getAllTagsNameAndNumber.js";
 
 const Categories = () => {
   const [allPosts, setAllPosts] = useState([]);
-
   /* Acá accederemos para conseguir datos de tags */
   const [allTagsNameAndNumber, setAllTagsNameAndNumber] = useState([]);
-
   const [politicalPartiesTags, setPoliticalPartiesTags] = useState([]);
   const [environmentalTags, setEnvironmentalTags] = useState([]);
   const [navBarTags, setNavBarTags] = useState([]);
-
   /* posts to render: posts ya filtrados */
   const [filteredPosts, setFilteredPosts] = useState([]);
-  /* array de objeto con nr y name elegido */
+  /* Object with Topic's Name and Number */
   const [topicSelected, setTopicSelected] = useState([]);
-  /* array con los numeros de etiqueta filtrados */
-  const [tagsNumbersByGroupName, setTagsNumbersByGroupName] = useState([]);
 
-  /* array con los numeros de etiqueta por categoria
-  arrayOfTagNumbersByCategory */
-  const [arrayOfTagsNumbersInNav, setArrayOfTagsNumbersInNav] = useState([]);
-
-  /* array con los nombres de las etiquetas nameTagFromNumber */
-  /*  const [nameTags, setNameTags] = useState([]); */
-
-  /* We bring all posts from Wordpress within category Environmental, with a number set by WP */
-
+  /* All posts from Wordpress within category Environmental, with a number set by WP */
   useEffect(() => {
     const categoryAmbiental = 23;
     getAllPosts()
@@ -47,7 +31,7 @@ const Categories = () => {
       });
   }, []);
 
-  /* Saves in array: objects with Name and Number from Tags */
+  /* Saves in state: objects with Tags' Name and Number */
   useEffect(() => {
     getAllTagsNameAndNumber().then((res) => {
       return setAllTagsNameAndNumber(res);
@@ -57,14 +41,12 @@ const Categories = () => {
   /* Returns all tags numbers within tag group name required */
   useEffect(() => {
     getTagsByGroupName("Partidos políticos").then((tags) => {
-      /* araryOfTagNumbers */
       return setPoliticalPartiesTags(tags);
     });
   }, []);
 
   useEffect(() => {
     getTagsByGroupName("Tema ambiental").then((tags) => {
-      /* return setArrayOfTagsNumbersInNav(tags); */
       return setEnvironmentalTags(tags);
     });
   }, []);
@@ -87,29 +69,29 @@ const Categories = () => {
   }, []); */
 
   /* Create property "politicalParties" with only tag number of politicalparties*/
-  /* Debe ser llamada con ALGO
-podría entrar dentro de la llamada a todos los Posts al pintar */
 
   const tagName = () => {
     // post.tags es el array de tags de cada post
     return allPosts.map((post) => {
       const tags = post.tags;
-      const array = tagsNumbersByGroupName.filter((tagNumber) => {
-        return tags.includes(tagNumber);
+      const array = politicalPartiesTags.filter((politicalTagNumber) => {
+        return tags.includes(politicalTagNumber);
       });
       console.log(array, "politicalparties");
       return (post.politicalParties = array);
     });
   };
   console.log("tagName: ", tagName());
+  console.log("topicSelected: ", topicSelected);
 
-  const filterByTopic = (target, nameTagByTopic) => {
-    setTopicSelected(nameTagByTopic);
-    const arr = allPosts.filter((post) => {
-      const tag = post.tags;
-      return tag.includes(parseInt(target.id));
+  /* Filters posts by topic selected on NavBar */
+  const filterByTopic = (id, tagByTopic) => {
+    setTopicSelected(tagByTopic);
+    const array = allPosts.filter((post) => {
+      const tags = post.tags;
+      return tags.includes(parseInt(id));
     });
-    return setFilteredPosts(arr);
+    return setFilteredPosts(array);
   };
 
   return (
@@ -157,10 +139,3 @@ podría entrar dentro de la llamada a todos los Posts al pintar */
 };
 
 export default Categories;
-
-/* Get Posts within Environmental Category (ID: 23) */
-
-/* const postsTagsParties = () => {
-        const tags = tagsByGroupName("Partidos políticos");
-        const tagsPoliticalParties = posts.filter(post => tags.includes(post.tags));
-    } */
