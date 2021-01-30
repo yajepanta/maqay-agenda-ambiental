@@ -1,7 +1,7 @@
 .container-proposal{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 320px;
-    height: 270px;
+    height: 350px;
     color: #ffffff;
     background: url('../../../assets/img/climateChange.png');
     border-radius: 20px;
@@ -11,7 +11,7 @@
 .container-proposal > .content {    
     border-radius: inherit;
     width: 280px;
-    height: 230px;
+    height: 310px;
     padding: 20px;
 }
 .container-proposal-title{
@@ -60,7 +60,7 @@
     background: rgb(215, 10, 10, 0.85);
 }
 
-.alert-none {
+.no-alert {
     background: rgb(246, 168, 24, 0.9);
     /* background: rgb(242, 144, 0, 0.9); */
 }

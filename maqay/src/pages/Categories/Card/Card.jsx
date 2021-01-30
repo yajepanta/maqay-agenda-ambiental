@@ -4,15 +4,19 @@ import Share from '../Share/Share.js';
 
 const Card = ({post}) => {
 
-    const alertColor = (alertTag) =>{
-        if(alertTag.includes(39)){
+/* Numbers set by Wordpress */
+    const alertRed = 39;
+    const alertGreen = 40;
+
+    const alertColor = (alertTagsArray) =>{
+        if(alertTagsArray.includes(alertRed)){
             return "content alert-red";
         }
-        else if (alertTag.includes(40)){
+        else if (alertTagsArray.includes(alertGreen)){
             return "content alert-green";
         }
         else {
-            return "content alert-none";
+            return "content no-alert";
         }
     }
 

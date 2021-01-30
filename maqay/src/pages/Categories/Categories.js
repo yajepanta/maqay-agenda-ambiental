@@ -8,13 +8,14 @@ import getAllTagsNameAndNumber from "../../controller/getAllTagsNameAndNumber.js
 
 const Categories = () => {
   const [allPosts, setAllPosts] = useState([]);
+  /* posts to render: posts ya filtrados */
+  const [filteredPosts, setFilteredPosts] = useState([]);
   /* Acá accederemos para conseguir datos de tags */
   const [allTagsNameAndNumber, setAllTagsNameAndNumber] = useState([]);
   const [politicalPartiesTags, setPoliticalPartiesTags] = useState([]);
   const [environmentalTags, setEnvironmentalTags] = useState([]);
   const [navBarTags, setNavBarTags] = useState([]);
-  /* posts to render: posts ya filtrados */
-  const [filteredPosts, setFilteredPosts] = useState([]);
+  
   /* Object with Topic's Name and Number */
   const [topicSelected, setTopicSelected] = useState([]);
 
@@ -31,7 +32,7 @@ const Categories = () => {
       });
   }, []);
 
-  /* Saves in state: objects with Tags' Name and Number */
+  /* Saves in state: object with Tags' Name and Number */
   useEffect(() => {
     getAllTagsNameAndNumber().then((res) => {
       return setAllTagsNameAndNumber(res);
@@ -51,7 +52,6 @@ const Categories = () => {
     });
   }, []);
 
- 
   /* NAVIGATION BAR Functions 
   DEBE CONVERTIRSE FX PURA CON ARGUMENTO ENVIRONMENTAL O POLITICAL Y VARIAR SEGUN CATEGORY SELECTED*/
   useEffect(() => {
@@ -60,13 +60,6 @@ const Categories = () => {
     });
     setNavBarTags(newArray);
   }, [allTagsNameAndNumber, environmentalTags]);
-
-  /*  useEffect(() => {
-    const newArray = allTagsNameAndNumber.filter((tag) => {
-      return politicalPartiesTags.includes(tag.number);
-    });
-    setNavBarTags(newArray);
-  }, []); */
 
   /* Create property "politicalParties" with only tag number of politicalparties from every post*/
   const tagName = () => {
@@ -96,18 +89,17 @@ const Categories = () => {
       <header>
         <span>{topicSelected.name}</span>
       </header>
-      {/* main debe ser grilla: cardscontainer + nav */}
       <main>
         <section className="view-categories">
-          <span>HEMOS IDENTIFICADO {filteredPosts.length} PROPUESTAS</span>
-          <p>
+          <span className="text-bold">HEMOS IDENTIFICADO <span className="highlighted">{filteredPosts.length}</span> PROPUESTAS</span>
+          <p className="main-text">
             Un cambio climático se define como la variación en el estado del
             sistema climático terrestre, formado por la atmósfera, la
             hidrosfera, la criosfera, la litosfera y la biosfera, que perdura
             durante periodos de tiempo suficientemente largos (décadas o más
             tiempo hasta alcanzar un nuevo equilibrio.
           </p>
-
+          <div className="alerts-guide"> </div>
           <div className="cards-container">
             {/* Recibe los posts filtrados según el tema seleccionado */}
             {filteredPosts.map((post) => {
@@ -117,7 +109,7 @@ const Categories = () => {
         </section>
 
         <nav>
-          <span> Regresar</span>
+          <button className="btn-back"onClick={e=>{window.location="/inicio"}}><i className="fas fa-chevron-left"></i>REGRESAR</button>
           <span>Cambiar de tema ambiental</span>
           {navBarTags.map((tag) => {
             return (
@@ -135,3 +127,10 @@ const Categories = () => {
 };
 
 export default Categories;
+
+  /*  useEffect(() => {
+    const newArray = allTagsNameAndNumber.filter((tag) => {
+      return politicalPartiesTags.includes(tag.number);
+    });
+    setNavBarTags(newArray);
+  }, []); */
