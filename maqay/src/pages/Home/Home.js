@@ -71,13 +71,6 @@ Y de la ruta, Categories toma lo que se selecciono para pasar al filtrado
     setFilteredPosts(newArray);
   }, [allTagsNameAndNumber, tagsFromCategorySelected]);
 
-  /*   useEffect(() => {
-    const newArray = allTagsNameAndNumber.filter((tag) => {
-      return tagsFromCategorySelected.includes(tag.number);
-    });
-    setFilteredPosts(newArray);
-  }, [allTagsNameAndNumber, tagsFromCategorySelected ]); */
-
   return (
     <div>
       <section className='view-home'>
@@ -102,23 +95,19 @@ Y de la ruta, Categories toma lo que se selecciono para pasar al filtrado
             Por partido político
           </button>
         </div>
-      </section>
 
-      <section className='cards-container'>
-        {filteredPosts.map((post) => {
-          return (
-            <Link
-              to={`/propuestas/${categorySelected}/${post.name}`}
-              key={post.id}
-            >
+        <section className='home-cards-container'>
+          {filteredPosts.map((post) => {
+            return (
               <Card
                 post={post}
                 key={post.id}
                 categorySelected={categorySelected}
+                path={`/propuestas/${categorySelected}/${post.name}`}
               />
-            </Link>
-          );
-        })}
+            );
+          })}
+        </section>
       </section>
     </div>
   );

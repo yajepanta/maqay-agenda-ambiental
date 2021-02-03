@@ -160,9 +160,11 @@ const Categories = () => {
           <span>Cambiar de tema ambiental</span>
           {navBarTags.map((tag) => {
             return (
-              <Link to={`/propuestas/${mainCategory}/${tag.name}`} key={tag.id}>
-                <ButtonFilterNav key={tag.id} tagByTopic={tag} />
-              </Link>
+              <ButtonFilterNav
+                key={tag.id}
+                tagByTopic={tag}
+                path={`/propuestas/${mainCategory}/${tag.name}`}
+              />
             );
           })}
         </nav>

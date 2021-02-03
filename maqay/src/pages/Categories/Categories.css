@@ -46,7 +46,7 @@ nav {
     display: flex;
     flex-direction: column;
     border: 1px #C4C4C4 solid;
-    height: 80vh;
+    height: 100%;
     /* justify-self: flex-end;    */ 
 }
 
@@ -58,13 +58,13 @@ nav {
 
 nav > span {
     border-bottom: 1px #C4C4C4 solid;
-    height: 8%;
+    height: 50px;
 }
 
 .btn-back{
     background-color: white;
-    font-weight: 600;
-    height: 8%;
+    font-weight: 600;/* 
+    height: 8%; */
     outline: none;
     border: none;
     cursor: pointer;

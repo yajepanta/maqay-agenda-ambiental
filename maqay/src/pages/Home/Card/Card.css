@@ -1,12 +1,12 @@
 .card {
-    display: grid; 
-    padding-left: 20%;
-    margin-bottom: 15%;
+   width: 100%;
+   
  }
 
  .sub-card {
     width: 26.5%;
-    display: grid;
+    height: 50%;
+    /* display: grid; */
     position: absolute;
     background: #C7017F;
     color: #FFFFFF;
@@ -14,11 +14,17 @@
     margin-top: 196px;
  }
 
+ .card > a{
+   background-color: aqua;
+   width: 100px;
+   text-decoration: none;
+   cursor: pointer;
+}
 /* EN EDICIÓN */
 
-.show-card{
+/* .show-card{
 display: flex;
-}
+} */
 .card-hover {
 display: none;
 background: rgb(246, 168, 24, 0.7);
@@ -28,3 +34,4 @@ margin-bottom: 15%;
 width: 27%;
 border-radius: 0px 0px 20px 20px;
 }
+

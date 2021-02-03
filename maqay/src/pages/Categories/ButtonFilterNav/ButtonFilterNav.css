@@ -1,8 +1,5 @@
-.nav-button {
-    background-color: #ffffff;
-    color:  #C2306D;
-    height: 12%;    
-    outline: none;
+.nav-link{
+    height: 45px; 
     border-top: none;
     border: 1px #C4C4C4 solid;
     border-left: none;
@@ -11,11 +8,13 @@
     padding-left: 10px;
     font-size: 18px;
     text-transform: capitalize;
+    text-decoration: none;
+    color:  #C2306D;
 }
 
-.nav-button:visited, .nav-button:hover, a:hover, a:visited {
+.nav-link:hover{
     background-color: #C2306D;
     color: #ffffff;
     font-weight: 600;
-
+    
 }
