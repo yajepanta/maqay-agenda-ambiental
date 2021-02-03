@@ -3,7 +3,7 @@ const getAllTagsNameAndNumber = () => {
     .then((res) => res.json())
     .then((tagGroups) =>
       {return tagGroups.map((object) => {
-        return { number: object.id, name: object.name };
+        return { id: object.id, name: object.name };
       })}
     );
 };

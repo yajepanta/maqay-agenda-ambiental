@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from "react-router-dom";
 import "./Categories.css";
 import Card from "./Card/Card";
 import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
@@ -16,10 +16,11 @@ const Categories = () => {
   const [politicalPartiesTags, setPoliticalPartiesTags] = useState([]);
   const [environmentalTags, setEnvironmentalTags] = useState([]);
   const [navBarTags, setNavBarTags] = useState([]);
-  /* set category debe ir dentro de la fx que saca las cosas del windowlocation */
-  const [ categorySelected, setCategorySelected ] = useState("");
   /* Object with Topic's Name and Number */
-  const [topicSelected, setTopicSelected] = useState([]);
+  /* set category debe ir dentro de la fx que saca las cosas del windowlocation */
+  const [mainCategory, setMainCategory] = useState([]);
+  const [categorySelected, setCategorySelected] = useState([]);
+  const [categorySelectedTags, setCategorySelectedTags] = useState([]);
 
   /* All posts from Wordpress within category Environmental, with a number set by WP */
   useEffect(() => {
@@ -42,7 +43,7 @@ const Categories = () => {
   }, []);
 
   /* Returns all tags numbers within tag group name required */
-  useEffect(() => {
+  /*   useEffect(() => {
     getTagsByGroupName("Partidos políticos").then((tags) => {
       return setPoliticalPartiesTags(tags);
     });
@@ -52,25 +53,38 @@ const Categories = () => {
     getTagsByGroupName("Tema ambiental").then((tags) => {
       return setEnvironmentalTags(tags);
     });
-  }, []);
+  }, []); */
 
-  const { category }= useParams();
-  useEffect(()=>{
-    console.log("category param", category);
-    setCategorySelected(category)
-    console.log("cat selected", categorySelected);
-  })
+  const { category, subcategory } = useParams();
+  useEffect(() => {
+    console.log("category / subcategory", category, subcategory);
+    setCategorySelected(subcategory);
+    setMainCategory(category);
+  }, [category, subcategory]);
+
+  useEffect(() => {
+    console.log(mainCategory, "mainCategory");
+
+    if (mainCategory.length > 0) {
+      getTagsByGroupName(mainCategory).then((tags) => {
+        console.log(tags);
+        return setCategorySelectedTags(tags);
+      });
+    }
+  }, [mainCategory]);
   /* NAVIGATION BAR Functions 
   DEBE CONVERTIRSE FX PURA CON ARGUMENTO ENVIRONMENTAL O POLITICAL Y VARIAR SEGUN CATEGORY SELECTED*/
   useEffect(() => {
-    const newArray = allTagsNameAndNumber.filter((tag) => {
-      return environmentalTags.includes(tag.number);
-    });
-    setNavBarTags(newArray);
-  }, [allTagsNameAndNumber, environmentalTags]);
+    if (categorySelectedTags) {
+      const newArray = allTagsNameAndNumber.filter((tag) => {
+        return categorySelectedTags.includes(tag.id);
+      });
+      setNavBarTags(newArray);
+    }
+  }, [allTagsNameAndNumber, categorySelectedTags]);
 
   /* Create property "politicalParties" with only tag number of politicalparties from every post*/
-  const tagName = () => {
+  /*   const tagName = () => {
     // post.tags es el array de tags de cada post
     return allPosts.map((post) => {
       const tags = post.tags;
@@ -80,35 +94,53 @@ const Categories = () => {
       return (post.politicalParties = array);
     });
   };
-  console.log("tagName: ", tagName());
+  console.log("tagName: ", tagName()); */
 
+  useEffect(() => {
+    const newArray = allTagsNameAndNumber.find((tag) => {
+      return categorySelected.includes(tag.name);
+    });
+
+    if (newArray) {
+      const array = allPosts.filter((post) => {
+        const tags = post.tags;
+        return tags.includes(newArray.id);
+      });
+      return setFilteredPosts(array);
+    }
+  }, [allPosts, allTagsNameAndNumber, categorySelected]);
   /* Filters posts by topic selected on NavBar */
-  const filterByTopic = (id, tagByTopic) => {
-    setTopicSelected(tagByTopic);
+  /*   const filterByCategory = (id, tagByCategory) => {
+    console.log(tagByCategory, id);
+    setCategorySelected(tagByCategory);
     const array = allPosts.filter((post) => {
       const tags = post.tags;
       return tags.includes(parseInt(id));
     });
     return setFilteredPosts(array);
-  };
+  }; */
 
   return (
     <div>
       <header>
-        <span>{topicSelected.name}</span>
+        <span>{categorySelected}</span>
       </header>
       <main>
-        <section className="view-categories">
-          <span className="text-bold">HEMOS IDENTIFICADO <span className="highlighted">{filteredPosts.length}</span> PROPUESTAS</span>
-          <p className="main-text">
+        <section className='view-categories'>
+          <span className='text-bold'>
+            HEMOS IDENTIFICADO{" "}
+            <span className='highlighted'>{filteredPosts.length}</span>{" "}
+            PROPUESTAS
+          </span>
+          <p className='main-text'>
             Un cambio climático se define como la variación en el estado del
             sistema climático terrestre, formado por la atmósfera, la
             hidrosfera, la criosfera, la litosfera y la biosfera, que perdura
             durante periodos de tiempo suficientemente largos (décadas o más
             tiempo hasta alcanzar un nuevo equilibrio.
           </p>
-          <div className="alerts-guide"> </div>
-          <div className="categories-cards-container">
+          <div className='alerts-guide'> </div>
+          <div className='categories-cards-container'>
             {/* Recibe los posts filtrados según el tema seleccionado */}
             {filteredPosts.map((post) => {
               return <Card key={post.id} post={post} />;
@@ -117,17 +149,20 @@ const Categories = () => {
         </section>
 
         <nav>
-          <button className="btn-back"onClick={e=>{window.location="/inicio"}}><i className="fas fa-chevron-left"></i>REGRESAR</button>
+          <button
+            className='btn-back'
+            onClick={() => {
+              window.location = "/inicio";
+            }}
+          >
+            <i className='fas fa-chevron-left'></i>REGRESAR
+          </button>
           <span>Cambiar de tema ambiental</span>
           {navBarTags.map((tag) => {
-            console.log(tag.name);
             return (
-              
-              <ButtonFilterNav
-                key={tag.name}
-                tagByTopic={tag}
-                filterByTopic={filterByTopic}
-              />
+              <Link to={`/propuestas/${mainCategory}/${tag.name}`} key={tag.id}>
+                <ButtonFilterNav key={tag.id} tagByTopic={tag} />
+              </Link>
             );
           })}
         </nav>
@@ -138,7 +173,7 @@ const Categories = () => {
 
 export default Categories;
 
-  /*  useEffect(() => {
+/*  useEffect(() => {
     const newArray = allTagsNameAndNumber.filter((tag) => {
       return politicalPartiesTags.includes(tag.number);
     });

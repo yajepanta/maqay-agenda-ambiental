@@ -1,6 +1,6 @@
-.nav-button{
+.nav-button {
     background-color: #ffffff;
-    color: #C2306D;
+    color:  #C2306D;
     height: 12%;    
     outline: none;
     border-top: none;
@@ -13,8 +13,9 @@
     text-transform: capitalize;
 }
 
-.nav-button:visited, .nav-button:hover {
+.nav-button:visited, .nav-button:hover, a:hover, a:visited {
     background-color: #C2306D;
     color: #ffffff;
     font-weight: 600;
+
 }
