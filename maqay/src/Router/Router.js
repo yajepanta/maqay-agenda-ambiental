@@ -7,12 +7,14 @@ const Routes = () => {
     return(
         <BrowserRouter>
             <Switch>
-                <Route exact path='/' component={Home} />
-                <Route exact path='/inicio' component={Home} />
+                <Route path='/propuestas/:category' component={Categories} />
                 <Route exact path='/propuestas' component={Categories} />
+                <Route exact path='/inicio' component={Home} />
+                <Route exact path='/' component={Home} />
             </Switch>
         </BrowserRouter>
     );
 };
 
 export default Routes;
+

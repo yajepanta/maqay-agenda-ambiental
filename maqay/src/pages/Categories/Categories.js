@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useParams } from 'react-router-dom';
 import "./Categories.css";
 import Card from "./Card/Card";
 import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
@@ -15,7 +16,8 @@ const Categories = () => {
   const [politicalPartiesTags, setPoliticalPartiesTags] = useState([]);
   const [environmentalTags, setEnvironmentalTags] = useState([]);
   const [navBarTags, setNavBarTags] = useState([]);
-  
+  /* set category debe ir dentro de la fx que saca las cosas del windowlocation */
+  const [ categorySelected, setCategorySelected ] = useState("");
   /* Object with Topic's Name and Number */
   const [topicSelected, setTopicSelected] = useState([]);
 
@@ -52,6 +54,12 @@ const Categories = () => {
     });
   }, []);
 
+  const { category }= useParams();
+  useEffect(()=>{
+    console.log("category param", category);
+    setCategorySelected(category)
+    console.log("cat selected", categorySelected);
+  })
   /* NAVIGATION BAR Functions 
   DEBE CONVERTIRSE FX PURA CON ARGUMENTO ENVIRONMENTAL O POLITICAL Y VARIAR SEGUN CATEGORY SELECTED*/
   useEffect(() => {
@@ -100,7 +108,7 @@ const Categories = () => {
             tiempo hasta alcanzar un nuevo equilibrio.
           </p>
           <div className="alerts-guide"> </div>
-          <div className="cards-container">
+          <div className="categories-cards-container">
             {/* Recibe los posts filtrados según el tema seleccionado */}
             {filteredPosts.map((post) => {
               return <Card key={post.id} post={post} />;
@@ -112,7 +120,9 @@ const Categories = () => {
           <button className="btn-back"onClick={e=>{window.location="/inicio"}}><i className="fas fa-chevron-left"></i>REGRESAR</button>
           <span>Cambiar de tema ambiental</span>
           {navBarTags.map((tag) => {
+            console.log(tag.name);
             return (
+              
               <ButtonFilterNav
                 key={tag.name}
                 tagByTopic={tag}

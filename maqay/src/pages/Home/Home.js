@@ -1,44 +1,101 @@
-import React from 'react';
-import climateChange from '../../assets/img/climateChange.png';
-import solidResidue from '../../assets/img/solidResidue.png';
-import waterManagement from '../../assets/img/waterManagement.png';
-import deforestation from '../../assets/img/deforestation.png';
+import React, { useEffect, useState } from "react";
+import { Link } from 'react-router-dom';
+import './Home.css'
+import Card from './Card/Card';
+import getAllPosts from "../../controller/getAllPosts.js";
+import getTagsByGroupName from "../../controller/getTagsByGroupName.js";
+import getAllTagsNameAndNumber from "../../controller/getAllTagsNameAndNumber.js";
 
 const Home = () => {
+/* necesito todos los posts
+clic en tema o partido debe filtrar x tema y partido
+entonces:
+onclick cada button de filtrado, debe acceder a la fx pura que filtra segun el tag seleccionado
+y set un nuevo array de posts filtrados, y se los pasa a CARD
+Card debe mostrar:
+imagen del tag selected
+si no hay imagen, debe ser solo el background
+nombre del tag selected: categoria / partido
+Descripción del problema del tag
+Partidos x Categoria
+
+Cuando se hace click en card, debe pasar el nombre del tag seleccionado a la ruta
+Y de la ruta, Categories toma lo que se selecciono para pasar al filtrado
+
+*/
+const [allPosts, setAllPosts] = useState([]);
+/* posts to render: posts ya filtrados */
+const [filteredPosts, setFilteredPosts] = useState([]);
+/* Acá accederemos para conseguir datos de tags */
+const [allTagsNameAndNumber, setAllTagsNameAndNumber] = useState([]);
+
+const [ categorySelected, setCategorySelected ] = useState("Tema ambiental");
+const [ tagsFromCategorySelected, setTagsFromCategorySelected ] = useState([]);
+
+  /* All posts from Wordpress within category Environmental, with a number set by WP */
+  useEffect(() => {
+    const categoryAmbiental = 23;
+    getAllPosts()
+      .then((res) =>
+        res.filter((posts) => posts.categories[0] === categoryAmbiental)
+      )
+      .then((res) => {
+        /* setFilteredPosts(res); */
+        return setAllPosts(res);
+      });
+  }, []);
+
+   /* Saves in state: object with Tags' Name and Number */
+   useEffect(() => {
+    getAllTagsNameAndNumber().then((res) => {
+      return setAllTagsNameAndNumber(res);
+    });
+  }, []);
+
+  useEffect(() => {
+    getTagsByGroupName(categorySelected).then((tags) => {
+      return setTagsFromCategorySelected(tags);
+    });
+  }, [categorySelected]);
+
+  const filterByCategorySelected = (categorySelected) => {
+    setCategorySelected(categorySelected);
+    getTagsByGroupName(categorySelected).then((tags) => {
+      return setTagsFromCategorySelected(tags);
+    });
+    const newArray = allTagsNameAndNumber.filter((tag) => {
+      return tagsFromCategorySelected.includes(tag.number);
+    });
+    setFilteredPosts(newArray);
+  }
+
+/*   useEffect(() => {
+    const newArray = allTagsNameAndNumber.filter((tag) => {
+      return tagsFromCategorySelected.includes(tag.number);
+    });
+    setFilteredPosts(newArray);
+  }, [allTagsNameAndNumber, tagsFromCategorySelected ]); */
+
     return (
         <div>
-            <section class="container">
-            <div class="transparency">
-                <h1>
-                    Conoce las propuestas de los candidatos
-                </h1>
+            <section className="view-home">
+                <h1>Conoce las propuestas de los candidatos</h1>
                 <h2>ELECCIONES 2021</h2>
-
-                <p>Ordena las propuestas</p>
-
-                <button >Por tema ambiental</button>
-                <button >Por partido político</button>
-            </div>
+                <p>Ordenar propuestas</p>
+                <div className="home-filter-buttons">
+                    <button name="Tema ambiental" onClick={e => {return filterByCategorySelected(e.target.name)}}>Por tema ambiental</button>
+                    <button name="Partidos políticos" onClick={e => {return filterByCategorySelected(e.target.name)}}>Por partido político</button>
+                </div>  
             </section>
-            <section class="cards-box">
-            <div class="topic-cards">
-                <div class="card"><img src={climateChange} alt="" /><div class="sub-card"><h1>Cambio climático</h1><p>Propuestas de:</p></div></div>
-                <div class="card"><img src={solidResidue} alt=""/><div class="sub-card"><h1>Residuos sólidos</h1><p>Propuestas de:</p></div></div>
-                <div class="card"><img src={waterManagement} alt="" /><div class="sub-card"><h1>Gestión de agua</h1><p>Propuestas de:</p></div></div>
-                <div class="card"><img src="../../assets/img/deforestation.png" alt=""/><div class="sub-card"><h1>Deforestación</h1><p>Propuestas de:</p></div></div>
-                <div class="card"><img src="../../assets/img/loggin-mining.png" alt=""/><div class="sub-card"><h1>Tala y minería ilegal</h1><p>Propuestas de:</p></div></div>
-                <div class="card"><img src="../../assets/img/conflicts.png" alt=""/><div class="sub-card"><h1>Conflictos socioambientales</h1><p>Propuestas de:</p></div></div>
-            </div>
 
-            <div class="parties-cards" >
-                <div class="card"><img src="../assets/images/partidoMorado.png" alt=""/></div>
-                <div class="card"><img src="../assets/images/juntosPeru.png" alt=""/></div>
-                <div class="card"><img src="../assets/images/fuerzaPopular.png" alt=""/></div>
-                <div class="card"><img src="../assets/images/victoriaNacional.png" alt=""/></div>
-                <div class="card"><img src="../assets/images/accionPopular.png" alt=""/></div>
-                <div class="card"><img src="../assets/images/apra.png"alt="" /></div>
-            </div>
-        </section>
+            <section className="cards-container">
+                { filteredPosts.map((post)=> {
+                    return <Link to={`/propuestas/${post.name}`} key={post.number}>
+                              <Card post={post} key={post.number} categorySelected={categorySelected} />
+                          </Link>
+                  })
+                }
+            </section>
         </div>
     );
 };
