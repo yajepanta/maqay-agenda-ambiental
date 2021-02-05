@@ -42,6 +42,13 @@ const Categories = () => {
     });
   }, []);
 
+  /* Political Parties Tags */
+
+  useEffect(() => {
+    getTagsByGroupName("Partidos políticos").then((tags) => {
+      return setPoliticalPartiesTags(tags);
+    });
+  }, []);
   /* Returns all tags numbers within tag group name required */
   /*   useEffect(() => {
     getTagsByGroupName("Partidos políticos").then((tags) => {
@@ -84,7 +91,7 @@ const Categories = () => {
   }, [allTagsNameAndNumber, categorySelectedTags]);
 
   /* Create property "politicalParties" with only tag number of politicalparties from every post*/
-  /*   const tagName = () => {
+  const tagName = () => {
     // post.tags es el array de tags de cada post
     return allPosts.map((post) => {
       const tags = post.tags;
@@ -94,7 +101,7 @@ const Categories = () => {
       return (post.politicalParties = array);
     });
   };
-  console.log("tagName: ", tagName()); */
+  console.log("tagName: ", tagName());
 
   useEffect(() => {
     const newArray = allTagsNameAndNumber.find((tag) => {
