@@ -3,9 +3,11 @@ import { Link, useParams } from "react-router-dom";
 import "./Categories.css";
 import Card from "./Card/Card";
 import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
-import getAllPosts from "../../controller/getAllPosts.js";
-import getTagsByGroupName from "../../controller/getTagsByGroupName.js";
-import getAllTagsNameAndNumber from "../../controller/getAllTagsNameAndNumber.js";
+import {
+  getAllPosts,
+  getTagsByGroupName,
+  getAllTagsNameAndNumber,
+} from "../../controller/postController";
 
 const Categories = () => {
   const [allPosts, setAllPosts] = useState([]);
@@ -120,6 +122,7 @@ const Categories = () => {
     return setFilteredPosts(array);
   }; */
 
+  console.log("allTagsNameAndNumber", allTagsNameAndNumber);
   return (
     <div>
       <header>
@@ -132,13 +135,7 @@ const Categories = () => {
             <span className='highlighted'>{filteredPosts.length}</span>{" "}
             PROPUESTAS
           </span>
-          <p className='main-text'>
-            Un cambio climático se define como la variación en el estado del
-            sistema climático terrestre, formado por la atmósfera, la
-            hidrosfera, la criosfera, la litosfera y la biosfera, que perdura
-            durante periodos de tiempo suficientemente largos (décadas o más
-            tiempo hasta alcanzar un nuevo equilibrio.
-          </p>
+          <p className='main-text'>{console.log(allPosts)}</p>
           <div className='alerts-guide'> </div>
           <div className='categories-cards-container'>
             {/* Recibe los posts filtrados según el tema seleccionado */}
