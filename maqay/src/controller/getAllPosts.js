@@ -1,5 +1,5 @@
 const getPosts = () => {
-  return fetch("http://maqay.org/wp-json/wp/v2/posts").then((res) =>
+  return fetch("https://maqay.org/wp-json/wp/v2/posts").then((res) =>
     res.json()
   );
 };

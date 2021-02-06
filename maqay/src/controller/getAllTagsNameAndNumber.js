@@ -1,5 +1,5 @@
 const getAllTagsNameAndNumber = () => {
-  return fetch(`http://maqay.org/wp-json/tag-groups/v1/terms/`, {
+  return fetch(`https://maqay.org/wp-json/tag-groups/v1/terms/`, {
     method: "GET",
     mode: "cors",
     headers: {
