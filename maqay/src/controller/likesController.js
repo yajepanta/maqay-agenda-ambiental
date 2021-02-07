@@ -1,7 +1,6 @@
 const sheetsId = process.env.REACT_APP_GOOGLE_SHEETS_FILE;
 const token = process.env.REACT_APP_GOOGLE_SHEETS_ACCES_TOKEN;
-const keySheetsBest =
-  "https://sheet.best/api/sheets/84d587cf-fa76-40e1-98ba-6c4018dd92c2";
+const keySheetsBest = process.env.REACT_APP_SHEETS_BEST_API_KEY;
 
 export const writeLike = (isLike, idPost, titlePost) => {
   const number = isLike ? 1 : -1;
