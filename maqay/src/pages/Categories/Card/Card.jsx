@@ -19,9 +19,10 @@ const Card = ({ post }) => {
     }
   };
 
+  const regEx = /<\/?p[^>]*>/g;
   const shareContent = {
     url: "https://maqay.netlify.app",
-    content: post.content.rendered.substring(0, 80),
+    content: post.content.rendered.replace(regEx, "").substring(0, 80),
   };
 
   useEffect(() => {
@@ -37,7 +38,7 @@ const Card = ({ post }) => {
         <div className='container-proposal-title'>{post.title.rendered}</div>
 
         <div className='container-proposal-content'>{`${post.content.rendered.replace(
-          /<\/?p[^>]*>/g,
+          regEx,
           ""
         )}`}</div>
 
