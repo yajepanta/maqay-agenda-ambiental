@@ -17,6 +17,40 @@
 }
 
 .card-footer {
+   height: 100px;
    background: #C7017F;
    border-radius: 0 0 20px 20px;
+}
+
+.card-footer > h1 {
+   font-weight: 600;
+}
+
+@media screen and (min-width: 451px) and (max-width: 770px) {
+.card-home {
+      margin: 19px;
+}
+
+.card-footer > h1 {
+   font-weight: 600;
+}
+}
+
+@media screen and (min-width: 771px) {
+.card-home {
+   margin: 20px;
+   width: 75%
+}
+
+.card-footer {
+   height: 125px;
+}
+
+.card-footer > h1 {
+   font-size: 22px;
+}
+
+.card-footer > p {
+   font-size: 15px;
+}
 }
