@@ -1,37 +1,22 @@
-.card {
+.card-home {
+  margin: 15px;
+  height: 313px;
+  display: flex;
+  border-radius: 20px;
+}
+
+.card-home > a {
    width: 100%;
-   
- }
-
- .sub-card {
-    width: 26.5%;
-    height: 50%;
-    /* display: grid; */
-    position: absolute;
-    background: #C7017F;
-    color: #FFFFFF;
-    border-radius: 0px 0px 20px 20px;
-    margin-top: 196px;
- }
-
- .card > a{
-   background-color: aqua;
-   width: 100px;
    text-decoration: none;
    cursor: pointer;
-}
-/* EN EDICIÓN */
-
-/* .show-card{
-display: flex;
-} */
-.card-hover {
-display: none;
-background: rgb(246, 168, 24, 0.7);
-padding-left: 20%;
-margin-top: 196px;
-margin-bottom: 15%;
-width: 27%;
-border-radius: 0px 0px 20px 20px;
+   align-self: flex-end;
 }
 
+.sub-card-home {
+   color: #ffffff;
+}
+
+.card-footer {
+   background: #C7017F;
+   border-radius: 0 0 20px 20px;
+}

@@ -26,16 +26,15 @@ const Card = ({ post, categorySelected, path }) => {
         return news; */
   };
   return (
-    <div className='card'>
+    <div className='card-home' style={background}>
       <Link to={path}>
         <div
-          className='sub-card'
-          style={background}
+          className='sub-card-home'
           onMouseOver={(e) => {
             flipCard(e.currentTarget);
           }}
         >
-          <div>
+          <div className='card-footer'>
             {categorySelected === "Tema ambiental" && <h1>{post.name}</h1>}
             <p>Propuestas de:</p>
           </div>
