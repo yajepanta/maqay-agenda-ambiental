@@ -20,7 +20,7 @@ const Card = ({ post }) => {
   };
 
   const shareContent = {
-    url: "maqay.org",
+    url: "https://maqay.netlify.app",
     content: post.content.rendered.substring(0, 80),
   };
 
