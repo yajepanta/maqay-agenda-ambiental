@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Card.css";
 import Share from "../Share/Share.js";
+import { writeLike } from "../../../controller/likesController";
 
 const Card = ({ post }) => {
   const [like, setLike] = useState(false);
@@ -29,6 +30,13 @@ const Card = ({ post }) => {
       setLike(localStorage.getItem(post.id) === "true" ? true : false);
     }
   }, [post.id]);
+
+  const onLikeClick = () => {
+    const currentLike = !like;
+    setLike(currentLike);
+    localStorage.setItem(post.id, currentLike);
+    writeLike(currentLike, post.id, post.title.rendered);
+  };
   return (
     /* container proposals es "container-proposal" ahora container-card */
     <div className='container-proposal'>
@@ -48,11 +56,7 @@ const Card = ({ post }) => {
 
           <i
             className={like ? "fas fa-heart" : "far fa-heart"}
-            onClick={() => {
-              const currentLike = !like;
-              setLike(currentLike);
-              localStorage.setItem(post.id, currentLike);
-            }}
+            onClick={onLikeClick}
           ></i>
           <label className='like-box'></label>
           {Share(shareContent)}
