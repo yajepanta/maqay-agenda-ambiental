@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Card.css";
 import Share from "../Share/Share.js";
+/* 
+import Helmet from "../Helmet/Helmet.js"; */
 
 const Card = ({ post }) => {
   const [like, setLike] = useState(false);
@@ -20,11 +22,16 @@ const Card = ({ post }) => {
   };
 
   const regEx = /<\/?p[^>]*>/g;
+
   const shareContent = {
     url: "https://maqay.netlify.app",
     content: post.content.rendered.replace(regEx, "").substring(0, 80),
   };
 
+  /* const metaTags = {
+    title: post.title.rendered,
+    quote: shareContent.content,
+  }; */
   useEffect(() => {
     if (localStorage.getItem(post.id)) {
       setLike(localStorage.getItem(post.id) === "true" ? true : false);
