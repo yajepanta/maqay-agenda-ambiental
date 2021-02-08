@@ -5,12 +5,22 @@
   border-radius: 20px;
 }
 
-.card-home > a {
+a {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+/* .card-home > a {
    width: 100%;
    text-decoration: none;
    cursor: pointer;
    align-self: flex-end;
-}
+} */
 
 .sub-card-home {
    color: #ffffff;
