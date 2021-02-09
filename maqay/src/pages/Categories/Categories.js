@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import "./Categories.css";
+import descriptionCategory from "../../utils/descriptionCategory";
 import Card from "./Card/Card";
 import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
 import {
@@ -42,8 +43,14 @@ const Categories = () => {
     getAllTagsNameAndNumber().then((res) => {
       return setAllTagsNameAndNumber(res);
     });
-  }, []);
+  });
 
+  /* Political Parties Tags */
+  useEffect(() => {
+    getTagsByGroupName("Partidos políticos").then((tags) => {
+      return setPoliticalPartiesTags(tags);
+    });
+  }, []);
   /* Returns all tags numbers within tag group name required */
   /*   useEffect(() => {
     getTagsByGroupName("Partidos políticos").then((tags) => {
@@ -85,7 +92,7 @@ const Categories = () => {
   }, [allTagsNameAndNumber, categorySelectedTags]);
 
   /* Create property "politicalParties" with only tag number of politicalparties from every post*/
-  /*   const tagName = () => {
+  const tagName = () => {
     // post.tags es el array de tags de cada post
     return allPosts.map((post) => {
       const tags = post.tags;
@@ -95,7 +102,7 @@ const Categories = () => {
       return (post.politicalParties = array);
     });
   };
-  console.log("tagName: ", tagName()); */
+  console.log("tagName: ", tagName());
 
   useEffect(() => {
     const newArray = allTagsNameAndNumber.find((tag) => {
@@ -133,7 +140,10 @@ const Categories = () => {
             <span className='highlighted'>{filteredPosts.length}</span>{" "}
             PROPUESTAS
           </span>
-          <p className='main-text'>{console.log(allPosts)}</p>
+          <p className='main-text'>
+            {categorySelected.length > 0 &&
+              descriptionCategory[categorySelected.replace(/ /g, "")]}
+          </p>
           <div className='alerts-guide'> </div>
           <div className='categories-cards-container'>
             {/* Recibe los posts filtrados según el tema seleccionado */}
