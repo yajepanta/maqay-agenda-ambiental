@@ -2,9 +2,11 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import Card from "./Card/Card";
-import getAllPosts from "../../controller/getAllPosts.js";
-import getTagsByGroupName from "../../controller/getTagsByGroupName.js";
-import getAllTagsNameAndNumber from "../../controller/getAllTagsNameAndNumber.js";
+import {
+  getAllPosts,
+  getTagsByGroupName,
+  getAllTagsNameAndNumber,
+} from "../../controller/postController";
 
 const Home = () => {
   /* necesito todos los posts

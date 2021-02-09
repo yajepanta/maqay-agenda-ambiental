@@ -4,9 +4,11 @@ import "./Categories.css";
 import descriptionCategory from "../../utils/descriptionCategory";
 import Card from "./Card/Card";
 import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
-import getAllPosts from "../../controller/getAllPosts.js";
-import getTagsByGroupName from "../../controller/getTagsByGroupName.js";
-import getAllTagsNameAndNumber from "../../controller/getAllTagsNameAndNumber.js";
+import {
+  getAllPosts,
+  getTagsByGroupName,
+  getAllTagsNameAndNumber,
+} from "../../controller/postController";
 
 const Categories = () => {
   const [allPosts, setAllPosts] = useState([]);
@@ -127,6 +129,7 @@ const Categories = () => {
     return setFilteredPosts(array);
   }; */
 
+  console.log("allTagsNameAndNumber", allTagsNameAndNumber);
   return (
     <div>
       <header>

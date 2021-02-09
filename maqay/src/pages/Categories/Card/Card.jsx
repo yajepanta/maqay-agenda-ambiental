@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Card.css";
 import Share from "../Share/Share.js";
 import iconsPartidos from "../../../utils/iconsPartidos";
 
 const Card = ({ post }) => {
+  const [like, setLike] = useState(false);
+
   /* Numbers set by Wordpress */
   const alertRed = 39;
   const alertGreen = 40;
@@ -23,6 +25,12 @@ const Card = ({ post }) => {
     content: post.content.rendered.substring(0, 80),
   };
 
+  useEffect(() => {
+    if (localStorage.getItem(post.id)) {
+      setLike(localStorage.getItem(post.id) === "true" ? true : false);
+    }
+  }, [post.id]);
+
   return (
     /* container proposals es "container-proposal" ahora container-card */
     <div className='container-proposal'>
@@ -30,7 +38,10 @@ const Card = ({ post }) => {
       <div className={alertColor(post.tags)}>
         <div className='container-proposal-title'>{post.title.rendered}</div>
 
-        <div className='container-proposal-content'>{`${post.content.rendered}`}</div>
+        <div className='container-proposal-content'>{`${post.content.rendered.replace(
+          /<\/?p[^>]*>/g,
+          ""
+        )}`}</div>
 
         <div className='container-proposal-footer'>
           <span className='text-small'>
@@ -47,13 +58,16 @@ const Card = ({ post }) => {
                 );
               })}
           </span>
-          {/* <!-- <img className="partie-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Logo_juntos_por_el_Peru.svg/150px-Logo_juntos_por_el_Peru.svg.png" alt=""> --> */}
-          <label className='like-box'>
-            <input type='checkbox' />
-            <i className='far fa-heart'></i>
-            <i className='fas fa-heart'></i>
-            <span className='checkmark'></span>
-          </label>
+
+          <i
+            className={like ? "fas fa-heart" : "far fa-heart"}
+            onClick={() => {
+              const currentLike = !like;
+              setLike(currentLike);
+              localStorage.setItem(post.id, currentLike);
+            }}
+          ></i>
+          <label className='like-box'></label>
           {Share(shareContent)}
         </div>
       </div>
