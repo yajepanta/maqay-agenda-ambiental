@@ -15,9 +15,13 @@ import acciónpopular from '../../assets/img/accionPopular.png';
 import apra from '../../assets/img/apra.png'; */
 /* <img src={climateChange} alt="" /> 
 src={require('../logo.png')}*/
+
 const Card = ({ post, categorySelected, path }) => {
   const background = {
-    background: `url(/img/${post.name.replace(/ /g, "")}.png)`,
+    background: `url(../../assets/img/iconsPartidos/${post.name.replace(
+      / /g,
+      ""
+    )}.png)`,
   };
 
   const flipCard = (target) => {
@@ -26,16 +30,15 @@ const Card = ({ post, categorySelected, path }) => {
         return news; */
   };
   return (
-    <div className='card'>
+    <div className='card-home' style={background}>
       <Link to={path}>
         <div
-          className='sub-card'
-          style={background}
+          className='sub-card-home'
           onMouseOver={(e) => {
             flipCard(e.currentTarget);
           }}
         >
-          <div>
+          <div className='card-footer'>
             {categorySelected === "Tema ambiental" && <h1>{post.name}</h1>}
             <p>Propuestas de:</p>
           </div>
