@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Card.css";
 import Share from "../Share/Share.js";
+import iconsPartidos from "../../../utils/iconsPartidos";
 
 const Card = ({ post }) => {
   const [like, setLike] = useState(false);
@@ -29,6 +30,7 @@ const Card = ({ post }) => {
       setLike(localStorage.getItem(post.id) === "true" ? true : false);
     }
   }, [post.id]);
+
   return (
     /* container proposals es "container-proposal" ahora container-card */
     <div className='container-proposal'>
@@ -43,7 +45,18 @@ const Card = ({ post }) => {
 
         <div className='container-proposal-footer'>
           <span className='text-small'>
-            Propuestas de: {post.politicalParties}
+            Propuestas de:
+            {post.politicalParties &&
+              post.politicalParties.map((idPartido) => {
+                return (
+                  <img
+                    src={`${iconsPartidos[idPartido]}`}
+                    alt='icon'
+                    width='50px'
+                    className='partie-logo'
+                  />
+                );
+              })}
           </span>
 
           <i

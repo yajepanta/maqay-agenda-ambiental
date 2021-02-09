@@ -15,9 +15,13 @@ import acciónpopular from '../../assets/img/accionPopular.png';
 import apra from '../../assets/img/apra.png'; */
 /* <img src={climateChange} alt="" /> 
 src={require('../logo.png')}*/
+
 const Card = ({ post, categorySelected, path }) => {
   const background = {
-    background: `url(/img/${post.name.replace(/ /g, "")}.png)`,
+    background: `url(../../assets/img/iconsPartidos/${post.name.replace(
+      / /g,
+      ""
+    )}.png)`,
   };
 
   const flipCard = (target) => {
