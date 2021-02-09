@@ -88,13 +88,13 @@ const Categories = () => {
 
   return (
     <div>
-      {categorySelected.length > 0 && (
+      {/* {categorySelected.length > 0 && (
         <MetaDecorator
           title={`Agenda Ambiental - ${categorySelected}`}
           description={currentUrl}
           imgURL={`/img/${categorySelected.replace(/<\/?p[^>]*>/g, "")}.png`}
         />
-      )}
+      )} */}
       <header>
         <span>{categorySelected}</span>
       </header>
