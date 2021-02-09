@@ -1,5 +1,3 @@
-const sheetsId = process.env.REACT_APP_GOOGLE_SHEETS_FILE;
-const token = process.env.REACT_APP_GOOGLE_SHEETS_ACCES_TOKEN;
 const keySheetsBest = process.env.REACT_APP_SHEETS_BEST_API_KEY;
 
 export const writeLike = (isLike, idPost, titlePost) => {
@@ -30,7 +28,7 @@ export const writeLike = (isLike, idPost, titlePost) => {
     });
 };
 
-export const writeLikeGoogle = (like, idPost, titlePost) => {
+/* export const writeLikeGoogle = (like, idPost, titlePost) => {
   return fetch(
     `https://sheets.googleapis.com/v4/spreadsheets/${sheetsId}/values/A2:B2:append?valueInputOption=USER_ENTERED`,
     {
@@ -46,21 +44,4 @@ export const writeLikeGoogle = (like, idPost, titlePost) => {
       }),
     }
   );
-};
-
-/* 
-
-"range": string,
-  "majorDimension": enum (Dimension),
-  "values": [
-    array
-  ]
-  
-
-  "range": "Sheet1!A1:E1",
-  "majorDimension": "ROWS",
-  "values": [
-    ["Door", "$15", "2", "3/15/2016"],
-    ["Engine", "$100", "1", "3/20/2016"],
-  ],
-  */
+}; */
