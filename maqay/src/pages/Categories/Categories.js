@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import "./Categories.css";
+import descriptionCategory from "../../utils/descriptionCategory";
 import Card from "./Card/Card";
 import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
 import getAllPosts from "../../controller/getAllPosts.js";
@@ -40,10 +41,9 @@ const Categories = () => {
     getAllTagsNameAndNumber().then((res) => {
       return setAllTagsNameAndNumber(res);
     });
-  }, []);
+  });
 
   /* Political Parties Tags */
-
   useEffect(() => {
     getTagsByGroupName("Partidos políticos").then((tags) => {
       return setPoliticalPartiesTags(tags);
@@ -140,11 +140,8 @@ const Categories = () => {
             PROPUESTAS
           </span>
           <p className='main-text'>
-            Un cambio climático se define como la variación en el estado del
-            sistema climático terrestre, formado por la atmósfera, la
-            hidrosfera, la criosfera, la litosfera y la biosfera, que perdura
-            durante periodos de tiempo suficientemente largos (décadas o más
-            tiempo hasta alcanzar un nuevo equilibrio.
+            {categorySelected.length > 0 &&
+              descriptionCategory[categorySelected.replace(/ /g, "")]}
           </p>
           <div className='alerts-guide'> </div>
           <div className='categories-cards-container'>
