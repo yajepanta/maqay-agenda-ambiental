@@ -22,9 +22,9 @@ const MetaDecorator = ({ title, description, imgURL }) => {
   return (
     <Helmet>
       {/* <title>{props.title}</title> */}
-      <title>{title}</title>
-      <meta name='description' content={description} />
-      <meta name='msapplication-TileImage' content={imgURL} />
+      {/* <title>{title}</title> */}
+      {/*  <meta name='description' content={description} />
+      <meta name='msapplication-TileImage' content={imgURL} /> */}
       {/* <meta http-equiv='X-UA-Compatible' content='IE=edge' />
       <meta name='csrf_token' content='' />
       <meta property='type' content='website' />

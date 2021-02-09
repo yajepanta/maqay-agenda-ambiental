@@ -9,7 +9,7 @@ import {
   getTagsByGroupName,
   getAllTagsNameAndNumber,
 } from "../../controller/postController";
-import MetaDecorator from "./MetaDecorator/MetaDecorator";
+/* import MetaDecorator from "./MetaDecorator/MetaDecorator"; */
 
 const Categories = () => {
   const [allPosts, setAllPosts] = useState([]);
@@ -131,18 +131,18 @@ const Categories = () => {
 
   console.log("allTagsNameAndNumber", allTagsNameAndNumber);
 
-  const location = useLocation();
-  const currentUrl = "https://maqay.netlify.app" + location.pathname;
+  /*  const location = useLocation();
+  const currentUrl = "https://maqay.netlify.app" + location.pathname; */
 
   return (
     <div>
-      {categorySelected.length > 0 && (
+      {/* {categorySelected.length > 0 && (
         <MetaDecorator
           title={`Agenda Ambiental - ${categorySelected}`}
           description={currentUrl}
           imgURL={`/img/${categorySelected.replace(/<\/?p[^>]*>/g, "")}.png`}
         />
-      )}
+      )} */}
       <header>
         <span>{categorySelected}</span>
       </header>
