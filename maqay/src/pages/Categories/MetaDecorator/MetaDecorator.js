@@ -1,8 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { useLocation } from "react-router-dom";
 
-const HelmetMetaData = ({ props }) => {
+const MetaDecorator = ({ title, description, imgURL }) => {
   /* const location = useLocation();
   const currentUrl = "https://maqay.netlify.app" + location.pathname; */
   /* const quote = props.quote !== undefined ? props.quote : "";
@@ -23,8 +22,9 @@ const HelmetMetaData = ({ props }) => {
   return (
     <Helmet>
       {/* <title>{props.title}</title> */}
-      <meta charset='utf-8' />
-      <title>{props.title}</title>
+      <title>{title}</title>
+      <meta name='description' content={description} />
+      <meta name='msapplication-TileImage' content={imgURL} />
       {/* <meta http-equiv='X-UA-Compatible' content='IE=edge' />
       <meta name='csrf_token' content='' />
       <meta property='type' content='website' />
@@ -56,4 +56,4 @@ const HelmetMetaData = ({ props }) => {
   );
 };
 
-export default HelmetMetaData;
+export default MetaDecorator;

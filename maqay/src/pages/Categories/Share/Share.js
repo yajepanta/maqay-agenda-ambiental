@@ -38,39 +38,36 @@ const Share = (shareContent) => {
         <FacebookShareButton
           url={shareContent.url}
           quote={shareContent.content}
-          hashtag=''
+          hashtag='#AgendaAmbiental'
         >
           <FacebookIcon size={30} round={true} />
           <span>Facebook</span>
         </FacebookShareButton>
         <LinkedinShareButton
-          url={shareContent.url}
-          quote={shareContent.content}
-          hashtag=''
+          source={shareContent.url}
+          summary={shareContent.content}
         >
           <LinkedinIcon size={30} round={true} />
           <span>LinkedIn</span>
         </LinkedinShareButton>
         <TelegramShareButton
           url={shareContent.url}
-          quote={shareContent.content}
-          hashtag=''
+          title={shareContent.content}
         >
           <TelegramIcon size={30} round={true} />
           <span>Telegram</span>
         </TelegramShareButton>
         <TwitterShareButton
           url={shareContent.url}
-          quote={shareContent.content}
-          hashtag=''
+          title={shareContent.content}
+          hashtag='#AgendaAmbiental'
         >
           <TwitterIcon size={30} round={true} />
           <span>Twitter</span>
         </TwitterShareButton>
         <WhatsappShareButton
           url={shareContent.url}
-          quote={shareContent.content}
-          hashtag=''
+          title={shareContent.content}
         >
           <WhatsappIcon size={30} round={true} />
           <span>Whatsapp</span>

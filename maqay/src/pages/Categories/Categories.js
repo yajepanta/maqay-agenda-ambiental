@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams, useLocation } from "react-router-dom";
 import "./Categories.css";
 import Card from "./Card/Card";
 import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
@@ -8,6 +8,7 @@ import {
   getTagsByGroupName,
   getAllTagsNameAndNumber,
 } from "../../controller/postController";
+import MetaDecorator from "./MetaDecorator/MetaDecorator";
 
 const Categories = () => {
   const [allPosts, setAllPosts] = useState([]);
@@ -123,8 +124,19 @@ const Categories = () => {
   }; */
 
   console.log("allTagsNameAndNumber", allTagsNameAndNumber);
+
+  const location = useLocation();
+  const currentUrl = "https://maqay.netlify.app" + location.pathname;
+
   return (
     <div>
+      {categorySelected.length > 0 && (
+        <MetaDecorator
+          title={`Agenda Ambiental - ${categorySelected}`}
+          description={currentUrl}
+          imgURL={`/img/${categorySelected.replace(/<\/?p[^>]*>/g, "")}.png`}
+        />
+      )}
       <header>
         <span>{categorySelected}</span>
       </header>
