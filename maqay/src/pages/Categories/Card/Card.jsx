@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
+
 import "./Card.css";
 import Share from "../Share/Share.js";
+
 import { writeLike } from "../../../controller/likesController";
 import iconsPartidos from "../../../utils/iconsPartidos";
+
 
 
 const Card = ({ post }) => {
@@ -22,16 +25,23 @@ const Card = ({ post }) => {
     }
   };
 
+  const stripPTags = (content) => content.replace(/<\/?p[^>]*>/g, "");
+
   const shareContent = {
-    url: "maqay.org",
-    content: post.content.rendered.substring(0, 80),
+    url: "https://maqay.netlify.app",
+    content: stripPTags(post.content.rendered).substring(0, 80),
   };
 
+  /* const metaTags = {
+    title: post.title.rendered,
+    quote: shareContent.content,
+  }; */
   useEffect(() => {
     if (localStorage.getItem(post.id)) {
       setLike(localStorage.getItem(post.id) === "true" ? true : false);
     }
   }, [post.id]);
+
 
   const onLikeClick = () => {
     const currentLike = !like;
@@ -47,9 +57,8 @@ const Card = ({ post }) => {
       <div className={alertColor(post.tags)}>
         <div className='container-proposal-title'>{post.title.rendered}</div>
 
-        <div className='container-proposal-content'>{`${post.content.rendered.replace(
-          /<\/?p[^>]*>/g,
-          ""
+        <div className='container-proposal-content'>{`${stripPTags(
+          post.content.rendered
         )}`}</div>
 
         <div className='container-proposal-footer'>

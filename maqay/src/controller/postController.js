@@ -1,7 +1,9 @@
 const URLroot = "https://maqay.org/wp-json/";
 
 export const getAllPosts = () => {
-  return fetch(`${URLroot}wp/v2/posts`).then((res) => res.json());
+  return fetch(`${URLroot}wp/v2/posts`, {
+    per_page: 50,
+  }).then((res) => res.json());
 };
 
 export const getAllTagsNameAndNumber = () => {
