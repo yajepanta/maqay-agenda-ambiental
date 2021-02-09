@@ -9,7 +9,7 @@ import {
   getTagsByGroupName,
   getAllTagsNameAndNumber,
 } from "../../controller/postController";
-/* import MetaDecorator from "./MetaDecorator/MetaDecorator"; */
+import MetaDecorator from "./MetaDecorator/MetaDecorator";
 
 const Categories = () => {
   const [allPosts, setAllPosts] = useState([]);
