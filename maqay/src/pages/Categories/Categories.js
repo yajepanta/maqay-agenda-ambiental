@@ -76,7 +76,6 @@ const Categories = () => {
 
     if (mainCategory.length > 0) {
       getTagsByGroupName(mainCategory).then((tags) => {
-        console.log(tags);
         return setCategorySelectedTags(tags);
       });
     }
@@ -129,7 +128,6 @@ const Categories = () => {
     return setFilteredPosts(array);
   }; */
 
-  console.log("allTagsNameAndNumber", allTagsNameAndNumber);
   return (
     <div>
       <header>
