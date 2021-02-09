@@ -1,19 +1,17 @@
 const URLroot = "https://maqay.org/wp-json/";
-
+const method = {
+  method: "GET",
+  mode: "cors",
+  headers: {
+    "Access-Control-Allow-Origin": "*",
+  },
+};
 export const getAllPosts = () => {
-  return fetch(`${URLroot}wp/v2/posts`, {
-    per_page: 50,
-  }).then((res) => res.json());
+  return fetch(`${URLroot}wp/v2/posts`, method).then((res) => res.json());
 };
 
 export const getAllTagsNameAndNumber = () => {
-  return fetch(`${URLroot}tag-groups/v1/terms/`, {
-    method: "GET",
-    mode: "cors",
-    headers: {
-      "Content-Type": "application/json",
-    },
-  })
+  return fetch(`${URLroot}tag-groups/v1/terms/`, method)
     .then((res) => res.json())
     .then((tagGroups) => {
       return tagGroups.map((object) => {
@@ -23,7 +21,7 @@ export const getAllTagsNameAndNumber = () => {
 };
 
 export const getTagName = (tagNumber) => {
-  return fetch(`${URLroot}tag-groups/v1/terms/${tagNumber}`)
+  return fetch(`${URLroot}tag-groups/v1/terms/${tagNumber}`, method)
     .then((res) => res.json())
     .then((res) => {
       return res.name;
@@ -31,7 +29,7 @@ export const getTagName = (tagNumber) => {
 };
 
 export const getTagsByGroupName = (groupName) => {
-  return fetch(`${URLroot}tag-groups/v1/groups/`)
+  return fetch(`${URLroot}tag-groups/v1/groups/`, method)
     .then((resp) => resp.json())
     .then((groups) => {
       return groups.find((group) => group.label === groupName);

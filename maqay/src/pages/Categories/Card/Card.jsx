@@ -6,8 +6,6 @@ import Share from "../Share/Share.js";
 import { writeLike } from "../../../controller/likesController";
 import iconsPartidos from "../../../utils/iconsPartidos";
 
-
-
 const Card = ({ post }) => {
   const [like, setLike] = useState(false);
 
@@ -29,7 +27,7 @@ const Card = ({ post }) => {
 
   const shareContent = {
     url: "https://maqay.netlify.app",
-    content: stripPTags(post.content.rendered).substring(0, 80),
+    content: `${stripPTags(post.content.rendered).substring(0, 80)}`,
   };
 
   /* const metaTags = {
@@ -41,7 +39,6 @@ const Card = ({ post }) => {
       setLike(localStorage.getItem(post.id) === "true" ? true : false);
     }
   }, [post.id]);
-
 
   const onLikeClick = () => {
     const currentLike = !like;
