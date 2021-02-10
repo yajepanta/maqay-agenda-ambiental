@@ -148,7 +148,7 @@ const Categories = () => {
           <button
             className='btn-back'
             onClick={() => {
-              window.location = "/inicio";
+              window.location = "/";
             }}
           >
             <i className='fas fa-chevron-left'></i>REGRESAR

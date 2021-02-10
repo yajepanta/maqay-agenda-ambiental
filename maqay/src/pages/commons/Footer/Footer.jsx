@@ -12,13 +12,20 @@ const Footer = () => {
       <div>
         Si tienes dudas, consultas o quieres participar de la iniciativa
         escríbenos a{" "}
-        <a className='footer-email' href='mailto:hola@maqay.org'>
+        <a
+          className='footer-email'
+          href='mailto:hola@maqay.org'
+          style={{ "text-decoration": "none !important", color: "#ffffff" }}
+        >
           hola@maqay.org
         </a>
       </div>
       <div className='footer-social-links'>
-        Esta iniciativa fue posible gracias al apoyo de: 200
+        Esta iniciativa fue posible gracias al apoyo de:
         <div className='list-social-links'>
+          <a href='https://www.instagram.com/200org/'>
+            <i className='fab fa-instagram-square'></i>
+          </a>
           <a href='https://www.linkedin.com/in/lesliechavezp/'>
             <i className='fab fa-linkedin'></i>
           </a>
@@ -27,17 +34,14 @@ const Footer = () => {
             <i className='fab fa-linkedin'></i>
           </a>
 
-          <a href='https://github.com/yajepanta'>
-            <i className='fab fa-linkedin'></i>
+          <a href='https://github.com/yajepanta/maqay-agenda-ambiental'>
+            <i className='fab fa-github-square'></i>
           </a>
 
           <a href='https://www.linkedin.com/in/ivy-feraco-56477ba/'>
             <i className='fab fa-linkedin'></i>
           </a>
         </div>
-        <a href='https://github.com/yajepanta/maqay-agenda-ambiental'>
-          PRs acá: <i className='fab fa-github-square'></i>
-        </a>
       </div>
     </footer>
   );

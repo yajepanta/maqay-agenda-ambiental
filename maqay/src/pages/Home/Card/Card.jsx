@@ -17,23 +17,22 @@ import apra from '../../assets/img/apra.png'; */
 src={require('../logo.png')}*/
 
 const Card = ({ post, categorySelected, path }) => {
-  const background = {
-    background: `url(../../assets/img/iconsPartidos/${post.name.replace(
-      / /g,
-      ""
-    )}.png)`,
-  };
+  const background = `/img/${post.name.replace(/ /g, "")}.png`;
 
   return (
-    <div className='card-home' style={background}>
+    <div className='card-home'>
       <Link to={path}>
+        <img
+          className='card-home-logo'
+          src={background}
+          alt={`${post.name.replace(/ /g, "")}`}
+        ></img>
         <div className='sub-card-home'>
           <div className='card-footer'>
-            {categorySelected === "Tema ambiental" && <h1>{post.name}</h1>}
-            <p>Propuestas de:</p>
+            <p>{post.name}</p>
+            {/* {categorySelected === "Tema ambiental" && <p>Propuestas de:</p>} */}
           </div>
         </div>
-        <div className='card-hover'></div>
       </Link>
     </div>
   );

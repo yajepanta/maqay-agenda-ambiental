@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import "./Card.css";
 import Share from "../Share/Share.js";
-
 import { writeLike } from "../../../controller/likesController";
 import iconsPartidos from "../../../utils/iconsPartidos";
 import allTagsNameAndNumber from "../../../utils/data/allTagsNameAndNumber.js";
@@ -35,7 +34,7 @@ const Card = ({ post }) => {
 
   const location = useLocation();
   const currentUrl =
-    "https://maqay.netlify.app" + location.pathname.replace(/ /g, "%20");
+    "https://agendaambiental.info" + location.pathname.replace(/ /g, "%20");
   const shareContent = {
     url: currentUrl,
     content: `${getPartieName()} propone: ${stripPTags(
@@ -43,10 +42,6 @@ const Card = ({ post }) => {
     ).substring(0, 99)}...`,
   };
 
-  /* const metaTags = {
-    title: post.title.rendered,
-    quote: shareContent.content,
-  }; */
   useEffect(() => {
     if (localStorage.getItem(post.id)) {
       setLike(localStorage.getItem(post.id) === "true" ? true : false);
@@ -72,7 +67,7 @@ const Card = ({ post }) => {
         )}`}</div>
 
         <div className='container-proposal-footer'>
-          <div className='footer-logo'>
+          <div className='proposal-footer-logo'>
             Propuestas de:
             {post.politicalParties &&
               post.politicalParties.map((idPartido) => {

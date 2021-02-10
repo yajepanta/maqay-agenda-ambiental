@@ -12,7 +12,6 @@ const Routes = () => {
           component={Categories}
         />
         <Route exact path='/propuestas' component={Categories} />
-        <Route exact path='/inicio' component={Home} />
         <Route exact path='/' component={Home} />
       </Switch>
     </BrowserRouter>

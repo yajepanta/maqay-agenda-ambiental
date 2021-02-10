@@ -1,78 +1,78 @@
 header {
-    background: url(../../assets/img/header.png);
-    height: 24vh;
-    width: 100vw;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 3.5em;
-    line-height: 24vh;
-    text-align: center; 
+  background: url(../../assets/img/header.png);
+  height: 24vh;
+  width: 100vw;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 3.5em;
+  line-height: 24vh;
+  text-align: center;
 }
 
 header > span {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 main {
-    display: grid;
-    grid-template-columns: 70vw 25vw;
-    grid-gap: 5vw;
+  display: grid;
+  grid-template-columns: 70vw 25vw;
+  grid-gap: 5vw;
 }
 
-.text-bold{
-    font-size: 34px;
-    font-weight: bold;
+.text-bold {
+  font-size: 34px;
+  font-weight: bold;
 }
-.highlighted{
-    color: #C2306D;
+.highlighted {
+  color: #c2306d;
 }
 
 .view-categories {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.main-text{
-    text-align: justify;
-    font-size: 15px;
-    width: 50vw;
+.main-text {
+  text-align: justify;
+  font-size: 14px;
+  width: 50vw;
 }
 
-.leyenda{
-    text-align: justify;
-    font-size: 13px;
-    width: 50vw;
+.leyenda {
+  text-align: justify;
+  font-size: 13px;
+  width: 50vw;
 }
 .categories-cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* width: 70vw; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* width: 70vw; */
 }
 
 nav {
-    display: flex;
-    flex-direction: column;
-    border: 1px #C4C4C4 solid;
-    height: 100%;
-    /* justify-self: flex-end;    */ 
+  display: flex;
+  flex-direction: column;
+  border: 1px #c4c4c4 solid;
+  height: 100%;
+  /* justify-self: flex-end;    */
 }
 
 .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-  }
-
-nav > span {
-    border-bottom: 1px #C4C4C4 solid;
-    height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.btn-back{
-    background-color: white;
-    font-weight: 600;/* 
+nav > span {
+  border-bottom: 1px #c4c4c4 solid;
+  height: 50px;
+}
+
+.btn-back {
+  background-color: white;
+  font-weight: 600; /* 
     height: 8%; */
-    outline: none;
-    border: none;
-    cursor: pointer;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }

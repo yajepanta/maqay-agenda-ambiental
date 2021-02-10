@@ -11,50 +11,29 @@ import {
 import allPosts from "../../utils/data/allPosts.js";
 import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
 import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
-
+import logoheader from "../../assets/img/logoheader.png";
 const Home = () => {
-  /* necesito todos los posts
-clic en tema o partido debe filtrar x tema y partido
-entonces:
-onclick cada button de filtrado, debe acceder a la fx pura que filtra segun el tag seleccionado
-y set un nuevo array de posts filtrados, y se los pasa a CARD
-Card debe mostrar:
-imagen del tag selected
-si no hay imagen, debe ser solo el background
-nombre del tag selected: categoria / partido
-Descripción del problema del tag
-Partidos x Categoria
-
-Cuando se hace click en card, debe pasar el nombre del tag seleccionado a la ruta
-Y de la ruta, Categories toma lo que se selecciono para pasar al filtrado
-
-*/
   /* posts to render: posts ya filtrados */
   const [filteredPosts, setFilteredPosts] = useState([]);
-  /* Acá accederemos para conseguir datos de tags */
-  /*   const [allTagsNameAndNumber, setAllTagsNameAndNumber] = useState([]); */
-
   const [categorySelected, setCategorySelected] = useState("Tema ambiental");
   const [tagsFromCategorySelected, setTagsFromCategorySelected] = useState([]);
 
-  /* Saves in state: object with Tags' Name and Number */
-  /*   useEffect(() => {
-    getAllTagsNameAndNumber().then((res) => {
-      return setAllTagsNameAndNumber(res);
-    });
-  }, []); */
-
   useEffect(() => {
-    getTagsByGroupName(tagsByGroupName, categorySelected).map((tags) => {
-      return setTagsFromCategorySelected((prevState) => [...prevState, tags]);
+    const tags = [];
+    getTagsByGroupName(tagsByGroupName, categorySelected).map((tag) => {
+      return tags.push(tag);
     });
+    return setTagsFromCategorySelected(tags);
   }, [categorySelected]);
 
   const filterByCategorySelected = (categorySelected) => {
+    const tags = [];
     setCategorySelected(categorySelected);
-    getTagsByGroupName(tagsByGroupName, categorySelected).map((tags) => {
-      return setTagsFromCategorySelected((prevState) => [...prevState, tags]);
+    getTagsByGroupName(tagsByGroupName, categorySelected).map((tag) => {
+      return tags.push(tag);
     });
+
+    return setTagsFromCategorySelected(tags);
   };
 
   useEffect(() => {
@@ -67,26 +46,29 @@ Y de la ruta, Categories toma lo que se selecciono para pasar al filtrado
   return (
     <div>
       <section className='view-home'>
-        <h1>Conoce las propuestas de los candidatos</h1>
-        <h2>ELECCIONES 2021</h2>
-        <p>Ordenar propuestas</p>
-        <div className='home-filter-buttons'>
-          <button
-            name='Tema ambiental'
-            onClick={(e) => {
-              return filterByCategorySelected(e.target.name);
-            }}
-          >
-            Por tema ambiental
-          </button>
-          <button
-            name='Partidos políticos'
-            onClick={(e) => {
-              return filterByCategorySelected(e.target.name);
-            }}
-          >
-            Por partido político
-          </button>
+        <div className='main-header'>
+          <img className='logo-header' src={logoheader} alt=''></img>
+          <h1>Conoce las propuestas de los candidatos</h1>
+          <h2>ELECCIONES 2021</h2>
+          <p>Ordenar propuestas</p>
+          <div className='home-filter-buttons'>
+            <button
+              name='Tema ambiental'
+              onClick={(e) => {
+                return filterByCategorySelected(e.target.name);
+              }}
+            >
+              Por tema ambiental
+            </button>
+            <button
+              name='Partidos políticos'
+              onClick={(e) => {
+                return filterByCategorySelected(e.target.name);
+              }}
+            >
+              Por partido político
+            </button>
+          </div>
         </div>
 
         <section className='home-cards-container'>

@@ -15,6 +15,7 @@ import {
   WhatsappIcon,
 } from "react-share";
 import { Helmet } from "react-helmet";
+
 /* Argumentos que recibirá: url hashtag y quote, 10 primeras palabras */
 const Share = (shareContent) => {
   <Helmet>

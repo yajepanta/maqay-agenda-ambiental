@@ -1,32 +1,40 @@
 footer {
-    display: grid;
-    grid-template-columns: 35% 25% 25%;
-    column-gap: 5%;
-    font-size: 15px;
-    margin-top: 200px;
-    height: 100px;
+  display: grid;
+  width: 100vw;
+  grid-template-columns: 25% 35% 25%;
+  column-gap: 5%;
+  font-size: 15px;
+  margin-top: 200px;
+  padding-top: 15px;
+  background-color: #c7017f;
+  color: #ffffff;
 }
 
 .footer-social-links {
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
 }
 
-.footer-email{
-    height: 20px;
+.footer-email {
+  height: 20px;
 }
 .footer-logo {
-    width: 120px;
+  width: 120px;
 }
 
-.list-social-links{
-    display: flex;
-    flex-direction: row;
+.list-social-links {
+  display: flex;
+  flex-direction: row;
 }
+
 .list-social-links > a {
-    display: flex;
-    font-size: 18px;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  color: #ffffff;
+  font-size: 18px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list-social-links > a:visited {
+  color: #ffffff;
 }

@@ -1,68 +1,71 @@
 .view-home {
-   display: flex;
-   flex-direction: column;
-   align-content: center;
-   width: 100vw;
-/*    height: 100vh; */
-   color: #FFFFFF;
-   font-family: 'Poppins', sans-serif;
-   background-image: url('../../assets/img/fondo.png');
-   background-repeat: no-repeat;
-}   
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100vw;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+.main-header {
+  width: 100vw;
+  background-image: url("../../assets/img/fondo.png");
+  background-repeat: repeat;
+}
+.logo-header {
+  margin-top: 15px;
+  width: 25%;
+  align-self: center;
+}
+h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 5px;
+}
 
-  
-  h1 {
-     font-style: normal;
-     font-weight: 500;
-     font-size: 35px; 
-     line-height: 5px;
-  }
+h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 5px;
+}
 
-  h2 {
-     font-style: normal;
-     font-weight: bold;
-     font-size: 50px;
-     line-height: 5px;
-  }
-
-  p {
-     font-style: normal;
-     font-weight: 400;
-     font-size: 25px;
-     z-index: 3;
-  }
-.home-filter-buttons{
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  z-index: 3;
+}
+.home-filter-buttons {
   display: flex;
   justify-content: center;
 }
-.home-filter-buttons > button { 
-   font-family: 'Poppins', sans-serif;
-   font-style: normal;
-   cursor: pointer;
-   font-weight: 500;
-   font-size: 24px;
-   color: white;
-   width: 274px;
-   height: 50px;
-   outline: none;
-   border: 1px solid #F29000;
-   border-radius: 4px;
-   background: #F29000;   
-   margin: 20px;    
+.home-filter-buttons > button {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  width: 274px;
+  height: 50px;
+  outline: none;
+  border: 1px solid #c7017f;
+  border-radius: 4px;
+  background: #c7017f;
+  margin: 20px;
 }
 
-.home-filter-buttons > button:hover{
+.home-filter-buttons > button:hover {
   background: white;
-  color: #F29000;
+  color: #c7017f;
 }
 .home-cards-container {
-   /* margin-left: 50px; */
-   /* margin-top: -10%; */
-   font-family: 'Poppins', sans-serif;
-   height: auto;
-   width: 100vw;
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-}  
-
-
+  /* margin-left: 50px; */
+  margin-top: 5%;
+  font-family: "Poppins", sans-serif;
+  height: auto;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

@@ -1,12 +1,3 @@
-/* const categoryAmbiental = 23;
-    getAllPosts()
-      .then((res) =>
-        res.filter((posts) => posts.categories[0] === categoryAmbiental)
-      )
-      .then((res) => {
-        return setFilteredPosts(res);
-      }); */
-
 const allPosts = [
   {
     id: 1580,
@@ -49,10 +40,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -133,10 +121,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -181,8 +166,8 @@ const allPosts = [
     date: "2021-02-09T16:44:46",
     date_gmt: "2021-02-09T21:44:46",
     guid: { rendered: "https://maqay.org/?p=1576" },
-    modified: "2021-02-09T16:44:46",
-    modified_gmt: "2021-02-09T21:44:46",
+    modified: "2021-02-10T10:56:44",
+    modified_gmt: "2021-02-10T15:56:44",
     slug: "propuesta-042",
     status: "publish",
     type: "post",
@@ -190,12 +175,12 @@ const allPosts = [
     title: { rendered: "Propuesta 042" },
     content: {
       rendered:
-        "<p>Aprobar una Ley que proteja las cabeceras de cuencas y las praderas alto andinas para garantizar la producci\u00f3n de agua, prohibiendo actividades econ\u00f3micas que amenazan la base de los glaciares y la producci\u00f3n de agua en las praderas alto andinas, en especial aquellas que usan mercurio y cianuro.</p>\n",
+        "<p>Aprobar una Ley que proteja las cabeceras de cuencas y  las praderas alto andinas para garantizar la producci\u00f3n de agua, prohibiendo actividades econ\u00f3micas que amenazan la base de los glaciares y la producci\u00f3n de agua en las praderas alto andinas.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Aprobar una Ley que proteja las cabeceras de cuencas y las praderas alto andinas para garantizar la producci\u00f3n de agua, prohibiendo actividades econ\u00f3micas que amenazan la base de los glaciares y la producci\u00f3n de agua en las praderas alto andinas, en especial aquellas que usan mercurio y cianuro.</p>\n",
+        "<p>Aprobar una Ley que proteja las cabeceras de cuencas y las praderas alto andinas para garantizar la producci\u00f3n de agua, prohibiendo actividades econ\u00f3micas que amenazan la base de los glaciares y la producci\u00f3n de agua en las praderas alto andinas.</p>\n",
       protected: false,
     },
     author: 2,
@@ -217,10 +202,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -230,14 +212,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1576/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1577,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1576/revisions/1577",
+          id: 1582,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1576/revisions/1582",
         },
       ],
       "wp:attachment": [
@@ -301,10 +283,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -385,10 +364,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -469,10 +445,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -553,10 +526,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -637,10 +607,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -721,10 +688,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -805,10 +769,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -889,10 +850,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -973,10 +931,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -1057,10 +1012,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -1141,10 +1093,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -1225,10 +1174,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -1309,10 +1255,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -1357,8 +1300,8 @@ const allPosts = [
     date: "2021-02-09T12:24:03",
     date_gmt: "2021-02-09T17:24:03",
     guid: { rendered: "https://maqay.org/?p=1547" },
-    modified: "2021-02-09T12:24:03",
-    modified_gmt: "2021-02-09T17:24:03",
+    modified: "2021-02-10T11:14:43",
+    modified_gmt: "2021-02-10T16:14:43",
     slug: "propuesta-242",
     status: "publish",
     type: "post",
@@ -1366,12 +1309,12 @@ const allPosts = [
     title: { rendered: "Propuesta 242" },
     content: {
       rendered:
-        "<p>Incorporar los principios y est\u00e1ndares m\u00ednimos de acceso a informaci\u00f3n de riesgos ambientales, consulta y participaci\u00f3n ciudadana, justicia y reparaciones, y protecci\u00f3n de personas defensoras del ambiente, que promueve el Acuerdo de Escaz\u00fa, de modo que las decisiones de sobre aprovechamiento de los recursos naturales y otras de incidencia en el ambiente, deriven de un proceso de Informaci\u00f3n y participaci\u00f3n pro paz y confianza ciudadana.</p>\n",
+        "<p>Incorporar los principios y est\u00e1ndares m\u00ednimos de acceso a informaci\u00f3n, participaci\u00f3n ciudadana, justicia y protecci\u00f3n de personas defensoras del ambiente, que promueve el Acuerdo de Escaz\u00fa. </p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Incorporar los principios y est\u00e1ndares m\u00ednimos de acceso a informaci\u00f3n de riesgos ambientales, consulta y participaci\u00f3n ciudadana, justicia y reparaciones, y protecci\u00f3n de personas defensoras del ambiente, que promueve el Acuerdo de Escaz\u00fa, de modo que las decisiones de sobre aprovechamiento de los recursos naturales y otras de incidencia en el ambiente, deriven de un [&hellip;]</p>\n",
+        "<p>Incorporar los principios y est\u00e1ndares m\u00ednimos de acceso a informaci\u00f3n, participaci\u00f3n ciudadana, justicia y protecci\u00f3n de personas defensoras del ambiente, que promueve el Acuerdo de Escaz\u00fa.</p>\n",
       protected: false,
     },
     author: 2,
@@ -1393,10 +1336,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -1406,14 +1346,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1547/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1550,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1547/revisions/1550",
+          id: 1600,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1547/revisions/1600",
         },
       ],
       "wp:attachment": [
@@ -1441,8 +1381,8 @@ const allPosts = [
     date: "2021-02-09T12:22:35",
     date_gmt: "2021-02-09T17:22:35",
     guid: { rendered: "https://maqay.org/?p=1548" },
-    modified: "2021-02-09T12:22:35",
-    modified_gmt: "2021-02-09T17:22:35",
+    modified: "2021-02-10T11:14:11",
+    modified_gmt: "2021-02-10T16:14:11",
     slug: "propuesta-241",
     status: "publish",
     type: "post",
@@ -1450,12 +1390,12 @@ const allPosts = [
     title: { rendered: "Propuesta 241" },
     content: {
       rendered:
-        "<p>Organizar a las empresas y dem\u00e1s actores vinculados a la actividad forestal, en clusters y redes formales que impulsen la reforestaci\u00f3n y a la vez articulen a comunidades nativas con centros de investigaci\u00f3n cient\u00edfica, empresas y dem\u00e1s actores que a\u00f1adan alto valor agregado al aprovechamiento sostenible de recursos forestales, desarrollando cadenas de bio negocios, maderables y farmacol\u00f3gicos.</p>\n",
+        "<p>Organizar a las empresas y dem\u00e1s actores vinculados a la actividad forestal, en clusters y redes formales que impulsen la reforestaci\u00f3n y que articulen a comunidades nativas con centros de investigaci\u00f3n cient\u00edfica y empresas  que a\u00f1adan alto valor agregado, desarrollando cadenas de bio negocios, maderables y farmacol\u00f3gicos. </p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Organizar a las empresas y dem\u00e1s actores vinculados a la actividad forestal, en clusters y redes formales que impulsen la reforestaci\u00f3n y a la vez articulen a comunidades nativas con centros de investigaci\u00f3n cient\u00edfica, empresas y dem\u00e1s actores que a\u00f1adan alto valor agregado al aprovechamiento sostenible de recursos forestales, desarrollando cadenas de bio negocios, maderables [&hellip;]</p>\n",
+        "<p>Organizar a las empresas y dem\u00e1s actores vinculados a la actividad forestal, en clusters y redes formales que impulsen la reforestaci\u00f3n y que articulen a comunidades nativas con centros de investigaci\u00f3n cient\u00edfica y empresas que a\u00f1adan alto valor agregado, desarrollando cadenas de bio negocios, maderables y farmacol\u00f3gicos.</p>\n",
       protected: false,
     },
     author: 2,
@@ -1477,10 +1417,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -1490,14 +1427,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1548/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1549,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1548/revisions/1549",
+          id: 1599,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1548/revisions/1599",
         },
       ],
       "wp:attachment": [
@@ -1561,10 +1498,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -1645,10 +1579,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -1729,10 +1660,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -1813,10 +1741,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -1897,10 +1822,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -1981,10 +1903,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -2065,10 +1984,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -2149,10 +2065,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -2197,8 +2110,8 @@ const allPosts = [
     date: "2021-02-09T12:10:51",
     date_gmt: "2021-02-09T17:10:51",
     guid: { rendered: "https://maqay.org/?p=1518" },
-    modified: "2021-02-09T12:20:12",
-    modified_gmt: "2021-02-09T17:20:12",
+    modified: "2021-02-10T11:13:34",
+    modified_gmt: "2021-02-10T16:13:34",
     slug: "propuesta-232",
     status: "publish",
     type: "post",
@@ -2206,12 +2119,12 @@ const allPosts = [
     title: { rendered: "Propuesta 232" },
     content: {
       rendered:
-        "<p>Impulsar un \u201cPrograma de Desarrollo de la Econom\u00eda Circular\u201d, que promover\u00e1 la participaci\u00f3n de las Pymes en la industria del reciclaje, la reutilizaci\u00f3n del agua y los residuos s\u00f3lidos, la eficiencia energ\u00e9tica, la adaptaci\u00f3n al cambio clim\u00e1tico, la minimizaci\u00f3n de la producci\u00f3n al m\u00ednimo indispensable, la reutilizaci\u00f3n de elementos que no pueden volver al ambiente, la utilizaci\u00f3n m\u00e1s intensiva de materiales biodegradables posible en la producci\u00f3n de bienes de consumo, el fomento de sistemas de alquiler de bienes durables para disminuir su subutilizaci\u00f3n, etc.</p>\n",
+        "<p>Impulsar un \u201cPrograma de Desarrollo de la Econom\u00eda Circular\u201d, que promover\u00e1 la participaci\u00f3n de las Pymes en la industria del reciclaje, la reutilizaci\u00f3n del agua y los residuos s\u00f3lidos, la eficiencia energ\u00e9tica, la adaptaci\u00f3n al cambio clim\u00e1tico, la minimizaci\u00f3n de la producci\u00f3n al m\u00ednimo indispensable. </p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Impulsar un \u201cPrograma de Desarrollo de la Econom\u00eda Circular\u201d, que promover\u00e1 la participaci\u00f3n de las Pymes en la industria del reciclaje, la reutilizaci\u00f3n del agua y los residuos s\u00f3lidos, la eficiencia energ\u00e9tica, la adaptaci\u00f3n al cambio clim\u00e1tico, la minimizaci\u00f3n de la producci\u00f3n al m\u00ednimo indispensable, la reutilizaci\u00f3n de elementos que no pueden volver al ambiente, [&hellip;]</p>\n",
+        "<p>Impulsar un \u201cPrograma de Desarrollo de la Econom\u00eda Circular\u201d, que promover\u00e1 la participaci\u00f3n de las Pymes en la industria del reciclaje, la reutilizaci\u00f3n del agua y los residuos s\u00f3lidos, la eficiencia energ\u00e9tica, la adaptaci\u00f3n al cambio clim\u00e1tico, la minimizaci\u00f3n de la producci\u00f3n al m\u00ednimo indispensable.</p>\n",
       protected: false,
     },
     author: 2,
@@ -2233,10 +2146,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -2246,14 +2156,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1518/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1539,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1518/revisions/1539",
+          id: 1598,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1518/revisions/1598",
         },
       ],
       "wp:attachment": [
@@ -2317,10 +2227,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -2401,10 +2308,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -2485,10 +2389,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -2569,10 +2470,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -2653,10 +2551,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -2701,8 +2596,8 @@ const allPosts = [
     date: "2021-02-09T11:59:11",
     date_gmt: "2021-02-09T16:59:11",
     guid: { rendered: "https://maqay.org/?p=1499" },
-    modified: "2021-02-09T12:26:58",
-    modified_gmt: "2021-02-09T17:26:58",
+    modified: "2021-02-10T11:13:02",
+    modified_gmt: "2021-02-10T16:13:02",
     slug: "propuesta-226",
     status: "publish",
     type: "post",
@@ -2710,12 +2605,12 @@ const allPosts = [
     title: { rendered: "Propuesta 226" },
     content: {
       rendered:
-        "<p>Poner en marcha sistemas de gesti\u00f3n de prevenci\u00f3n, gesti\u00f3n de riesgos y adaptaci\u00f3n, diferenciados por tipos de ecosistemas, principalmente en los sistemas naturales y productivos m\u00e1s vulnerables: poblaciones extremadamente pobres; productores agr\u00edcolas y pescadores artesanales; cuencas y bosques tropicales; producci\u00f3n agr\u00edcola, pecuaria y de pesca para consumo humano; ecosistemas de monta\u00f1a; infraestructura econ\u00f3mica y de servicios sociales; y ecosistemas marino &#8211; costeros.</p>\n",
+        "<p>Poner en marcha sistemas de gesti\u00f3n de prevenci\u00f3n, gesti\u00f3n de riesgos y adaptaci\u00f3n, principalmente en los sistemas naturales y productivos m\u00e1s vulnerables (poblaciones extremadamente pobres; productores agr\u00edcolas y pescadores artesanales; cuencas y bosques tropicales; ecosistemas de monta\u00f1a; y ecosistemas marino- costeros)</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Poner en marcha sistemas de gesti\u00f3n de prevenci\u00f3n, gesti\u00f3n de riesgos y adaptaci\u00f3n, diferenciados por tipos de ecosistemas, principalmente en los sistemas naturales y productivos m\u00e1s vulnerables: poblaciones extremadamente pobres; productores agr\u00edcolas y pescadores artesanales; cuencas y bosques tropicales; producci\u00f3n agr\u00edcola, pecuaria y de pesca para consumo humano; ecosistemas de monta\u00f1a; infraestructura econ\u00f3mica y de [&hellip;]</p>\n",
+        "<p>Poner en marcha sistemas de gesti\u00f3n de prevenci\u00f3n, gesti\u00f3n de riesgos y adaptaci\u00f3n, principalmente en los sistemas naturales y productivos m\u00e1s vulnerables (poblaciones extremadamente pobres; productores agr\u00edcolas y pescadores artesanales; cuencas y bosques tropicales; ecosistemas de monta\u00f1a; y ecosistemas marino- costeros)</p>\n",
       protected: false,
     },
     author: 2,
@@ -2737,10 +2632,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -2750,14 +2642,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1499/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1507,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1499/revisions/1507",
+          id: 1597,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1499/revisions/1597",
         },
       ],
       "wp:attachment": [
@@ -2821,10 +2713,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -2905,10 +2794,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -2989,10 +2875,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -3073,10 +2956,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -3157,10 +3037,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -3239,10 +3116,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -3323,10 +3197,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -3407,10 +3278,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -3491,10 +3359,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -3575,10 +3440,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -3659,10 +3521,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -3743,10 +3602,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -3827,10 +3683,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -3911,10 +3764,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -3995,10 +3845,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -4079,10 +3926,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -4163,10 +4007,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -4247,10 +4088,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -4331,10 +4169,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -4415,10 +4250,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -4499,10 +4331,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -4583,10 +4412,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -4667,10 +4493,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -4751,10 +4574,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -4835,10 +4655,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -4919,10 +4736,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -5003,10 +4817,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -5087,10 +4898,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -5171,10 +4979,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -5255,10 +5060,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -5337,10 +5139,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -5421,10 +5220,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -5505,10 +5301,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -5589,10 +5382,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -5673,10 +5463,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -5757,10 +5544,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -5841,10 +5625,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -5925,10 +5706,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -6009,10 +5787,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -6093,10 +5868,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -6175,10 +5947,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -6259,10 +6028,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -6343,10 +6109,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -6427,10 +6190,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -6511,10 +6271,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -6595,10 +6352,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -6679,10 +6433,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -6763,10 +6514,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -6847,10 +6595,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -6931,10 +6676,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -7015,10 +6757,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -7099,10 +6838,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -7183,10 +6919,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -7267,10 +7000,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -7351,10 +7081,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -7435,10 +7162,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -7519,10 +7243,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -7603,10 +7324,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -7687,10 +7405,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -7771,10 +7486,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -7855,10 +7567,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -7939,10 +7648,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -7987,8 +7693,8 @@ const allPosts = [
     date: "2021-02-09T10:57:55",
     date_gmt: "2021-02-09T15:57:55",
     guid: { rendered: "https://maqay.org/?p=1368" },
-    modified: "2021-02-09T10:58:12",
-    modified_gmt: "2021-02-09T15:58:12",
+    modified: "2021-02-10T11:12:31",
+    modified_gmt: "2021-02-10T16:12:31",
     slug: "propuesta-214",
     status: "publish",
     type: "post",
@@ -7996,12 +7702,12 @@ const allPosts = [
     title: { rendered: "Propuesta 214" },
     content: {
       rendered:
-        "<p>Asegurar el acceso oportuno y de forma transparente a la informaci\u00f3n vinculada a procedimientos relacionados con la gesti\u00f3n de recursos naturales para generar confianza entre los diferentes actores de la sociedad, desarroll\u00e1ndose procesos de di\u00e1logo que permitan la construcci\u00f3n de modelos de desarrollo m\u00e1s pertinentes culturalmente y que aseguren la sostenibilidad y la participaci\u00f3n plena de la ciudadan\u00eda en \u00e1mbitos urbanos y rurales.</p>\n",
+        "<p>Asegurar el acceso oportuno y de forma transparente a la informaci\u00f3n vinculada a procedimientos relacionados con la gesti\u00f3n de recursos naturales, desarroll\u00e1ndose procesos de di\u00e1logo que permitan la construcci\u00f3n de modelos de desarrollo m\u00e1s pertinentes culturalmente y que aseguren la sostenibilidad y la participaci\u00f3n de la ciudadan\u00eda. </p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Asegurar el acceso oportuno y de forma transparente a la informaci\u00f3n vinculada a procedimientos relacionados con la gesti\u00f3n de recursos naturales para generar confianza entre los diferentes actores de la sociedad, desarroll\u00e1ndose procesos de di\u00e1logo que permitan la construcci\u00f3n de modelos de desarrollo m\u00e1s pertinentes culturalmente y que aseguren la sostenibilidad y la participaci\u00f3n plena [&hellip;]</p>\n",
+        "<p>Asegurar el acceso oportuno y de forma transparente a la informaci\u00f3n vinculada a procedimientos relacionados con la gesti\u00f3n de recursos naturales, desarroll\u00e1ndose procesos de di\u00e1logo que permitan la construcci\u00f3n de modelos de desarrollo m\u00e1s pertinentes culturalmente y que aseguren la sostenibilidad y la participaci\u00f3n de la ciudadan\u00eda.</p>\n",
       protected: false,
     },
     author: 2,
@@ -8023,10 +7729,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -8036,14 +7739,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1368/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1371,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1368/revisions/1371",
+          id: 1596,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1368/revisions/1596",
         },
       ],
       "wp:attachment": [
@@ -8071,8 +7774,8 @@ const allPosts = [
     date: "2021-02-09T10:54:46",
     date_gmt: "2021-02-09T15:54:46",
     guid: { rendered: "https://maqay.org/?p=1361" },
-    modified: "2021-02-09T10:54:46",
-    modified_gmt: "2021-02-09T15:54:46",
+    modified: "2021-02-10T11:12:05",
+    modified_gmt: "2021-02-10T16:12:05",
     slug: "propuesta-213",
     status: "publish",
     type: "post",
@@ -8080,12 +7783,12 @@ const allPosts = [
     title: { rendered: "Propuesta 213" },
     content: {
       rendered:
-        "<p>Reforzar la institucionalidad y potenciar la articulaci\u00f3n p\u00fablico \u2013 privada, multiactor y multinivel, actualizando la Pol\u00edtica Nacional del Ambiente, restructurando el Minam, creando una entidad reguladora del servicio de gesti\u00f3n integral de residuos s\u00f3lidos, concluyendo el proceso de transferencia de funciones de Senace, implementar la Evaluaci\u00f3n Ambiental Temprana y transitando al servicio civil meritocr\u00e1tico en Minam y sus adscritos.</p>\n",
+        "<p>Reforzar la institucionalidad y potenciar la articulaci\u00f3n p\u00fablico \u2013 privada, multiactor y multinivel, actualizando la Pol\u00edtica Nacional del Ambiente, restructurando el Minam, creando una entidad reguladora del servicio de gesti\u00f3n integral de residuos s\u00f3lidos, concluyendo el proceso de transferencia de funciones de Senace. </p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Reforzar la institucionalidad y potenciar la articulaci\u00f3n p\u00fablico \u2013 privada, multiactor y multinivel, actualizando la Pol\u00edtica Nacional del Ambiente, restructurando el Minam, creando una entidad reguladora del servicio de gesti\u00f3n integral de residuos s\u00f3lidos, concluyendo el proceso de transferencia de funciones de Senace, implementar la Evaluaci\u00f3n Ambiental Temprana y transitando al servicio civil meritocr\u00e1tico en [&hellip;]</p>\n",
+        "<p>Reforzar la institucionalidad y potenciar la articulaci\u00f3n p\u00fablico \u2013 privada, multiactor y multinivel, actualizando la Pol\u00edtica Nacional del Ambiente, restructurando el Minam, creando una entidad reguladora del servicio de gesti\u00f3n integral de residuos s\u00f3lidos, concluyendo el proceso de transferencia de funciones de Senace.</p>\n",
       protected: false,
     },
     author: 2,
@@ -8107,10 +7810,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -8120,14 +7820,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1361/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1366,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1361/revisions/1366",
+          id: 1595,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1361/revisions/1595",
         },
       ],
       "wp:attachment": [
@@ -8191,10 +7891,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -8275,10 +7972,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -8359,10 +8053,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -8407,8 +8098,8 @@ const allPosts = [
     date: "2021-02-09T10:52:18",
     date_gmt: "2021-02-09T15:52:18",
     guid: { rendered: "https://maqay.org/?p=1353" },
-    modified: "2021-02-09T10:52:18",
-    modified_gmt: "2021-02-09T15:52:18",
+    modified: "2021-02-10T11:11:30",
+    modified_gmt: "2021-02-10T16:11:30",
     slug: "propuesta-212",
     status: "publish",
     type: "post",
@@ -8416,12 +8107,12 @@ const allPosts = [
     title: { rendered: "Propuesta 212" },
     content: {
       rendered:
-        "<p>Implementar el enfoque de econom\u00eda circular, a trav\u00e9s de la promoci\u00f3n de la reutilizaci\u00f3n de residuos vinculadas a la miner\u00eda y generaci\u00f3n de material de construcci\u00f3n, de programas de chatarreo, de la promoci\u00f3n del reciclaje del pl\u00e1stico PET, de la generaci\u00f3n de incentivos para el reciclaje de recursos, de la puesta en valor de los residuos agr\u00edcolas y la implementaci\u00f3n de la Responsabilidad Extendida del Productor, particularmente en neum\u00e1ticos y bater\u00edas.</p>\n",
+        "<p>Implementar el enfoque de econom\u00eda circular, a trav\u00e9s de la promoci\u00f3n de la reutilizaci\u00f3n de residuos, de programas de chatarreo, promoci\u00f3n del reciclaje del pl\u00e1stico PET, generaci\u00f3n de incentivos para el reciclaje, puesta en valor de residuos agr\u00edcolas y la implementaci\u00f3n de la Responsabilidad Extendida del Productor. </p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Implementar el enfoque de econom\u00eda circular, a trav\u00e9s de la promoci\u00f3n de la reutilizaci\u00f3n de residuos vinculadas a la miner\u00eda y generaci\u00f3n de material de construcci\u00f3n, de programas de chatarreo, de la promoci\u00f3n del reciclaje del pl\u00e1stico PET, de la generaci\u00f3n de incentivos para el reciclaje de recursos, de la puesta en valor de los [&hellip;]</p>\n",
+        "<p>Implementar el enfoque de econom\u00eda circular, a trav\u00e9s de la promoci\u00f3n de la reutilizaci\u00f3n de residuos, de programas de chatarreo, promoci\u00f3n del reciclaje del pl\u00e1stico PET, generaci\u00f3n de incentivos para el reciclaje, puesta en valor de residuos agr\u00edcolas y la implementaci\u00f3n de la Responsabilidad Extendida del Productor.</p>\n",
       protected: false,
     },
     author: 2,
@@ -8443,10 +8134,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -8456,14 +8144,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1353/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1358,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1353/revisions/1358",
+          id: 1593,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1353/revisions/1593",
         },
       ],
       "wp:attachment": [
@@ -8527,10 +8215,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -8611,10 +8296,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -8659,8 +8341,8 @@ const allPosts = [
     date: "2021-02-09T10:50:36",
     date_gmt: "2021-02-09T15:50:36",
     guid: { rendered: "https://maqay.org/?p=1337" },
-    modified: "2021-02-09T10:50:36",
-    modified_gmt: "2021-02-09T15:50:36",
+    modified: "2021-02-10T11:10:24",
+    modified_gmt: "2021-02-10T16:10:24",
     slug: "propuesta-211",
     status: "publish",
     type: "post",
@@ -8668,12 +8350,12 @@ const allPosts = [
     title: { rendered: "Propuesta 211" },
     content: {
       rendered:
-        "<p>Implementar medidas frente al cambio clim\u00e1tico a trav\u00e9s de jurisdicciones sostenibles, de una estrategia de desarrollo rural bajo en emisiones, de un sistema de transporte basado en la electro-movilidad, de la implementaci\u00f3n de la segregaci\u00f3n en fuente y valorizaci\u00f3n de residuos y el cumplimiento de las Contribuciones Nacionalmente Determinadas.</p>\n",
+        "<p>Implementar medidas frente al cambio clim\u00e1tico a trav\u00e9s de jurisdicciones sostenibles, de una estrat\u00e9gia de desarrollo rural bajo en emisiones, de un sistema de transporte basado en la electromovilidad, de la implementaci\u00f3n de la segregaci\u00f3n en fuente y valorizaci\u00f3n de residuos y el cumpimiento de las Contribuciones Nacionalmente Determinadas</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Implementar medidas frente al cambio clim\u00e1tico a trav\u00e9s de jurisdicciones sostenibles, de una estrategia de desarrollo rural bajo en emisiones, de un sistema de transporte basado en la electro-movilidad, de la implementaci\u00f3n de la segregaci\u00f3n en fuente y valorizaci\u00f3n de residuos y el cumplimiento de las Contribuciones Nacionalmente Determinadas.</p>\n",
+        "<p>Implementar medidas frente al cambio clim\u00e1tico a trav\u00e9s de jurisdicciones sostenibles, de una estrat\u00e9gia de desarrollo rural bajo en emisiones, de un sistema de transporte basado en la electromovilidad, de la implementaci\u00f3n de la segregaci\u00f3n en fuente y valorizaci\u00f3n de residuos y el cumpimiento de las Contribuciones Nacionalmente Determinadas</p>\n",
       protected: false,
     },
     author: 2,
@@ -8695,10 +8377,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -8708,14 +8387,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1337/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1351,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1337/revisions/1351",
+          id: 1592,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1337/revisions/1592",
         },
       ],
       "wp:attachment": [
@@ -8779,10 +8458,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -8863,10 +8539,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -8945,10 +8618,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -9029,10 +8699,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -9113,10 +8780,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -9197,10 +8861,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -9281,10 +8942,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -9329,8 +8987,8 @@ const allPosts = [
     date: "2021-02-09T10:44:09",
     date_gmt: "2021-02-09T15:44:09",
     guid: { rendered: "https://maqay.org/?p=1224" },
-    modified: "2021-02-09T10:44:09",
-    modified_gmt: "2021-02-09T15:44:09",
+    modified: "2021-02-10T11:09:46",
+    modified_gmt: "2021-02-10T16:09:46",
     slug: "propuesta-210",
     status: "publish",
     type: "post",
@@ -9338,12 +8996,12 @@ const allPosts = [
     title: { rendered: "Propuesta 210" },
     content: {
       rendered:
-        "<p>Poner en valor el capital natural a trav\u00e9s de una gesti\u00f3n integral del territorio, diversificando el aprovechamiento de los recursos naturales de una forma eficiente y generando el menor impacto ambiental y social posible, aplicando un enfoque de soluciones basadas en la naturaleza y un enfoque de econom\u00eda circular para alcanzar un desarrollo bajo en emisiones que permita mayor resiliencia frente al cambio clim\u00e1tico.</p>\n",
+        "<p>Poner en valor el capital natural a trav\u00e9s de una gesti\u00f3n integral del territorio, diversificando el aprovechamiento de los recursos naturales de una forma eficiente y generando el menor impacto ambiental y social posible, aplicando un enfoque de soluciones basadas en la naturaleza y un enfoque de econom\u00eda circular. </p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Poner en valor el capital natural a trav\u00e9s de una gesti\u00f3n integral del territorio, diversificando el aprovechamiento de los recursos naturales de una forma eficiente y generando el menor impacto ambiental y social posible, aplicando un enfoque de soluciones basadas en la naturaleza y un enfoque de econom\u00eda circular para alcanzar un desarrollo bajo en [&hellip;]</p>\n",
+        "<p>Poner en valor el capital natural a trav\u00e9s de una gesti\u00f3n integral del territorio, diversificando el aprovechamiento de los recursos naturales de una forma eficiente y generando el menor impacto ambiental y social posible, aplicando un enfoque de soluciones basadas en la naturaleza y un enfoque de econom\u00eda circular.</p>\n",
       protected: false,
     },
     author: 2,
@@ -9365,10 +9023,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -9378,14 +9033,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1224/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1336,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1224/revisions/1336",
+          id: 1591,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1224/revisions/1591",
         },
       ],
       "wp:attachment": [
@@ -9449,10 +9104,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -9497,8 +9149,8 @@ const allPosts = [
     date: "2021-02-09T10:36:08",
     date_gmt: "2021-02-09T15:36:08",
     guid: { rendered: "https://maqay.org/?p=1330" },
-    modified: "2021-02-09T10:36:08",
-    modified_gmt: "2021-02-09T15:36:08",
+    modified: "2021-02-10T10:58:48",
+    modified_gmt: "2021-02-10T15:58:48",
     slug: "propuesta-057",
     status: "publish",
     type: "post",
@@ -9506,12 +9158,12 @@ const allPosts = [
     title: { rendered: "Propuesta 057" },
     content: {
       rendered:
-        "<p>Garantizar el cumplimiento efectivo e independiente de la normativa ambiental, respetando el ambiente. Se fomentar\u00e1 una sana convivencia entre la agricultura y miner\u00eda, promoviendo el di\u00e1logo entre la empresa y la<br />\ncomunidad para prevenir los conflictos sociales y lograr as\u00ed que se desarrollen proyectos mineros que impacten de manera positiva en nuestra econom\u00eda.</p>\n",
+        "<p>Garantizar el cumplimiento efectivo e independiente de la normativa ambiental, respetando el ambiente. Fomentaremos una sana convivencia entre la agricultura y miner\u00eda, promoveremos el di\u00e1logo entre la empresa y la comunidad para prevenir los conflictos sociales.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Garantizar el cumplimiento efectivo e independiente de la normativa ambiental, respetando el ambiente. Se fomentar\u00e1 una sana convivencia entre la agricultura y miner\u00eda, promoviendo el di\u00e1logo entre la empresa y la comunidad para prevenir los conflictos sociales y lograr as\u00ed que se desarrollen proyectos mineros que impacten de manera positiva en nuestra econom\u00eda.</p>\n",
+        "<p>Garantizar el cumplimiento efectivo e independiente de la normativa ambiental, respetando el ambiente. Fomentaremos una sana convivencia entre la agricultura y miner\u00eda, promoveremos el di\u00e1logo entre la empresa y la comunidad para prevenir los conflictos sociales.</p>\n",
       protected: false,
     },
     author: 2,
@@ -9533,10 +9185,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -9546,14 +9195,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1330/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1333,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1330/revisions/1333",
+          id: 1584,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1330/revisions/1584",
         },
       ],
       "wp:attachment": [
@@ -9581,8 +9230,8 @@ const allPosts = [
     date: "2021-02-09T10:33:01",
     date_gmt: "2021-02-09T15:33:01",
     guid: { rendered: "https://maqay.org/?p=1327" },
-    modified: "2021-02-09T10:33:01",
-    modified_gmt: "2021-02-09T15:33:01",
+    modified: "2021-02-10T11:09:05",
+    modified_gmt: "2021-02-10T16:09:05",
     slug: "propuesta-148",
     status: "publish",
     type: "post",
@@ -9590,12 +9239,12 @@ const allPosts = [
     title: { rendered: "Propuesta 148" },
     content: {
       rendered:
-        "<p>Impulsar con incentivos, asistencia, t\u00e9cnica y fondos concursables el tr\u00e1nsito hacia una econom\u00eda circular donde las empresas trabajaran activamente en mejorar su eficiencia ambiental incorporando acciones de Reciclaje, Reutilizaci\u00f3n y Remanufactura de las materias primas y equipos, generando nuevos negocios ambientalmente sostenibles.</p>\n",
+        "<p>Impulsar con incentivos, asistencia, t\u00e9cnica y fondos concursables el tr\u00e1nsito hacia una econom\u00eda circular, incorporando acciones de Reciclaje, Reutilizaci\u00f3n y Remanufactura de las materia primas y equipos, generando nuevos negocios ambientalmente sostenibles.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Impulsar con incentivos, asistencia, t\u00e9cnica y fondos concursables el tr\u00e1nsito hacia una econom\u00eda circular donde las empresas trabajaran activamente en mejorar su eficiencia ambiental incorporando acciones de Reciclaje, Reutilizaci\u00f3n y Remanufactura de las materias primas y equipos, generando nuevos negocios ambientalmente sostenibles.</p>\n",
+        "<p>Impulsar con incentivos, asistencia, t\u00e9cnica y fondos concursables el tr\u00e1nsito hacia una econom\u00eda circular, incorporando acciones de Reciclaje, Reutilizaci\u00f3n y Remanufactura de las materia primas y equipos, generando nuevos negocios ambientalmente sostenibles.</p>\n",
       protected: false,
     },
     author: 2,
@@ -9617,10 +9266,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -9630,14 +9276,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1327/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1331,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1327/revisions/1331",
+          id: 1590,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1327/revisions/1590",
         },
       ],
       "wp:attachment": [
@@ -9701,10 +9347,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -9783,10 +9426,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -9867,10 +9507,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -9951,10 +9588,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -10035,10 +9669,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -10119,10 +9750,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -10167,8 +9795,8 @@ const allPosts = [
     date: "2021-02-09T10:20:10",
     date_gmt: "2021-02-09T15:20:10",
     guid: { rendered: "https://maqay.org/?p=1311" },
-    modified: "2021-02-09T10:20:10",
-    modified_gmt: "2021-02-09T15:20:10",
+    modified: "2021-02-10T11:02:46",
+    modified_gmt: "2021-02-10T16:02:46",
     slug: "propuesta-124",
     status: "publish",
     type: "post",
@@ -10176,12 +9804,12 @@ const allPosts = [
     title: { rendered: "Propuesta 124" },
     content: {
       rendered:
-        "<p>Luchar contra el ecologismo oenegero o el medioambientalismo fundamentalista, que propugna superar el extractivismo para dejar de aprovechar nuestros recursos naturales no renovables. Un pa\u00eds como el nuestro, que no tiene empresas ni industrias, solo tiene la oportunidad de salir del subdesarrollo gracias al extractivismo sostenible como alternativa ante el extractivismo neoliberal irresponsable e insostenible.</p>\n",
+        "<p>Luchar contra el ecologismo oenegero o el medioambientalismo fundamentalista, que propugna superar el extractivismo para dejar de aprovechar nuestros recursos naturales no renovables. Un pa\u00eds como el nuestro, solo tiene la oportunidad de salir del subdesarrollo gracias al extractivismo sostenible. </p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Luchar contra el ecologismo oenegero o el medioambientalismo fundamentalista, que propugna superar el extractivismo para dejar de aprovechar nuestros recursos naturales no renovables. Un pa\u00eds como el nuestro, que no tiene empresas ni industrias, solo tiene la oportunidad de salir del subdesarrollo gracias al extractivismo sostenible como alternativa ante el extractivismo neoliberal irresponsable e insostenible.</p>\n",
+        "<p>Luchar contra el ecologismo oenegero o el medioambientalismo fundamentalista, que propugna superar el extractivismo para dejar de aprovechar nuestros recursos naturales no renovables. Un pa\u00eds como el nuestro, solo tiene la oportunidad de salir del subdesarrollo gracias al extractivismo sostenible.</p>\n",
       protected: false,
     },
     author: 2,
@@ -10203,10 +9831,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -10216,14 +9841,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1311/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1315,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1311/revisions/1315",
+          id: 1587,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1311/revisions/1587",
         },
       ],
       "wp:attachment": [
@@ -10251,8 +9876,8 @@ const allPosts = [
     date: "2021-02-09T10:19:32",
     date_gmt: "2021-02-09T15:19:32",
     guid: { rendered: "https://maqay.org/?p=1305" },
-    modified: "2021-02-09T10:19:32",
-    modified_gmt: "2021-02-09T15:19:32",
+    modified: "2021-02-10T10:57:31",
+    modified_gmt: "2021-02-10T15:57:31",
     slug: "propuesta-052",
     status: "publish",
     type: "post",
@@ -10260,12 +9885,12 @@ const allPosts = [
     title: { rendered: "Propuesta 052" },
     content: {
       rendered:
-        "<p>Aprobar una Ley de Protecci\u00f3n y Bienestar Animal que reconozca la condici\u00f3n de ser sensible de todos los animales terrestres y acu\u00e1ticos en cautiverio o en libertad, y que proponga lineamientos para su tenencia, aprovechamiento y beneficio para consumo humano garantizando el bienestar animal, la salud p\u00fablica y ambiental. </p>\n",
+        "<p>Aprobar Ley de Protecci\u00f3n y Bienestar Animal que reconozca la condici\u00f3n de ser sensible de todos los<br />\nanimales terrestres y acu\u00e1ticos en cautiverio o en libertad. </p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Aprobar una Ley de Protecci\u00f3n y Bienestar Animal que reconozca la condici\u00f3n de ser sensible de todos los animales terrestres y acu\u00e1ticos en cautiverio o en libertad, y que proponga lineamientos para su tenencia, aprovechamiento y beneficio para consumo humano garantizando el bienestar animal, la salud p\u00fablica y ambiental.</p>\n",
+        "<p>Aprobar Ley de Protecci\u00f3n y Bienestar Animal que reconozca la condici\u00f3n de ser sensible de todos los animales terrestres y acu\u00e1ticos en cautiverio o en libertad.</p>\n",
       protected: false,
     },
     author: 2,
@@ -10287,10 +9912,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -10300,14 +9922,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1305/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1313,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1305/revisions/1313",
+          id: 1583,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1305/revisions/1583",
         },
       ],
       "wp:attachment": [
@@ -10371,10 +9993,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -10455,10 +10074,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -10539,10 +10155,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -10623,10 +10236,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -10707,10 +10317,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -10791,10 +10398,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -10875,10 +10479,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -10959,10 +10560,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -11007,8 +10605,8 @@ const allPosts = [
     date: "2021-02-09T10:12:48",
     date_gmt: "2021-02-09T15:12:48",
     guid: { rendered: "https://maqay.org/?p=1289" },
-    modified: "2021-02-09T10:12:48",
-    modified_gmt: "2021-02-09T15:12:48",
+    modified: "2021-02-10T11:05:28",
+    modified_gmt: "2021-02-10T16:05:28",
     slug: "propuesta-147",
     status: "publish",
     type: "post",
@@ -11016,12 +10614,12 @@ const allPosts = [
     title: { rendered: "Propuesta 147" },
     content: {
       rendered:
-        "<p>Impulsar un Programa Nacional de Gesti\u00f3n de Residuos (\u201cCiudades Limpias y Saludables\u201d) con el doble objetivo de crear miles de empleos que no requieren gran experiencia o formaci\u00f3n acad\u00e9mica (recolectores de basura, reducidores de residuos org\u00e1nicos y no org\u00e1nicos) y contribuir en la lucha contra la propagaci\u00f3n actual y futuras pandemias.</p>\n",
+        "<p>Impulsar un Programa Nacional de Gesti\u00f3n de Residuos con el doble objetivo de crear miles de empleos que no requieren gran experiencia o formaci\u00f3n acad\u00e9mica (recolectores de basura, reducidores de residuos) y evitar la propagaci\u00f3n de la actual y futuras pandemias.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Impulsar un Programa Nacional de Gesti\u00f3n de Residuos (\u201cCiudades Limpias y Saludables\u201d) con el doble objetivo de crear miles de empleos que no requieren gran experiencia o formaci\u00f3n acad\u00e9mica (recolectores de basura, reducidores de residuos org\u00e1nicos y no org\u00e1nicos) y contribuir en la lucha contra la propagaci\u00f3n actual y futuras pandemias.</p>\n",
+        "<p>Impulsar un Programa Nacional de Gesti\u00f3n de Residuos con el doble objetivo de crear miles de empleos que no requieren gran experiencia o formaci\u00f3n acad\u00e9mica (recolectores de basura, reducidores de residuos) y evitar la propagaci\u00f3n de la actual y futuras pandemias.</p>\n",
       protected: false,
     },
     author: 2,
@@ -11043,10 +10641,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -11056,14 +10651,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1289/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1292,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1289/revisions/1292",
+          id: 1589,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1289/revisions/1589",
         },
       ],
       "wp:attachment": [
@@ -11127,10 +10722,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -11211,10 +10803,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -11295,10 +10884,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -11379,10 +10965,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -11463,10 +11046,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -11547,10 +11127,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -11631,10 +11208,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -11715,10 +11289,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -11799,10 +11370,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -11883,10 +11451,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -11967,10 +11532,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -12051,10 +11613,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -12133,10 +11692,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -12217,10 +11773,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -12253,90 +11806,6 @@ const allPosts = [
           taxonomy: "post_tag",
           embeddable: true,
           href: "https://maqay.org/wp-json/wp/v2/tags?post=1254",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 1251,
-    date: "2021-02-09T09:52:33",
-    date_gmt: "2021-02-09T14:52:33",
-    guid: { rendered: "https://maqay.org/?p=1251" },
-    modified: "2021-02-09T09:52:33",
-    modified_gmt: "2021-02-09T14:52:33",
-    slug: "propuesta-142",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/propuesta-142/",
-    title: { rendered: "Propuesta 142" },
-    content: {
-      rendered:
-        "<p>Prohibir el uso de combustibles contaminantes en f\u00e1bricas, empresas agropecuarias, y otras actividades productivas, brindando exoneraciones tributarias incrementales para promover el uso de veh\u00edculos el\u00e9ctricos.</p>\n",
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>Prohibir el uso de combustibles contaminantes en f\u00e1bricas, empresas agropecuarias, y otras actividades productivas, brindando exoneraciones tributarias incrementales para promover el uso de veh\u00edculos el\u00e9ctricos.</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 0,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [23],
-    tags: [41, 55],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1251" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=1251",
-        },
-      ],
-      "version-history": [
-        {
-          count: 1,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1251/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 1253,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1251/revisions/1253",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=1251" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=1251",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=1251",
         },
       ],
       curies: [
@@ -12385,10 +11854,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -12421,6 +11887,87 @@ const allPosts = [
           taxonomy: "post_tag",
           embeddable: true,
           href: "https://maqay.org/wp-json/wp/v2/tags?post=1249",
+        },
+      ],
+      curies: [
+        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
+      ],
+    },
+  },
+  {
+    id: 1251,
+    date: "2021-02-09T09:52:33",
+    date_gmt: "2021-02-09T14:52:33",
+    guid: { rendered: "https://maqay.org/?p=1251" },
+    modified: "2021-02-09T09:52:33",
+    modified_gmt: "2021-02-09T14:52:33",
+    slug: "propuesta-142",
+    status: "publish",
+    type: "post",
+    link: "https://maqay.org/propuesta-142/",
+    title: { rendered: "Propuesta 142" },
+    content: {
+      rendered:
+        "<p>Prohibir el uso de combustibles contaminantes en f\u00e1bricas, empresas agropecuarias, y otras actividades productivas, brindando exoneraciones tributarias incrementales para promover el uso de veh\u00edculos el\u00e9ctricos.</p>\n",
+      protected: false,
+    },
+    excerpt: {
+      rendered:
+        "<p>Prohibir el uso de combustibles contaminantes en f\u00e1bricas, empresas agropecuarias, y otras actividades productivas, brindando exoneraciones tributarias incrementales para promover el uso de veh\u00edculos el\u00e9ctricos.</p>\n",
+      protected: false,
+    },
+    author: 2,
+    featured_media: 0,
+    comment_status: "open",
+    ping_status: "open",
+    sticky: false,
+    template: "",
+    format: "standard",
+    meta: {
+      _et_pb_use_builder: "",
+      _et_pb_old_content: "",
+      _et_gb_content_width: "",
+    },
+    categories: [23],
+    tags: [41, 55],
+    _links: {
+      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1251" }],
+      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
+      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
+      author: [
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
+      ],
+      replies: [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/comments?post=1251",
+        },
+      ],
+      "version-history": [
+        {
+          count: 1,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1251/revisions",
+        },
+      ],
+      "predecessor-version": [
+        {
+          id: 1253,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1251/revisions/1253",
+        },
+      ],
+      "wp:attachment": [
+        { href: "https://maqay.org/wp-json/wp/v2/media?parent=1251" },
+      ],
+      "wp:term": [
+        {
+          taxonomy: "category",
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/categories?post=1251",
+        },
+        {
+          taxonomy: "post_tag",
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/tags?post=1251",
         },
       ],
       curies: [
@@ -12469,10 +12016,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -12553,10 +12097,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -12637,10 +12178,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -12721,10 +12259,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -12805,10 +12340,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -12889,10 +12421,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -12973,10 +12502,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -13057,10 +12583,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -13141,10 +12664,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -13224,10 +12744,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -13306,10 +12823,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -13390,10 +12904,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -13474,10 +12985,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -13558,10 +13066,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -13642,10 +13147,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -13726,10 +13228,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -13810,10 +13309,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -13894,10 +13390,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -13942,8 +13435,8 @@ const allPosts = [
     date: "2021-02-09T09:36:22",
     date_gmt: "2021-02-09T14:36:22",
     guid: { rendered: "https://maqay.org/?p=1207" },
-    modified: "2021-02-09T09:36:22",
-    modified_gmt: "2021-02-09T14:36:22",
+    modified: "2021-02-10T11:03:57",
+    modified_gmt: "2021-02-10T16:03:57",
     slug: "propuesta-136",
     status: "publish",
     type: "post",
@@ -13951,12 +13444,12 @@ const allPosts = [
     title: { rendered: "Propuesta 136" },
     content: {
       rendered:
-        "<p>Mejorar la institucionalidad ambiental: (i) Fortalecer al Ministerio del Ambiente (MINAM), el Organismo de Evaluaci\u00f3n y Fiscalizaci\u00f3n Ambiental (OEFA) y el Sistema de Evaluaci\u00f3n e Impacto Ambiental; (ii) Debatir la adscripci\u00f3n del Servicio Nacional Forestal y Fauna Silvestre (SERFOR) y la Autoridad Nacional del Agua (ANA) al MINAM.</p>\n",
+        "<p>Mejorar la institucionalidad ambiental: (i) Fortalecer al MINAM, el OEFA y el Sistema de Evaluaci\u00f3n e Impacto Ambiental; (ii) Debatir la adscripci\u00f3n del SERFOR y la Autoridad Nacional del Agua (ANA) al MINAM.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Mejorar la institucionalidad ambiental: (i) Fortalecer al Ministerio del Ambiente (MINAM), el Organismo de Evaluaci\u00f3n y Fiscalizaci\u00f3n Ambiental (OEFA) y el Sistema de Evaluaci\u00f3n e Impacto Ambiental; (ii) Debatir la adscripci\u00f3n del Servicio Nacional Forestal y Fauna Silvestre (SERFOR) y la Autoridad Nacional del Agua (ANA) al MINAM.</p>\n",
+        "<p>Mejorar la institucionalidad ambiental: (i) Fortalecer al MINAM, el OEFA y el Sistema de Evaluaci\u00f3n e Impacto Ambiental; (ii) Debatir la adscripci\u00f3n del SERFOR y la Autoridad Nacional del Agua (ANA) al MINAM.</p>\n",
       protected: false,
     },
     author: 2,
@@ -13978,10 +13471,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -13991,14 +13481,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1207/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1215,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1207/revisions/1215",
+          id: 1588,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1207/revisions/1588",
         },
       ],
       "wp:attachment": [
@@ -14062,10 +13552,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -14146,10 +13633,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -14230,10 +13714,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -14314,10 +13795,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -14398,10 +13876,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -14434,90 +13909,6 @@ const allPosts = [
           taxonomy: "post_tag",
           embeddable: true,
           href: "https://maqay.org/wp-json/wp/v2/tags?post=1197",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 1194,
-    date: "2021-02-09T09:32:12",
-    date_gmt: "2021-02-09T14:32:12",
-    guid: { rendered: "https://maqay.org/?p=1194" },
-    modified: "2021-02-09T09:32:12",
-    modified_gmt: "2021-02-09T14:32:12",
-    slug: "propuesta-047",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/propuesta-047/",
-    title: { rendered: "Propuesta 047" },
-    content: {
-      rendered:
-        "<p>Crear un Programa Nacional de Compras Responsables con uso de madera de origen legal.</p>\n",
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>Crear un Programa Nacional de Compras Responsables con uso de madera de origen legal.</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 0,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [23],
-    tags: [38, 46, 40],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1194" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=1194",
-        },
-      ],
-      "version-history": [
-        {
-          count: 1,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1194/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 1201,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1194/revisions/1201",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=1194" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=1194",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=1194",
         },
       ],
       curies: [
@@ -14566,10 +13957,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -14602,6 +13990,87 @@ const allPosts = [
           taxonomy: "post_tag",
           embeddable: true,
           href: "https://maqay.org/wp-json/wp/v2/tags?post=1187",
+        },
+      ],
+      curies: [
+        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
+      ],
+    },
+  },
+  {
+    id: 1194,
+    date: "2021-02-09T09:32:12",
+    date_gmt: "2021-02-09T14:32:12",
+    guid: { rendered: "https://maqay.org/?p=1194" },
+    modified: "2021-02-09T09:32:12",
+    modified_gmt: "2021-02-09T14:32:12",
+    slug: "propuesta-047",
+    status: "publish",
+    type: "post",
+    link: "https://maqay.org/propuesta-047/",
+    title: { rendered: "Propuesta 047" },
+    content: {
+      rendered:
+        "<p>Crear un Programa Nacional de Compras Responsables con uso de madera de origen legal.</p>\n",
+      protected: false,
+    },
+    excerpt: {
+      rendered:
+        "<p>Crear un Programa Nacional de Compras Responsables con uso de madera de origen legal.</p>\n",
+      protected: false,
+    },
+    author: 2,
+    featured_media: 0,
+    comment_status: "open",
+    ping_status: "open",
+    sticky: false,
+    template: "",
+    format: "standard",
+    meta: {
+      _et_pb_use_builder: "",
+      _et_pb_old_content: "",
+      _et_gb_content_width: "",
+    },
+    categories: [23],
+    tags: [38, 46, 40],
+    _links: {
+      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1194" }],
+      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
+      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
+      author: [
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
+      ],
+      replies: [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/comments?post=1194",
+        },
+      ],
+      "version-history": [
+        {
+          count: 1,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1194/revisions",
+        },
+      ],
+      "predecessor-version": [
+        {
+          id: 1201,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1194/revisions/1201",
+        },
+      ],
+      "wp:attachment": [
+        { href: "https://maqay.org/wp-json/wp/v2/media?parent=1194" },
+      ],
+      "wp:term": [
+        {
+          taxonomy: "category",
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/categories?post=1194",
+        },
+        {
+          taxonomy: "post_tag",
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/tags?post=1194",
         },
       ],
       curies: [
@@ -14650,10 +14119,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -14734,10 +14200,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -14818,10 +14281,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -14902,10 +14362,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -14986,10 +14443,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -15070,10 +14524,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -15154,10 +14605,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -15238,10 +14686,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -15322,10 +14767,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -15406,10 +14848,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -15490,10 +14929,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -15574,10 +15010,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -15658,10 +15091,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -15740,10 +15170,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -15824,10 +15251,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -15908,10 +15332,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -15992,10 +15413,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -16076,10 +15494,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -16124,8 +15539,8 @@ const allPosts = [
     date: "2021-02-09T09:20:09",
     date_gmt: "2021-02-09T14:20:09",
     guid: { rendered: "https://maqay.org/?p=1153" },
-    modified: "2021-02-09T09:20:09",
-    modified_gmt: "2021-02-09T14:20:09",
+    modified: "2021-02-10T11:01:54",
+    modified_gmt: "2021-02-10T16:01:54",
     slug: "propuesta-088",
     status: "publish",
     type: "post",
@@ -16133,12 +15548,12 @@ const allPosts = [
     title: { rendered: "Propuesta 088" },
     content: {
       rendered:
-        "<p>Crear un programa de generaci\u00f3n de empleo e incremento de capacidades, luchando contra la deforestaci\u00f3n y el cambio clim\u00e1tico. Capacitar a las comunidades nativas y colonos de la selva en emprendimientos para el manejo ambiental de los bosques y servicio forestal, manteniendo la entidad cultural amaz\u00f3nica y la valoraci\u00f3n de las practicas ancestrales y desarrollo arm\u00f3nico del poblador amaz\u00f3nico de la selva y su entorno.</p>\n",
+        "<p>Crear un programa de generaci\u00f3n de empleo e incremento de capacidades, luchando contra la deforestaci\u00f3n y el cambio clim\u00e1tico. Capacitar a las comunidades nativas y colonos de la selva en emprendimientos para el manejo ambiental de los bosques y servicio forestal. </p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Crear un programa de generaci\u00f3n de empleo e incremento de capacidades, luchando contra la deforestaci\u00f3n y el cambio clim\u00e1tico. Capacitar a las comunidades nativas y colonos de la selva en emprendimientos para el manejo ambiental de los bosques y servicio forestal, manteniendo la entidad cultural amaz\u00f3nica y la valoraci\u00f3n de las practicas ancestrales y desarrollo [&hellip;]</p>\n",
+        "<p>Crear un programa de generaci\u00f3n de empleo e incremento de capacidades, luchando contra la deforestaci\u00f3n y el cambio clim\u00e1tico. Capacitar a las comunidades nativas y colonos de la selva en emprendimientos para el manejo ambiental de los bosques y servicio forestal.</p>\n",
       protected: false,
     },
     author: 2,
@@ -16160,10 +15575,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -16173,14 +15585,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1153/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1156,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1153/revisions/1156",
+          id: 1586,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1153/revisions/1586",
         },
       ],
       "wp:attachment": [
@@ -16244,10 +15656,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -16328,10 +15737,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -16376,8 +15782,8 @@ const allPosts = [
     date: "2021-02-09T09:16:56",
     date_gmt: "2021-02-09T14:16:56",
     guid: { rendered: "https://maqay.org/?p=1139" },
-    modified: "2021-02-09T09:16:56",
-    modified_gmt: "2021-02-09T14:16:56",
+    modified: "2021-02-10T10:59:31",
+    modified_gmt: "2021-02-10T15:59:31",
     slug: "propuesta-087",
     status: "publish",
     type: "post",
@@ -16385,12 +15791,12 @@ const allPosts = [
     title: { rendered: "Propuesta 087" },
     content: {
       rendered:
-        "<p>Promover  peque\u00f1as irrigaciones, uso masivo de sistemas de riego tecnificado, tecnolog\u00edas de siembra de agua, y recuperaci\u00f3n de ecosistemas h\u00eddricos naturales, principalmente altoandinos, con participaci\u00f3n del Estado y del sector privado, como estrategias para enfrentar las consecuencias del cambio clim\u00e1tico en la agricultura peruana. Incluyendo  el desarrollo de esquemas de retribuci\u00f3n por servicios ambientales hidrol\u00f3gicos, aplicables a la variabilidad del contexto natural y socioecon\u00f3mico del medio rural peruano.</p>\n",
+        "<p>Promover  peque\u00f1as irrigaciones, uso masivo de sistemas de riego tecnificado, tecnolog\u00edas de siembra de agua, y recuperaci\u00f3n de ecosistemas h\u00eddricos naturales, principalmente altoandinos, con participaci\u00f3n del Estado y del sector privado, como estrategias para enfrentar el cambio clim\u00e1tico.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Promover peque\u00f1as irrigaciones, uso masivo de sistemas de riego tecnificado, tecnolog\u00edas de siembra de agua, y recuperaci\u00f3n de ecosistemas h\u00eddricos naturales, principalmente altoandinos, con participaci\u00f3n del Estado y del sector privado, como estrategias para enfrentar las consecuencias del cambio clim\u00e1tico en la agricultura peruana. Incluyendo el desarrollo de esquemas de retribuci\u00f3n por servicios ambientales hidrol\u00f3gicos, [&hellip;]</p>\n",
+        "<p>Promover peque\u00f1as irrigaciones, uso masivo de sistemas de riego tecnificado, tecnolog\u00edas de siembra de agua, y recuperaci\u00f3n de ecosistemas h\u00eddricos naturales, principalmente altoandinos, con participaci\u00f3n del Estado y del sector privado, como estrategias para enfrentar el cambio clim\u00e1tico.</p>\n",
       protected: false,
     },
     author: 2,
@@ -16412,10 +15818,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -16425,14 +15828,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1139/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1152,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1139/revisions/1152",
+          id: 1585,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1139/revisions/1585",
         },
       ],
       "wp:attachment": [
@@ -16496,10 +15899,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -16580,10 +15980,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -16664,10 +16061,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -16748,10 +16142,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -16832,10 +16223,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -16916,10 +16304,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -17000,10 +16385,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -17084,10 +16466,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -17168,10 +16547,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -17252,10 +16628,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -17336,10 +16709,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -17420,10 +16790,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -17504,10 +16871,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -17588,10 +16952,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -17672,10 +17033,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -17756,10 +17114,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -17840,10 +17195,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -17924,10 +17276,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -18008,10 +17357,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -18092,10 +17438,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -18176,10 +17519,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -18260,10 +17600,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -18344,10 +17681,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -18428,10 +17762,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -18512,10 +17843,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -18596,10 +17924,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -18680,10 +18005,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -18764,10 +18086,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -18848,10 +18167,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -18932,10 +18248,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -19016,10 +18329,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -19100,10 +18410,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -19184,10 +18491,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -19268,10 +18572,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -19352,10 +18653,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -19436,10 +18734,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -19520,10 +18815,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -19603,10 +18895,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -19687,10 +18976,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -19771,10 +19057,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -19855,10 +19138,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -19937,10 +19217,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -20019,10 +19296,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -20101,10 +19375,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -20185,10 +19456,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -20267,10 +19535,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -20351,10 +19616,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -20435,10 +19697,7 @@ const allPosts = [
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
@@ -20478,1837 +19737,8 @@ const allPosts = [
       ],
     },
   },
-  {
-    id: 915,
-    date: "2020-12-15T10:25:48",
-    date_gmt: "2020-12-15T15:25:48",
-    guid: { rendered: "https://maqay.org/?p=915" },
-    modified: "2020-12-15T11:18:13",
-    modified_gmt: "2020-12-15T16:18:13",
-    slug: "pasantias-maqay-2021",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/pasantias-maqay-2021/",
-    title: { rendered: "PASANT\u00cdAS MAQAY 2021" },
-    content: {
-      rendered:
-        '<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.7.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_row _builder_version=\u00bb4.7.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.7.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_text admin_label=\u00bbTexto\u00bb _builder_version=\u00bb4.7.6&#8243; _module_preset=\u00bbdefault\u00bb hover_enabled=\u00bb0&#8243; sticky_enabled=\u00bb0&#8243; text_orientation=\u00bbjustified\u00bb text_font_size=\u00bb15px\u00bb]</p>\n<h1><strong><a href="https://maqay.org/wp-content/uploads/2020/12/PASANTIAS-MAQAY-2021.pdf" rel="attachment wp-att-918">PASANT\u00cdAS MAQAY 2021</a></strong></h1>\n<h1>\u00a0</h1>\n<h1><strong>T\u00e9rminos de Referencia\u00a0</strong></h1>\n<p>&nbsp;</p>\n<h3><strong>INFORMACI\u00d3N GENERAL\u00a0</strong></h3>\n<p>&nbsp;</p>\n<p>Duraci\u00f3n: 3 meses prorrogable a 6 meses.</p>\n<p>Lugar: Remoto.</p>\n<p>Periodo: Lunes 18 de enero al jueves 18 de abril del 2020.</p>\n<p>&nbsp;</p>\n<h3><strong>OPORTUNIDAD DE APRENDIZAJE\u00a0</strong></h3>\n<p>&nbsp;</p>\n<p>La ONG Maqay ofrece la oportunidad a estudiantes de \u00faltimos a\u00f1os de carrera o profesionales reci\u00e9n graduados que quieran adquirir conocimiento en nuestra organizaci\u00f3n. La pasant\u00eda permitir\u00e1 contribuir con los proyectos ambientales relacionados con la educaci\u00f3n ambiental, el acceso a informaci\u00f3n p\u00fablica, la participaci\u00f3n ciudadana y el acceso a la justicia en temas ambientales. La pasant\u00eda se llevar\u00e1 a cabo en un ambiente de trabajo estimulante, en el que la o el pasante podr\u00e1 desarrollar su capacidad de trabajo en equipo, su creatividad y otras competencias profesionales. Adem\u00e1s de adquirir conocimientos interdisciplinarios.</p>\n<p>&nbsp;</p>\n<h3><strong>PERFILES SOLICITADOS\u00a0</strong></h3>\n<p>&nbsp;</p>\n<ul>\n<li>2 estudiantes a partir de segundo a\u00f1o o egresados de la carrera de Derecho.</li>\n<li>4 estudiantes de \u00faltimo a\u00f1o o egresados de la carrera de Comunicaciones, Marketing o afines.</li>\n<li>2 estudiantes o egresados de Dise\u00f1o Gr\u00e1fico.</li>\n<li>1 estudiante de \u00faltimo a\u00f1o o egresado de Educaci\u00f3n, psicolog\u00eda o afines.</li>\n</ul>\n<p>&nbsp;</p>\n<h3><strong>DESCRIPCI\u00d3N DE LA PASANT\u00cdA\u00a0</strong></h3>\n<p>&nbsp;</p>\n<p>Como parte de la pasant\u00eda las o los pasantes, apoyaran en las siguientes tareas:</p>\n<p>&nbsp;</p>\n<p><strong>Para Comunicaciones, Marketing o afines:\u00a0</strong></p>\n<ul>\n<li>Desarrollar investigaciones, materiales de comunicaci\u00f3n para redes sociales y la p\u00e1gina web en materia ambiental.</li>\n<li>Apoyar en la elaboraci\u00f3n de reportes, boletines, art\u00edculos de opini\u00f3n.</li>\n<li>Apoyar en el manejo de redes sociales y producci\u00f3n de la p\u00e1gina web.</li>\n<li>Elaboraci\u00f3n e implementaci\u00f3n de proyectos ambientales</li>\n<li>Participar de grupos de trabajo, comisiones, mesas y eventos.</li>\n<li>Coordinaci\u00f3n con diversos grupos de inter\u00e9s, empresas, entidades p\u00fablicas vinculadas con los proyectos a implementar.</li>\n<li>Desarrollar otras actividades que la persona supervisora estime necesaria para cumplir con los objetivos establecidos.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Para Derecho:\u00a0</strong></p>\n<ul>\n<li>Revisi\u00f3n y an\u00e1lisis de las propuestas normativas en materia ambiental</li>\n<li>Apoyar en la atenci\u00f3n de consultas jur\u00eddicas en materia ambiental.</li>\n<li>Elaboraci\u00f3n de res\u00famenes y reportes jur\u00eddicos ambientales</li>\n<li>Elaboraci\u00f3n e implementaci\u00f3n de proyectos ambientales</li>\n<li>Participar de grupos de trabajo, comisiones, mesas y eventos.</li>\n<li>Coordinaci\u00f3n con diversos grupos de inter\u00e9s, empresas, entidades p\u00fablicas vinculadas con los proyectos a implementar.</li>\n<li>Desarrollar otras actividades que la persona supervisora estime necesaria para cumplir con los objetivos establecidos.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Para Dise\u00f1o Gr\u00e1fico:\u00a0</strong></p>\n<ul>\n<li>Elaborar material educativo para su difusi\u00f3n, en coordinaci\u00f3n con las/los otras/os pasantes.</li>\n<li>Participar en grupos de trabajo, comisiones, mesas y eventos.</li>\n<li>Participar en la elaboraci\u00f3n de reportes y material de comunicaci\u00f3n.</li>\n<li>Desarrollar otras actividades que la persona supervisora estime necesaria para cumplir con los objetivos establecidos.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Para Educaci\u00f3n, Psicolog\u00eda o afines:</strong></p>\n<p>&nbsp;</p>\n<ul>\n<li>Elaboraci\u00f3n de material educativo ambiental.</li>\n<li>Elaboraci\u00f3n e implementaci\u00f3n de proyectos ambientales.</li>\n<li>Participar en talleres, grupos de trabajo, comisiones, mesas y eventos.</li>\n<li>Coordinaci\u00f3n con diversos grupos de inter\u00e9s, empresas, entidades p\u00fablicas vinculadas con los proyectos a implementar.</li>\n<li>Desarrollar otras actividades que la persona supervisora estime necesaria para cumplir con los objetivos establecidos.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Competencias:\u00a0</strong></p>\n<p>&nbsp;</p>\n<ul>\n<li>Capacidad de expresi\u00f3n escrita, clara y efectiva.</li>\n<li>Creatividad, en producci\u00f3n de piezas de comunicaci\u00f3n y gesti\u00f3n de proyectos.</li>\n<li>Conocimiento de los enfoques de derecho, de interculturalidad y de g\u00e9nero (deseable).</li>\n<li>Idioma ingl\u00e9s o quechua (deseable).</li>\n</ul>\n<p>&nbsp;</p>\n<h3><strong>OBJETIVOS DE LA PASANT\u00cdA\u00a0</strong></h3>\n<p>&nbsp;</p>\n<p>Tras el periodo de pasant\u00eda, la o el pasante:</p>\n<p>&nbsp;</p>\n<ul>\n<li>Habr\u00e1 adquirido experiencia en la dimensi\u00f3n del trabajo de una organizaci\u00f3n sin fines de lucro.</li>\n<li>Habr\u00e1 adquirido conocimiento sobre los derechos de acceso a la informaci\u00f3n, participaci\u00f3n ciudadana y acceso a la justicia, adem\u00e1s de otros temas ambientales.</li>\n<li>Habr\u00e1 fortalecido sus capacidades anal\u00edtica, comunicacional e interpersonal.</li>\n<li>Habr\u00e1 profundizado en los conocimientos acerca del enfoque ambientales, de derechos humanos y enfoque de g\u00e9nero.</li>\n<li>Habr\u00e1 mejorado su capacidad de trabajo en equipo.</li>\n</ul>\n<p>&nbsp;</p>\n<h3><strong>PRESENTACI\u00d3N DE PROPUESTAS\u00a0</strong></h3>\n<p>&nbsp;</p>\n<p>Las pasant\u00edas no son remuneradas; sin embargo, la organizaci\u00f3n asumir\u00e1 pasajes y vi\u00e1ticos en caso las actividades lo requieran. Adem\u00e1s de asumir los costos por el servicio de internet, en caso la/el pasante lo requiera.</p>\n<p>&nbsp;</p>\n<p>Las pasant\u00edas son por un per\u00edodo de 3 a 6 meses, al final del cual se emitir\u00e1 el certificado correspondiente.</p>\n<p>&nbsp;</p>\n<h3><strong>CRONOGRAMA</strong></h3>\n<p>&nbsp;</p>\n<p>Las personas interesadas deber\u00e1n enviar su Curr\u00edculum Vitae (Hoja de vida) en PDF, del 15 de diciembre del 2020 al 30 de diciembre del 2020, indicando en el asunto del correo la referencia: \u201cPasant\u00eda Maqay\u201d.</p>\n<p>&nbsp;</p>\n<p>Las ofertas se recibir\u00e1n por correo electr\u00f3nico, y deber\u00e1n ser remitidas a la siguiente direcci\u00f3n a: \u00abhola@maqay.org\u00bb.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]</p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.7.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_row _builder_version=\u00bb4.7.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.7.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_text admin_label=\u00bbTexto\u00bb _builder_version=\u00bb4.7.6&#8243; _module_preset=\u00bbdefault\u00bb hover_enabled=\u00bb0&#8243; sticky_enabled=\u00bb0&#8243; text_orientation=\u00bbjustified\u00bb text_font_size=\u00bb15px\u00bb] PASANT\u00cdAS MAQAY 2021 \u00a0 T\u00e9rminos de Referencia\u00a0 &nbsp; INFORMACI\u00d3N GENERAL\u00a0 &nbsp; Duraci\u00f3n: 3 meses prorrogable a 6 meses. Lugar: Remoto. Periodo: Lunes 18 de enero al jueves 18 de abril del 2020. &nbsp; OPORTUNIDAD DE APRENDIZAJE\u00a0 &nbsp; La ONG [&hellip;]</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 925,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "on",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [11],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/915" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=915",
-        },
-      ],
-      "version-history": [
-        {
-          count: 7,
-          href: "https://maqay.org/wp-json/wp/v2/posts/915/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 928,
-          href: "https://maqay.org/wp-json/wp/v2/posts/915/revisions/928",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/925",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=915" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=915",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=915",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 868,
-    date: "2020-11-14T13:40:28",
-    date_gmt: "2020-11-14T18:40:28",
-    guid: { rendered: "https://maqay.org/?p=868" },
-    modified: "2020-11-14T13:42:07",
-    modified_gmt: "2020-11-14T18:42:07",
-    slug: "escuela-de-participacion-ambiental",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/escuela-de-participacion-ambiental/",
-    title: {
-      rendered: "Escuela de Participaci\u00f3n Ambiental &#8211; MAQAY",
-    },
-    content: {
-      rendered:
-        "<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_row _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_gallery gallery_ids=\u00bb876,874,875,879,878,885,886,872,873&#8243; fullwidth=\u00bbon\u00bb _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][/et_pb_gallery][et_pb_text admin_label=\u00bbTexto\u00bb _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb text_orientation=\u00bbjustified\u00bb]</p>\n<p>Durante el 2020, hemos desarrollado diversas acciones de educaci\u00f3n ambiental, entre ellas la Escuela de Participaci\u00f3n Ambiental</p>\n<p>&nbsp;</p>\n<h2><strong>\u00bfQu\u00e9 es la Escuela de Participaci\u00f3n Ambiental?</strong></h2>\n<p>&nbsp;</p>\n<p>La Escuela de Participaci\u00f3n Ambiental de Maqay es una iniciativa de educaci\u00f3n ambiental organizada por nuestra ONG, que tiene como objetivo fortalecer las capacidades en materia ambiental de ni\u00f1os y ni\u00f1as, docentes de instituciones educativas, adolescentes y j\u00f3venes de diferentes partes del pa\u00eds. Como parte de esta iniciativa hemos desarrollado el Curso de Ciudadan\u00eda Ambiental.</p>\n<p><strong>\u00a0</strong></p>\n<h2><strong>\u00bfQu\u00e9 es el Curso de Ciudadan\u00eda Ambiental? </strong></h2>\n<p>Es un curso dirigido a adolescentes de 4to y 5to grado de secundaria, que busca fortalecer la ciudadan\u00eda y cultura ambiental, dar a conocer los principales derechos y deberes ambientales y generar una visi\u00f3n cr\u00edtica acerca de la gobernanza ambiental en nuestro pa\u00eds. Como parte del Curso se han desarrollado sesiones acerca de los principales problemas que afectan al ambiente, los conflictos que se dan en torno a las actividades extractivas en nuestro pa\u00eds. Para ello hemos utilizado casos reales como la miner\u00eda ilegal en Madre de Dios, el contaminaci\u00f3n en la provincia de Espinar, el reasentamiento\u00a0 poblacional,\u00a0 el conflicto social en Bagua, la consulta previa, la organizaci\u00f3n del estado y la movilizaci\u00f3n social.</p>\n<p><strong>\u00a0</strong></p>\n<h2><strong>\u00a0\u00bfC\u00f3mo se desarrollo el Curso de Ciudadan\u00eda Ambiental en el 2020?</strong></h2>\n<p>&nbsp;</p>\n<p>La primera edici\u00f3n del curso se llev\u00f3 a cabo con 50 alumnos del 4to a\u00f1o de secundaria del Colegio Ciencias, de Cusco. Considerando la situaci\u00f3n originada por la Pandemia, y dado que los alumnos no contaban con los medios econ\u00f3micos ni tecnol\u00f3gicos para participar en clases virtuales. El curso se llev\u00f3 a cabo \u00fanicamente a trav\u00e9s de WhatsApp, dado que era la \u00fanica aplicaci\u00f3n a la que todos los alumnos ten\u00edan acceso. Este Curso se desarroll\u00f3 en 10 sesiones los d\u00edas viernes de los meses de Julio a octubre del 2020.</p>\n<p>&nbsp;</p>\n<p>Para el desarrollo de las sesiones, se elaboraron videos, im\u00e1genes informativas, y pastillas de informaci\u00f3n, a trav\u00e9s de los cuales se gener\u00f3 el debate y se propici\u00f3 la participaci\u00f3n de los alumnos.</p>\n<p>&nbsp;</p>\n<h2><strong>\u00bfQu\u00e9 temas se abordaron como parte del Curso de Ciudadan\u00eda Ambiental?</strong></h2>\n<p>&nbsp;</p>\n<ul>\n<li>Sesi\u00f3n N\u00ba 1 Deberes y derechos ambientales</li>\n<li>Sesi\u00f3n N\u00ba 2 El cambio clim\u00e1tico</li>\n<li>Sesi\u00f3n N\u00ba 3, La miner\u00eda ilegal en Madre De Dios</li>\n<li>Sesi\u00f3n N\u00ba 4, La contaminaci\u00f3n ambiental en Espinar, Cusco</li>\n<li>Sesi\u00f3n N\u00ba 5, El reasentamiento de la Ciudad de Morococha, Jun\u00edn</li>\n<li>Sesi\u00f3n N\u00ba 6, El conflicto social de Bagua</li>\n<li>Sesi\u00f3n N\u00ba 7, El Estado</li>\n<li>Sesi\u00f3n N\u00ba 8, La movilizaci\u00f3n social en Chile</li>\n<li>Sesi\u00f3n N\u00ba 9, La organizaci\u00f3n del Estado y la importancia de la divisi\u00f3n de poderes</li>\n<li>Sesi\u00f3n N\u00ba 10, La democracia</li>\n</ul>\n<p>[/et_pb_text][et_pb_gallery gallery_ids=\u00bb896,897,891,890,888,889,893&#8243; fullwidth=\u00bbon\u00bb _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb hover_enabled=\u00bb0&#8243; sticky_enabled=\u00bb0&#8243;][/et_pb_gallery][/et_pb_column][/et_pb_row][/et_pb_section]</p>\n",
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_row _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_gallery gallery_ids=\u00bb876,874,875,879,878,885,886,872,873&#8243; fullwidth=\u00bbon\u00bb _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][/et_pb_gallery][et_pb_text admin_label=\u00bbTexto\u00bb _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb text_orientation=\u00bbjustified\u00bb] Durante el 2020, hemos desarrollado diversas acciones de educaci\u00f3n ambiental, entre ellas la Escuela de Participaci\u00f3n Ambiental &nbsp; \u00bfQu\u00e9 es la Escuela de Participaci\u00f3n Ambiental? &nbsp; La Escuela de Participaci\u00f3n Ambiental de Maqay es una iniciativa de educaci\u00f3n [&hellip;]</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 894,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "on",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [9],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/868" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=868",
-        },
-      ],
-      "version-history": [
-        {
-          count: 6,
-          href: "https://maqay.org/wp-json/wp/v2/posts/868/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 902,
-          href: "https://maqay.org/wp-json/wp/v2/posts/868/revisions/902",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/894",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=868" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=868",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=868",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 822,
-    date: "2020-11-09T00:17:04",
-    date_gmt: "2020-11-09T05:17:04",
-    guid: { rendered: "https://maqay.org/?p=822" },
-    modified: "2020-11-09T00:36:23",
-    modified_gmt: "2020-11-09T05:36:23",
-    slug: "escuela-de-formacion-maqay-2020-i-y-ii",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/escuela-de-formacion-maqay-2020-i-y-ii/",
-    title: { rendered: "Escuela de Formaci\u00f3n MAQAY 2020 I y II" },
-    content: {
-      rendered:
-        '<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_row _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_gallery gallery_ids=\u00bb833,832,835,836,834&#8243; fullwidth=\u00bbon\u00bb _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][/et_pb_gallery][et_pb_text _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb text_orientation=\u00bbjustified\u00bb hover_enabled=\u00bb0&#8243; sticky_enabled=\u00bb0&#8243;]</p>\n<p>Durante el 2020, hemos desarrollado diversas acciones de educaci\u00f3n ambiental, entre ellas la Escuela de Formaci\u00f3n Maqay.</p>\n<h2><strong>\u00bfQu\u00e9 es la Escuela de Formaci\u00f3n Maqay?</strong></h2>\n<p>&nbsp;</p>\n<p>La Escuela de Formaci\u00f3n Maqay es una iniciativa de educaci\u00f3n ambiental organizada por nuestra ONG, que tiene como objetivo fortalecer las capacidades en materia ambiental de j\u00f3venes de diferentes partes del pa\u00eds.</p>\n<h2>\u00a0</h2>\n<h2><strong>\u00bfQui\u00e9nes participan de la Escuela de Formaci\u00f3n Maqay?</strong></h2>\n<p>&nbsp;</p>\n<p>Durante los meses de marzo y abril llevamos a cabo el proceso de convocatoria para seleccionar voluntarios/as.</p>\n<p>Como resultado de dicho proceso, se seleccionaron\u00a0 veintid\u00f3s (22) personas quienes se suman al equipo de Maqay y acceder\u00e1n a la Escuela de Formaci\u00f3n. Ello permitira\u0301, posteriormente, replicar el conocimiento adquirido en la ejecucio\u0301n de nuestros proyectos.</p>\n<p>Posteriormente, entre los meses de junio y julio, realizamos una segunda convocatoria para la segunda parte del programa de voluntariado.</p>\n<h2><strong>\u00bfCu\u00e1ndo inici\u00f3 la Escuela de Formaci\u00f3n Maqay?</strong></h2>\n<p>&nbsp;</p>\n<p>El sa\u0301bado 30 de mayo, dimos inicio a la Escuela de Formacio\u0301n Maqay con una presentacio\u0301n de introduccio\u0301n al #designthinking .Este disen\u0303o de pensamiento tiene como objetivo mejorar la situacio\u0301n de las personas a partir de sus experiencias, solucionar problemas que vemos a diario a trave\u0301s de una herramienta dina\u0301mica que tiene una mayor probabilidad de e\u0301xito al involucrar al usuario en la construccio\u0301n del prototipo. De esta manera, se brindaron alcances para aplicar esta metodolog\u00eda en el \u00e1mbito ambiental.</p>\n<p>Entre los temas abordados durante el a\u00f1o hemos tenido los siguientes:</p>\n<p>&nbsp;</p>\n<h2><em><strong>2020-I</strong></em></h2>\n<p>&nbsp;</p>\n<ul>\n<li>Sesi\u00f3n N\u00ba 1 sobre <em><strong>introducci\u00f3n al design thinking</strong></em>, a cargo de Sara Herrera, quien se desempe\u00f1a como UX Research del Banco Pichincha. Bachiller en Antropolog\u00eda por la UNMSM.</li>\n<li>Sesi\u00f3n N\u00ba 2, con Gabriela Paliza, cofundadora de la ONG MAQAY, sobre:\n<div class="gmail_default"><em><strong>(i) Gesti\u00f3n Ambiental en el Per\u00fa\u00a0</strong></em></div>\n<div class="gmail_default"><em><strong>(ii) Principios del Derecho Ambiental</strong></em></div>\n</li>\n<li>Sesi\u00f3n N\u00ba 3, sobre los <em><strong>bienes comunes</strong></em>, a cargo de M\u00f3nica Nu\u00f1ez, quien se desempe\u00f1a como docente contratada a tiempo completo del Departamento Acad\u00e9mico de Derecho e Investigadora del Centro de Investigaci\u00f3n de la Universidad del Pac\u00edfico.</li>\n<li>Sesi\u00f3n N\u00ba 4, sobre <em><strong>pl\u00e1sticos en los oc\u00e9anos</strong></em>, a cargo de Erick Martinetti, Bachiller en Biolog\u00eda Marina de la Universidad Cient\u00edfica del Sur con una especializaci\u00f3n en derecho pesquero.</li>\n<li>Sesi\u00f3n N\u00ba 5, sobre <em><strong>investigaci\u00f3n ambiental</strong></em>, a cargo de Jose Luis V\u00e1squez, quien se desempe\u00f1a actualmente como Especialista de la Direcci\u00f3n de informaci\u00f3n e Investigaci\u00f3n Ambiental en el Ministerio del Ambiente.</li>\n<li>Sesi\u00f3n N\u00ba 6, sobre <em><strong>desarrollo sostenible en Am\u00e9rica Latina y El Caribe</strong></em>, que estuvo a cargo de Carlos de Miguel, quien se desempe\u00f1a como Jefe de la Unidad de Pol\u00edticas para el Desarrollo Sostenible de la Divisi\u00f3n de Desarrollo Sostenible y Asentamientos Humanos de Comisi\u00f3n Econ\u00f3mica para Am\u00e9rica Latina y el Caribe &#8211; CEPAL.</li>\n<li>Sesi\u00f3n N\u00ba 7, sobre <em><strong>cambio clim\u00e1tico y su efecto en las poblaciones vulnerables</strong></em>, que estuvo a cargo de Jessica Huertas, quien se desempe\u00f1a como consultora en la Direcci\u00f3n General de Cambio Clim\u00e1tico y Desertificaci\u00f3n del Ministerio del Ambiente.</li>\n<li>Sesi\u00f3n N\u00ba 8, sobre <strong><em>pol\u00edtica andina de lucha contra la miner\u00eda ilegal</em></strong>, a cargo de Hugo Gomez, Presidente del Tribunal de Justicia de la Comunidad Andina.</li>\n<li>Sesi\u00f3n N\u00ba 9, sobre <em><strong>organizaci\u00f3n del estado</strong></em>, a cargo de Gabriela Paliza, cofundadora de la ONG MAQAY.</li>\n</ul>\n<p>&nbsp;</p>\n<h2><em><strong>2020-II</strong></em></h2>\n<p>&nbsp;</p>\n<ul>\n<li>Sesi\u00f3n N\u00ba 1, sobre <em><strong>constituci\u00f3n econ\u00f3mica</strong></em>, a cargo de Ram\u00f3n Huapaya, docente de Derecho Administrativo.</li>\n<li>Sesi\u00f3n N\u00ba 2, sobre <em><strong>gesti\u00f3n integral de residuos s\u00f3lidos</strong></em>, a cargo de Marlene Quiche, Especialista de la Direcci\u00f3n General de Residuos S\u00f3lidos del Ministerio del Ambiente.</li>\n<li>Sesi\u00f3n N\u00ba 3, sobre <em><strong>programa presupuestal 0036, gesti\u00f3n integral de residuos s\u00f3lidos</strong></em>, a cargo de Pedro Picco, Especialista de la Direcci\u00f3n General de Residuos S\u00f3lidos del Ministerio del Ambiente.</li>\n<li>Sesi\u00f3n N\u00ba 4, sobre <em><strong>Introducci\u00f3n al Derecho Ambiental y</strong></em>\u00a0<em><strong>Principios del Derecho Ambiental</strong></em>, a cargo de Gabriela Paliza, Abogada, cofundadora de la ONG MAQAY.</li>\n<li>Sesi\u00f3n extra sobre <strong><em>Introducci\u00f3n al\u00a0Sistema Interamericano de Derechos Humanos</em></strong>, con Alexandra Cabrera, Abogada y docente en la Facultad de Derecho de la USMP.</li>\n<li>Sesi\u00f3n N\u00ba 5, sobre <em><strong>c</strong><strong>onflictos Sociales</strong></em>, a cargo de Elena Martinez, Polit\u00f3loga y especialista de la Defensor\u00eda del Pueblo.</li>\n<li>Sesi\u00f3n N\u00ba 6, \u00a0sobre <em><strong>a</strong><strong>cceso a la informaci\u00f3n p\u00fablica</strong></em>, a cargo de Pamela Paliza, Abogada, cofundadora de la ONG MAQAY.</li>\n<li>Sesi\u00f3n N\u00ba 7, sobre <em><strong>Participaci\u00f3n ciudadana,</strong></em> a cargo de Gabriela Paliza, Abogada, cofundadora de la ONG MAQAY.</li>\n<li>Sesi\u00f3n N\u00ba 8, sobre <em><strong>a</strong><strong>cceso a la justicia ambiental</strong></em>, a cargo de Gabriela Paliza, Abogada, cofundadora de la ONG MAQAY.</li>\n<li>Sesi\u00f3n N\u00ba 9, sobre <em><strong>Consulta Previa</strong></em>, a cargo de Nelly Herrera, Bachiller en Derecho, cofundadora de la ONG MAQAY.</li>\n</ul>\n<p>&nbsp;</p>\n<p>Puedes acceder a los videos de las sesiones aqu\u00ed: <a href="https://www.youtube.com/channel/UCnz5Ej60MqzTEpNN0bUtcWw?view_as=subscriber">https://www.youtube.com/channel/UCnz5Ej60MqzTEpNN0bUtcWw?view_as=subscriber\u00a0</a></p>\n<p>[/et_pb_text][et_pb_gallery gallery_ids=\u00bb840,839,837,838,843,841,842,844,846,845,849,850,851,827&#8243; fullwidth=\u00bbon\u00bb hover_icon=\u00bb%%0%%\u00bb admin_label=\u00bbGaler\u00eda\u00bb _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][/et_pb_gallery][/et_pb_column][/et_pb_row][/et_pb_section]</p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_row _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_gallery gallery_ids=\u00bb833,832,835,836,834&#8243; fullwidth=\u00bbon\u00bb _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][/et_pb_gallery][et_pb_text _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb text_orientation=\u00bbjustified\u00bb hover_enabled=\u00bb0&#8243; sticky_enabled=\u00bb0&#8243;] Durante el 2020, hemos desarrollado diversas acciones de educaci\u00f3n ambiental, entre ellas la Escuela de Formaci\u00f3n Maqay. \u00bfQu\u00e9 es la Escuela de Formaci\u00f3n Maqay? &nbsp; La Escuela de Formaci\u00f3n Maqay es una iniciativa de educaci\u00f3n ambiental organizada [&hellip;]</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 503,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "on",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [11],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/822" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=822",
-        },
-      ],
-      "version-history": [
-        {
-          count: 10,
-          href: "https://maqay.org/wp-json/wp/v2/posts/822/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 865,
-          href: "https://maqay.org/wp-json/wp/v2/posts/822/revisions/865",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/503",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=822" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=822",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=822",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 810,
-    date: "2020-10-31T13:41:13",
-    date_gmt: "2020-10-31T18:41:13",
-    guid: { rendered: "https://maqay.org/?p=810" },
-    modified: "2020-11-30T19:17:23",
-    modified_gmt: "2020-12-01T00:17:23",
-    slug: "i-concurso-de-dibujo-sobre-incendios-forestales",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/i-concurso-de-dibujo-sobre-incendios-forestales/",
-    title: { rendered: "I Concurso de dibujo sobre incendios forestales" },
-    content: {
-      rendered:
-        '<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_row _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_text _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb text_font_size=\u00bb16px\u00bb text_orientation=\u00bbjustified\u00bb hover_enabled=\u00bb0&#8243; sticky_enabled=\u00bb0&#8243;]</p>\n<h2><b>I Concurso de dibujo sobre<i> incendios forestales</i></b></h2>\n<p>ONG MAQAY invita a todos los/as ni\u00f1os/as entre los 6 y 12 a\u00f1os de edad a participar del I Concurso de dibujo sobre <i>Incendios Forestales</i>, como parte de las actividades que se vienen promoviendo para valorar la \u201cSemana de la Educaci\u00f3n Ambiental\u201d.\u00a0</p>\n<h2><strong>Presentaci\u00f3n del concurso:</strong></h2>\n<p>El 2020 viene siendo un a\u00f1o bastante perjudicial en diferentes sentidos por las muertes que ha tra\u00eddo consigo la propagaci\u00f3n del COVID &#8211; 19, lo que ha tra\u00eddo como medida necesaria el aislamiento social y un sinf\u00edn de cambios en todo \u00e1mbito.<span class="Apple-converted-space">\u00a0</span></p>\n<p>Durante los primeros d\u00edas de cuarentena, vimos como el confinamiento de los seres humanos ha sido beneficioso para la naturaleza, aunque es preciso se\u00f1alar que no se han podido parar ni revertir aquellos fen\u00f3menos naturales que muchas veces destruyen gran parte del h\u00e1bitat como lo ocasionan los incendios forestales.</p>\n<p>Estos \u00faltimos meses en Per\u00fa, los incendios forestales han sido cada vez m\u00e1s frecuentes como el \u00faltimo caso acontecido en la comunidad de Machupicchu en el Cusco y que tuvo gran dificultad de control.<span class="Apple-converted-space">\u00a0</span></p>\n<p>Ante la actual coyuntura que vivimos, es importante que los/as ni\u00f1os/as puedan manifestar a trav\u00e9s del dibujo todo lo que ocasiona un incendio forestal y c\u00f3mo estos perjudican a la naturaleza.<span class="Apple-converted-space">\u00a0</span></p>\n<p>Es por ello que, Maqay se ha propuesto realizar un concurso de dibujo, con ni\u00f1os que participen activamente transmitiendo sus ideas en este tema que viene da\u00f1ando a una de las regiones tur\u00edsticas m\u00e1s importantes como lo es Cusco pero que tambi\u00e9n refleja la realidad que sucede en todo el mundo. <span class="Apple-converted-space">\u00a0</span></p>\n<h2><strong>\u00bfQui\u00e9nes pueden participar?</strong></h2>\n<p>Dirigido a ni\u00f1os/as desde los 6 hasta los 12 a\u00f1os inclusive, conforme a las siguientes categor\u00edas:<span class="Apple-converted-space">\u00a0</span></p>\n<ul>\n<li>6 a 8 a\u00f1os<span class="Apple-converted-space">\u00a0</span></li>\n<li>9 a 10 a\u00f1os<span class="Apple-converted-space">\u00a0</span></li>\n<li>11 a 12 a\u00f1os</li>\n</ul>\n<p>Se admitir\u00e1 un (01) dibujo por cada participante.<span class="Apple-converted-space">\u00a0</span></p>\n<p>Los/as participantes tienen la libertad para utilizar la t\u00e9cnica que deseen de forma individual o mixta (manual, digital; l\u00e1pices, ceras, acuarelas, temperas, pinturas acr\u00edlicas, etc.).</p>\n<h2><strong>Premios:</strong></h2>\n<p>El autor del mejor dibujo, por cada categor\u00eda, ser\u00e1 premiado con:</p>\n<p>&#8211; Juego educativo y/o libro ambiental (de acuerdo a su edad)</p>\n<p>&#8211; Un paquete de productos ecol\u00f3gicos <span class="Apple-converted-space">\u00a0</span></p>\n<p>&#8211; Un paquete de productos escolares</p>\n<p>El reconocimiento para cada ganador/a se coordinar\u00e1 al tel\u00e9fono del padre y/o apoderado proporcionado por el participante.<span class="Apple-converted-space">\u00a0</span></p>\n<h2><strong>Consulta las bases del concurso aqu\u00ed:</strong></h2>\n<h2><a href="https://maqay.org/wp-content/uploads/2020/10/BASES-CONCURSO-DIBUJO-1.pdf" rel="attachment wp-att-819">BASES CONCURSO DIBUJO</a></h2>\n<h2><strong>Inscripciones en el siguiente formulario (hasta el 15 de diciembre):</strong></h2>\n<h2><a href="https://forms.gle/zHuAbCz2fUnwhZUe6">https://forms.gle/zHuAbCz2fUnwhZUe6 \u00a0\u00a0</a></h2>\n<p>&nbsp;</p>\n<p>[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]</p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_row _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_text _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb text_font_size=\u00bb16px\u00bb text_orientation=\u00bbjustified\u00bb hover_enabled=\u00bb0&#8243; sticky_enabled=\u00bb0&#8243;] I Concurso de dibujo sobre incendios forestales ONG MAQAY invita a todos los/as ni\u00f1os/as entre los 6 y 12 a\u00f1os de edad a participar del I Concurso de dibujo sobre Incendios Forestales, como parte de las actividades que se vienen [&hellip;]</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 909,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "on",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [9],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/810" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=810",
-        },
-      ],
-      "version-history": [
-        {
-          count: 6,
-          href: "https://maqay.org/wp-json/wp/v2/posts/810/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 911,
-          href: "https://maqay.org/wp-json/wp/v2/posts/810/revisions/911",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/909",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=810" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=810",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=810",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 792,
-    date: "2020-10-26T18:57:11",
-    date_gmt: "2020-10-26T23:57:11",
-    guid: { rendered: "https://maqay.org/?p=792" },
-    modified: "2020-11-25T11:35:35",
-    modified_gmt: "2020-11-25T16:35:35",
-    slug: "i-concurso-de-ilustracion-maqay",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/i-concurso-de-ilustracion-maqay/",
-    title: { rendered: "I Concurso de Ilustraci\u00f3n MAQAY" },
-    content: {
-      rendered:
-        '<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.6.5&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_row _builder_version=\u00bb4.6.5&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.6.5&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_text _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb text_font_size=\u00bb16px\u00bb text_orientation=\u00bbjustified\u00bb hover_enabled=\u00bb0&#8243; sticky_enabled=\u00bb0&#8243;]</p>\n<p>Maqay, en colaboraci\u00f3n con la Municipalidad de Miraflores, llev\u00f3 a cabo el I Concurso de Cuentos Ambientales Infantiles. En ese sentido, en este I Concurso de Ilustraci\u00f3n buscamos ilustrar y publicar el cuento ganador.</p>\n<p>Esta iniciativa tiene como objetivo que los y las ciudadanos/as puedan a trav\u00e9s del dibujo e ilustraci\u00f3n plasmar el cuento denominado \u201cBuscando a un p\u00e1jaro de curioso aspecto\u201d ganador del I Concurso de Cuentos Ambientales Infantiles.</p>\n<p>Al respecto, la autora y ganadora del concurso, Yelinna nos comenta:</p>\n<p><em>Mi cuento es homenaje a tres escritores: </em><br /><em>Eduardo Yataco de la Cruz: en su cuento Lango Lango un gatito es olvidado por su familia que se va de viaje. Buscando no morir de hambre termina encontr\u00e1ndose con los gatos techeros que robaban los embutidos colgados al \u00absereno lime\u00f1o en aquel tiempo en el que no exist\u00eda refrigeradora\u00bb. El nombre del gatito: Romanito.</em><br /><em>Sebasti\u00e1n Salazar Bondy: El gallinazo de mi cuento es inspirado en el gallinazo del cuento \u00abEl Se\u00f1or Gallinazo Vuelve a Lima\u00bb. Este cuento trata con m\u00e1s profundidad el problemas de las diferencias sociales, recomendad\u00edsimo.</em><br /><em>Julio Ram\u00f3n Ribeyro: hay gui\u00f1os a su cuento \u00ablos Gallinazos sin Plumas\u00bb en el di\u00e1logo de Romanito con el Se\u00f1or Gallinazo.</em><br /><em>Tanto Sebasti\u00e1n como Ram\u00f3n tocan el tema de los \u00abNi\u00f1os Gallinazos\u00bb y la miseria en sus respectivos cuentos, pero Salazar escribe para ni\u00f1os, Ram\u00f3n para adultos.</em></p>\n<p>El cuento en menci\u00f3n, se encuentra disponible en:</p>\n<p><a href="https://drive.google.com/file/d/1eKfv_FB8HUFtwY3ayJVGKBHOer39YJW3/view?usp=sharing">https://drive.google.com/file/d/1eKfv_FB8HUFtwY3ayJVGKBHOer39YJW3/view?usp=sharing</a></p>\n<h2>\u00a0</h2>\n<p>&nbsp;</p>\n<h2><strong>\u00bfQui\u00e9nes pueden participar?</strong></h2>\n<p>&nbsp;</p>\n<p>El concurso est\u00e1 dirigido al p\u00fablico general, artistas visuales, ilustradores, dise\u00f1adores y/o aficionados por el dibujo y todos quienes deseen participar.</p>\n<p>&nbsp;</p>\n<h2><strong>\u00bfC\u00f3mo participar?</strong></h2>\n<p>&nbsp;</p>\n<p>S\u00f3lo se aceptar\u00e1n ilustraciones realizadas en forma manual o digital, sin texto ni logos y en alta resoluci\u00f3n. La imagen debe mandarse en formato PDF o JPG (300 dpi). No se aceptar\u00e1n fotomontajes. La Ilustraci\u00f3n debe ser in\u00e9dita.<span class="Apple-converted-space">\u00a0</span></p>\n<p>Las personas concursantes, deber\u00e1n enviar al menos 5 im\u00e1genes que grafiquen la historia del cuento. <span class="Apple-converted-space">\u00a0</span></p>\n<p>Las ilustraciones deber\u00e1n ser enviadas a MAQAY a trav\u00e9s del formulario de inscripci\u00f3n. En caso de existir alg\u00fan inconveniente para cargar el archivo, podr\u00e1 enviarse a trav\u00e9s del correo \u201c<a href="mailto:hola@maqay.org">hola@maqay.org</a>\u00ab.</p>\n<p>&nbsp;</p>\n<h2><strong>Premios:</strong></h2>\n<p class="_04xlpA direction-ltr align-center para-style-body">\n<p class="_04xlpA direction-ltr align-center para-style-body"><span class="JsGRdQ">1. S/ 300 en efectivo.</span></p>\n<p class="_04xlpA direction-ltr align-center para-style-body"><span class="JsGRdQ">2. Publicaci\u00f3n del cuento con las ilustraciones.</span></p>\n<p>&nbsp;</p>\n<h2><strong>Consulta las bases del concurso aqu\u00ed:</strong></h2>\n<p>&nbsp;</p>\n<p><a href="https://maqay.org/wp-content/uploads/2020/10/BASES-CONCURSO-ILUSTRACION-MAQAY.pdf" rel="attachment wp-att-802">BASES CONCURSO ILUSTRACI\u00d3N MAQAY</a></p>\n<p>&nbsp;</p>\n<h2><strong>Inscripciones:</strong></h2>\n<p>&nbsp;</p>\n<p>Formulario de inscripci\u00f3n aqu\u00ed:\u00a0<a href="https://forms.gle/cPRwBCPxUP9ssKv29">https://forms.gle/cPRwBCPxUP9ssKv29</a></p>\n<p>&nbsp;</p>\n<p>[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]</p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.6.5&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_row _builder_version=\u00bb4.6.5&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.6.5&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_text _builder_version=\u00bb4.6.6&#8243; _module_preset=\u00bbdefault\u00bb text_font_size=\u00bb16px\u00bb text_orientation=\u00bbjustified\u00bb hover_enabled=\u00bb0&#8243; sticky_enabled=\u00bb0&#8243;] Maqay, en colaboraci\u00f3n con la Municipalidad de Miraflores, llev\u00f3 a cabo el I Concurso de Cuentos Ambientales Infantiles. En ese sentido, en este I Concurso de Ilustraci\u00f3n buscamos ilustrar y publicar el cuento ganador. Esta iniciativa tiene como objetivo que [&hellip;]</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 800,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "on",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [9],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/792" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=792",
-        },
-      ],
-      "version-history": [
-        {
-          count: 11,
-          href: "https://maqay.org/wp-json/wp/v2/posts/792/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 906,
-          href: "https://maqay.org/wp-json/wp/v2/posts/792/revisions/906",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/800",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=792" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=792",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=792",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 777,
-    date: "2020-10-13T21:27:42",
-    date_gmt: "2020-10-14T02:27:42",
-    guid: { rendered: "https://maqay.org/?p=777" },
-    modified: "2020-10-13T21:39:28",
-    modified_gmt: "2020-10-14T02:39:28",
-    slug: "que-son-las-energias-renovables",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/que-son-las-energias-renovables/",
-    title: { rendered: "\u00bfQu\u00e9 son las energ\u00edas renovables?" },
-    content: {
-      rendered:
-        '<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.6.5&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_row _builder_version=\u00bb4.6.5&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.6.5&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_text _builder_version=\u00bb4.6.5&#8243; _module_preset=\u00bbdefault\u00bb header_text_align=\u00bbjustify\u00bb text_orientation=\u00bbjustified\u00bb hover_enabled=\u00bb0&#8243; sticky_enabled=\u00bb0&#8243;]</p>\n<blockquote>\n<p><em>&lt;&lt;El Per\u00fa es uno de los pa\u00edses m\u00e1s vulnerables frente al cambio clim\u00e1tico, as\u00ed es que mientras m\u00e1s se siga emitiendo gases de efecto invernadero por la combusti\u00f3n f\u00f3sil para generar energ\u00eda, la afectaci\u00f3n clim\u00e1tica ser\u00e1 mayor en nuestro pa\u00eds, por eso resulta necesario diversificar las fuentes de energ\u00eda en el mundo con \u00e9nfasis en las energ\u00edas renovables no convencionales, conocidas como \u201climpias\u201d&gt;&gt;. </em>Pedro Gamio, Ex Ministro de Energ\u00eda del Per\u00fa.</p>\n</blockquote>\n<p>&nbsp;</p>\n<h2><strong>\u00bfQu\u00e9 son las energ\u00edas renovables?</strong></h2>\n<p>&nbsp;</p>\n<p>Por: Angela Calizaya</p>\n<p>A diferencia de las fuentes de energ\u00eda convencionales, las fuentes de energ\u00eda renovables son aquellas que encontramos en la naturaleza en cantidad ilimitada, que pueden regenerarse de manera natural o artificial y cuyo impacto en el medio ambiente es pr\u00e1cticamente nulo o reversible.</p>\n<p>Existen diferentes tipos de energ\u00edas renovables, tenemos al viento que nos genera energ\u00eda e\u00f3lica; al calor de la tierra que crea energ\u00eda geot\u00e9rmica; a los r\u00edos y sus corrientes que producen energ\u00eda hidr\u00e1ulica, a los mares y oc\u00e9anos que dan energ\u00eda mareomatriz y el Sol que brinda energ\u00eda solar.</p>\n<p>Las energ\u00edas renovables son la mejor opci\u00f3n para dejar de usar petr\u00f3leo, porque es un recurso contaminante, cada vez m\u00e1s limitado, caro y agotable, porque su empleo en mayor o menor grado origina externalidades, Gases de Efecto Invernadero- GEI- que contribuyen a acelerar el cambio clim\u00e1tico en el Planeta.</p>\n<p>Debido a las ventajas que tiene este tipo de energ\u00eda, ha sido respaldada por la comunidad internacional a trav\u00e9s de la firma del Acuerdo de Par\u00eds suscrito durante la Cumbre Mundial del Clima que se llev\u00f3 a cabo el a\u00f1o 2015 en la capital de Francia. Dicho acuerdo, que rige a partir del a\u00f1o 2020, establece que los 200 pa\u00edses firmantes reducir\u00e1n sus emisiones de gases de efecto invernadero para evitar los efectos m\u00e1s dram\u00e1ticos del cambio clim\u00e1tico.</p>\n<p>Si a esto le sumamos su creciente competitividad (sus costes evolucionan a la baja de manera sostenida) podemos asegurar que las energ\u00edas limpias ya son imparables y dominar\u00e1n el mercado energ\u00e9tico del futuro.</p>\n<p>&nbsp;</p>\n<h2><strong>Energ\u00eda renovable en cifras\u2026</strong></h2>\n<ul>\n<li>Solo en Per\u00fa, de acuerdo a las cifras del Balance Nacional de Energ\u00eda, se liberan alrededor de 2550 Ton/hora de CO2 debido al consumo de energ\u00eda de combustibles f\u00f3siles.</li>\n<li>En nuestro pa\u00eds, el 10% de la energ\u00eda que tiene la poblaci\u00f3n proviene de la combusti\u00f3n de la le\u00f1a.</li>\n<li>El 22% de hogares ubicadas en las zonas rurales del pa\u00eds no tienen electricidad.</li>\n<li>Los paneles solares, en verano, logran una producci\u00f3n de 5.0 Kw \u2013 h/d\u00eda y en invierno alcanzan 1.6 Kw-h/d\u00eda.</li>\n<li>Adem\u00e1s, en nuestro pa\u00eds, hay dos proyectos de bioenerg\u00eda: la planta de aprovechamiento energ\u00e9tico de basura con 4.4 Mv y el proyecto de Bagazo de Ca\u00f1a de Az\u00facar en Paramonga con 23 MW.</li>\n<li>La capacidad mundial instalada en energ\u00eda e\u00f3lica es de 360 000 MW y no ha dejado de crecer, habi\u00e9ndose multiplicado por 10 en la \u00faltima d\u00e9cada. Nuestro pa\u00eds produce 232 MV de energ\u00eda e\u00f3lica.</li>\n<li>El Per\u00fa tiene cinco plantas solares: Solar Pack en Moquegua, Tacna Solar y tres en Arequipa.</li>\n<li>Y tambi\u00e9n cuenta con cuatro parques e\u00f3licos: Talara (Piura), Cupisnique (La Libertad), Tres Hermanas (Ica) y Marcona (Ica).</li>\n</ul>\n<p>&nbsp;</p>\n<h2><strong>SUN WORLD 2019</strong></h2>\n<p>Es el \u201cEncuentro y Exposici\u00f3n Mundial de Energ\u00edas Renovables\u201d que tiene por objetivo contribuir a difundir el uso de las energ\u00edas renovables, con \u00e9nfasis en la energ\u00eda solar.</p>\n<p>El 2018, el Per\u00fa particip\u00f3 en la primera asamblea de la Alianza Solar Internacional (ISA), en India, que reuni\u00f3 a 78 pa\u00edses interesados en promover el uso eficiente y eficaz de la energ\u00eda solar. Ah\u00ed fuimos elegidos como sede del primer encuentro mundial de energ\u00edas renovables, Sun World 2019. Adem\u00e1s, el Per\u00fa fue elegido para ocupar una de las cuatro vicepresidencias de la ISA para el per\u00edodo 2018-2020, por Am\u00e9rica Latina y el Caribe.</p>\n<p>Durante el Sun World 2019, paralelamente a la exposici\u00f3n de los avances en energ\u00edas renovables a cargo de empresas del rubro tecnol\u00f3gico, se desarrollaron reuniones que permitieron el establecimiento de negocios y la creaci\u00f3n de capacidades con el sector privado. Los ejes tem\u00e1ticos que fueron coordinados por el Ministerio de Energ\u00eda y Minas (MINEM) con la Alianza Solar Internacional (ISA) y la Organizaci\u00f3n Latinoamericana de Energ\u00eda (OLADE) fueron: Pol\u00edtica energ\u00e9tica, Pol\u00edtica fiscal, regulatoria y normativa, Innovaci\u00f3n tecnol\u00f3gica, Energ\u00eda solar y renovable e Inversi\u00f3n y financiamiento.</p>\n<p>&nbsp;</p>\n<h2><strong>Historias inspiradoras</strong></h2>\n<p>Durante su discurso en el Sun World 2019, el presidente Mart\u00edn Vizcarra, dio ejemplos ilustrativos que grafican la importancia de apostar por la innovaci\u00f3n tecnol\u00f3gica y las energ\u00edas renovables. Mencion\u00f3 los casos de dos j\u00f3venes emprendedores:</p>\n<p><strong>Antony Villegas</strong>, beneficiario de la beca Presidente de la Rep\u00fablica, ha construido la primera planta agr\u00edcola de energ\u00eda solar. \u201cEste joven ingeniero trabaja para maximizar el potencial de la siembra canalizando la energ\u00eda del sol para sustituir al petr\u00f3leo en el bombeo de los pozos subterr\u00e1neos\u201d.</p>\n<p><strong>Hern\u00e1n Asto</strong>, un ingeniero ayacuchano que cre\u00f3 un macetero de arcilla que combinado con paneles fotovoltaicos aprovecha la fotos\u00edntesis de las plantas para generar energ\u00eda que permite cargar desde un celular hasta encender un televisor. \u201cEn ambos casos, la energ\u00eda permite cambios importantes y mejora la calidad de vida de las personas\u201d.</p>\n<p><iframe title="Pabell\u00f3n Energ\u00eda - Voces por el Clima" width="1080" height="608" src="https://www.youtube.com/embed/qWVe1tWg5oA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>\n<p>&nbsp;</p>\n<h2>\u00a0</h2>\n<h2><strong>Referencias</strong></h2>\n<ul>\n<li>MINAM (Ministerio del Ambiente) (2014). Energ\u00edas Renovables. Diez claves para conocer m\u00e1s de energ\u00eda renovable. Energ\u00eda renovable en cifras. Disponible en: http://www.minam.gob.pe/energia/</li>\n<li>Enel (2018). \u00bfQu\u00e9 son las energ\u00edas renovables y por qu\u00e9 son importantes? Disponible en: https://www.enel.pe/es/sostenibilidad/que-son-las-energias-renovables-y-porque-son-importantes.html</li>\n<li>S\u00e1nchez Molina, Pilar (2019). Per\u00fa busca atraer inversiones en renovables. Disponible en: https://www.pv-magazine-latam.com/2019/11/13/peru-busca-atraer-inversiones-en-renovables/#:~:text=Las%20energ%C3%ADas%20renovables%20no%20convencionales,a%20partir%20de%20las%20hidroel%C3%A9ctricas.</li>\n<li>MINEM (Ministerio de Energ\u00eda y Minas) (2019). El Per\u00fa est\u00e1 dando pasos sustantivos para convertirse en un actor clave en el uso de energ\u00edas renovables. Disponible en: https://www.gob.pe/institucion/minem/noticias/68701-sun-world-2019-el-peru-esta-dando-pasos-sustantivos-para-convertirse-en-un-actor-clave-en-el-uso-de-energias-renovables</li>\n<li>Embajada de Per\u00fa (2019). Sun World 2019 \u2013 Encuentro y Exposici\u00f3n Mundial de Energ\u00edas Renovables ISA-PERU-LAC. Disponible en: http://www.embajadaperu.be/sun-world-2019-encuentro-y-exposicion-mundial-de-energias-renovables-isa-peru-lac/news/</li>\n</ul>\n<p>[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]</p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.6.5&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_row _builder_version=\u00bb4.6.5&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.6.5&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_text _builder_version=\u00bb4.6.5&#8243; _module_preset=\u00bbdefault\u00bb header_text_align=\u00bbjustify\u00bb text_orientation=\u00bbjustified\u00bb hover_enabled=\u00bb0&#8243; sticky_enabled=\u00bb0&#8243;] &lt;&lt;El Per\u00fa es uno de los pa\u00edses m\u00e1s vulnerables frente al cambio clim\u00e1tico, as\u00ed es que mientras m\u00e1s se siga emitiendo gases de efecto invernadero por la combusti\u00f3n f\u00f3sil para generar energ\u00eda, la afectaci\u00f3n clim\u00e1tica ser\u00e1 mayor en nuestro pa\u00eds, [&hellip;]</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 782,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "on",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [9],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/777" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=777",
-        },
-      ],
-      "version-history": [
-        {
-          count: 6,
-          href: "https://maqay.org/wp-json/wp/v2/posts/777/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 790,
-          href: "https://maqay.org/wp-json/wp/v2/posts/777/revisions/790",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/782",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=777" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=777",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=777",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 731,
-    date: "2020-09-27T18:38:04",
-    date_gmt: "2020-09-27T23:38:04",
-    guid: { rendered: "https://maqay.org/?p=731" },
-    modified: "2020-09-27T18:39:41",
-    modified_gmt: "2020-09-27T23:39:41",
-    slug: "dia-mundial-del-turismo-hacia-un-turismo-sostenible",
-    status: "publish",
-    type: "post",
-    link:
-      "https://maqay.org/dia-mundial-del-turismo-hacia-un-turismo-sostenible/",
-    title: {
-      rendered: "D\u00eda mundial del turismo: hacia un turismo sostenible",
-    },
-    content: {
-      rendered:
-        '<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.6.3&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_row _builder_version=\u00bb4.6.3&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.6.3&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_text _builder_version=\u00bb4.6.3&#8243; _module_preset=\u00bbdefault\u00bb text_orientation=\u00bbjustified\u00bb hover_enabled=\u00bb0&#8243; sticky_enabled=\u00bb0&#8243;]</p>\n<p>Por: Anabel Espinoza</p>\n<p>El 27 de septiembre se celebra el d\u00eda Internacional del Turismo, fecha instituida desde 1980 cuando se aprobaron los estatutos que conforman a la Organizaci\u00f3n Mundial del Turismo (OMT).</p>\n<p>La principal finalidad del D\u00eda Mundial del Turismo es fomentar el conocimiento entre la comunidad internacional de la importancia del turismo y sus valores sociales, culturales, pol\u00edticos y econ\u00f3micos.</p>\n<p>El turismo se transform\u00f3 en una de las actividades econ\u00f3micas m\u00e1s importantes en la mayor\u00eda de los pa\u00edses del mundo actual, ya que no solo impacta al propio sector econ\u00f3mico como actividad generadora de divisas y empleos, sino que influye tambi\u00e9n en otros sectores, en el aumento de la calidad de vida de los habitantes, en la conservaci\u00f3n de los recursos y en la preservaci\u00f3n del medio ambiente.</p>\n<p>&nbsp;</p>\n<p><iframe title="Conexi\u00f3n | \u00bfPor qu\u00e9 es importante el turismo en el Per\u00fa?" width="1080" height="608" src="https://www.youtube.com/embed/0JveSYZxNmA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>Dentro de la multiplicidad de aspectos que involucra la actividad debemos reconocer que el turismo es ante todo:</p>\n<ul>\n<li>Intercambio, conocimiento y di\u00e1logo entre culturas.</li>\n<li>Instrumento al servicio de la paz y medio de superaci\u00f3n para alcanzar una mejor calidad de vida.</li>\n<li>Oportunidad para interactuar y relacionarse con personas de idiosincrasias y costumbres diferentes, contribuyendo al encuentro, a la aceptaci\u00f3n de la diversidad, al afianzamiento de lo propio y a promover el sentido de la hospitalidad.</li>\n<li>Herramienta eficaz para la conservaci\u00f3n y preservaci\u00f3n del patrimonio natural y cultural de los pueblos ante una globalizaci\u00f3n que tiende a homogeneizar al mundo desvirtuando la esencia propia de los pueblos. Salvaguardar el patrimonio consolida el sentido de pertenencia, la identidad y el orgullo por lo propio.</li>\n<li>Generador de trabajo y de riqueza, permitiendo el desarrollo individual y colectivo, convirti\u00e9ndose en un importante medio para el crecimiento socioecon\u00f3mico y la reducci\u00f3n de la pobreza.</li>\n</ul>\n<h2>\u00a0</h2>\n<h2><strong>\u00bfQu\u00e9 es la Organizaci\u00f3n Mundial del Turismo?</strong></h2>\n<p>La Organizaci\u00f3n Mundial del Turismo (OMT) es el organismo de las Naciones Unidas encargado de la promoci\u00f3n de un turismo responsable, sostenible y accesible para todos.</p>\n<p>La OMT, como principal organizaci\u00f3n internacional en el \u00e1mbito tur\u00edstico, aboga por un turismo que contribuya al crecimiento econ\u00f3mico, a un desarrollo incluyente y a la sostenibilidad ambiental, y ofrece liderazgo y apoyo al sector para expandir por el mundo sus conocimientos y pol\u00edticas tur\u00edsticas.</p>\n<p>La OMT defiende la aplicaci\u00f3n del C\u00f3digo \u00c9tico Mundial para el Turismo para maximizar la contribuci\u00f3n socioecon\u00f3mica del sector, minimizando a la vez sus posibles impactos negativos, y se ha comprometido a promover el turismo como instrumento para alcanzar los Objetivos de Desarrollo de las Naciones Unidas para el Milenio (ODM), encaminados a reducir la pobreza y a fomentar el desarrollo sostenible.</p>\n<p>La OMT genera conocimiento de los mercados, promueve pol\u00edticas e instrumentos de turismo competitivo y sostenible, fomenta la ense\u00f1anza y la formaci\u00f3n en materia de turismo y trabaja con el fin de hacer del turismo una herramienta eficaz para el desarrollo mediante proyectos de asistencia t\u00e9cnica en m\u00e1s de 100 pa\u00edses del mundo.</p>\n<p>Entre sus miembros figuran 156 pa\u00edses, 6 miembros asociados y m\u00e1s de 400 miembros afiliados que representan al sector privado, a instituciones de ense\u00f1anza, a asociaciones de turismo y a autoridades tur\u00edsticas locales.</p>\n<p>&nbsp;</p>\n<h2><strong>Reconstruir el turismo de manera segura, equitativa y respetuosa con el clima</strong></h2>\n<p>&nbsp;</p>\n<p><iframe title="Reactivando un turismo ecoamigable" width="1080" height="608" src="https://www.youtube.com/embed/LhkovKtn_I4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>El turismo ha sido uno de los sectores m\u00e1s afectados por el COVID-19 y ning\u00fan pa\u00eds ha quedado ileso, con restricciones en los viajes y una ca\u00edda repentina de la demanda de los consumidores que ha provocado un desplome sin precedentes del n\u00famero de turistas internacionales.</p>\n<p>Las mujeres, los j\u00f3venes y los trabajadores de la econom\u00eda informal son los que corren mayor riesgo de perder sus empleos por el cierre de empresas en el sector.</p>\n<p>La crisis tur\u00edstica tambi\u00e9n supone una amenaza en la conservaci\u00f3n de la vida silvestre y la protecci\u00f3n del patrimonio cultural. La repentina ca\u00edda de los ingresos del turismo ha cortado la financiaci\u00f3n para la conservaci\u00f3n de la biodiversidad y, dado que los medios de vida est\u00e1n en peligro en las zonas protegidas y sus alrededores, se teme que aumenten los casos de caza furtiva y saqueo. Adem\u00e1s, con el cierre del 90% de los sitios del patrimonio mundial como consecuencia de la pandemia, el patrimonio tanto tangible como intangible est\u00e1 en peligro en todas partes del mundo.</p>\n<p>En este D\u00eda Mundial del Turismo, la pandemia de COVID-19 representa una oportunidad para repensar el futuro del sector tur\u00edstico, incluida la forma en que contribuye a los objetivos de desarrollo sostenible, a trav\u00e9s de su valor social, cultural, pol\u00edtico y econ\u00f3mico. Con el tiempo, el turismo puede ayudarnos a superar la pandemia, uniendo a las personas y promoviendo la solidaridad y la confianza, ingredientes cruciales para hacer avanzar la cooperaci\u00f3n mundial que se necesita con tanta urgencia en este momento.</p>\n<p>&nbsp;</p>\n<h2><strong>La Comunidad Global se une para celebrar \u00abEl turismo y el desarrollo rural\u00bb</strong></h2>\n<p>En la edici\u00f3n de 2020 del D\u00eda Mundial del Turismo, y con el lema \u201c<a href="https://www.unwto.org/es/dia-mundial-del-turismo-2020/turismo-desarrollo-rural-nota-tecnica">Turismo y desarrollo rural</a>\u201d, se celebrar\u00e1 la capacidad excepcional del sector para crear oportunidades fuera de las grandes ciudades y preservar en todo el mundo el patrimonio cultural y natural.</p>\n<p>El D\u00eda Internacional de este a\u00f1o llega en un momento cr\u00edtico, cuando los pa\u00edses de todo el mundo miran al turismo para impulsar la recuperaci\u00f3n, y lo hacen tambi\u00e9n las comunidades rurales, donde el sector es un empleador importante y un pilar econ\u00f3mico que proporciona trabajo y nuevas oportunidades especialmente a poblaciones desfavorecidas como las mujeres o los j\u00f3venes.</p>\n<p>Adem\u00e1s, el desarrollo a trav\u00e9s del turismo puede tambi\u00e9n mantener vivas las comunidades rurales. Se estima que, para 2050, el 68% de la poblaci\u00f3n mundial vivir\u00e1 en zonas urbanas, mientras que el 80% de quienes se encuentran actualmente en una situaci\u00f3n de \u201cpobreza extrema\u201d viven fuera de las ciudades.</p>\n<p>La situaci\u00f3n es especialmente dif\u00edcil para los j\u00f3venes: los j\u00f3venes de las comunidades rurales tienen tres veces m\u00e1s posibilidades de estar desempleados que sus mayores. El turismo es una cuerda de salvamento que ofrece a los j\u00f3venes la oportunidad de ganarse la vida sin tener que emigrar, ni dentro ni fuera de sus pa\u00edses.</p>\n<p>El D\u00eda Mundial del Turismo de 2020 se celebrar\u00e1 una vez m\u00e1s por los Estados Miembros de la OMT en todas las regiones del mundo, as\u00ed como en las ciudades y otros destinos, y por parte de organizaciones del sector privado y turistas, en un momento en el que las comunidades de las zonas rurales est\u00e1n luchando contra los efectos de la pandemia de COVID-19. Estas comunidades suelen estar mucho menos preparadas para afrontar el impacto a corto y a largo plazo de una crisis, debido a diversos factores, como son el envejecimiento de la poblaci\u00f3n, unos niveles de ingresos m\u00e1s bajos y la brecha digital que todav\u00eda existe. El turismo ofrece una soluci\u00f3n a todos estos retos.</p>\n<p>Por primera vez en los cuarenta a\u00f1os de historia del D\u00eda Mundial del Turismo, la celebraci\u00f3n oficial no estar\u00e1 auspiciada por un \u00fanico Estado Miembro del organismo especializado de las Naciones Unidas, sino por las naciones del bloque de Mercosur (<a href="https://www.unwto.org/es/dia-mundial-del-turismo-2020-2020/anfitriones">Argentina, Brasil, Paraguay y Uruguay, con Chile como observador</a>), que actuar\u00e1n como anfitriones conjuntos. Este acuerdo de celebraci\u00f3n conjunta ejemplifica el esp\u00edritu de solidaridad internacional que recorre el turismo y que la OMT ha reconocido como esencial para la recuperaci\u00f3n.</p>\n<p><strong>\u00a0</strong></p>\n<p><em><strong>SALUDO OFICIAL DEL MINCETUR POR EL D\u00cdA MUNDIAL DEL TURISMO</strong></em></p>\n<p><em>Me dirijo a ustedes para saludarlos muy afectuosamente en el D\u00eda Mundial del Turismo que, como ustedes saben se celebra cada 27 de setiembre a nivel internacional desde 1980 cuando la Organizaci\u00f3n Mundial del Turismo\u00a0 escogi\u00f3 ese d\u00eda\u00a0 para difundir el rol tan importante que cumple esta actividad\u00a0 promoviendo e integrando valores culturales, hist\u00f3ricos, econ\u00f3micos y sociales.</em></p>\n<p><em>Nuestro pa\u00eds cuenta con tesoros milenarios, riquezas naturales\u00a0 y una vasta diversidad biol\u00f3gica y es nuestro deber como Sector Comercio Exterior y Turismo cuidar de ellos y a la vez promover su puesta en valor para que el mundo los aprecie, pero tambi\u00e9n para que nuestras regiones y sus pobladores hagan del turismo una actividad econ\u00f3mica sostenible.</em></p>\n<p><em>Est\u00e1 en\u00a0 nuestras manos, nuestras mentes y nuestro coraz\u00f3n contribuir al desarrollo del turismo en nuestro pa\u00eds. Que este d\u00eda nos lleve a una reflexi\u00f3n profunda de lo que cada uno de nosotros podemos hacer para\u00a0 seguir trabajando en equipo y promover as\u00ed el crecimiento de nuestro pa\u00eds.</em></p>\n<p>&nbsp;</p>\n<p><iframe title="MINCETUR: Marca Per\u00fa" width="1080" height="810" src="https://www.youtube.com/embed/BF-2oDJ-EVw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>\n<h2>\u00a0</h2>\n<h2><strong>\u00bfSab\u00edas que&#8230;?</strong></h2>\n<ul>\n<li>El turismo emplea a una de cada 10 personas en el mundo. Debido a la pandemia, se estima que 100-120 millones de empleos directos est\u00e1n en riesgo.</li>\n<li>La OMT prev\u00e9 que el turismo nacional se reactivar\u00e1 antes que el turismo internacional, lo que, con una buena gesti\u00f3n, podr\u00eda beneficiar a las comunidades rurales.</li>\n<li>Los j\u00f3venes de las comunidades rurales tienen tres veces m\u00e1s posibilidades de estar desempleados. El turismo es un salvavidas que puede ofrecerles empleo en sus pueblos.</li>\n</ul>\n<p>&nbsp;</p>\n<h1><strong>Bibliograf\u00eda</strong></h1>\n<p><em>Naciones Unidas</em>. (Septiembre de 2020). Obtenido de D\u00eda Mundial del Turismo: https://www.un.org/es/observances/tourism-day</p>\n<p>Turismo, M. d. (Septiembre de 2020). <em>Ministerio de Comercio Exterior y Turismo</em>. Obtenido de https://www.mincetur.gob.pe/saludo-dia-mundial-del-turismo/</p>\n<p>Turismo, O. M. (2019). <em>Definiciones de turismo de la OMT.</em> Madrid.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]</p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.6.3&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_row _builder_version=\u00bb4.6.3&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.6.3&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_text _builder_version=\u00bb4.6.3&#8243; _module_preset=\u00bbdefault\u00bb text_orientation=\u00bbjustified\u00bb hover_enabled=\u00bb0&#8243; sticky_enabled=\u00bb0&#8243;] Por: Anabel Espinoza El 27 de septiembre se celebra el d\u00eda Internacional del Turismo, fecha instituida desde 1980 cuando se aprobaron los estatutos que conforman a la Organizaci\u00f3n Mundial del Turismo (OMT). La principal finalidad del D\u00eda Mundial del Turismo es [&hellip;]</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 738,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "on",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [9],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/731" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=731",
-        },
-      ],
-      "version-history": [
-        {
-          count: 7,
-          href: "https://maqay.org/wp-json/wp/v2/posts/731/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 743,
-          href: "https://maqay.org/wp-json/wp/v2/posts/731/revisions/743",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/738",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=731" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=731",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=731",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 715,
-    date: "2020-09-20T10:43:22",
-    date_gmt: "2020-09-20T15:43:22",
-    guid: { rendered: "https://maqay.org/?p=715" },
-    modified: "2020-09-22T06:50:18",
-    modified_gmt: "2020-09-22T11:50:18",
-    slug: "que-es-el-compostaje-y-como-hacerlo-en-casa",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/que-es-el-compostaje-y-como-hacerlo-en-casa/",
-    title: {
-      rendered: "\u00bfQu\u00e9 es el compostaje y c\u00f3mo hacerlo en casa?",
-    },
-    content: {
-      rendered:
-        '<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.6.3&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_row _builder_version=\u00bb4.6.3&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.6.3&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_text admin_label=\u00bbTexto\u00bb _builder_version=\u00bb4.6.3&#8243; _module_preset=\u00bbdefault\u00bb text_orientation=\u00bbjustified\u00bb hover_enabled=\u00bb0&#8243; sticky_enabled=\u00bb0&#8243;]</p>\n<h2>Por: Lourdes Arteta</h2>\n<p>&nbsp;</p>\n<h2><strong>\u00bfQu\u00e9 es el compostaje?</strong></h2>\n<p>&nbsp;</p>\n<p>El compostaje o <em>composting</em> en ingl\u00e9s, es un proceso biol\u00f3gico de oxidaci\u00f3n (descomposici\u00f3n) mediante el cual se transforma la materia org\u00e1nica con ayuda de varios agentes de descomposici\u00f3n (organismos microsc\u00f3picos como bacterias y hongos y organismos macrosc\u00f3picos como gusanos, lombrices, etc) y del que podemos obtener como resultado, el llamado \u201ccompost\u201d.</p>\n<h2>\u00a0</h2>\n<h2><strong>\u00bfPara qu\u00e9 sirve?</strong></h2>\n<p>&nbsp;</p>\n<p>El compost es un abono natural y muy eficaz, que puede ser usado tanto para la agricultura, la jardiner\u00eda o s\u00f3lo para mejorar la calidad del suelo. Adem\u00e1s, reduce la cantidad de materia org\u00e1nica que llega a los botaderos.</p>\n<h2>\u00a0</h2>\n<h2><strong>\u00bfQu\u00e9 se pueden compostar?</strong></h2>\n<p>&nbsp;</p>\n<p>Para el compostaje puedes usar casi cualquier materia org\u00e1nica. Sin embargo, siempre debes observar que lo que sea que incluyas no se encuentre contaminado.</p>\n<p>En base al \u201cManual de Compostaje del Agricultor\u201d elaborado por la ONU, les presentamos la siguiente lista de materiales cotidianos y accesibles con los cuales puedes compostar en casa.</p>\n<ul>\n<li>C\u00e1scaras y restos de frutas y vegetales (cortados en trozos peque\u00f1os)</li>\n<li>Restos <strong>org\u00e1nicos</strong> de comida en general</li>\n<li>C\u00e1scaras de frutos secos</li>\n<li>C\u00e1scaras de huevo (aplastadas en trocitos)</li>\n<li>Plantas del\u00a0<a href="https://www.concienciaeco.com/tag/huerto-urbano/">huerto</a>\u00a0jard\u00edn</li>\n<li>Plantas medicinales</li>\n<li>Ramas trituradas o troceadas</li>\n<li>Hojas ca\u00eddas de\u00a0<a href="https://www.concienciaeco.com/tag/arboles/">\u00e1rboles </a>y arbustos (secas y en trozos)</li>\n<li>Hierba segada, matas, pasto (en capas muy finas y bien secas)</li>\n<li>Restos de infusiones o caf\u00e9 pasado (se pueden incluir los filtros de papel)</li>\n</ul>\n<p>Aunque podr\u00edan utilizarse, es mejor no usar los siguientes elementos o al menos, reducir al m\u00e1ximo posible las cantidades.</p>\n<ul>\n<li>Frutos y vegetales podridos.</li>\n<li>Pieles de naranja, c\u00edtricos o pi\u00f1a</li>\n<li>Restos de carnes, pescados, mariscos, sus estructuras \u00f3seas y caparazones</li>\n<li>Cenizas</li>\n<li>Virutas de serr\u00edn</li>\n<li>Papel y cart\u00f3n con impresi\u00f3n de tintas en colores (mejor recicla)</li>\n<li>Trapos y tejidos de fibra natural</li>\n</ul>\n<p>Los siguientes art\u00edculos no debes a\u00f1adirlos nunca a tu composta.</p>\n<ul>\n<li>Materiales qu\u00edmicos-sint\u00e9ticos.</li>\n<li>Materiales no degradables (vidrio, metales, pl\u00e1sticos).</li>\n<li>Aglomerados o contrachapados de madera (ni sus virutas o serr\u00edn).</li>\n<li>Tabaco (cigarros, puros, picadura)</li>\n<li>Detergentes, productos clorados, antibi\u00f3ticos.</li>\n</ul>\n<h2>\u00a0</h2>\n<h2><strong>\u00bfC\u00f3mo hacer compostaje?</strong></h2>\n<p>&nbsp;</p>\n<p>En primer lugar necesitaras una compostera, para ello es \u00fatil cualquier contenedor que puedes hacer o adaptar t\u00fa mismo con las cosas que tengas a mano, es posible usar ollas de tiesto, baldes, canastas, cajas de fruta, cajas de madera, etc, s\u00f3lo debe ser un recipiente que tenga una abertura en la parte superior y que pueda taparse.</p>\n<p>En segundo lugar, debes seleccionar los componentes que usar\u00e1s entre componentes h\u00famedos (todo tipo de residuos org\u00e1nicos) y componentes secos (tierra, hojas, ramitas, papel, etc).</p>\n<p>Un procedimiento sencillo que puedes seguir es el siguiente:</p>\n<ol>\n<li>Comienza poniendo una base gruesa (hazle huequitos para una mejor ventilaci\u00f3n) usando un componente seco, como cajas de huevos o cart\u00f3n y complem\u00e9ntala con m\u00e1s elementos secos, como hojas y/o ramas secas trozadas.</li>\n<li>Agrega componentes h\u00famedos, es decir, la materia org\u00e1nica que hayas juntado como c\u00e1scaras de fruta o de verduras, etc.</li>\n</ol>\n<p>Es importante que recuerdes cortar todo en <strong>trozos peque\u00f1os</strong> <strong>para acelerar el proceso.</strong></p>\n<ol start="3">\n<li>A\u00f1ade otra capa de componentes secos, puedes incluir tierra, pasto seco, restos de infusiones o caf\u00e9 pasado, etc.</li>\n<li>Puedes repetir el paso 1 y 2 cuantas veces quieras, ya que el n\u00famero de capas depender\u00e1 del tama\u00f1o de tu compostera. S\u00f3lo recuerda incluir mitad y mitad de cada componente y procura siempre terminar con una capa de elementos secos, para evitar que los residuos org\u00e1nicos est\u00e9n al aire y atraigan moscas o mosquitos.</li>\n<li>Riega tu compostaje de <strong>manera uniforme siempre que sea necesario</strong>. Ten en mente que no debe estar seco pero tampoco debe chorrear agua, la humedad debe ser constante y mantenerse entre el 40% y 60%, por lo que la cantidad de agua a usar depender\u00e1 de cada caso en especial.</li>\n<li>Tapa tu compostera (aunque se recomienda mucho, esto es opcional y en cierta medida depender\u00e1 del lugar y los componentes que hayas escojido).</li>\n<li>Procura atender tu compostaje diario o interdiario. Ponle especial atenci\u00f3n al <strong>revisar su humedad</strong> y cada varios d\u00edas remueve todo, para garantizar una correcta oxigenaci\u00f3n.</li>\n</ol>\n<p>Es importante tener presente, que si bien \u00e9ste es un proceso que se da de forma natural y no requiere de mucho esfuerzo por nuestra parte, si necesita cierta atenci\u00f3n y cuidado, para evitar que se reseque o se pudra por exceso de humedad.</p>\n<p>Aqu\u00ed les dejamos un video que hicimos hace unos meses: https://www.instagram.com/tv/CCri9XAhOYj/</p>\n<h2><strong>\u00bfCu\u00e1nto tarda y como saber si est\u00e1 listo?</strong></h2>\n<p>&nbsp;</p>\n<p>El tiempo que demora var\u00eda mucho seg\u00fan cada caso, pero en promedio se maneja un tiempo estimado de entre 2 a 6 meses. Cuando el compostaje finalmente ya se ha convertido en compost, adquiere un color negro o marr\u00f3n oscuro, muy parecido a la tierra o al caf\u00e9 molido y presenta una textura medio esponjosa, que se deshace con facilidad en las manos. NO huele mal, sino como a tierra h\u00fameda y fresca.</p>\n<p>&nbsp;</p>\n<h2><strong>Beneficios:</strong></h2>\n<p>&nbsp;</p>\n<ul>\n<li>Mejora las propiedades f\u00edsicas, qu\u00edmicas y biol\u00f3gicas del suelo (previene su erosi\u00f3n, incrementa su retenci\u00f3n de agua, su esponjosidad, lo nutre reparando da\u00f1os previos, etc).</li>\n<li>Incrementa la calidad de los cultivos donde se le use, ya sea que se trate de alimentos o plantas ornamentales.</li>\n<li>Colabora con la continuidad del <strong>ciclo de la vida</strong>. Del compostaje de nuestros residuos org\u00e1nicos obtenemos abono, el cual <em>(entre otras cosas)</em> se puede usar para plantar vegetales o frutas, que tras su consumo generan residuos que podr\u00e1n compostarse de nuevo y as\u00ed en un ciclo perpetuo.</li>\n<li>Contribuye con la reducci\u00f3n de residuos urbanos que se llevan a los botaderos, rellenos sanitarios, etc y los gastos de transporte que esto genera.</li>\n<li>El proceso de compostaje reduce hasta un 80% la emisi\u00f3n de gases de efecto invernadero hacia la atm\u00f3sfera.</li>\n<li>Es mucho m\u00e1s econ\u00f3mico compostar que comprar fertilizantes qu\u00edmicos, sin mencionar, que su uso no genera consecuencias tan negativas para el ambiente.</li>\n<li>Al ser un proceso natural, no necesitas ning\u00fan tipo de mecanismo externo y no genera gastos de mantenimiento.</li>\n<li>Participas de una econom\u00eda circular (sistema que promueve el aprovechamiento de recursos y reduce el desperdicio)</li>\n<li>Es un proyecto que puede ser compartido con toda la familia, acerc\u00e1ndote m\u00e1s a tus seres queridos.</li>\n</ul>\n<h2>\u00a0</h2>\n<h2><strong>\u00bfSab\u00edas qu\u00e9?</strong></h2>\n<p>&nbsp;</p>\n<ul>\n<li>Una bolsa de basura convencional se compone de hasta 50% de materia org\u00e1nica, la cual es mayormente aprovechable y de cada 100kg de residuos org\u00e1nicos se pueden obtener hasta 30 kg de compost, un abono natural, eficaz y gratuito.</li>\n</ul>\n<p><em>\u00a0</em></p>\n<p><em>ALGO EXTRA</em></p>\n<p>Por si todav\u00eda no te convences de que el compostaje es una gran y f\u00e1cil alternativa para contrarrestar la contaminaci\u00f3n ambiental y ayudar con la problem\u00e1tica ambiental. Te dejamos estos datos sobre nuestro pa\u00eds que podr\u00edan terminar de convencerte.</p>\n<p>En Per\u00fa:</p>\n<ul>\n<li>Los residuos s\u00f3lidos se conforman principalmente por restos org\u00e1nicos de cocina y de alimentos, representando el 47% del total de residuos generados.</li>\n<li>En el 2018 se calculaba una producci\u00f3n de 7 millones de toneladas al a\u00f1o, aproximadamente 20 mil toneladas al d\u00eda, cerca de mil toneladas por hora.</li>\n<li>El volumen de basura producido cada vez aumenta m\u00e1s, hace 10 a\u00f1os era de 13 mil toneladas al d\u00eda, hoy supera las 18 mil (<strong>8,468 toneladas se generan en Lima).</strong></li>\n<li>Solo existen 34 rellenos sanitarios, en los cuales se dispone el 52% de la basura generada en el pa\u00eds. El resto de la basura se arroja en playas, r\u00edos, quebradas o terrenos descampados.</li>\n<li>A diferencia de otros pa\u00edses de Latinoam\u00e9rica como, por ejemplo, Chile o Colombia, aqu\u00ed no tenemos plantas que produzcan compost a gran escala.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong><u>Fuentes:</u></strong></p>\n<ul>\n<li><a href="http://www.fao.org/3/a-i3388s.pdf">http://www.fao.org/3/a-i3388s.pdf</a></li>\n<li><a href="https://www.defensoria.gob.pe/wp-content/uploads/2019/11/PPT-Informe-Defensorial-181.pdf">https://www.defensoria.gob.pe/wp-content/uploads/2019/11/PPT-Informe-Defensorial-181.pdf</a></li>\n<li><a href="https://www.infoagro.com/abonos/compostaje.htm">https://www.infoagro.com/abonos/compostaje.htm</a></li>\n<li><a href="http://biblioteca.inia.cl/medios/biblioteca/informativos/NR40965.pdf">http://biblioteca.inia.cl/medios/biblioteca/informativos/NR40965.pdf</a></li>\n<li><a href="https://www.actualidadambiental.pe/opinion-retos-y-oportunidades-del-compostaje-en-el-peru/#:~:text=Del%20total%20de%20la%20basura,el%208.37%25%20son%20residuos%20peligrosos.&amp;text=El%20Per%C3%BA%20cuenta%20con%20insuficientes,disposici%C3%B3n%20final%20de%20residuos%20s%C3%B3lidos">https://www.actualidadambiental.pe/opinion-retos-y-oportunidades-del-compostaje-en-el-peru/#:~:text=Del%20total%20de%20la%20basura,el%208.37%25%20son%20residuos%20peligrosos.&amp;text=El%20Per%C3%BA%20cuenta%20con%20insuficientes,disposici%C3%B3n%20final%20de%20residuos%20s%C3%B3lidos</a>.</li>\n<li><a href="https://www.concienciaeco.com/2013/07/19/que-es-el-compostaje/">https://www.concienciaeco.com/</a></li>\n<li><a href="http://www.minam.gob.pe/gestion-de-residuos-solidos/nueva-ley-de-residuos-solidos/">http://www.minam.gob.pe/gestion-de-residuos-solidos/nueva-ley-de-residuos-solidos/</a></li>\n</ul>\n<p>&nbsp;</p>\n<p>[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]</p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.6.3&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_row _builder_version=\u00bb4.6.3&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.6.3&#8243; _module_preset=\u00bbdefault\u00bb][et_pb_text admin_label=\u00bbTexto\u00bb _builder_version=\u00bb4.6.3&#8243; _module_preset=\u00bbdefault\u00bb text_orientation=\u00bbjustified\u00bb hover_enabled=\u00bb0&#8243; sticky_enabled=\u00bb0&#8243;] Por: Lourdes Arteta &nbsp; \u00bfQu\u00e9 es el compostaje? &nbsp; El compostaje o composting en ingl\u00e9s, es un proceso biol\u00f3gico de oxidaci\u00f3n (descomposici\u00f3n) mediante el cual se transforma la materia org\u00e1nica con ayuda de varios agentes de descomposici\u00f3n (organismos microsc\u00f3picos como [&hellip;]</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 718,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "on",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [9],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/715" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=715",
-        },
-      ],
-      "version-history": [
-        {
-          count: 8,
-          href: "https://maqay.org/wp-json/wp/v2/posts/715/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 729,
-          href: "https://maqay.org/wp-json/wp/v2/posts/715/revisions/729",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/718",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=715" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=715",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=715",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 676,
-    date: "2020-09-08T15:37:20",
-    date_gmt: "2020-09-08T20:37:20",
-    guid: { rendered: "https://maqay.org/?p=676" },
-    modified: "2020-09-08T16:40:56",
-    modified_gmt: "2020-09-08T21:40:56",
-    slug: "escazu-ahora",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/escazu-ahora/",
-    title: { rendered: "Escaz\u00fa, \u00a1ahora!" },
-    content: {
-      rendered:
-        '<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_row _builder_version=\u00bb4.4.7&#8243;][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_text admin_label=\u00bbTexto\u00bb _builder_version=\u00bb4.4.7&#8243; text_font_size=\u00bb15px\u00bb text_orientation=\u00bbjustified\u00bb]</p>\n<h1><strong>CONVERSATORIO SOBRE EL ACUERDO DE ESCAZ\u00da</strong></h1>\n<p>&nbsp;</p>\n<p>El pasado 20 de agosto, participamos en un conversatorio sobre el Acuerdo de Escaz\u00fa, organizado por el Centro Federado de la Facultad de Derecho de la Universidad Andina del Cusco. Aqu\u00ed les dejamos un resumen de lo que se trat\u00f3 en esa fecha y el video para que lo puedan escuchar.</p>\n<p>Resumen elaborado sobre la presentaci\u00f3n efectuada en el citado evento.</p>\n<p>Por: Vanessa de los \u00c1ngeles</p>\n<p>&nbsp;</p>\n<p><div id="fb-root"></div>\n<p><script async="1" defer="1" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v8.0" nonce="WBTBYhFl"></script></p>\n<div class="fb-video" data-href="https://www.facebook.com/292500441380534/videos/971619179985711/" data-width="1080">\n<blockquote cite="https://www.facebook.com/292500441380534/videos/971619179985711/" class="fb-xfbml-parse-ignore"><p><a href="https://www.facebook.com/292500441380534/videos/971619179985711/">Conversatorio Sobre El Acuerdo De Escaz\u00fa</a></p>\n<p>Gabriela Paliza Romero y Nelly Herrera Santos, especialistas en Derecho Medioambiental y con amplia experiencia nos hablan acerca de este importante acuerdo. Organizado por el Centro Federado de Derecho y Ciencia Pol\u00edtica. Gracias al apoyo del CAHDE (Cultura, Arte y Humanidades &#8211; Derecho)</p>\n<p>Posted by <a href="https://www.facebook.com/Centro-Federado-de-Derecho-y-Ciencia-Politica-UAC-292500441380534/">Centro Federado de Derecho y Ciencia Politica &#8211; UAC</a> on Thursday, August 20, 2020</p></blockquote>\n</div>\n<h2>\u00a0</h2>\n<p>&nbsp;</p>\n<h2><strong>1.Introducci\u00f3n</strong></h2>\n<p>&nbsp;</p>\n<p>El Desarrollo Sostenible, incorporado en el Principio 10 de la Declaraci\u00f3n de Rio sobre Medio Ambiente y Desarrollo de 1992, en la cual menciona que la mejor forma de tratar las cuestiones ambientales es con la participaci\u00f3n de todos los ciudadanos interesados, pero para esto es necesario que las personas tengan acceso a la informaci\u00f3n sobre medio ambiente pero tambi\u00e9n puedan participar en el proceso de toma de decisiones, es por eso que los Estados deben de facilitar los procesos de sensibilizaci\u00f3n para poder participar en la toma de decisiones efectiva.</p>\n<p>La Democracia Ambiental ligada con el desarrollo sostenible, nos menciona que tiene que ver con el derecho de las personas a acceder a informaci\u00f3n, de participar en la toma de decisiones y adem\u00e1s que estas personas est\u00e9n involucradas tanto como las empresas en la gesti\u00f3n ambiental, desarrollo sostenible y que el estado facilite espacios de participaci\u00f3n y asegure una justicia efectiva sin costos, fortaleciendo la gobernanza ambiental.</p>\n<h2>\u00a0</h2>\n<h2><strong>2. Antecedentes del Acuerdo de Escaz\u00fa</strong></h2>\n<p>&nbsp;</p>\n<p>Uno de los principales antecedentes es el Principio 10 de la Declaraci\u00f3n de Rio sobre Medio Ambiente y Desarrollo, que establec\u00eda la importancia del acceso a la informaci\u00f3n, participaci\u00f3n ciudadana en la toma de decisiones y acceso a la justicia. Luego de 20 a\u00f1os en la conferencia de las Naciones Unidas (Rio +20) se hizo una declaraci\u00f3n sobre la importancia de seguir aplicando el Principio 10 a trav\u00e9s de un instrumento de cooperaci\u00f3n internacional que luego se convirti\u00f3 en el Acuerdo de Escaz\u00fa.</p>\n<p>Fue en el 2016 que se da inicio a las negociaciones para la aprobaci\u00f3n de este Acuerdo Regional, en el caso de Escaz\u00fa se llevaron nueve sesiones presenciales, seis reuniones virtuales, durante el 2015 y 2018, participaron 24 Pa\u00edses de todo Am\u00e9rica, considerando 33 Pa\u00edses, tiene como principal antecedente la Convenci\u00f3n de Argus, que viene siendo implementado por los Pa\u00edses de la Uni\u00f3n Europea. En el 2018 se ratific\u00f3 este acuerdo, de car\u00e1cter vinculante, es decir que los Pa\u00edses que lo ratifican tienen que cumplirlo, no se admiti\u00f3 reservas y se aprob\u00f3 por gran unanimidad.</p>\n<p>En Rio +20 se hizo la aplicaci\u00f3n del Principio 10 con la participaci\u00f3n de Chile, Costa Rica, Jamaica, M\u00e9xico, Panam\u00e1, Paraguay, Per\u00fa, Rep\u00fablica Dominicana, Uruguay, pa\u00edses que impulsaron el proceso de negociaci\u00f3n del Acuerdo, concluyendo que los derechos de acceso son esenciales para promover el desarrollo sostenible y la democracia y el medio ambiente sano.</p>\n<p>&nbsp;</p>\n<h2><strong>3. Negociaciones del Acuerdo de Escaz\u00fa</strong></h2>\n<p>&nbsp;</p>\n<p>Este Acuerdo de Escaz\u00fa, empez\u00f3 en Chile por CEPAL presentando la versi\u00f3n preliminar, apoyando adem\u00e1s en toda la elaboraci\u00f3n, discusi\u00f3n, ejecuci\u00f3n y ratificaci\u00f3n de este acuerdo. Luego se produjo en Panam\u00e1 proponiendo distintas propuestas para la participacion del p\u00fablico, este acuerdo contiene la participacion con la sociedad civil, proponiendo muchos art\u00edculos entre unos de ellos destacando a los defensores ambientales.</p>\n<p>En marzo de 2017, se propusieron cuerpos de trabajo en Brasil, en Argentina, la sociedad civil y algunos Pa\u00edses, propusieron la incorporaci\u00f3n del articulo para reconocer y proteger a las personas defensoras de los derechos humanos y ambientales, posteriormente fue negociado y surgiendo modificaciones, para despu\u00e9s ser parte del Acuerdo Escaz\u00fa con el articulo 9 y finalmente en Costa Rica, el 04 de marzo se aprob\u00f3 el Acuerdo de Escaz\u00fa sin excepciones.</p>\n<p>&nbsp;</p>\n<h2><strong>4. Derechos de acceso en el Acuerdo de Escaz\u00fa</strong></h2>\n<p>&nbsp;</p>\n<h2><b>4.1.Derecho de acceso a la informaci\u00f3n ambiental</b></h2>\n<p>&nbsp;</p>\n<p>Tiene como antecedente a la Declaraci\u00f3n Universal de Derechos Humanos, incorporado como parte de los Derechos Econ\u00f3micos, Sociales y Culturales, forma parte del Principio 7 de los Derechos Humanos y Medio Ambiente, recogiendo el derecho a la informaci\u00f3n en muchos acuerdos y en nuestra propia constituci\u00f3n,</p>\n<p>El Acuerdo de Escaz\u00fa, establece algunos est\u00e1ndares para el acceso a la informaci\u00f3n como, por ejemplo:</p>\n<p>&nbsp;</p>\n<p><strong>EST\u00c1NDARES</strong></p>\n<ul>\n<li>La accesibilidad de la informaci\u00f3n</li>\n<li>La denegaci\u00f3n de acceso a la informaci\u00f3n</li>\n<li>La entrega de informaci\u00f3n</li>\n<li>Contar con mecanismos de revisi\u00f3n indispensables</li>\n<li>La generaci\u00f3n y divulgaci\u00f3n</li>\n</ul>\n<p><strong>ALGUNOS RETOS DENTRO DEL ACCESO A LA INFORMACI\u00d3N</strong></p>\n<ul>\n<li>Generar informaci\u00f3n veraz, interc\u00e1mbiale y ampliarlos canales de difusi\u00f3n.</li>\n<li>Asegurar la calidad de la informaci\u00f3n, en especial en los gobiernos sub nacionales.</li>\n<li>Contar con la difusi\u00f3n de informaci\u00f3n oportuna y veraz a la poblaci\u00f3n en caso de amenaza inminente para la salud o el medio ambiente, ya sea imputable a actividades humanas o debida a causas neutrales, que permita al p\u00fablico tomar medidas para prevenir o limitar los da\u00f1os eventuales.</li>\n</ul>\n<p>&nbsp;</p>\n<h2><strong>4.2. Derecho a la participaci\u00f3n\u00a0ciudadana ambiental</strong></h2>\n<p>Reconocido en la Declaraci\u00f3n Universal de Derecho Humanos, en el Pacto Internacional de derechos Civiles y Pol\u00edticos, como parte del Comit\u00e9 de Derechos Econ\u00f3micos, Sociales y Culturales y como Principio Marco sobre Derechos Humanos y el Medio Ambiente,</p>\n<p><strong>EST\u00c1NDARES</strong></p>\n<ul>\n<li>La participaci\u00f3n p\u00fablica se ejerce de manera oportuna con mecanismos abiertos, inclusivos y transparentes.</li>\n<li>La participaci\u00f3n se implementa en etapas iniciales del proceso de toma de decisiones, se puede presentar observaciones, comentarios o consultas.</li>\n<li>Los ciudadanos y las ciudadanas participan con informaci\u00f3n adecuada, dicha informaci\u00f3n debe de hacerse p\u00fablica.</li>\n<li>El resultado de la participaci\u00f3n tiene que ser difundido de manera oportuno y fundamentada, debe de incluir las razones por las cuales no se consider\u00f3 su participacion.</li>\n</ul>\n<p><strong>RETOS EN LA PARTICIPACI\u00d3N CIUDADANA</strong></p>\n<ul>\n<li>Desaf\u00edos en la implementaci\u00f3n apropiada de esos mecanismos principalmente en planes, programas, estrategias y pol\u00edticas. Muchas veces la participaci\u00f3n se limita a cumplir con los requerimientos formales, se concreta cuando la mayor\u00eda de las decisiones ya han sido adoptadas, no se adecua a las caracter\u00edsticas sociales, econ\u00f3micas, geogr\u00e1ficas, ni degenero de las comunidades, y no proporciona debida respuesta a los aportes entregados por las persona y organizaciones,</li>\n</ul>\n<p>&nbsp;</p>\n<h2><strong>4.3. Derecho de acceso a la justicia ambiental</strong></h2>\n<p>&nbsp;</p>\n<p>Incorporada en la Declaraci\u00f3n Universal de Derechos Humanos, Pacto Internacional de Derechos Civiles y pol\u00edticos, tambi\u00e9n en el Comit\u00e9 d Derechos Econ\u00f3micos, Sociales y Culturales y por \u00faltimo en el Marco de los Derechos Humanos y el Medio Ambiente.</p>\n<p><strong>DESAF\u00cdOS</strong></p>\n<ul>\n<li><strong>Legitimaci\u00f3n</strong>, permite entablar demandas en nombre de un bien p\u00fablico, en nombre del propio medio ambiente o en nombre de las generaciones futuras.</li>\n<li><strong>Costos, </strong>los tribunales imponen tasas que resultan prohibidas para las comunidades marginadas o exigen a las partes que soliciten medidas cautelares.</li>\n<li><strong>Distancia, </strong>puede superarse mediante audiencias virtuales o incluso tribunales m\u00f3viles.</li>\n<li><strong>Capacitaci\u00f3n</strong>, se puede reducir mediante capacitaciones jur\u00eddicas especializadas o tribunales ambientales, para garantizar que ambas partes dispongan de asistencia t\u00e9cnica y judicial adecuada.</li>\n</ul>\n<p><strong>\u00a0</strong></p>\n<p><strong>EST\u00c1NDARES</strong></p>\n<ul>\n<li>Derecho de acceso a la justicia, se garantiza a trav\u00e9s de \u00f3rganos estatales competentes, de instancias judiciales y administrativas con acceso a conocimientos en materia ambiental.</li>\n<li>Acceso de Justicia se garantiza a trav\u00e9s de procedimientos efectivos, oportunos, p\u00fablicos, transparentes, imparciales y sin costos prohibidos.</li>\n<li>Los mecanismos de reparaci\u00f3n est\u00e1n orientados a la restituci\u00f3n del medio ambiente, la atenci\u00f3n a personas afectadas y la aplicaci\u00f3n de instrumentos financieros para apoyar la reparaci\u00f3n</li>\n<li>El acceso a la justicia se garantiza a trav\u00e9s de la posibilidad de contar con medidas cautelares y provisionales, para cesar los da\u00f1os al medio ambiente.</li>\n<li>El acceso a la justicia se deber\u00e1 garantizar a trav\u00e9s de medidas para facilitar la producci\u00f3n de la prueba del da\u00f1o ambiental.</li>\n<li>Medidas para facilitar la producci\u00f3n de la prueba del da\u00f1o ambiental revisten los procedimientos de justicia ambiental</li>\n<li>Las poblaciones vulnerables ser\u00e1n atendidas a trav\u00e9s de mecanismo de apoyo, como la asistencia t\u00e9cnica y jur\u00eddica gratuita.</li>\n</ul>\n<h2>\u00a0</h2>\n<h2><strong>5. Personas defensoras de derechos humanos en asuntos ambientales</strong></h2>\n<p>&nbsp;</p>\n<p>Las personas defensoras de derechos humanos son aquellos que de forma individual o colectivamente act\u00faan para promover o proteger los derechos humanos a nivel nacional e internacional de <strong>MANERA PAC\u00cdFICA,</strong> a trav\u00e9s de organizaciones de la sociedad civil, profesionales, activistas pol\u00edticos o no pol\u00edticos, que realizan esta labor de derechos humanos en general, en especial en materia ambiental.</p>\n<p>El Acuerdo de Escaz\u00fa, es el primer tratado en el mundo que reconoce los derechos de las personas defensores de los derechos ambientales. As\u00ed, se\u00f1ala que los Estados deber\u00e1n implementar medidas para:</p>\n<ul>\n<li><strong>GARANTIZAR UN ENTORNO SEGURO Y FAVORABLE </strong>que les permita actuar sin amenazas, restricciones e inseguridad;</li>\n<li><strong>ADOPTA MEDIDAS ADECUADAS Y EFECTIVAS </strong>para reconocer, proteger y garantizar todos sus derechos;</li>\n<li><strong>PREVIENE, INVESTIGA Y SANCIONA, de los ataques,</strong> amenazas o intimidaciones contra ellos.</li>\n</ul>\n<p><strong>PRINCIPALES DIFICULTADES EN EL PER\u00da:</strong></p>\n<ol>\n<li>Falta de reconocimiento y estigmatizaci\u00f3n;</li>\n<li>Criminalizaci\u00f3n de las personas defensoras de los derechos humanos</li>\n<li>Obst\u00e1culos al disfrute del derecho de la protesta y a la libertad de expresi\u00f3n de las personas defensoras de los derechos humanos</li>\n<li>Ineficiencia del Sistema de Justicia,</li>\n</ol>\n<p><strong>PRINCIPALES AVANCES EN EL PER\u00da</strong></p>\n<ul>\n<li>Aprobaci\u00f3n del Plan Nacional de Derechos Humanos, aprobado por Decreto Supremo No2-2018- JUS, en el cual se considera a las personas defensoras de derechos humanos como grupos de especial protecci\u00f3n para el dise\u00f1o y ejecuci\u00f3n de pol\u00edticas.</li>\n<li>Aprobaci\u00f3n del Protocolo para garantizar la protecci\u00f3n de personas defensoras de derechos humanos mediante Resoluci\u00f3n Ministerial N 0159- 2019-JUS.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>PRINCIPALES PROBLEMAS</strong></p>\n<ul>\n<li>Causas detr\u00e1s de estos asesinatos, los conflictos asociados a la miner\u00eda, la agroindustria y la defensa de las fuentes de agua.</li>\n<li>Gran cantidad de actividades ilegales.</li>\n<li>Problemas estructurales para acceder a la justicia. (Justicia Administrativa y Penal)</li>\n<li>Criiminalizaci\u00f3n de las personas defensoras ambientales, difamaci\u00f3n y estigmatizaci\u00f3n. Las redes sociales han intensificado los ataques, procedimientos legales en su contra.</li>\n</ul>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]</p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_row _builder_version=\u00bb4.4.7&#8243;][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_text admin_label=\u00bbTexto\u00bb _builder_version=\u00bb4.4.7&#8243; text_font_size=\u00bb15px\u00bb text_orientation=\u00bbjustified\u00bb] CONVERSATORIO SOBRE EL ACUERDO DE ESCAZ\u00da &nbsp; El pasado 20 de agosto, participamos en un conversatorio sobre el Acuerdo de Escaz\u00fa, organizado por el Centro Federado de la Facultad de Derecho de la Universidad Andina del Cusco. Aqu\u00ed les dejamos un resumen de lo que [&hellip;]</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 679,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "on",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [9],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/676" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=676",
-        },
-      ],
-      "version-history": [
-        {
-          count: 6,
-          href: "https://maqay.org/wp-json/wp/v2/posts/676/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 685,
-          href: "https://maqay.org/wp-json/wp/v2/posts/676/revisions/685",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/679",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=676" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=676",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=676",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 645,
-    date: "2020-08-14T19:37:36",
-    date_gmt: "2020-08-15T00:37:36",
-    guid: { rendered: "https://maqay.org/?p=645" },
-    modified: "2020-08-27T15:56:41",
-    modified_gmt: "2020-08-27T20:56:41",
-    slug: "i-concurso-de-cuentos-ambientales-infantiles",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/i-concurso-de-cuentos-ambientales-infantiles/",
-    title: { rendered: "I Concurso de Cuentos Ambientales Infantiles" },
-    content: {
-      rendered:
-        '<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_row _builder_version=\u00bb4.4.7&#8243;][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_text admin_label=\u00bbTexto\u00bb _builder_version=\u00bb4.4.7&#8243; text_font=\u00bb||||||||\u00bb text_font_size=\u00bb16px\u00bb hover_enabled=\u00bb0&#8243;]</p>\n<div class="page" title="Page 3">\n<div class="section">\n<div class="layoutArea">\n<div class="column">\n<h2>Maqay en colaboracio\u0301n con la Municipalidad de Miraflores publicara\u0301 un cuento infantil ambiental.</h2>\n<p>&nbsp;</p>\n<p>Este primer concurso de Cuentos Ambientales Infantiles organizado por Maqay tiene\u00a0como objetivo que los y las ciudadanos/as puedan plasmar su imaginacio\u0301n literaria a trave\u0301s de historias breves ambientados en la Municipalidad Distrital de Miraflores y que permita reflexionar sobre la importancia de la proteccio\u0301n del medio ambiente.</p>\n<div class="page" title="Page 3">\n<div class="section">\n<div class="layoutArea">\n<div class="column">\n<p>&nbsp;</p>\n<p>El cuento debe estar relacionado con la proteccio\u0301n del ambiente y la biodiversidad. Tambie\u0301n puede abordar los derechos de acceso (acceso a la informacio\u0301n ambiental, participacio\u0301n ciudadana y acceso a la justicia).</p>\n<p>Plazo: 15 de septiembre de 2020.</p>\n<div class="page" title="Page 3">\n<div class="section">\n<div class="layoutArea">\n<div class="column">\n<h3>\u00a0</h3>\n<h3>Descarga las bases del concurso aqu\u00ed: <a href="https://maqay.org/wp-content/uploads/2020/08/BASES-CONCURSO-2.pdf" rel="attachment wp-att-673">BASES CONCURSO</a></h3>\n<p>&nbsp;</p>\n<p>Inscr\u00edbete aqu\u00ed: <a href="https://forms.gle/xPSFGcWtAr996HZ6A">https://forms.gle/xPSFGcWtAr996HZ6A</a></p>\n<p>Consultas a: \u00abhola@maqay.org\u00bb.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<p>[/et_pb_text][et_pb_gallery gallery_ids=\u00bb649,650,661,652&#8243; fullwidth=\u00bbon\u00bb _builder_version=\u00bb4.4.7&#8243;][/et_pb_gallery][/et_pb_column][/et_pb_row][/et_pb_section]</p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_row _builder_version=\u00bb4.4.7&#8243;][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_text admin_label=\u00bbTexto\u00bb _builder_version=\u00bb4.4.7&#8243; text_font=\u00bb||||||||\u00bb text_font_size=\u00bb16px\u00bb hover_enabled=\u00bb0&#8243;] Maqay en colaboracio\u0301n con la Municipalidad de Miraflores publicara\u0301 un cuento infantil ambiental. &nbsp; Este primer concurso de Cuentos Ambientales Infantiles organizado por Maqay tiene\u00a0como objetivo que los y las ciudadanos/as puedan plasmar su imaginacio\u0301n literaria a trave\u0301s de historias breves ambientados en la [&hellip;]</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 659,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "on",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [9],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/645" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=645",
-        },
-      ],
-      "version-history": [
-        {
-          count: 6,
-          href: "https://maqay.org/wp-json/wp/v2/posts/645/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 674,
-          href: "https://maqay.org/wp-json/wp/v2/posts/645/revisions/674",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/659",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=645" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=645",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=645",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 628,
-    date: "2020-07-05T20:51:44",
-    date_gmt: "2020-07-06T01:51:44",
-    guid: { rendered: "https://maqay.org/?p=628" },
-    modified: "2020-07-05T21:13:24",
-    modified_gmt: "2020-07-06T02:13:24",
-    slug:
-      "la-pesca-en-el-peru-es-posible-lograr-el-desarrollo-sostenible-de-esta-actividad-en-el-territorio-nacional",
-    status: "publish",
-    type: "post",
-    link:
-      "https://maqay.org/la-pesca-en-el-peru-es-posible-lograr-el-desarrollo-sostenible-de-esta-actividad-en-el-territorio-nacional/",
-    title: {
-      rendered:
-        "La pesca en el Per\u00fa: \u00bfes posible lograr el desarrollo sostenible de esta actividad en el territorio nacional?",
-    },
-    content: {
-      rendered:
-        '<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_row _builder_version=\u00bb4.4.7&#8243;][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_text _builder_version=\u00bb4.4.7&#8243; text_font_size=\u00bb17px\u00bb text_letter_spacing=\u00bb1px\u00bb header_text_align=\u00bbjustify\u00bb text_orientation=\u00bbjustified\u00bb]</p>\n<p>&nbsp;</p>\n<p style="text-align: right;"><b>Por: </b>Leslie Terrones Cernaqu\u00e9</p>\n<p>El pasado 29 de junio se celebr\u00f3 el \u201cd\u00eda del pescador\u201d, fecha en la cual se busca conmemorar la labor de los hombres y mujeres que se dedican a la actividad pesquera en nuestro pa\u00eds. Esta actividad es clave en el Per\u00fa pues, actualmente, aporta el 22% del Producto Bruto Interno (PBI), genera aproximadamente 93 000 empleos directos [1] y es la segunda fuente generadora de divisas despu\u00e9s de la miner\u00eda [2]. Pese a ello, el sector pesquero sigue siendo uno donde existen una diversidad de retos que no permiten que las actividades comprendidas en \u00e9l se desarrollen a\u00fan de manera sostenible, lo cual repercute directa o indirectamente en el ambiente y genera efectos en la salud de la poblaci\u00f3n.</p>\n<p>Puedes ver un video sobre la importancia de la pesca en el Per\u00fa aqu\u00ed:</p>\n<p><iframe title="El aporte de la pesca responsable para la econom\u00eda peruana" width="1080" height="608" src="https://www.youtube.com/embed/l5ceZPHqk7A?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>\n<p>&nbsp;</p>\n<p>Por ello, en esta ocasi\u00f3n realizaremos un breve repaso de la situaci\u00f3n de la pesca en el Per\u00fa, a fin de entender las principales dificultades que afronta esta actividad y descubrir si es posible lograr que la misma se desarrolle de manera sostenible, encontrando un balance entre los componentes ecol\u00f3gicos, econ\u00f3micos, sociales y culturales que interact\u00faan con ella.</p>\n<h2><b>\u00bfQu\u00e9 es la sostenibilidad?</b></h2>\n<p>El t\u00e9rmino \u201csostenibilidad\u201d fue introducido por primera vez en la Agenda Ambiental por el Informe \u201cNuestro Futuro Com\u00fan\u201d, publicado en el a\u00f1o 1987 por la Comisi\u00f3n Mundial sobre Medio Ambiente y Desarrollo, la cual estuvo presidida por la primera ministra de Noruega de ese entonces Gro Harlem Brundtland. El Informe define el \u201cdesarrollo sostenible\u201d como aquel que \u201c<i>satisfaga las necesidades del presente sin comprometer la capacidad de las futuras generaciones para satisfacer las propias\u201d</i> [3]<i>.</i><span class="Apple-converted-space">\u00a0</span></p>\n<p>Del an\u00e1lisis de este informe se aprecia que el enfoque que se le da a \u201cdesarrollo sostenible\u201d adopta un car\u00e1cter tridimensional: aglutina la dimensi\u00f3n econ\u00f3mica y la social en el concepto de desarrollo y equipara a la sostenibilidad con la dimensi\u00f3n ecol\u00f3gica [4]. Dicha concepci\u00f3n fue luego introducida en la Conferencia de las Naciones Unidas sobre Medio Ambiente y Desarrollo, celebrada en R\u00edo de Janeiro en 1992, acogi\u00e9ndose, finalmente, dentro del Principio 3 de la Declaraci\u00f3n de R\u00edo, un precepto en t\u00e9rminos similares a lo presentado por Brundtland.</p>\n<p>La sostenibilidad, no obstante, ha tenido m\u00e1s notoriedad en los \u00faltimos a\u00f1os, en especial desde la aprobaci\u00f3n de los 17 Objetivos de Desarrollo Sostenibles (ODS) para el 2030, adoptados por la Organizaci\u00f3n de las Naciones Unidas (ONU) en el 2015 como un llamado universal para poner fin a la pobreza, proteger el planeta y garantizar que todas las personas gocen de paz y prosperidad [5].</p>\n<p>Es necesario destacar que, desde que el t\u00e9rmino \u201csostenibilidad\u201d surgi\u00f3, muchas interpretaciones siguientes han intentado adaptar el concepto al de \u201ccrecimiento econ\u00f3mico sostenido\u201d [6], tratando, de esta manera, de mantener la variable econ\u00f3mica como aquella predominante entre las tres; no obstante, consideramos importante recordar que aquella no constituye m\u00e1s que una de las tres partes del trinomio, siendo que la importancia atribuida a las mismas deber\u00eda ser siempre equitativa.</p>\n<h2><b>\u00bfQu\u00e9 se entiende por pesca sostenible?</b></h2>\n<p>Partiendo de la premisa que la sostenibilidad considera como base tres elementos primordiales: econ\u00f3mico, social y ambiental, ello nos permite inferir, entonces, que la pesca sostenible ser\u00e1 aquella que logre integrar dichos criterios en su desarrollo, a fin de asegurar que la actividad no tenga efectos nocivos para las generaciones futuras.</p>\n<p>Definimos pesca sostenible, entonces, como el grupo de pr\u00e1cticas orientadas a mantener la poblaci\u00f3n de las especies marinas en niveles \u00f3ptimos para garantizar la supervivencia, respetando el entorno natural [7], es decir, t\u00e9cnicas que pueden mantenerse de forma indefinida sin comprometer ni ejercer un impacto negativo sobre otras especies dentro de los ecosistemas [8].</p>\n<p>La pesca sostenible es un factor crucial para mantener la riqueza existente en los oc\u00e9anos, los cuales, durante muchos a\u00f1os, se han visto sometidos a una fuerte sobre explotaci\u00f3n de sus recursos, poniendo en peligro la continuidad de muchas especies [9]. Incluso, actualmente, el porcentaje de poblaciones de peces explotados m\u00e1s all\u00e1 de la sostenibilidad biol\u00f3gica sigue siendo cr\u00edtico: representa un 34.7% del total, habiendo incrementado aproximadamente 10% entre 1974 y 2017 [10].</p>\n<p>De igual forma, constituye un elemento esencial para cumplir los Objetivos de Desarrollo Sostenible (ODS) establecidos por la Organizaci\u00f3n de las Naciones Unidas (ONU) para el 2030, en especial, el objetivo 14, el cual es, precisamente, \u201cconservar y utilizar sosteniblemente los oc\u00e9anos, mares y los recursos marinos para el desarrollo sostenible\u201d. Dicho objetivo plantea un important\u00edsimo conjunto de cuestiones sobre los oc\u00e9anos y los mares, reforzando y recalcando la importancia y la urgencia de las obligaciones internacionales en vigor sobre los oc\u00e9anos y los mares [11].</p>\n<p>Puedes ver un video sobre el objetivo 14 aqu\u00ed:</p>\n<p><iframe title="ODS 14 - Vida submarina" width="1080" height="608" src="https://www.youtube.com/embed/Z_GflwR-GtY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>\n<p>&nbsp;</p>\n<p>Cabe mencionar que uno de los primeros esfuerzos por lograr el desarrollo de una pesca sostenible a nivel mundial fue a trav\u00e9s del \u201cC\u00f3digo de conducta para la pesca responsable\u201d, adoptado un\u00e1nimemente por m\u00e1s de 170 pa\u00edses miembros de la Organizaci\u00f3n de las Naciones Unidas para la Agricultura y la Alimentaci\u00f3n (FAO, por sus siglas en ingl\u00e9s) en 1995, el cual signific\u00f3 la adopci\u00f3n de una serie de \u201c<i>principios y normas internacionales para la aplicaci\u00f3n de pr\u00e1cticas responsables con miras a asegurar la conservaci\u00f3n, la gesti\u00f3n y el desarrollo eficaces de los recursos acu\u00e1ticos vivos, con el debido respeto del ecosistema y de la biodiversidad\u201d</i> [12].</p>\n<p>Desde entonces, la comunidad internacional viene adoptando grandes esfuerzos para adaptar la legislaci\u00f3n, pol\u00edtica y gesti\u00f3n de las actividades pesqueras desarrolladas en sus territorios a los mandatos establecidos por el C\u00f3digo, siendo que, por ejemplo, hoy en d\u00eda, la mayor\u00eda de las pol\u00edticas y legislaciones de los pa\u00edses miembros de la FAO son compatibles con \u00e9l [13]. De igual forma, se viene buscando la manera de garantizar la participaci\u00f3n de todos los actores interesados del sector pesquero y acu\u00edcola en los debates sobre la sostenibilidad de su actividad, ello a trav\u00e9s, por ejemplo, de las Conferencias Nuestro Oc\u00e9ano y las Conferencias de las Naciones Unidas sobre los Oc\u00e9anos, as\u00ed como las reuniones bienales del Comit\u00e9 de Pesca de la FAO (COFI), en las cuales participan tanto representantes gubernamentales, como \u00f3rganos de pesca regionales, organizaciones no gubernamentales (ONG), pescadores, la propia FAO y, en general, cualquier otro actor involucrado en dicha actividad [14].</p>\n<h2><b>\u00bfCu\u00e1l es la situaci\u00f3n actual de la actividad pesquera en el pa\u00eds?</b></h2>\n<p>El Per\u00fa es un pa\u00eds privilegiado por la gran productividad de su mar, crucial para la econom\u00eda del pa\u00eds [15]. Es uno de los pa\u00edses l\u00edder en la actividad pesquera en el mundo, hist\u00f3ricamente superado solo por China [16], la mayor potencia pesquera del mundo: con el 10% de las capturas a nivel mundial, el mar peruano es considerado como el m\u00e1s productivo a nivel global [17].<span class="Apple-converted-space">\u00a0</span></p>\n<p>Estos niveles de productividad se deben, gran parte, a la Corriente de Humboldt, en cuyo h\u00e1bitat encontramos especies como la anchoveta, la pota, la caballa, el perico, el bonito, la merluza, entre otros. De igual forma, encontramos una variedad de especies que han venido siendo empleadas para el consumo en la gastronom\u00eda peruana como son el lenguado, la corvina, la chita, la cojinova, la cabrilla, entre otras [18].<span class="Apple-converted-space">\u00a0</span></p>\n<p>El sector pesquero est\u00e1 dividido en dos grandes actividades: la pesca propiamente dicha y la acuicultura. La acuicultura es esencialmente el cultivo de peces, crust\u00e1ceos, moluscos, u otros organismos acu\u00e1ticos, as\u00ed como la producci\u00f3n y suministro de alimento balanceado (piensos) [19]; mientras que la pesca comprende una cadena productiva m\u00e1s amplia que va desde la extracci\u00f3n, procesamiento, congelado, hasta la venta final de productos hidrobiol\u00f3gicos.</p>\n<p>Respecto de la acuicultura, es importante destacar que, en los \u00faltimos a\u00f1os, esta actividad ha venido sufriendo un incremento considerable en su productividad: de 28 400 toneladas registradas en 2006 hasta poco m\u00e1s de 100 000 toneladas registradas para 2017, lo cual representa una tasa de crecimiento promedio anual de 12% [20]. En el Per\u00fa, la misma est\u00e1 dominada por el cultivo de concha de abanico, trucha, langostino y tilapia, registr\u00e1ndose, en tiempos m\u00e1s recientes, un crecimiento en el cultivo de especies amaz\u00f3nicas tales como el paiche o la gamitana.</p>\n<p>La pesca, por otro lado, conforme a lo establecido en el Decreto Ley N\u00aa 25977, Ley General de Pesca, puede ser subdividida en pesca industrial y pesca artesanal. La pesca industrial es aquella que se realiza empleando t\u00e9cnicas, procesos, embarcaciones y operaciones que requieran de maquinarias y equipos de \u00faltima generaci\u00f3n; mientras que la pesca artesanal es una actividad extractiva realizada por personas naturales, grupos familiares o empresas artesanales que utilizan embarcaciones artesanales o instalaciones y t\u00e9cnicas simples con predominio del trabajo manual.</p>\n<p>Para el caso de la pesca industrial, la gran biomasa de anchoveta existente en el dominio mar\u00edtimo peruano ha determinado que este sea el principal recurso pesquero utilizado para la fabricaci\u00f3n de aceite y harina de pescado siendo empleada, asimismo, junto con el at\u00fan, el bonito, la caballa, el jurel y la sardina, para producir conservas [21].</p>\n<p>En el caso de la pesca artesanal, hasta el 2019 exist\u00edan aproximadamente 76,286 mil personas en el \u00e1mbito mar\u00edtimo y continental que se dedican a dicha actividad en el Per\u00fa, de los cuales el 51% se concentran en Piura, Ica y \u00c1ncash [22]. Esta actividad ha sido -y contin\u00faa siendo hasta la actualidad- la principal fuente de pescado fresco para consumo humano directo de los pobladores siendo la anchoveta, el at\u00fan, la caballa, el jurel, el bonito y el perico las especies de mayor consumo [23].<sup><span class="Apple-converted-space">\u00a0</span></sup></p>\n<p>Como se desprende de lo antes mencionado, la pesca en el Per\u00fa abarca m\u00faltiples actividades, todas ellas orientadas, en gran parte, hacia el consumo directo de los productos hidrobiol\u00f3gicos por parte de la poblaci\u00f3n, teniendo, por ello, gran incidencia en la alimentaci\u00f3n de esta. La pesca es, asimismo, una actividad que sirve de sustento para gran parte de los ciudadanos, pues la gran variedad de los recursos que habitan en nuestros mares permite que los mismos tengan diversas aplicaciones en diversas realidades socioecon\u00f3micas, yendo desde su extracci\u00f3n, cultivo y procesamiento de la manera m\u00e1s simple posible hasta aquella efectuada con tecnolog\u00eda de punta por las grandes empresas.</p>\n<h2><b>\u00bfCu\u00e1les son los principales problemas del sector pesquero?</b></h2>\n<p>A continuaci\u00f3n, se presentan solo algunos de los principales problemas que han podido ser observados en el sector pesquero peruano a lo largo de los \u00faltimos a\u00f1os:</p>\n<p>a)<span class="Apple-converted-space">\u00a0 </span>Sobrepesca o sobreexplotaci\u00f3n de especies</p>\n<p>En la actualidad, el Per\u00fa no cuenta con informaci\u00f3n fiable de la mayor\u00eda de los stocks de peces que son relevantes para el consumo humano directo y no existen suficientes\u00a0instrumentos de manejo que permitan evaluar de forma regular el estado de las pesquer\u00edas y ajustar las medidas [24] que faciliten una eficiente gesti\u00f3n de estos. De igual forma, el concepto de sobrepesca o sobreexplotaci\u00f3n no est\u00e1 contemplado en la normativa nacional, lo que\u00a0dificulta adoptar medidas concretas para la recuperaci\u00f3n de las especies [25] pues la efectividad de medidas de ordenamiento est\u00e1 supeditada a que las cuotas generales sean definidas correctamente [26].</p>\n<p>b) Informalidad</p>\n<p>La informalidad es otro de los problemas cr\u00edticos en esta actividad, siendo que, inclusive, una parte importante de la misma se realiza sin control [27]. Ejemplo de ello es que, principalmente, en la pesca artesanal, esta de desarrollada con una total falta de respeto al ordenamiento legal: se realizan capturas de recursos en veda o por debajo de las tallas m\u00ednimas, dentro de \u00e1reas protegidas o en \u00e1reas de exclusi\u00f3n pesquera o por encima de las cuotas determinadas [28]. De igual forma, en la actividad acu\u00edcola, a la fecha, se pueden encontrar asociaciones sin autorizaci\u00f3n para realizar actividades de cultivo y otras que a\u00fan est\u00e1n en proceso de adecuaci\u00f3n a la normativa sanitaria [29].</p>\n<p>c) Impactos ambientales</p>\n<p>Uno de los problemas m\u00e1s severos en la actividad pesquera es la contaminaci\u00f3n de las aguas provocada, en especial, por la actividad industrial. Ello debido a que se emiten importantes cantidades de aguas residuales al mar, las cuales incluyen tanto efluentes dom\u00e9sticos como efluentes industriales que contienen restos de combustible utilizado en la flota recalada. Las zonas especialmente afectadas por estas descargas son las bah\u00edas del Callao, El Ferrol y la bah\u00eda de Paita [30], cuyas mediciones demuestran par\u00e1metros elevados de algunas sustancias que, muchas veces, exceden los Est\u00e1ndares de Calidad Ambiental (ECA) establecidos para agua.</p>\n<p>En la acuicultura, igual que en la actividad pesquera, el factor ambiental constituye el reto m\u00e1s importante. En especial, en esta actividad, se observa una gran contaminaci\u00f3n biol\u00f3gica, org\u00e1nica y qu\u00edmica (producida, en gran parte, por los antibi\u00f3ticos y productos utilizados para el procesamiento de los alimentos balanceados), as\u00ed como una modificaci\u00f3n del h\u00e1bitat de las especies y cambios en los patrones de producci\u00f3n de las comunidades [31].</p>\n<p>Finalmente, la disponibilidad de informaci\u00f3n ambiental es parcial y solo permite inferir los impactos causados mas no comprobarlos. Ello debido a que la mayor parte de la informaci\u00f3n de que se dispone sobre el estado de las poblaciones de especies afectadas se circunscribe a aquellas de car\u00e1cter comercial m\u00e1s importantes del \u00e1mbito mar\u00edtimo (como la anchoveta, la pota, la caballa, el jurel, la merluza) y no incluye, por ejemplo, la lista de especies amenazadas ni los planes de conservaci\u00f3n de estas [32].</p>\n<p>d) Infraestructura, sanidad e inocuidad</p>\n<p>En la actividad pesquera, en especial en la pesca artesanal, la precariedad econ\u00f3mica de la mayor\u00eda de los pescadores, la mala planificaci\u00f3n de su econom\u00eda o la morosidad causan que las embarcaciones utilizadas sean obsoletas, ineficientes e inseguras, careciendo de las m\u00e1s elementales medidas de seguridad, salubridad, equipamiento y de un m\u00ednimo de comodidad [33]. De igual forma, la gran mayor\u00eda de la infraestructura con la que cuentan los operadores para su producci\u00f3n (caletas, desembarcaderos, cadenas de transporte de fr\u00edo y redes de comercializaci\u00f3n) tiene serias limitaciones y una d\u00e9bil regulaci\u00f3n sanitaria [34].</p>\n<p>En la actividad acu\u00edcola, de igual forma, se encuentra un alto riesgo asociado a la sanidad e inocuidad de los productos debido al inadecuado manejo sanitario de las granjas acu\u00edcolas y posible introducci\u00f3n de agentes pat\u00f3genos (enfermedades) que pueden afectar la calidad de los organismos acu\u00e1ticos y la inocuidad del producto para el consumo humano directo [35].</p>\n<p>e) Institucionalidad</p>\n<p>A pesar de que en los \u00faltimos a\u00f1os se ha avanzado en la coordinaci\u00f3n institucional en los asuntos marinos, la pol\u00edtica pesquera sigue defini\u00e9ndose con una \u00f3ptica sectorial, y no con un enfoque ecosist\u00e9mico. Ello se hace evidente en tanto que cada una de las entidades p\u00fablicas que tienen responsabilidades relacionadas al mar [36] elabora su pol\u00edtica de acuerdo con sus propios planes estrat\u00e9gicos multianuales, con una escasa o inexistente coordinaci\u00f3n entre ellas y sin tener en cuenta la totalidad de objetivos (econ\u00f3micos, sociales y ambientales) relacionados con el uso del mar, lo que hace que las necesidades de este complejo sector queden desatendidas [37].</p>\n<h2><b>\u00bfQu\u00e9 se puede hacer para lograr una pesca sostenible?</b></h2>\n<p>Puedes ver un video sobre la importancia de la pesca sostenible aqu\u00ed:</p>\n<p><iframe title="Por una pesca sostenible en Per\u00fa y Ecuador" width="1080" height="608" src="https://www.youtube.com/embed/8iV4NdLl-5Y?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>\n<p>&nbsp;</p>\n<p>Una de las medidas m\u00e1s urgentes necesarias a fin de lograr una pesca sostenible es lograr reducir la sobreexplotaci\u00f3n de especies, ello mediante el control de los m\u00e9todos de pesca y la prohibici\u00f3n de captura de especies juveniles mediante el establecimiento de tallas m\u00ednimas, vedas y/o moratorias. Reducir la presi\u00f3n sobre la pesca permitir\u00eda a las poblaciones sobreexplotadas recuperarse y aumentar\u00eda la resiliencia de las pesquer\u00edas sostenibles a presiones como el cambio clim\u00e1tico, la contaminaci\u00f3n oce\u00e1nica y otros factores [38].</p>\n<p>De igual forma, conforme a la Sociedad Nacional de Pesquer\u00eda (SNP) [39], es necesaria una regulaci\u00f3n de l\u00edmites m\u00e1ximos de captura para todas las embarcaciones en todas las pesquer\u00edas, as\u00ed como un control del cumplimiento de tales l\u00edmites; de tal manera que los pescadores sepan de antemano que solo pueden pescar una proporci\u00f3n de la captura global y, a fin de evitar que el volumen de esa proporci\u00f3n capturada aumente.</p>\n<p>Adicionalmente, para asegurar la conservaci\u00f3n de la biodiversidad en los ecosistemas de los cuales se extraen los recursos, una soluci\u00f3n que viene tomando fuerza en los \u00faltimos a\u00f1os es el establecimiento de \u00e1reas acu\u00e1ticas protegidas, en las cuales se incluyen \u00e1reas marinas protegidas, soluci\u00f3n que permitir\u00eda proteger los ecosistemas acu\u00e1ticos y revertir la degradaci\u00f3n de los h\u00e1bitats afectados [40] por la sobrepresca y/o sobreexplotaci\u00f3n.</p>\n<p>Asimismo, es fundamental desarrollar la comprensi\u00f3n y los conocimientos sobre la pesca en peque\u00f1a escala [41]. Reducir las ineficiencias en el sector de la pesca artesanal es necesario para garantizar el suministro y los medios de vida de los peces: una reforma en el sector artesanal peruano permitir\u00eda una transici\u00f3n exitosa de un sistema de pesca en peque\u00f1a escala, no evaluado y de acceso abierto a un sistema de gesti\u00f3n basado en los derechos, a trav\u00e9s del establecimiento de acceso derechos para la gesti\u00f3n de zonas de pesca, anclados en los sistemas de gobernanza local y el aumento de la capacidad de los pescadores, las organizaciones de investigaci\u00f3n y las autoridades pesqueras para evaluar las poblaciones de peces y establecer reglas de control [42].</p>\n<p>En este contexto, la promoci\u00f3n, reglamentaci\u00f3n y seguimiento de pr\u00e1cticas pesqueras responsables a trav\u00e9s de marcos s\u00f3lidos de ordenaci\u00f3n y gobernanza de la pesca son esenciales para combatir la pesca ilegal, no declarada y no reglamentada. Conforme a ello, es preciso que el Estado fortalezca sus leyes y reglamentos, sea capaz de tomar medidas eficaces frente a quienes la practican a fin de desalentar su incumplimiento, establezca mecanismos que fomenten el cumplimiento de obligaciones y garantice que las subvenciones o cualquier otro beneficio que otorguen a los sectores pesqueros no alimenten su desarrollo [43].<span class="Apple-converted-space">\u00a0</span></p>\n<p>En general, seg\u00fan Jos\u00e9 \u00c1lvarez Alonso, Director General de Diversidad Biol\u00f3gica del Ministerio del Medio Ambiente (MINAM) [44], para lograr una pesca sostenible, es necesario habilitar espacios para el di\u00e1logo, ello con la finalidad de mantener una relaci\u00f3n horizontal, abierta al intercambio de experiencias y conocimientos entre todos los actores del sector, a fin de garantizar la creaci\u00f3n de pol\u00edticas y una toma de decisiones efectiva, que no se quede en el papel, sino que funcione de manera eficiente.</p>\n<p>Por otro lado, respecto de la acuicultura, se debe tratar de garantizar que la alimentaci\u00f3n de las especies, as\u00ed como el uso de productos terap\u00e9uticos y/o aquellos utilizados para prolongar la vida de los aparejos de pesca, se efect\u00fae con materias primas que no causen un impacto negativo sobre el ecosistema del cual se extraen, ni causen efectos t\u00f3xicos a los animales que habitan en \u00e9l [45].<span class="Apple-converted-space">\u00a0</span></p>\n<p>Igualmente, para lograr un desarrollo sostenible en la actividad acu\u00edcola se requiere de investigaciones y conocimientos apropiados. Para ello, es aconsejable tener en cuenta, adem\u00e1s de los conocimientos cient\u00edficos, los conocimientos locales, siendo necesario fomentar la investigaci\u00f3n nacional a largo plazo, la creaci\u00f3n de conocimiento y el incentivo de procesos participativos enfocados en el funcionamiento y servicios del ecosistema y de sus componentes humanos [46].</p>\n<h2><b>\u00bfQu\u00e9 avances se han venido dando para lograr una pesca sostenible?</b></h2>\n<p>Una primera menci\u00f3n merece la publicaci\u00f3n del Decreto Supremo N\u00b0 008-2012-PRODUCE, con el cual se aprobaron medidas para la conservaci\u00f3n de los recursos hidrobiol\u00f3gicos. Esta norma otorg\u00f3 la facultad al Ministerio de la Producci\u00f3n (PRODUCE) para limitar el acceso a recursos y actividades, estipul\u00e1ndose procedimientos para decretar periodos de vedas y racionalizaci\u00f3n del esfuerzo pesquero y estableci\u00e9ndose medidas de conservaci\u00f3n de ejemplares juveniles y prevenci\u00f3n del descarte. <span class="Apple-converted-space">\u00a0</span></p>\n<p>Asimismo, a trav\u00e9s del Decreto Legislativo N\u00b0 1084 y Decreto Supremo N\u00b0 005-2012-PRODUCE -posteriormente derogado mediante Decreto Supremo N\u00b0 006-2012-PRODUCE y fortalecido mediante Decreto Supremo N\u00b0 005-2017-PRODUCE- se han venido estableciendo medidas de ordenamiento pesquero para el recurso Anchoveta, estableciendo l\u00edmites m\u00e1ximos de captura del recurso, as\u00ed como delimitando zonas de pesca de la anchoveta de las distintas flotas (artesanal, a menor escala y a mayor escala) y estableciendo restricciones y requisitos tanto para la pesca industrial como para la pesca artesanal. Gracias a dicha normativa y a posteriores disposiciones, hoy en d\u00eda el estado del stock de anchoveta es saludable, contando, adem\u00e1s, con un eficiente sistema de monitoreo, as\u00ed como con evaluaciones continuas sobre el estado de dicho recurso [47].</p>\n<p>Adicionalmente a la anchoveta, en los \u00faltimos a\u00f1os se han establecido, tambi\u00e9n, l\u00edmites de captura para los recursos hidrobiol\u00f3gicos merluza, bonito, caballa, jurel, calamar gigante (pota); adem\u00e1s de haber establecido tallas m\u00ednimas de captura y tolerancia m\u00e1xima para peces e invertebrados, a trav\u00e9s de la Resoluci\u00f3n Ministerial N\u00b0 209-2001-PE y sus modificatorias; y disponer peri\u00f3dicamente periodos de veda de recursos especialmente sensibles.</p>\n<p>Respecto al \u00e1mbito ambiental, en el 2009, a trav\u00e9s del Decreto Supremo N\u00b0 011-2009-MINAM, se aprobaron los L\u00edmites M\u00e1ximos Permisibles (LMP) para emisiones de la industria de harina y aceite de pescado y harina de residuos hidrobiol\u00f3gicos, los cuales introdujeron una regulaci\u00f3n para el control de la calidad del aire. Nueve a\u00f1os m\u00e1s tarde, con el Decreto Supremo N\u00b0 010-2018-MINAM, se aprobaron los LMPs para efluentes de los establecimientos industriales pesqueros de consumo humano directo e indirecto, con el fin de controlar el vertimiento de efluentes en cuerpos de agua marinos o continentales de los titulares pesqueros y acu\u00edcolas.<span class="Apple-converted-space">\u00a0</span></p>\n<p>Por otro lado, en la actualidad, se cuenta con 4 \u00e1reas marinas protegidas, que comprenden un porcentaje de costa y un porcentaje de mar: la Reserva Nacional de Paracas establecida en el a\u00f1o 1975; la Reserva Nacional Sistema de Islas, Islotes y Puntas Guaneras, establecida en el a\u00f1o 2009; la Reserva Nacional de San Fernando, categorizada en el a\u00f1o 2011; y la Zona Reservada Illescas, establecida en el a\u00f1o 2010 [48]. De esta manera, se protegen casi todas las islas guaneras y pen\u00ednsulas m\u00e1s importantes del pa\u00eds [49].</p>\n<p>Es importante destacar, tambi\u00e9n, que el Plan Nacional de Desarrollo Acu\u00edcola 2010-2021, aprobado por Decreto Supremo N\u00b0 001-2010-PRODUCE ya contemplaba, como visi\u00f3n a largo plazo, el desarrollo de una actividad acu\u00edcola social y ambientalmente sostenible. Ello fue reforzado con el Plan Estrat\u00e9gico Sectorial Multianual 2017-2021 del Ministerio de la Producci\u00f3n (PRODUCE), aprobado por Resoluci\u00f3n Ministerial N\u00b0 354-2017-PRODUCE, el cual tom\u00f3 como marco orientador de las actividades pesqueras los alcances de los Objetivos de Desarrollo Sostenible (ODS), considerando, entre otros, al cambio clim\u00e1tico como una de las causas de las millonarias p\u00e9rdidas econ\u00f3micas que el Per\u00fa reportaba y considerando la variabilidad clim\u00e1tica para el establecimiento de sus objetivos.<span class="Apple-converted-space">\u00a0</span></p>\n<p>Finalmente, un hito importante respecto al \u00e1mbito de la fiscalizaci\u00f3n sanitaria ha sido la reciente publicaci\u00f3n del Reglamento de Fiscalizaci\u00f3n Sanitaria de las Actividades Pesqueras y Acu\u00edcolas, aprobado mediante Resoluci\u00f3n de Presidencia Ejecutiva N\u00b0 036-2020-SANIPES/PE, el cual refuerza las competencias del Organismo Nacional de Sanidad Pesquera (SANIPES) para verificar el cumplimiento de las obligaciones referidas a la inocuidad y sanidad de los productos y recursos hidrobiol\u00f3gicos y reconoce la competencia de esta entidad respecto de todos los operadores de las actividades pesqueras y acu\u00edcolas en el \u00e1mbito nacional, independientemente que estos realicen actividades formales o informales.</p>\n<h2><b>\u00bfQu\u00e9 nos falta por hacer?</b></h2>\n<p>Como hemos visto, en las \u00faltimas d\u00e9cadas se han logrado importantes avances hacia reformas pesqueras integrales en Per\u00fa. Pese a ello, muchas de ellas se han centrado casi exclusivamente en el sector industrial de la anchoveta, dejando el segmento de anchoveta artesanal y la mayor\u00eda de las pesquer\u00edas artesanales mal gestionadas [50].</p>\n<p>As\u00ed, por ejemplo, tenemos que, si bien los controles y las cuotas han ayudado a que la anchoveta se recupere, otras pesquer\u00edas est\u00e1n menos reguladas. Para gran parte de las especies pesqueras no se han establecido cuotas ni l\u00edmites m\u00e1ximos de captura siendo que, al 2017, por ejemplo, de las especies comerciales m\u00e1s importantes, el 35% no estaba sujeto a ninguna regulaci\u00f3n de manejo, mientras que otro 35 por ciento estaba sujeto solo a las regulaciones de tama\u00f1o m\u00ednimo de captura [51]. <span class="Apple-converted-space">\u00a0</span></p>\n<p>Por otro lado, respecto al acceso a la informaci\u00f3n p\u00fablica y la participaci\u00f3n ciudadana, debemos destacar que, si bien la Ley General de Acuicultura, aprobada mediante Decreto Legislativo N\u00b0 1195 establece, como uno de sus principios, la transparencia e informaci\u00f3n, previendo mecanismos y obligaciones para asegurar para la generaci\u00f3n, gesti\u00f3n y difusi\u00f3n de la informaci\u00f3n a cargo del PRODUCE; la Ley General de Pesca, aprobada por Decreto Ley N\u00b0 25977 no contempla disposiciones de car\u00e1cter similar.</p>\n<p>Ello ha causado que, actualmente, si bien existen buenas pr\u00e1cticas de transparencia impulsadas, sobre todo, por las exigencias de la Ley N\u00b0 27806, Ley de Transparencia y Acceso a la Informaci\u00f3n P\u00fablica, a\u00fan se mantiene una gran desproporci\u00f3n entre la informaci\u00f3n que se recopila comparada con aquella que finalmente se publica [52], habiendo, inclusive, un desfase en la oportunidad de publicaci\u00f3n de aquella [53]. Igualmente, los mecanismos existentes no permiten una eficiente participaci\u00f3n ciudadana en la implementaci\u00f3n de pol\u00edticas y regulaciones y no se fomenta la cooperaci\u00f3n interinstitucional, la cual es vital para contar con un banco de informaci\u00f3n actualizado que concierna todos los \u00e1mbitos involucrados en el sector.</p>\n<p>En atenci\u00f3n a las dificultades antes mencionadas, entonces, es evidente que a\u00fan se tiene un conocimiento limitado sobre las especies comerciales y su relaci\u00f3n con los ecosistemas, marinos y continentales y sobre los impactos de las actividades pesqueras, lo que dificulta una planificaci\u00f3n adecuada de la extracci\u00f3n de recursos hidrobiol\u00f3gicos [54].<span class="Apple-converted-space">\u00a0</span></p>\n<p>Po \u00faltimo, otro reto que esperemos pronto tenga avances es el hecho que, a pesar de haber establecido \u00c1reas Marinas Protegidas (AMP) en el Per\u00fa, todas ellas son de car\u00e1cter marino-costero, sin ninguna de car\u00e1cter completamente marino, siendo que estas \u00e1reas protegidas solo representan alrededor del 0.48% del dominio mar\u00edtimo, muy lejos de la meta de 10% prevista para el 2020. Cabe recordar que esta meta es un compromiso internacional asumido dentro del objetivo 14 de los Objetivos de Desarrollo Sostenible y como parte del Plan Estrat\u00e9gico para la Diversidad Biol\u00f3gica del Convenio sobre la Diversidad Biol\u00f3gica (CDB), tratado ratificado por el Estado Peruano.<span class="Apple-converted-space">\u00a0</span></p>\n<h2><b>Conclusiones</b></h2>\n<p>El Per\u00fa es un pa\u00eds bendecido con una biodiversidad extraordinaria, basta con analizar las especies marinas que podemos encontrar en nuestro litoral para darnos cuenta de la riqueza que tenemos. Gracias a esa variedad, hemos aprendido a aprovechar exitosamente los recursos hidrobiol\u00f3gicos que nos ofrece la naturaleza tanto para la transformaci\u00f3n de los mismos en productos de exportaci\u00f3n como para la alimentaci\u00f3n<span class="Apple-converted-space">\u00a0 </span>interna de nuestra poblaci\u00f3n, convirti\u00e9ndonos, inclusive, en l\u00edderes a nivel mundial en la industria pesquera.</p>\n<p>No obstante, nuestro desarrollo en el sector ha sido irregular, mientras que la industria se ha disparado a inmensos niveles de producci\u00f3n gracias a los altos est\u00e1ndares tecnol\u00f3gicos, as\u00ed como la regulaci\u00f3n y control existente, a\u00fan persisten ciertos problemas con los cuales lidiar para poder llegar a la meta de una pesquer\u00eda sostenible: el desarrollo de actividades informales y en lugares prohibidos y/o restringidos, la falta de l\u00edmites m\u00e1ximos de captura para muchas especies, las casi inexistentes \u00c1reas Marinas Protegidas (AMP) y la falta de transparencia, publicidad y participaci\u00f3n ciudadana en el sector son solo algunos de ellos.</p>\n<p>Esperemos que en los pr\u00f3ximos a\u00f1os se promueva una mejora en el desarrollo de las actividades pesqueras y acu\u00edcolas, as\u00ed como en las pol\u00edticas p\u00fablicas relativas a ellas, con el fin de encontrar un balance y armon\u00eda entre los aspectos econ\u00f3mico, social y ambiental que las rodean.</p>\n<p><b>Referencias bibliogr\u00e1ficas:</b></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref1">[1]</a>\u00a0Ministerio de la Producci\u00f3n (PRODUCE). \u201cPRODUCE: Existen m\u00e1s de 76 mil pescadores artesanales en el Per\u00fa\u201d (28 de junio de 2019). <a href="https://www.gob.pe/institucion/produce/noticias/45180-produce-existen-mas-de-76-mil-pescadores-artesanales-en-el-peru">https://www.gob.pe/institucion/produce/noticias/45180-produce-existen-mas-de-76-mil-pescadores-artesanales-en-el-peru</a></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref2">[2]</a>\u00a0Organizaci\u00f3n de las Naciones Unidas para la Agricultura y la Alimentaci\u00f3n (FAO). \u201cVisi\u00f3n general del sector Pesquero Nacional. Per\u00fa\u201d, <i>Perfiles sobre la pesca y la acuicultura </i>(2010). <a href="http://www.fao.org/tempref/FI/DOCUMENT/fcp/es/FI_CP_PE.pdf">http://www.fao.org/tempref/FI/DOCUMENT/fcp/es/FI_CP_PE.pdf</a></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref3">[3]</a>\u00a0Comisi\u00f3n Mundial sobre Medio Ambiente y Desarrollo. <i>Informe Nuestro Futuro Com\u00fan</i>, Nueva York, 1987, p. 23.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref4">[4]</a>\u00a0G\u00f3mez de Segura, Roberto. <i>Del desarrollo sostenible seg\u00fan Brundtland a la sostenibilidad como biomimesis</i>. Instituto de Estudios sobre Desarrollo y Cooperaci\u00f3n Internacional (Hegoa), Bilbao, 2014, pp. 16-17.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[5]</a>\u00a0Los Objetivos de Desarrollo Sostenible (ODS) pueden ser consultados aqu\u00ed: <a href="https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/">https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/</a></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref6">[6]</a>\u00a0G\u00f3mez de Segura, <i>Ob. Cit.</i>, pp. 17-21.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref1">[7]</a>\u00a0Centre Interactiu del peix. \u201cPesca Sostenible\u201d.<a href="http://www.centreinteractiudelpeix.org/el-mundo-del-pescado/pesca-sostenible">http://www.centreinteractiudelpeix.org/el-mundo-del-pescado/pesca-sostenible</a></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref2">[8]</a>\u00a0Foro Ambiental. \u201c\u00bfQu\u00e9 es la pesca sostenible?\u201d. <a href="https://www.foroambiental.net/archivo/noticias-ambientales/biodiversidad/1724-que-es-la-pesca-sostenible">https://www.foroambiental.net/archivo/noticias-ambientales/biodiversidad/1724-que-es-la-pesca-sostenible</a></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref3">[9]</a>\u00a0Foro Ambiental. <i>Ob. Cit.</i></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref4">[10]</a>\u00a0Food and Agriculture Organization (FAO). <i>The state of World Fisheries and Aquaculture 2020. Sustainability in action</i>. Rome, 2020, p. 7.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[11]</a>\u00a0Cicin-Sain, Biliana. \u201cObjetivo 14\u2014Conservar y utilizar sosteniblemente los oc\u00e9anos, los mares y los recursos marinos para el desarrollo sostenible\u201d, <i>Organizaci\u00f3n de las Naciones Unidas (ONU). </i><a href="https://www.un.org/es/chronicle/article/objetivo-14-conservar-y-utilizar-sosteniblemente-los-oceanos-los-mares-y-los-recursos-marinos-para#:~:text=El%20Objetivo%2014%2C%20%E2%80%9CConservar%20y,los%20oc%C3%A9anos%20y%20los%20mares.">https://www.un.org/es/chronicle/article/objetivo-14-conservar-y-utilizar-sosteniblemente-los-oceanos-los-mares-y-los-recursos-marinos-para#:~:text=El%20Objetivo%2014%2C%20%E2%80%9CConservar%20y,los%20oc%C3%A9anos%20y%20los%20mares.</a></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref6">[12]</a>\u00a0Organizaci\u00f3n de las Naciones Unidas para la Agricultura y la Alimentaci\u00f3n (FAO). <i>C\u00f3digo de conducta para la pesca responsable</i>. Roma, 1995, p. 7.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref1">[13]</a>\u00a0Food and Agriculture Organization (FAO). <i>The state of World Fisheries and Aquaculture 2020. Sustainability in action. Ob. Cit., 96.</i></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref2">[14]</a>\u00a0Organizaci\u00f3n de las Naciones Unidas para la Agricultura y la Alimentaci\u00f3n (FAO). E<i>l estado mundial de la pesca y la acuicultura 2018. Cumplir los objetivos de desarrollo sostenible</i>. Roma, 2018, p. 86.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref3">[15]</a>\u00a0\u201cOCEANA: Protegiendo los oc\u00e9anos del Mundo\u201d, acceso el 05 de julio de 2020, <a href="https://peru.oceana.org/es/our-campaigns/promover_la_pesca_sostenible/campaign">https://peru.oceana.org/es/our-campaigns/promover_la_pesca_sostenible/campaign</a></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref4">[16]</a>\u00a0The Nature Conservancy, \u201cSustainable Fishing in Peru\u201d (05 de marzo de 2019). <a href="https://www.nature.org/en-us/about-us/where-we-work/latin-america/peru/peru-oceans/">https://www.nature.org/en-us/about-us/where-we-work/latin-america/peru/peru-oceans/</a></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref1">[17]</a>\u00a0\u00a0Alfred Gr\u00fcndwaldt, \u201c\u00bfTendr\u00e1 Per\u00fa suficiente comida de mar en 50 a\u00f1os?: El porqu\u00e9 de la pesca sostenible\u201d. <i>Blog del Banco Interamericano de Desarrollo (BID), </i>4 de marzo del 2019. <a href="https://blogs.iadb.org/sostenibilidad/es/tendra-peru-suficiente-comida-de-mar-en-50-anos-el-porque-de-la-pesca-sostenible/">https://blogs.iadb.org/sostenibilidad/es/tendra-peru-suficiente-comida-de-mar-en-50-anos-el-porque-de-la-pesca-sostenible/</a></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref2">[18]</a>\u00a0Elena Conterno. \u201cPesca en Per\u00fa, el reto de la sostenibilidad\u201d, <i>Sociedad Nacional de Pesquer\u00eda. </i><a href="https://www.snp.org.pe/pesca-peru-reto-sostenibilidad/">https://www.snp.org.pe/pesca-peru-reto-sostenibilidad/</a></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref3">[19]</a>\u00a0En el Per\u00fa, el art\u00edculo 6 del Decreto Legislativo N\u00aa 1195, el cual aprueba la Ley General de Acuicultura, define a la acuicultura de la siguiente manera:</p>\n<p><b>\u201cArt\u00edculo 6.- Definici\u00f3n de la Acuicultura</b></p>\n<p>La acuicultura se define como el cultivo de organismos acu\u00e1ticos, que implica la intervenci\u00f3n en el proceso de cr\u00eda para aumentar la producci\u00f3n, como fuente de alimentaci\u00f3n, empleo e ingresos, optimizando los beneficios econ\u00f3micos en armon\u00eda con la preservaci\u00f3n del ambiente y la conservaci\u00f3n de la biodiversidad, el uso \u00f3ptimo de los recursos naturales y del territorio; garantizando la propiedad individual o colectiva del recurso cultivado.\u201d</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref4">[20]</a>\u00a0Programa Nacional de Innovaci\u00f3n en pesca y acuicultura. <i>Fundamentos y propuesta 2017-2022,</i> <span class="Apple-converted-space">\u00a0 </span>Lima, 2018, p. 14.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[21]</a>\u00a0<i>\u00cdbid, p. 33.</i></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[22]</a>\u00a0PRODUCE, <i>Ob. Cit.</i></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[23]</a>\u00a0Programa Nacional de Innovaci\u00f3n en pesca y acuicultura. <i>Ob. Cit., </i>40.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[24]</a>\u00a0OCEANA, <i>Ob. Cit.</i></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[25]</a>\u00a0<i>Ibidem.</i></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[26]</a>\u00a0L\u00f3pez de Lama, Rocio y De la Puente, Santiago. \u201cConservaci\u00f3n Marina y Pesquer\u00edas: Los retos por venir\u201d. Bolet\u00edn: <i>Pol\u00edtica Comercial y Ambiental</i>, No 6, Sociedad Peruana de Derecho Ambiental (SPDA), 2019, p. 16.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[27]</a>\u00a0Comisi\u00f3n Econ\u00f3mica para Am\u00e9rica Latina y el Caribe (CEPAL)/Organizaci\u00f3n de Cooperaci\u00f3n y Desarrollo Econ\u00f3micos (OCDE). <i>Evaluaciones del desempe\u00f1o ambiental: Per\u00fa</i>, Santiago, 2017, p. 281.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[28]</a>\u00a0Programa Nacional de Innovaci\u00f3n en pesca y acuicultura. <i>Ob. Cit., </i>44.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[29]</a>\u00a0Cabe mencionar que, conforme a lo se\u00f1alado por el art\u00edculo 1 del Decreto Supremo N\u00b0 002-2020-PRODUCE, el cual modifica, entre otros, el art\u00edculo 29 del Decreto Supremo 003-2016-PRODUCE, que aprueba el Reglamento del Decreto Legislativo N\u00b0 1195, los titulares acu\u00edcolas cuentan con dos (02) a\u00f1os desde la notificaci\u00f3n de su derecho acu\u00edcola para obtener la habilitaci\u00f3n sanitaria otorgada por SANIPES (disposici\u00f3n que entrar\u00e1 en vigencia en septiembre de 2021 seg\u00fan lo dispuesto en la Segunda Disposici\u00f3n Complementaria Final de la citada norma).<span class="Apple-converted-space">\u00a0</span></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[30]</a>\u00a0CEPAL y OCDE, <i>Ob. Cit., </i>p. 282.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[31]</a>\u00a0Ibidem.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[32]</a>\u00a0<i>\u00cdbid, </i>p. 280.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[33]</a>\u00a0Programa Nacional de Innovaci\u00f3n en pesca y acuicultura. <i>Ob. Cit., </i>44.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[34]</a>\u00a0<i>\u00cdbid, </i>p. 40</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[35]</a>\u00a0<i>\u00cdbid, </i>p. 18</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[36]</a>\u00a0Ministerio de la Producci\u00f3n (PRODUCE), Gobiernos Regionales, Ministerio del Ambiente (MINAM), Organismo de Evaluaci\u00f3n y Fiscalizaci\u00f3n Ambiental (OEFA), Servicio Nacional de \u00c1reas Naturales Protegidas por el Estado (SERNANP), Servicio Nacional de Certificaci\u00f3n Ambiental para las Inversiones Sostenibles (SENACE), Direcci\u00f3n General de Capitan\u00edas y Guardacostas (DICAPI), Autoridad Nacional del Agua (ANA), Organismo Nacional de Sanidad Pesquera (SANIPES), entre otros.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[37]</a>\u00a0Programa Nacional de Innovaci\u00f3n en pesca y acuicultura. <i>Ob. Cit.,30 &amp; </i>CEPAL y OCDE, <i>Ob. Cit., </i>p. 287</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[38]</a>\u00a0Rice, Jake. \u201cLograr y mantener una pesca sostenible\u201d, <i>Organizaci\u00f3n de las Naciones Unidas (ONU). </i><a href="https://www.un.org/es/chronicle/article/lograr-y-mantener-una-pesca-sostenible">https://www.un.org/es/chronicle/article/lograr-y-mantener-una-pesca-sostenible</a></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[39]</a>\u00a0Elena Conterno, <i>Ob. Cit.</i></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[40]</a>\u00a0Organizaci\u00f3n de las Naciones Unidas para la Agricultura y la Alimentaci\u00f3n (FAO). E<i>l estado mundial de la pesca y la acuicultura 2018. Ob. Cit.</i>, 116.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[41]</a>\u00a0<i>\u00cdbid, </i>p. 92</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[42]</a>\u00a0The Nature Conservancy. <i>Ob. Cit.</i></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[43]</a>\u00a0Organizaci\u00f3n de las Naciones Unidas para la Agricultura y la Alimentaci\u00f3n (FAO). E<i>l estado mundial de la pesca y la acuicultura 2018. Ob. Cit.</i>, 110.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[44]</a>\u00a0World Wild Fund for Nature (WWF), \u201cThe sustainable management of fisheries and aquaculture contributes to the well-being of 60% of the Amazonian population\u201d (03 de octubre de 2019). <a href="https://www.wwf.org.pe/en/keep_updated/news/?uNewsID=353818">https://www.wwf.org.pe/en/keep_updated/news/?uNewsID=353818</a></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[45]</a>\u00a0Centre Interactiu del peix. <i>Ob. Cit.</i></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[46]</a>\u00a0Organizaci\u00f3n de las Naciones Unidas para la Agricultura y la Alimentaci\u00f3n (FAO). <i>Desarrollo de la acuicultura. 4. Enfoque ecosist\u00e9mico a la acuicultura.</i> Roma, 2011,<i> </i>p. 30.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[47]</a>\u00a0L\u00f3pez de Lama, Rocio y De la Puente, Santiago. <i>Ob. Cit.,</i> p. 16</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[48]</a>\u00a0SPDA Actualidad Ambiental, \u201c\u00bfC\u00f3mo las \u00e1reas marinas protegidas ayudan a conservar nuestra biodiversidad?\u201d (01 de octubre de 2018). <a href="https://www.actualidadambiental.pe/como-las-areas-marinas-protegidas-en-peru-ayudan-a-proteger-nuestra-biodiversidad/#:~:text=A%20la%20fecha%2C%20el%20Per%C3%BA,Reserva%20Nacional%20de%20San%20Fernando%2C">https://www.actualidadambiental.pe/como-las-areas-marinas-protegidas-en-peru-ayudan-a-proteger-nuestra-biodiversidad/#:~:text=A%20la%20fecha%2C%20el%20Per%C3%BA,Reserva%20Nacional%20de%20San%20Fernando%2C</a></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[49]</a>\u00a0\u201cOCEANA: Protegiendo los oc\u00e9anos del Mundo\u201d, acceso el 05 de julio de 2020, <a href="https://peru.oceana.org/es/nuestras-campanas/%C3%A1reas-marinas-protegidas/campanas">https://peru.oceana.org/es/nuestras-campanas/%C3%A1reas-marinas-protegidas/campanas</a></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[50]</a>\u00a0The Nature Conservancy. <i>Ob. Cit.</i></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[51]</a>\u00a0The World Bank, \u201cIn Peru, Fishing Less Anchoveta Pays Off\u201d (06 de marzo de 2017). <a href="https://www.worldbank.org/en/news/feature/2017/03/06/peru-anchoveta-pescadores">https://www.worldbank.org/en/news/feature/2017/03/06/peru-anchoveta-pescadores</a></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[52]</a>\u00a0Juan Carlos Sueiro, \u201cMayor transparencia para una mejor performance pesquera\u201d, <i>RPP Noticias</i> (Lima)<i>,</i> 15 de marzo de 2019. <a href="https://rpp.pe/columnistas/juancarlossueiro/mayor-transparencia-para-una-mejor-performance-pesquera-noticia-1185254">https://rpp.pe/columnistas/juancarlossueiro/mayor-transparencia-para-una-mejor-performance-pesquera-noticia-1185254</a></p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[53]</a>\u00a0El \u00faltimo Anuario Estad\u00edstico Pesquero y Acu\u00edcola publicado en el Portal Web de PRODUCE, por ejemplo, es del a\u00f1o 2017.</p>\n<p><a href="https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/#_ftnref5">[54]</a>\u00a0CEPAL y OCDE, <i>Ob. Cit., </i>p. 285.</p>\n<p>[/et_pb_text][et_pb_team_member name=\u00bbLeslie Terrones Cernaqu\u00e9\u00bb linkedin_url=\u00bbhttps://www.linkedin.com/in/leslie-terrones/\u00bb _builder_version=\u00bb4.4.7&#8243;]</p>\n<p>Abogada por la Universidad ESAN. Con experiencia en asuntos relacionados a instrumentos de gesti\u00f3n ambiental y supervisi\u00f3n ambiental en entidades p\u00fablicas tales como el Organismo de Evaluaci\u00f3n y Fiscalizaci\u00f3n Ambiental (OEFA), el Ministerio del Ambiente (MINAM) y el Ministerio de la Producci\u00f3n (PRODUCE); as\u00ed como en sanidad e inocuidad pesquera y acu\u00edcola en el Organismo Nacional de Sanidad Pesquera (SANIPES).</p>\n<p>[/et_pb_team_member][/et_pb_column][/et_pb_row][/et_pb_section]</p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_row _builder_version=\u00bb4.4.7&#8243;][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_text _builder_version=\u00bb4.4.7&#8243; text_font_size=\u00bb17px\u00bb text_letter_spacing=\u00bb1px\u00bb header_text_align=\u00bbjustify\u00bb text_orientation=\u00bbjustified\u00bb] &nbsp; Por: Leslie Terrones Cernaqu\u00e9 El pasado 29 de junio se celebr\u00f3 el \u201cd\u00eda del pescador\u201d, fecha en la cual se busca conmemorar la labor de los hombres y mujeres que se dedican a la actividad pesquera en nuestro pa\u00eds. Esta actividad es clave [&hellip;]</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 635,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "on",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [9],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/628" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=628",
-        },
-      ],
-      "version-history": [
-        {
-          count: 6,
-          href: "https://maqay.org/wp-json/wp/v2/posts/628/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 640,
-          href: "https://maqay.org/wp-json/wp/v2/posts/628/revisions/640",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/635",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=628" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=628",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=628",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 601,
-    date: "2020-07-02T18:03:46",
-    date_gmt: "2020-07-02T23:03:46",
-    guid: { rendered: "https://maqay.org/?p=601" },
-    modified: "2020-07-02T18:05:57",
-    modified_gmt: "2020-07-02T23:05:57",
-    slug: "a-11-anos-del-baguazo-continuan-las-deudas-con-nuestra-amazonia",
-    status: "publish",
-    type: "post",
-    link:
-      "https://maqay.org/a-11-anos-del-baguazo-continuan-las-deudas-con-nuestra-amazonia/",
-    title: {
-      rendered:
-        "A 11 a\u00f1os del \u201cBaguazo\u201d: Contin\u00faan las deudas con nuestra Amazon\u00eda",
-    },
-    content: {
-      rendered:
-        '<p>[et_pb_section fb_built=\u00bb1&#8243; admin_label=\u00bbsection\u00bb _builder_version=\u00bb3.22&#8243;][et_pb_row admin_label=\u00bbrow\u00bb _builder_version=\u00bb3.25&#8243; background_size=\u00bbinitial\u00bb background_position=\u00bbtop_left\u00bb background_repeat=\u00bbrepeat\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb3.25&#8243; custom_padding=\u00bb|||\u00bb custom_padding__hover=\u00bb|||\u00bb][et_pb_text _builder_version=\u00bb4.4.7&#8243; text_font_size=\u00bb20px\u00bb text_orientation=\u00bbjustified\u00bb]</p>\n<h3>Por: Mar\u00eda Jes\u00fas Le\u00f3n Ingaruca</h3>\n<p>&nbsp;</p>\n<p>El mes pasado se conmemoraron 11 a\u00f1os de \u00abEl Baguazo\u00bb, la masacre ocurrida en la Curva del Diablo, cerca a la ciudad de Bagua, el 5 de junio del 2009. Este conflicto socioambiental, otro de los tantos que hay en nuestro pa\u00eds, \u00a0surgi\u00f3 a ra\u00edz de la aprobaci\u00f3n de un paquete de decretos legislativos promovidos en el marco de la firma del TLC con Estados Unidos, decretos que, en pocas palabras, atentaban contra la integridad de los territorios de los pueblos ind\u00edgenas y de sus formas ancestrales de vida. El lamentable resultado, ya es historia conocida, 33 fallecidos entre ind\u00edgenas y polic\u00edas.</p>\n<p>&nbsp;</p>\n<p><img loading="lazy" class="alignnone wp-image-609 size-full" src="https://maqay.org/wp-content/uploads/2020/07/2-1.jpg" alt="" width="1080" height="1080" srcset="https://maqay.org/wp-content/uploads/2020/07/2-1.jpg 1080w, https://maqay.org/wp-content/uploads/2020/07/2-1-980x980.jpg 980w, https://maqay.org/wp-content/uploads/2020/07/2-1-480x480.jpg 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) 1080px, 100vw" /></p>\n<p>&nbsp;</p>\n<p>Al d\u00eda de hoy no existen responsables pol\u00edticos por estos hechos. Lo que s\u00ed hay, son deudas pendientes por parte del Estado para con nuestra Amazon\u00eda, deudas que van desde la inexistencia de pol\u00edticas p\u00fablicas, o en su defecto ineficientes, que puedan beneficiar \u00a0y proteger realmente nuestros territorios y a los que la habitan; hasta la falta de capacidad, o de inter\u00e9s, \u00a0que ha mostrado el gobierno de turno para que las poblaciones ind\u00edgenas de estas zonas puedan contar con la atenci\u00f3n sanitaria necesaria en este contexto de pandemia. \u00bfEs que acaso siguen siendo considerados ciudadanos (as) de segunda categor\u00eda?</p>\n<p>&nbsp;</p>\n<p><img loading="lazy" class="alignnone wp-image-610 size-full" src="https://maqay.org/wp-content/uploads/2020/07/3-1.jpg" alt="" width="1080" height="1080" srcset="https://maqay.org/wp-content/uploads/2020/07/3-1.jpg 1080w, https://maqay.org/wp-content/uploads/2020/07/3-1-980x980.jpg 980w, https://maqay.org/wp-content/uploads/2020/07/3-1-480x480.jpg 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) 1080px, 100vw" /></p>\n<p>&nbsp;</p>\n<p>Es cierto que este suceso fue el punto de partida para la aprobaci\u00f3n de importantes avances en cuanto a normativa ambiental, como la promulgaci\u00f3n de la Ley N\u00ba 29785 o Ley del Derecho a la Consulta Previa a los Pueblos Ind\u00edgenas u Originarios; sin embargo, a\u00fan persisten grandes retos en su implementaci\u00f3n, principalmente por los vac\u00edos y dificultades que surgen en el proceso. Lo anterior se debe, en gran parte, a que muchas de estas pol\u00edticas p\u00fablicas, no toman en cuenta las particularidades relacionadas a su cultura y al acceso a estos territorios.</p>\n<p>Por otro lado, ya van m\u00e1s de 100 d\u00edas desde que se decret\u00f3 el Estado de Emergencia luego de que el COVID-19 llegara a nuestro pa\u00eds, y a\u00fan no se conocen medidas concretas para que las poblaciones ind\u00edgenas amaz\u00f3nicas puedan enfrentar a este virus, siendo la falta de personal m\u00e9dico en los centros de salud y la falta de protocolos para recibir a los nativos que retornan de otras partes del Per\u00fa por desempleo, algunos de los problemas a los que se enfrentan.</p>\n<p>Como vemos, nuestra Amazon\u00eda sigue requiriendo de mayor importancia y valoraci\u00f3n en la agenda nacional, su voz es de vital importancia en los espacios de toma de decisi\u00f3n, algo que no solo debe tomarse en cuenta cuando los conflictos estallan. Otra deuda pendiente que saldar rumbo al bicentenario.</p>\n<p>&nbsp;</p>\n<h2>#MaqayTeRecomienda</h2>\n<p>Si quieres saber m\u00e1s al respecto, te recomendamos los siguientes documentales:</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>[/et_pb_text][et_pb_gallery gallery_ids=\u00bb612,611&#8243; fullwidth=\u00bbon\u00bb admin_label=\u00bbGaler\u00eda\u00bb _builder_version=\u00bb4.4.7&#8243;][/et_pb_gallery][/et_pb_column][/et_pb_row][/et_pb_section]</p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>[et_pb_section fb_built=\u00bb1&#8243; admin_label=\u00bbsection\u00bb _builder_version=\u00bb3.22&#8243;][et_pb_row admin_label=\u00bbrow\u00bb _builder_version=\u00bb3.25&#8243; background_size=\u00bbinitial\u00bb background_position=\u00bbtop_left\u00bb background_repeat=\u00bbrepeat\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb3.25&#8243; custom_padding=\u00bb|||\u00bb custom_padding__hover=\u00bb|||\u00bb][et_pb_text _builder_version=\u00bb4.4.7&#8243; text_font_size=\u00bb20px\u00bb text_orientation=\u00bbjustified\u00bb] Por: Mar\u00eda Jes\u00fas Le\u00f3n Ingaruca &nbsp; El mes pasado se conmemoraron 11 a\u00f1os de \u00abEl Baguazo\u00bb, la masacre ocurrida en la Curva del Diablo, cerca a la ciudad de Bagua, el 5 de junio del 2009. Este conflicto socioambiental, [&hellip;]</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 618,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "on",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [9],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/601" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=601",
-        },
-      ],
-      "version-history": [
-        {
-          count: 14,
-          href: "https://maqay.org/wp-json/wp/v2/posts/601/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 627,
-          href: "https://maqay.org/wp-json/wp/v2/posts/601/revisions/627",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/618",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=601" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=601",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=601",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 579,
-    date: "2020-06-17T13:16:08",
-    date_gmt: "2020-06-17T18:16:08",
-    guid: { rendered: "https://maqay.org/?p=579" },
-    modified: "2020-06-17T13:17:45",
-    modified_gmt: "2020-06-17T18:17:45",
-    slug: "dia-mundial-contra-la-desertificacion-y-la-sequia",
-    status: "publish",
-    type: "post",
-    link:
-      "https://maqay.org/dia-mundial-contra-la-desertificacion-y-la-sequia/",
-    title: {
-      rendered:
-        "D\u00eda Mundial de Lucha contra la Desertificaci\u00f3n y la Sequ\u00eda",
-    },
-    content: {
-      rendered:
-        '<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_row _builder_version=\u00bb4.4.7&#8243;][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_text _builder_version=\u00bb4.4.7&#8243; text_orientation=\u00bbjustified\u00bb]</p>\n<h1><strong>Tierra sana;</strong><strong>\u00a0gente sana</strong></h1>\n<p>Por: <span class="qu" tabindex="-1" role="gridcell"><span class="gD" data-hovercard-id="francisco.lape1998@gmail.com" data-hovercard-owner-id="151">Eli Francisco Lale P\u00e9rez</span></span></p>\n<p>En pleno auge del siglo XXI, uno de los principales problemas que est\u00e1 teniendo graves consecuencias en el mundo son los fen\u00f3menos causados por la contaminaci\u00f3n ambiental. Entre ellos tenemos la desertificaci\u00f3n y la sequ\u00eda, los cuales son dos fen\u00f3menos muy relacionados entre s\u00ed, por los diversos impactos ambientales, sociales y econ\u00f3micos que genera.\u00a0 En este marco la Asamblea General de las Naciones Unidas proclam\u00f3 el 17 de junio el \u201cD\u00eda Mundial de Lucha contra la Desertificaci\u00f3n y la Sequ\u00eda\u201d, esta fecha conmemora la aprobaci\u00f3n de la Convenci\u00f3n de las Naciones Unidas de Lucha contra la desertificaci\u00f3n, adem\u00e1s se busca crear conciencia sobre las iniciativas para combatir estos fen\u00f3menos y sensibilizar a la poblaci\u00f3n, para poder buscar soluciones con la participaci\u00f3n de los actores sociales. Al respecto, la Organizaci\u00f3n de las Naciones Unidas se\u00f1ala que <em>\u201cla desertificaci\u00f3n, la degradaci\u00f3n de la tierra y la sequ\u00eda son problemas de dimensi\u00f3n mundial y que siguen suponiendo un serio desaf\u00edo para el desarrollo sostenible de todos los pa\u00edses, en particular los pa\u00edses en desarrollo\u201d.</em></p>\n<h2>\u00a0</h2>\n<h2><strong>\u00bfQu\u00e9 es la desertificaci\u00f3n?</strong></h2>\n<p><img loading="lazy" class="alignnone wp-image-583 size-large" src="https://maqay.org/wp-content/uploads/2020/06/1-1-1024x727.jpg" alt="" width="1024" height="727" srcset="https://maqay.org/wp-content/uploads/2020/06/1-1-980x696.jpg 980w, https://maqay.org/wp-content/uploads/2020/06/1-1-480x341.jpg 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) 1024px, 100vw" /></p>\n<p>La Convenci\u00f3n de las Naciones Unidas para Combatir la Desertificaci\u00f3n (UNCCD) define el fen\u00f3meno de desertificaci\u00f3n como la degradaci\u00f3n de las tierras en \u00e1reas \u00e1ridas, semi\u00e1ridas y subh\u00famedas secas, como resultado de varios factores, incluidas causas naturales y actividades humanas, principalmente asociadas con el uso inadecuado de suelos, agua y vegetaci\u00f3n. La desertificaci\u00f3n es generada principalmente por causas de origen clim\u00e1tico y antropog\u00e9nico, entre los que destacan la <strong>deforestaci\u00f3n, el sobrepastoreo, la expansi\u00f3n de \u00e1reas agr\u00edcola</strong>.</p>\n<p>Seg\u00fan los pron\u00f3sticos, se espera que el cambio clim\u00e1tico intensifique los impactos de las sequ\u00edas en muchas partes del mundo. Tales efectos se sumar\u00edan a la estresante e indiscriminada utilizaci\u00f3n de la tierra, especialmente en las fr\u00e1giles tierras secas del mundo, lo que conducir\u00eda a una alarmante y acelerada degradaci\u00f3n de los suelos y desertificaci\u00f3n, a su vez, los problemas sociales c\u00f3mo la pobreza aumentar\u00eda ya que una considerable parte de la poblaci\u00f3n se dedica a la agricultura.</p>\n<h2>\u00a0</h2>\n<h2><strong>En el Per\u00fa\u2026</strong></h2>\n<p>Seg\u00fan el MINAM en nuestro pa\u00eds, se degrad\u00f3 mas del 15% del territorio, si el ritmo se mantiene, se calcula que al 2100, el 64% del territorio peruano podr\u00eda estar afectado por procesos de esta \u00edndole. Cabe resaltar que, el Per\u00fa se encuentra en el tercer lugar, solo despu\u00e9s de Argentina y Brasil, en la lista de los pa\u00edses con mayor extensi\u00f3n de tierras secas en Sudam\u00e9rica.</p>\n<p>A pesar de estas, poco alentadoras, cifras nuestro pa\u00eds cuenta con la \u201cEstrategia Nacional de Lucha contra la Desertificaci\u00f3n y la Sequ\u00eda 2016 -2030\u201d, aprobada por el Ministerio del Ambiente (MINAM), el cual tiene por objetivo prevenir y reducir la desertificaci\u00f3n, la degradaci\u00f3n de la tierra y el impacto de la sequ\u00eda en el territorio peruano, sin embargo, a\u00fan queda mucho por hacer.</p>\n<p>&nbsp;</p>\n<h2><strong>Alimentos, alimentar y fibra</strong></h2>\n<p>El D\u00eda Mundial de Lucha contra la Desertificaci\u00f3n y la Sequ\u00eda de este a\u00f1o se desarrollar\u00e1 bajo el lema \u201cAlimentos. Alimentar. Fibra\u201d, las plantas y los animales nos suministran gran parte de los alimentos que consumimos diariamente, ropa y calzado, lo que implica que los forrajes y las fibras compiten entre s\u00ed por la tierra cultivable. Es por ello que mediante este lema se busca sensibilizar y educar a las personas sobre el consumo, la incesante producci\u00f3n y el impacto que estos generan, de esta manera poder tomar conciencia sobre c\u00f3mo podemos reducir nuestro impacto personal.</p>\n<p>Cada a\u00f1o las poblaciones crecen, las sociedades se hacen m\u00e1s grandes y complejas, lo que implica una mayor demanda de tierra f\u00e9rtil para proporcionar alimentos a las personas y los animales, y fibra para la ropa. Mientras tanto, la fertilidad y productividad de las tierras est\u00e1n empeorando por una acelerada crisis clim\u00e1tica que no discrimina.</p>\n<h2>\u00a0</h2>\n<h2><strong>La UNCCD y la crisis del COVID-19</strong></h2>\n<p>En los tiempos del COVID-19, se ha evidenciado la dificultad para enfrentar nuestras necesidades b\u00e1sicas. Personas que en gran parte de la planeta han sido afectadas por las interrupciones en los suministros de alimentos, miles de personas que trabajan la tierra se han visto perjudicados al no poder comercializar sus productos generando grandes p\u00e9rdidas, la fragilidad de los sistemas naturales y de los humanos han quedado descubiertos. De esta manera queda demostrado el rol fundamental que cumple la tierra para el suministro de alimentos, agua, y c\u00f3mo fuente de trabajo para millones de personas alrededor del mundo.</p>\n<p>La desertificaci\u00f3n, la degradaci\u00f3n de la tierra y la sequ\u00eda est\u00e1n ligadas a la p\u00e9rdida del h\u00e1bitat de muchas especies animales y la propagaci\u00f3n de enfermedades (incluyendo COVID-19) de animales a humanos, conocido como zoonosis, al combatir estos fen\u00f3menos estaremos contribuyendo a que la tasa de aparici\u00f3n de dichas enfermedades sean casi nulas, de la misma forma, si realizamos una buena gesti\u00f3n de la tierra de manera responsable y segura estaremos poniendo un freno al posible desarrollo de enfermedades zoon\u00f3ticas en el futuro.</p>\n<p>Hoy m\u00e1s que nunca la famosa frase \u201ctierra sana; gente sana\u201d tiene mucho sentido, estamos ante un reto que nos une mundialmente, y todos debemos ser part\u00edcipes, es el momento de actuar por el planeta y combatir los fen\u00f3menos que la acechan, como sociedad tenemos el poder para cambiar la historia.</p>\n<p><img loading="lazy" class="alignnone wp-image-584 size-large" src="https://maqay.org/wp-content/uploads/2020/06/2-1024x727.jpg" alt="" width="1024" height="727" srcset="https://maqay.org/wp-content/uploads/2020/06/2-980x696.jpg 980w, https://maqay.org/wp-content/uploads/2020/06/2-480x341.jpg 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) 1024px, 100vw" /></p>\n<blockquote>\n<p><em>\u201cEl hombre quer\u00eda dominar la naturaleza y fue un peque\u00f1o virus el que nos llam\u00f3 al orden\u201d </em></p>\n</blockquote>\n<p>Ibrahim Thiaw, Secretario Ejecutivo de la Convenci\u00f3n de las Naciones Unidas para Combatir la Desertificaci\u00f3n.</p>\n<h2><strong>Referencias</strong></h2>\n<ul>\n<li>United Nations Convention to Combat Desertification. (2020). UNCCD and COVID-19 crisis: land-based solutions for people and planet.</li>\n<li>Naciones Unidas.\u00a0Convenci\u00f3n de las Naciones Unidas para combatir la desertificaci\u00f3n en aquellos pa\u00edses que sufren graves sequ\u00edas y / o desertificaci\u00f3n, particularmente en \u00c1frica.\u00a0Texto final de la Convenci\u00f3n;\u00a01994 [consultado el 16 de junio de 2020].\u00a0Disponible en:\u00a0<a href="https://www.unccd.int/sites/default/files/relevant-links/2017-01/English_0.pdf">https://www.unccd.int/sites/default/files/relevant-links/2017-01/English_0.pdf</a></li>\n<li>Asamblea de las Naciones Unidas, La Resoluci\u00f3n Aprobada Por La Asamblea General El 20 de diciembre de 2013 [Sobre La Base Del Informe de La Segunda Comisi\u00f3n (A/68/444)] 68/232. D\u00eda Mundial Del Suelo y A\u00f1o Internacional de Los Suelos. Disponible en: <a href="https://undocs.org/es/A/RES/68/232">https://undocs.org/es/A/RES/68/232</a></li>\n<li>D&#8217;Odorico P, Bhattachan A, Davis KF, Ravi S, Runyan CW. (2013).\u00a0Desertificaci\u00f3n global: impulsores y retroalimentaciones. Adv Water Resour, 51: 326-44.</li>\n<li>Garay-Romero IC, Cabero-Di\u00e9guez V. (2013). El aspecto social de la desertificaci\u00f3n: An\u00e1lisis de la percepci\u00f3n de la administraci\u00f3n p\u00fablica en Centro Am\u00e9rica. Gesti\u00f3n y Ambiente 16: 37-48.</li>\n<li>MINAM. (2016). Estrategia Nacional de Lucha contra la Desertificaci\u00f3n y la Sequ\u00eda 2016 -2030\u201d.</li>\n</ul>\n<p>&nbsp;</p>\n<p>[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]</p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>Este a\u00f1o el D\u00eda Internacional se centra en en cambiar las actitudes p\u00fablicas hacia la principal causa de la desertificaci\u00f3n y la degradaci\u00f3n de las tierras: la producci\u00f3n y el consumo incesantes de la humanidad.</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 582,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "on",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [9],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/579" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=579",
-        },
-      ],
-      "version-history": [
-        {
-          count: 8,
-          href: "https://maqay.org/wp-json/wp/v2/posts/579/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 592,
-          href: "https://maqay.org/wp-json/wp/v2/posts/579/revisions/592",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/582",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=579" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=579",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=579",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 564,
-    date: "2020-06-14T18:52:54",
-    date_gmt: "2020-06-14T23:52:54",
-    guid: { rendered: "https://maqay.org/?p=564" },
-    modified: "2020-06-15T21:19:12",
-    modified_gmt: "2020-06-16T02:19:12",
-    slug: "que-es-la-innovacion-ambiental",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/que-es-la-innovacion-ambiental/",
-    title: { rendered: "\u00bfQu\u00e9 es la innovaci\u00f3n ambiental?" },
-    content: {
-      rendered:
-        '<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_row _builder_version=\u00bb4.4.7&#8243;][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_text _builder_version=\u00bb4.4.7&#8243; text_orientation=\u00bbjustified\u00bb]<div id="attachment_567" style="width: 598px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-567" loading="lazy" class="wp-image-567 size-full" src="https://maqay.org/wp-content/uploads/2020/06/Imagen-1.png" alt="Imagen N\u00ba 1. Prueba del proyecto \u201cMonitoreo oceanogr\u00e1fico mediante un veh\u00edculo submarino\u201d Fuente: CETAM PUCP" width="588" height="286" srcset="https://maqay.org/wp-content/uploads/2020/06/Imagen-1.png 588w, https://maqay.org/wp-content/uploads/2020/06/Imagen-1-480x233.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 588px, 100vw" /><p id="caption-attachment-567" class="wp-caption-text">Imagen N\u00ba 1. Prueba del proyecto \u201cMonitoreo oceanogr\u00e1fico mediante un veh\u00edculo submarino\u201d Fuente: CETAM PUCP</p></div></p>\n<p>&nbsp;</p>\n<p>Por: Mar\u00eda Jes\u00fas Le\u00f3n Ingaruca</p>\n<p>&nbsp;</p>\n<p>Hoy en d\u00eda es pr\u00e1cticamente imposible dejar de hablar de contaminaci\u00f3n ambiental, cada d\u00eda vemos c\u00f3mo nuestro planeta sufre las consecuencias de m\u00faltiples formas de da\u00f1o, en su mayor\u00eda provenientes de la actividad industrial, que se traducen en el uso indiscriminado e irresponsable de nuestros recursos naturales. No obstante, gobiernos de diferentes partes de mundo (incluido el nuestro), sociedad civil organizada, instituciones educativas, organizaciones no gubernamentales, empresas, etc., vienen tomando todo tipo de iniciativas para mitigar estos da\u00f1os y a su vez fomentar el crecimiento y desarrollo econ\u00f3mico de manera sostenible, promoviendo y generando propuestas para cambiar patrones de consumo y producci\u00f3n.</p>\n<p><strong>Es en este contexto que, la innovaci\u00f3n ambiental surge como una herramienta para lograr estos objetivos, pero \u00bfqu\u00e9 es la innovaci\u00f3n ambiental? Te lo explicamos en este art\u00edculo.</strong></p>\n<p>Una de las primeras definiciones de innovaci\u00f3n ambiental -o tambi\u00e9n llamada ecoinnovaci\u00f3n- es la que nos dice que, se trata del \u201cproceso de desarrollo de nuevos productos, procesos\u00a0 servicios que proporcionan valor al consumidor y a la empresa y que reducen significativamente los impactos ambientales\u201d (Fussler y James, 1996). Otra definici\u00f3n m\u00e1s actual nos dice que, de manera muy parecida a la primera, tiene que ver con la \u201c<em>creaci\u00f3n de nuevos bienes, procesos, sistemas, servicios y procedimientos dise\u00f1ados para satisfacer la necesidades (\u2026) con un m\u00ednimo uso de los recursos naturales en su ciclo de vida y una m\u00ednima emisi\u00f3n de sustancias t\u00f3xicas</em>\u201d (Europa INNOVA, 2006). Existen otras definiciones que, al igual que las anteriores, tienen su base en la innovaci\u00f3n y en la reducci\u00f3n de da\u00f1os ambientales. As\u00ed, cualquier iniciativa que, tras su aplicaci\u00f3n ayude a mitigar directa o indirectamente la\u00a0 problem\u00e1tica, puede caber dentro del concepto de innovaci\u00f3n ambiental.</p>\n<p>En nuestro pa\u00eds, por parte del Estado, existen diversos programas que promueven la innovaci\u00f3n ambiental, entre los que destacan el <a href="https://portal.concytec.gob.pe/index.php/programas-nacionales-transversales-de-cti/programa-cintya">Programa Nacional Transversal de Ciencia y Tecnolog\u00eda Ambiental (CINTyA)</a> del Consejo Nacional de Ciencia, Tecnolog\u00eda e Innovaci\u00f3n Tecnol\u00f3gica (CONCYTEC) en articulaci\u00f3n con el Ministerio del Ambiente (MINAM), que tiene como objetivo principal incrementar la capacidad de respuesta ante los desaf\u00edos ambientales en el \u00e1mbito social, econ\u00f3mico y ecosist\u00e9mico que afronta el pa\u00eds. Lo anterior, a trav\u00e9s del fortalecimiento de la articulaci\u00f3n entre los distintos niveles de gobierno y la retenci\u00f3n de talentos mediante el reconocimiento de su investigaci\u00f3n para mejorar la cantidad de producci\u00f3n cient\u00edfica.</p>\n<p>Otro de ellos es el programa <a href="https://innovateperu.gob.pe/">Inn\u00f3vate Per\u00fa</a><strong>,</strong> Unidad Ejecutora del Ministerio de la Producci\u00f3n que, entre otros proyecto, apoya los orientados a la econom\u00eda circular. Algunos ejemplos de proyectos apoyados por este programa son \u201c<a href="https://www.instagram.com/qaira_drones/?hl=es-la"><strong>Qaira</strong></a>\u201d, emprendimiento que monitorea la calidad del aire mediante inteligencia artificial y drones; y \u201c<a href="https://www.instagram.com/eveaecofashion/?hl=es-la"><strong>Evea</strong></a>\u201d, emprendimiento de calzado sostenible elaborado con cuero de caucho, sin talar o da\u00f1ar los \u00e1rboles, solo por mencionar algunos.</p>\n<p>As\u00ed mismo, desde instituciones como Pontifica Universidad Cat\u00f3lica del Per\u00fa (PUCP), a trav\u00e9s de su Centro de Tecnolog\u00edas avanzadas de Manufacturas (CETAM), y Servicio Nacional de Adiestramiento en Trabajo Industrial (SENATI), tambi\u00e9n existe apoyo a la innovaci\u00f3n ambiental. Proyectos como la \u201c<strong>Producci\u00f3n de energ\u00eda y de componente del cemento a partir de las hojas de la ca\u00f1a de az\u00facar</strong>\u201d y el \u201c<strong>Monitoreo oceanogr\u00e1fico mediante un veh\u00edculo submarino</strong>\u201d, son algunos impulsados desde la primera; y proyectos como el \u201c<strong>Bioabsorvente org\u00e1nico para limpiar el agua del ars\u00e9nico</strong>\u201d y el \u201c<strong>Sistema de drones para monitorear efectos clim\u00e1ticos en los campos de cultivo</strong>\u201d son otros impulsados desde esta \u00faltima.</p>\n<p>Tambi\u00e9n existen otras iniciativas provenientes de instituciones educativas de nivel b\u00e1sico, como la que pusieron en marcha los estudiantes del colegio Mariano Melgar en Puno hace unos a\u00f1os. Se trata de la \u201cI<strong>mplementaci\u00f3n de programas de monitoreo del agua con participaci\u00f3n ciudadana</strong>\u201d, que consiste en la formaci\u00f3n integral educativa, cultural y cient\u00edfica de la poblaci\u00f3n en relaci\u00f3n al cuidado del medio ambiente, proyecto gan\u00f3 el concurso \u201c<strong>Soluciones para el Futuro</strong>\u201d 2016 organizado por la\u00a0<a href="http://www.empresariosporlaeducacion.org.pe/">Asociaci\u00f3n Empresarios por la Educaci\u00f3n</a>\u00a0y una empresa de electr\u00f3nica de consumo.</p>\n<p>Por otro lado, en el plano internacional, es importante destacar que el inter\u00e9s por la innovaci\u00f3n ambiental nace principalmente de pa\u00edses europeos, muchos ellos miembros de la Organizaci\u00f3n para la Cooperaci\u00f3n y el Desarrollo Econ\u00f3micos (OCDE), quienes en gran medida lideran los avances relacionaos a innovaci\u00f3n ambiental. En cuanto a los pa\u00edses de la regi\u00f3n, la transici\u00f3n hacia sistemas de producci\u00f3n m\u00e1s ecol\u00f3gicos resulta dif\u00edcil debido a los innumerables desaf\u00edos que enfrentan los pa\u00edses a la hora de emprender este tipo de estrategias (CEPAL, 2014).</p>\n<p>Pa\u00edses como Suiza tienen excelentes pol\u00edticas que incentivan el reciclaje en la ciudadan\u00eda. En Espa\u00f1a, ya se ponen en pr\u00e1ctica conceptos como la remanufactura, que basada en la econom\u00eda circular, permite reaprovechar los materiales que se usan en el proceso productivo, lo que se traduce, entre otros beneficios, en una importante disminuci\u00f3n de gases de efecto invernadero. Otra interesante iniciativa se ha dado en los bosques de Borneo, ubicada al sudeste de Asia, donde un ingeniero creo el denominado \u201c<strong>Topher White</strong>\u201d, un sistema en el que tel\u00e9fonos m\u00f3viles viejos son reciclados para captar el sonido de las motosierras en los bosques, para de esta manera alertar a las autoridades pertinentes y evitar la tala en tiempo real.</p>\n<p>Como vemos, existen m\u00faltiples desaf\u00edos que reafirman la necesidad de crear un modelo alternativo de desarrollo que tenga como uno de sus ejes principales la sostenibilidad ambiental, y para esto es imprescindible que se siga promoviendo este tipo iniciativas de innovaci\u00f3n ambiental, y as\u00ed, de manera paulatina, dar el gran paso hac\u00eda formas de producci\u00f3n que no da\u00f1en a nuestro planeta, ni acaben con nuestros recursos.</p>\n<p>&nbsp;</p>\n<h5><strong>Referencias:</strong></h5>\n<ul>\n<li>Fussler, C., &amp; James, P. (1996). Eco-innovation: A breakthrough discipline for innovation and sustainability.\u00a0Pitman: London.</li>\n<li>INNOVA, E. (2006). Thematic Workshop: Lead Markets and Innovation.\u00a0Munich, June, 29-30.</li>\n<li>CEPAL (Comisi\u00f3n Econ\u00f3mica para Am\u00e9rica Latina y el Caribe) (2014), Innovaci\u00f3n sustentable: espacios para mejorar la competitividad de las pymes argentinas. CEPAL\u2013Colecci\u00f3n Documentos de Proyecto, Santiago, Agosto, Publicaci\u00f3n de Naciones Unidas.</li>\n</ul>\n<p>[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]</p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_row _builder_version=\u00bb4.4.7&#8243;][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_text _builder_version=\u00bb4.4.7&#8243; text_orientation=\u00bbjustified\u00bb] &nbsp; Por: Mar\u00eda Jes\u00fas Le\u00f3n Ingaruca &nbsp; Hoy en d\u00eda es pr\u00e1cticamente imposible dejar de hablar de contaminaci\u00f3n ambiental, cada d\u00eda vemos c\u00f3mo nuestro planeta sufre las consecuencias de m\u00faltiples formas de da\u00f1o, en su mayor\u00eda provenientes de la actividad industrial, que se traducen en el uso [&hellip;]</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 575,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "on",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [9],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/564" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=564",
-        },
-      ],
-      "version-history": [
-        {
-          count: 6,
-          href: "https://maqay.org/wp-json/wp/v2/posts/564/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 576,
-          href: "https://maqay.org/wp-json/wp/v2/posts/564/revisions/576",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/575",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=564" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=564",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=564",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 535,
-    date: "2020-06-07T11:45:46",
-    date_gmt: "2020-06-07T16:45:46",
-    guid: { rendered: "https://maqay.org/?p=535" },
-    modified: "2020-06-07T14:47:35",
-    modified_gmt: "2020-06-07T19:47:35",
-    slug:
-      "sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr",
-    status: "publish",
-    type: "post",
-    link:
-      "https://maqay.org/sobre-la-intangilidad-de-las-reservas-territoriales-de-los-pueblos-indigenas-en-aislamiento-voluntario-y-contacto-inicial-a-proposito-del-proyecto-de-ley-no-4044-2018-cr/",
-    title: {
-      rendered:
-        "Sobre la intangibilidad de las reservas territoriales de los Pueblos Ind\u00edgenas en Aislamiento Voluntario y Contacto Inicial, a prop\u00f3sito del Proyecto de Ley N\u00ba 4044/2018-CR",
-    },
-    content: {
-      rendered:
-        '<p>[et_pb_section fb_built=\u00bb1&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_row _builder_version=\u00bb4.4.7&#8243;][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb4.4.7&#8243;][et_pb_text admin_label=\u00bbTexto\u00bb _builder_version=\u00bb4.4.7&#8243; text_font_size=\u00bb20px\u00bb header_text_align=\u00bbjustify\u00bb text_orientation=\u00bbjustified\u00bb custom_margin=\u00bb||0px||false|false\u00bb hover_enabled=\u00bb0&#8243;]</p>\n<p style="text-align: right;">Por: Nelly Lucia Herrera Santos</p>\n<p>El 26 de mayo pasado, la Comisi\u00f3n de Pueblos Andinos, Amaz\u00f3nicos, Afroperuanos, Ambiente y Ecolog\u00eda del Congreso aprob\u00f3 el dictamen del Proyecto de Ley 4044/2018-CR, denominado \u201cLey que modifica la Ley 28736, Ley para la protecci\u00f3n de los pueblos ind\u00edgenas u originarios en situaci\u00f3n de aislamiento y en situaci\u00f3n de contacto inicial, y establece salvaguardas para garantizar su vida e integridad frente al Covid-19 o similares\u201d. Sin embargo, a\u00fan quedan otros pasos para que esta iniciativa legislativa se convierta en Ley, raz\u00f3n por la que consideramos pertinente realizar un an\u00e1lisis al respecto.</p>\n<h2><strong>\u00bfEn qu\u00e9 se centr\u00f3 el debate del Proyecto de Ley 4044-2018-CR?</strong></h2>\n<p>En la modificaci\u00f3n del art\u00edculo 5 c) de la Ley N\u00ba 28736, Ley para la protecci\u00f3n de pueblos ind\u00edgenas u originarios en situaci\u00f3n de aislamiento y en situaci\u00f3n de contacto inicial (en adelante, <strong>Ley de PIACI</strong>), referido a la intangibilidad de las reservas ind\u00edgenas y que en caso de necesidad p\u00fablica se puede hacer una excepci\u00f3n para el aprovechamiento de recursos naturales al interior de dichas reservas. El texto del art\u00edculo 5 de la Ley de PIACI es el siguiente:</p>\n<p><strong><em>\u201cArt\u00edculo 5.- Car\u00e1cter intangible de las reservas ind\u00edgenas</em></strong></p>\n<p><em>Las reservas ind\u00edgenas para los pueblos ind\u00edgenas en situaci\u00f3n de aislamiento o de contacto inicial son intangibles en tanto mantengan la calidad de tales. En ellas:</em></p>\n<p><em>a) No podr\u00e1n establecerse asentamientos poblacionales distintos a los de los pueblos ind\u00edgenas que habitan en su interior;</em></p>\n<p><em>b) Se proh\u00edbe la realizaci\u00f3n de cualquier actividad distinta a la de los usos y costumbres ancestrales de los habitantes ind\u00edgenas;</em></p>\n<p><strong><em>c) No se otorgar\u00e1n derechos que impliquen el aprovechamiento de recursos naturales, salvo el que con fines de subsistencia realicen los pueblos que las habiten y aquellos que permitan su aprovechamiento mediante m\u00e9todos que no afecten los derechos de los pueblos ind\u00edgenas en situaci\u00f3n de aislamiento o en situaci\u00f3n de contacto inicial, y siempre que lo permita el correspondiente estudio ambiental. En caso de ubicarse un recurso natural susceptible de aprovechamiento cuya explotaci\u00f3n <u>resulte de necesidad p\u00fablica para el Estado, se proceder\u00e1 de acuerdo a ley</u>;</em></strong><em> y,</em></p>\n<p><strong><em>CONCORDANCIA:\u00a0 \u00a0 \u00a0<a href="http://spijlibre.minjus.gob.pe/CLP/contenidos.dll?f=id$id=peru%3Ar%3A3b8513$cid=peru$t=document-frame.htm$an=JD_DS008-2007-MIMDES-A33$3.0#JD_DS008-2007-MIMDES-A33">D.S. N\u00ba 008-2007-MIMDES, Arts. 33,</a>\u00a0<a href="http://spijlibre.minjus.gob.pe/CLP/contenidos.dll?f=id$id=peru%3Ar%3A3b8513$cid=peru$t=document-frame.htm$an=JD_DS008-2007-MIMDES-A34$3.0#JD_DS008-2007-MIMDES-A34">34</a></em></strong></p>\n<p><em>d) Los pueblos ind\u00edgenas que las habitan son los \u00fanicos y mancomunados beneficiarios de la misma.\u201d</em></p>\n<p>Revisaremos algunos conceptos para poder entender a qu\u00e9 se refiere la propuesta de modificaci\u00f3n y por qu\u00e9 ha generado tanta resistencia por parte del Ministerio de Energ\u00eda y Minas y el Ministerio de Cultura.</p>\n<h2><strong>\u00bfQui\u00e9nes son los pueblos ind\u00edgenas?</strong></h2>\n<p>Los pueblos ind\u00edgenas son \u201ccomunidades, pueblos y naciones ind\u00edgenas [\u2026] que, poseyendo una continuidad hist\u00f3rica con las sociedades pre-invasoras y pre-coloniales que se desarrollaron en sus territorios, se consideran dis\u00edmiles de otros sectores de las sociedades dominantes en aquellos territorios o parte de los mismos\u201d<a href="#_ftn1" name="_ftnref1">[1]</a>.</p>\n<p>Ahora bien, \u00bfc\u00f3mo identificamos a un <em>pueblo ind\u00edgena</em>? \u00bfCu\u00e1l es la diferencia entre <em>comunidad campesina </em>o <em>nativa </em>y <em>pueblo ind\u00edgena</em>? Desde los sucesos del <em>Baguazo, </em>poco a poco se han ido reconociendo a mayor escala los derechos humanos de los Pueblos Ind\u00edgenas. Nos referimos a un reconocimiento mayor, ya que el derecho a la consulta previa estuvo vigente en nuestro ordenamiento jur\u00eddico desde febrero de 1992; sin embargo, fue desconocido abiertamente por el Estado hasta los sucesos de violencia desencadenados en el caso Bagua. Avances como la Ley de Consulta Previa<a href="#_ftn2" name="_ftnref2">[2]</a> y su Reglamento<a href="#_ftn3" name="_ftnref3">[3]</a> han generado nuevos retos para el aparato estatal, tales como la identificaci\u00f3n real de los pueblos ind\u00edgenas y el momento adecuado de la consulta.</p>\n<p>En el marco normativo de la consulta previa encontramos recogidos los criterios de identificaci\u00f3n de los pueblos ind\u00edgenas<a href="#_ftn4" name="_ftnref4">[4]</a>. En el derecho internacional se identifican a los pueblos ind\u00edgenas por dos elementos y uno subjetivo \u2013tal como se desprende del Convenio 169 de la OIT-. \u201cLos elementos objetivos se refieren a un hecho hist\u00f3rico (preexistencia de los pueblos a los estados) y a un hecho actual (vigencia de sus instituciones propias). El elemento subjetivo es la autoconciencia de la identidad, la que vincula ambos hechos (el hist\u00f3rico y el actual)\u201d<a href="#_ftn5" name="_ftnref5">[5]</a>. En principio, una comunidad nativa o una comunidad campesina puede ser identificada como <em>pueblo ind\u00edgena </em>tomando en cuenta dichos criterios; sin embargo, podr\u00eda llegarse a un an\u00e1lisis distinto desde una interpretaci\u00f3n hist\u00f3rica y sistem\u00e1tica del ordenamiento jur\u00eddico, an\u00e1lisis que obviaremos profundizar en esta oportunidad.</p>\n<p>&nbsp;</p>\n<p><iframe title="\u00bfQui\u00e9nes son los pueblos ind\u00edgenas?" width="1080" height="608" src="https://www.youtube.com/embed/eU2_cbwegUo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>\n<h2>\u00a0</h2>\n<h2>\u00a0</h2>\n<h2><strong>\u00bfQui\u00e9nes son los pueblos ind\u00edgenas en aislamiento voluntario o contacto inicial?</strong></h2>\n<p>Los pueblos ind\u00edgenas en situaci\u00f3n de aislamiento voluntario son \u201cpueblos o segmentos de pueblos ind\u00edgenas que no mantienen contactos sostenidos con la poblaci\u00f3n mayoritaria no ind\u00edgena y que suelen rehuir todo tipo de contacto con personas ajenas a su pueblo\u201d<a href="#_ftn1" name="_ftnref1">[6]</a>. Por otro lado, los pueblos en contacto inicial son aquellos pueblos ind\u00edgenas que han tenido alg\u00fan contacto con la sociedad mayoritaria y \u201cmantienen un contacto intermitente o espor\u00e1dico con la poblaci\u00f3n mayoritaria no ind\u00edgena\u201d<a href="#_ftn2" name="_ftnref2">[7]</a>. Los pueblos ind\u00edgenas en aislamiento voluntario y en contacto inicial cuentan con una especial vulnerabilidad, una enfermedad tan com\u00fan en la poblaci\u00f3n mayoritaria como la gripe podr\u00eda desencadenar la muerte de muchas\u00a0 personas en esta situaci\u00f3n.</p>\n<p>Actualmente, a\u00fan persiste la doctrina de la asimilaci\u00f3n en la formulaci\u00f3n de pol\u00edticas p\u00fablicas y en la conciencia de los pobladores. Los PIAVCI cuentan adem\u00e1s del derecho a la identidad \u00e9tnica y cultural -reconocido en el art\u00edculo 2 inciso de nuestra Carta Magna<a href="#_ftn3" name="_ftnref3">[8]</a>&#8211; con el derecho a la libre autodeterminaci\u00f3n y principio de no contacto. A trav\u00e9s de este derecho, se exige el respeto al no contacto y a su elecci\u00f3n de permanecer en aislamiento.</p>\n<p>En esa medida, \u201casumiendo el principio <em>pro personae </em>y asumiendo el principio de no contacto como una condici\u00f3n fundamental, los factores principales a considerar cuando se analiza si los pueblos en aislamiento voluntario dan su consentimiento o no a la presencia de personas ajenas a su pueblo en sus territorios ancestrales, son: (i) el rechazo manifiesto a la presencia de personas ajenas a su pueblo en sus territorios, y (ii) su decisi\u00f3n de mantenerse en aislamiento respecto de otros pueblos y personas.\u201d<a href="#_ftn4" name="_ftnref4">[9]</a></p>\n<p>En el caso de los PIAVCI no es posible realizar el proceso de consulta previa, libre e informada de acuerdo a los est\u00e1ndares establecidos por la Comisi\u00f3n y la Corte Interamericana de Derechos Humanos, en relaci\u00f3n con proyectos de desarrollo e inversi\u00f3n y de concesiones extractivas de los recursos naturales que afecten los derechos de los pueblos ind\u00edgenas en aislamiento voluntario. Ello ha quedado sentado en jurisprudencia de la Corte IDH, v\u00e9ase el caso Pueblo Ind\u00edgena Kichwa de Sarayacu Vs. Ecuador. Pues bien, dicho contexto genera mucha m\u00e1s discrecionalidad en el actuar del Estado.</p>\n<p>Como fuente normativa de los preceptos citados podemos mencionar la Declaraci\u00f3n Americana de los Derechos y Deberes del Hombre, pues en su art\u00edculo XXIII protege el derecho a la propiedad privada y la Corte Interamericana de Derechos Humanos han interpretado este art\u00edculo de manera que protege el derecho de propiedad de los pueblos ind\u00edgenas y tribales sobre sus tierras, territorios y recursos naturales. Tambi\u00e9n encontramos la Convenci\u00f3n Americana sobre Derechos Humanos y el Proyectos de Declaraci\u00f3n Americana sobre los derechos de los pueblos ind\u00edgenas.</p>\n<p>&nbsp;</p>\n<p><iframe title="Pueblos ind\u00edgenas en aislamiento voluntario" width="1080" height="608" src="https://www.youtube.com/embed/51Z126iWeeo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>\n<h2>\u00a0</h2>\n<h2>\u00a0</h2>\n<h2><strong>\u00bfQu\u00e9 son las reservas territoriales?</strong></h2>\n<p>Las reservas territoriales deben distinguirse de las \u00e1reas naturales protegidas &#8211; ANP. Las ANP \u201cson espacios estrat\u00e9gicos para los pa\u00edses, porque son indispensables para su crecimiento, su desarrollo y para la b\u00fasqueda de condiciones de vida adecuadas dentro de su territorio, adem\u00e1s constituyen una de las principales opciones en la protecci\u00f3n del patrimonio natural\u201d<a href="#_ftn1" name="_ftnref1">[10]</a>. Son pues, espacios continentales o marinos del territorio nacional, destinados a un aprovechamiento de forma espacial<a href="#_ftn2" name="_ftnref2">[11]</a>, es por ello que se contempla una gradualidad de opciones que incluyen \u00e1reas de uso indirecto y \u00e1reas de uso directo<a href="#_ftn3" name="_ftnref3">[12]</a>.</p>\n<p>Por otra parte, las reservas territoriales nacen como un mecanismo efectivo de protecci\u00f3n de los derechos humanos de los pueblos ind\u00edgenas en aislamiento voluntario y contacto inicial. Estas \u00e1reas difieren de las \u00e1reas naturales protegidas por su car\u00e1cter de protecci\u00f3n exclusivo de los PIAVCI, as\u00ed como por su intangibilidad, esa es el objetivo de la restricci\u00f3n al acceso respecto de las tierras de las comunidades ind\u00edgenas que no mantienen contacto con la sociedad predominante. En el continente, pa\u00edses como \u201cEcuador, Per\u00fa y Brasil, [han creado dichas \u00e1reas] con el fin de evitar intrusiones y contactos no deseados\u201d<a href="#_ftn4" name="_ftnref4">[13]</a>.</p>\n<p>El sustento constitucional de las \u201creservas territoriales\u201d lo encontramos en el art\u00edculo 89\u00b0 de la Constituci\u00f3n Pol\u00edtica del Per\u00fa que versa sobre los derechos de personer\u00eda jur\u00eddica, de propiedad y de identidad cultural con que gozan las comunidades nativas<a href="#_ftn5" name="_ftnref5">[14]</a>. Asimismo, el Convenio 169\u00b0 de la OIT sobre Pueblos Ind\u00edgenas y Tribales en Pa\u00edses Independientes, se\u00f1ala el reconocimiento del derecho de propiedad de las tierras de los grupos culturales<a href="#_ftn6" name="_ftnref6">[15]</a>.</p>\n<p>Respecto a la regulaci\u00f3n legal, el Decreto Ley N\u00b0 22175\u2013 Ley de Comunidades Nativas y de Desarrollo Agrario de la Selva y Ceja de Selva regulaba en su Segunda Disposici\u00f3n Transitoria se\u00f1ala lo siguiente:</p>\n<p><em>\u201cPara la demarcaci\u00f3n del territorio de las Comunidades Nativas cuando se encuentren en situaci\u00f3n de contacto inicial y espor\u00e1dico\u00a0 con los dem\u00e1s integrantes de la comunidad nacional, <strong><u>se determinar\u00e1</u> <u>un \u00e1rea territorial provincial de acuerdo a sus modos</u> <u>tradicionales de aprovechamiento de los recursos naturales,</u>\u00a0 </strong>hasta que se defina una de las situaciones a que se refieren\u00a0 los incisos a) y b) del Art. 10\u00ba de la presente Ley.\u201d [\u00c9nfasis agregado]</em></p>\n<p>El panorama legal se aclar\u00f3 luego con la Ley N\u00b0 28736 \u2013 Ley para la Protecci\u00f3n de Pueblos Ind\u00edgenas u Originarios en Situaci\u00f3n de Aislamiento y en Situaci\u00f3n de Contacto Inicial. Dicha ley estableci\u00f3 en su art\u00edculo 2\u00b0 la definici\u00f3n de \u201creserva ind\u00edgena\u201d se\u00f1alando que son:</p>\n<p><em>\u201cTierras delimitadas por el Estado peruano, <strong><u>de intangibilidad</u> <u>transitoria</u></strong>, a favor de los pueblos ind\u00edgenas en situaci\u00f3n de aislamiento o en situaci\u00f3n de contacto inicial, y en tanto mantengan tal situaci\u00f3n, para proteger sus derechos, su h\u00e1bitat y las condiciones que aseguren su existencia e integridad como pueblos\u201d. [\u00c9nfasis agregado]</em></p>\n<p>Posteriormente, el Decreto Supremo N\u00b0 008-2007-MIMDES, Reglamento de la Ley para la Protecci\u00f3n de Pueblos Ind\u00edgenas u Originarios en Situaci\u00f3n de Aislamiento y en Situaci\u00f3n de Contacto Inicial, estableci\u00f3 el procedimiento para la categorizaci\u00f3n de reservas ind\u00edgenas y adem\u00e1s en su art\u00edculo 27\u00b0 vuelve a brindarnos una definici\u00f3n de reserva ind\u00edgena y se\u00f1ala al respecto lo siguiente:</p>\n<p><em>\u201c<strong><u>Las reservas ind\u00edgenas son espacios geogr\u00e1ficos delimitados</u> <u>por el Decreto Supremo de categorizaci\u00f3n</u></strong>, donde habitan pueblos en situaci\u00f3n de aislamiento y en situaci\u00f3n de contacto inicial. La Direcci\u00f3n General de Pueblos Originarios y Afroperuano del MIMDES es el organismo del Estado encargado de velar por su protecci\u00f3n con recursos econ\u00f3micos que provengan del tesoro p\u00fablico y otras fuentes.\u201d [\u00c9nfasis agregado]</em></p>\n<p>As\u00ed, se usan los t\u00e9rminos \u201creserva territorial\u201d y \u201creserva ind\u00edgena\u201d de forma indistinta, lo cual se debe a las Disposiciones Complementarias y Transitorias del Reglamento antes mencionado que encarga al MIMDES la adecuaci\u00f3n de las cinco (05) reservas territoriales que hasta esa fecha se hab\u00edan establecido. Adem\u00e1s, debe tenerse en cuenta que m\u00e1s all\u00e1 de la nomenclatura que se use la naturaleza que revisten dichas figuras persiguen el mismo objetivo. En estricto, la reserva ind\u00edgena en esta regulaci\u00f3n establece claramente la <em>intangibilidad </em>de las reservas.</p>\n<h2><strong>Sobre la intangibilidad de las reservas ind\u00edgenas\u00a0</strong></h2>\n<p>\u00bfQu\u00e9 debe entenderse por intangibilidad de una reserva ind\u00edgena? El t\u00e9rmino <em>intangible </em>nos hace referencia a lo que merece respeto extraordinario y no debe ser alterado o da\u00f1ado, de eso no cabe duda. El car\u00e1cter intangible de las reservas ind\u00edgenas ha sido reconocido<a href="#_ftn1" name="_ftnref1">[16]</a> en la Ley para la protecci\u00f3n de Pueblos Ind\u00edgenas u Originarios en Situaci\u00f3n de Aislamiento y en Situaci\u00f3n de Contacto Inicial protegiendo el territorio sobre el que tienen posesi\u00f3n los PIAVCI para evitar justamente que se produzcan da\u00f1os reales en la salud e integridad de los mismos.</p>\n<p>De otro lado, debe hacerse menci\u00f3n a otros derechos que est\u00e1n involucrados t\u00e1citamente en la protecci\u00f3n de los PIAVCI, tales como el \u201cderecho a no ser sujetos a una asimilaci\u00f3n forzada\u201d y la libre determinaci\u00f3n de los pueblos ind\u00edgenas.</p>\n<p>No obstante lo anterior, el citado art\u00edculo se\u00f1ala que <em>\u201c<strong><u>e</u></strong></em><strong><em><u>n caso de ubicarse un</u></em></strong><strong><em> <u>recurso natural susceptible de aprovechamiento cuya explotaci\u00f3n resulte</u> <u>de necesidad p\u00fablica, para el Estado, se proceder\u00e1 de acuerdo a Ley\u201d</u> </em></strong>privilegi\u00e1ndose la explotaci\u00f3n de los recursos naturales que se encuentren en dicho territorio.</p>\n<h2><strong>El aprovechamiento de recursos naturales en reservas territoriales o reservas ind\u00edgenas y el principio de desarrollo sostenible.</strong></h2>\n<p>El desarrollo sostenible es un concepto que se consolid\u00f3 con el Informe Brundtland (Nuestro Futuro Com\u00fan) ya que se utiliz\u00f3 por primera vez en este documento se\u00f1alando que \u00abel desarrollo sostenible [sustainable development] es el desarrollo que satisface las necesidades de la <strong><em>generaci\u00f3n presente sin comprometer la capacidad de las generaciones futuras para satisfacer sus propias necesidades</em></strong>.<a href="#_ftn2" name="_ftnref2">[17]</a>\u201d</p>\n<p>Este concepto encierra en s\u00ed dos ideas trascendentales:</p>\n<ul>\n<li>Las necesidades, en particular las necesidades esenciales de las poblaciones vulnerables;</li>\n<li>Las limitaciones impuestas por el estado de la tecnolog\u00eda y la organizaci\u00f3n social entre la capacidad del medio ambiente para satisfacer las necesidades presentes y futuras.</li>\n</ul>\n<p>La Ley N\u00b0 28611 \u2013 Ley General del Ambiente recoge en su Art\u00edculo V el principio de sostenibilidad<a href="#_ftn3" name="_ftnref3">[18]</a> pero de manera general sin hacer menci\u00f3n espec\u00edfica a las poblaciones vulnerables (compr\u00e9ndase a los pueblos ind\u00edgenas en estos grupos). La Declaraci\u00f3n de Manila por su parte, indica en relaci\u00f3n a este principio que \u201cnuestra diversidad cultural se ha visto muy erosionada por la destrucci\u00f3n de la diversidad biol\u00f3gica y de las tierras, territorios y recursos, en los que se basan nuestras culturas, por causa de las industrias extractivas. Esta erosi\u00f3n de nuestra diversidad cultural es tambi\u00e9n resultado de la imposici\u00f3n de sistemas coloniales y de la invasi\u00f3n de no ind\u00edgenas. Las grandes empresas entran en nuestros territorios prometiendo desarrollo [\u2026]. Esta situaci\u00f3n ha atizado los conflictos entre los Pueblos Ind\u00edgenas, el Estado y las grandes empresas de las industrias extractivas, causando adem\u00e1s divisiones dentro de las propias comunidades ind\u00edgenas\u201d<a href="#_ftn4" name="_ftnref4">[19]</a>.</p>\n<p>En ese orden de ideas, podemos se\u00f1alar que este principio busca un equilibrio entre las industrias extractivas y el goce de los derechos de los ciudadanos en general, especialmente el de los pueblos en situaci\u00f3n de especial vulnerabilidad.</p>\n<p>La excepci\u00f3n descrita en p\u00e1rrafos precedentes encierra un da\u00f1o potencial a los pueblos ind\u00edgenas en aislamiento voluntario o contacto inicial, por las amenazas que representan el ingreso de empresas en las \u00e1reas restringidas llamadas \u201creservas ind\u00edgenas\u201d. A nuestro entender, la regulaci\u00f3n de una excepci\u00f3n la se\u00f1alada no es compatible con el principio de desarrollo sostenible, ni tampoco cumple con su finalidad de protecci\u00f3n de la salud e integridad de estos pueblos, raz\u00f3n por la que precisamente se ha caracterizado a la intangibilidad como caracter\u00edstica fundamental.</p>\n<h2><strong>\u00bfCu\u00e1les son las modificaciones propuestas en el proyecto de ley N\u00ba 4044-2018-CR?</strong></h2>\n<p>En el proyecto de ley se han propuesto varias modificaciones a la Ley de PIAVCI; sin embargo, detallamos solo la modificaci\u00f3n que ha generado mayor cuestionamiento:</p>\n<table style="width: 678px; height: 877px;">\n<tbody>\n<tr style="height: 33px;">\n<td style="height: 33px; width: 283.2px;"><strong>Texto actual de la Ley N\u00ba 28736</strong></td>\n<td style="height: 33px; width: 380px;"><strong>\u00a0</strong><strong>Proyecto de ley N\u00ba 4044/2018-CR</strong></td>\n</tr>\n<tr style="height: 736.625px;">\n<td style="height: 736.625px; width: 283.2px;">\n<p><strong>Art\u00edculo 5.-</strong> <strong>Car\u00e1cter intangible de las reservas ind\u00edgenas</strong></p>\n<p>Las reservas ind\u00edgenas para los pueblos ind\u00edgenas en situaci\u00f3n de aislamiento o de contacto inicial son intangibles en tanto mantengan la calidad de tales. En ellas:</p>\n<p>(\u2026)</p>\n<p>c) No se otorgar\u00e1n derechos que impliquen el aprovechamiento de recursos naturales, salvo el que con fines de subsistencia realicen los pueblos que las habiten y aquellos que permitan su aprovechamiento mediante m\u00e9todos que no afecten los derechos de los pueblos ind\u00edgenas en situaci\u00f3n de aislamiento o en situaci\u00f3n de contacto inicial, y siempre que lo permita el correspondiente estudio ambiental. En caso de ubicarse un recurso natural susceptible de aprovechamiento cuya explotaci\u00f3n <em><strong><u>resulte de necesidad p\u00fablica para el Estado, se proceder\u00e1 de acuerdo a ley</u></strong></em>;</p>\n<p>(\u2026)</p>\n</td>\n<td style="height: 736.625px; width: 380px;">\n<p><strong>Art\u00edculo 5.-</strong> <strong>Car\u00e1cter intangible de las reservas ind\u00edgenas</strong></p>\n<p>Las reservas ind\u00edgenas para los pueblos ind\u00edgenas en situaci\u00f3n de aislamiento o de contacto inicial son intangibles en tanto mantengan la calidad de tales. En ellas:</p>\n<p>(\u2026)</p>\n<p>c) No se otorgar\u00e1n derechos de aprovechamiento de recursos naturales, excepto el que con fines de subsistencia realicen los pueblos del interior de la reserva, enti\u00e9ndase aquellas actividades tradicionales desarrolladas sin injerencia externa.</p>\n<p>(\u2026)</p>\n<p>En ese sentido, <em><strong>la intangibilidad debe entenderse como la prohibici\u00f3n estricta del ingreso de agentes externos, for\u00e1neos o terceros.</strong> </em>Para el caso espec\u00edfico de los pueblos ind\u00edgenas en contacto inicial <em><strong>la intangibilidad no limitar\u00e1 las prestaciones de atenci\u00f3n de salud de los mismos, siempre y cuando se realice de acuerdo a protocolos debidos y pertinencia cultural.</strong></em> Dicho car\u00e1cter intangible deber\u00e1 ser garantizado por el Estado, <em><strong>previa coordinaci\u00f3n con las organizaciones ind\u00edgenas y comunidades nativas o campesinas que se encuentren colindantes a estas reservas</strong></em>.</p>\n<p>Todo agente externo, enti\u00e9ndase empresas \u00f3rdenes de car\u00e1cter religioso, misioneros, grupos o partidos pol\u00edticos, entre otros, no podr\u00e1n ingresar a la reserva bajo ninguna justificaci\u00f3n. Con respecto a los entes estables, estos podr\u00e1n ingresar a la reserva, seg\u00fan lo prescrito en el art\u00edculo 6 de la Ley N\u00ba 28736, bajo un protocolo de relacionamiento debido y culturalmente pertinente, con la participaci\u00f3n de las organizaciones representativas ind\u00edgenas. <span style="font-family: inherit; font-size: inherit;">(\u2026)</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<h2><strong>\u00bfPor qu\u00e9 resulta necesario asegurar la intangibilidad de las reservas territoriales?</strong></h2>\n<p>Las principales amenazas al pleno goce de los derechos humanos de los PIAVCI son resultado del contacto. \u201cSi se logra evitar el contacto con personas ajenas a sus pueblos, los pueblos ind\u00edgenas en aislamiento voluntario est\u00e1n en mayor capacidad de satisfacer sus necesidades de subsistencia de su entorno y de manera autosuficiente, como lo han hecho por cientos de a\u00f1os<a href="#_ftn5" name="_ftnref5">[20]</a>\u201d.</p>\n<p>Como parte de esas amenazas podemos citar:</p>\n<ul>\n<li>El contacto;</li>\n<li>Las presiones sobre sus tierras y territorios;</li>\n<li>La extracci\u00f3n de recursos naturales;</li>\n<li>Los contagios y otras enfermedades; y,</li>\n<li>Las agresiones directas y el narcotr\u00e1fico.</li>\n</ul>\n<p>Dichas amenazas han sido identificadas y desarrolladas por la Comisi\u00f3n Interamericana de Derechos Humanos \u2013 CIDH. La CIDH ha tomado en cuenta las experiencias de todos los pa\u00edses de la regi\u00f3n para identificar las principales situaciones de riesgo de los PIAVCI<a href="#_ftn6" name="_ftnref6">[21]</a>. Las mayores amenazas para los ind\u00edgenas no contactados del Per\u00fa son los trabajadores de las empresas petroleras y los madereros ilegales.</p>\n<p>Asimismo, luego de la creaci\u00f3n de las reservas territoriales deber\u00eda respetarse en estricto la intangibilidad de las reservas territoriales o reservas ind\u00edgenas, ya que en un supuesto en el que no se hayan otorgado derechos reales administrativos antes del establecimiento de reservas territoriales entonces s\u00ed se estar\u00eda incurriendo en un caso de inconstitucionalidad por la vulneraci\u00f3n de los derechos ya desarrollados.</p>\n<p>En conclusi\u00f3n, luego de revisados cada uno de los conceptos en cuesti\u00f3n, es posible afirmar que, la disposici\u00f3n normativa que establece la excepci\u00f3n (versi\u00f3n vigente del art\u00edculo 5 c) de la Ley de PIAVCI), pone en serio riesgo los derechos y la supervivencia de los PIAVCI. Por ello, resulta de vital importancia que el proyecto de ley N\u00ba 4044-2018-CR llegue al final de su procedimiento, con la finalidad de resguardar la intangibilidad de las reservas ind\u00edgenas que repercute en los derechos humanos de estas poblaciones ind\u00edgenas.</p>\n<h2><strong>Conclusiones</strong></h2>\n<ul>\n<li>Los pueblos ind\u00edgenas en situaci\u00f3n de aislamiento voluntario son pueblos o segmentos de pueblos ind\u00edgenas que no mantienen contactos sostenidos con la poblaci\u00f3n mayoritaria no ind\u00edgena y que suelen rehuir todo tipo de contacto con personas ajenas a su pueblo.</li>\n<li>Los pueblos en contacto inicial son aquellos pueblos ind\u00edgenas que han tenido alg\u00fan contacto con la sociedad mayoritaria y \u201cmantienen un contacto intermitente o espor\u00e1dico con la poblaci\u00f3n mayoritaria no ind\u00edgena.</li>\n<li>Las reservas ind\u00edgenas no deben confundirse con las \u00e1reas naturales protegidas. Las mencionadas reservas son tierras delimitadas por el Estado peruano, de intangibilidad transitoria, a favor de los pueblos ind\u00edgenas en situaci\u00f3n de aislamiento o en situaci\u00f3n de contacto inicial, y en tanto mantengan tal situaci\u00f3n, para proteger sus derechos, su h\u00e1bitat y las condiciones que aseguren su existencia e integridad como pueblos.</li>\n<li>El desarrollo sostenible es aqu\u00e9l que garantiza las necesidades del presente sin comprometer las posibilidades de las generaciones futuras para satisfacer sus propias necesidades.</li>\n</ul>\n<h2><strong>Recomendaciones</strong></h2>\n<ul>\n<li>Con respaldo en el principio de no contacto que rige en el tratamiento de los derechos de los PIAVCI, y dado que, no es posible realizar un procedimiento de consulta previa con estos pueblos, es necesario redise\u00f1ar la regulaci\u00f3n respecto a la excepci\u00f3n establecida para el aprovechamiento de recursos naturales en una reserva ind\u00edgena.</li>\n<li>Si bien es cierto no se puede hablar de una inconstitucionalidad directa, s\u00ed es posible identificar una licencia \u2013a trav\u00e9s del art\u00edculo 5\u00b0 de la Ley 28736- para hacer tangibles las amenazas a las que se exponen los PIAVCI. En esa medida, no se respeta el principio de no contacto ni el derecho a la libre determinaci\u00f3n de los pueblos ind\u00edgenas.</li>\n<li>El Reglamento de la Ley 28736 deber\u00eda establecer no tan solo la exigencia de una opini\u00f3n t\u00e9cnica con ocasi\u00f3n de la elaboraci\u00f3n de los estudios ambientales requeridos; sino que son necesarios estudios antropol\u00f3gicos avanzados que \u2013sin llegar a vulnerar los derechos ya desarrollados de los PIAVCI- puedan establecer fehacientemente el nivel de riesgo al que se exponen estos</li>\n<li>El Viceministerio de Interculturalidad debe prestar mayor atenci\u00f3n a las Recomendaciones realizadas por parte de la Defensor\u00eda del Pueblo y del Relator Especial sobre Derechos de los Pueblos Ind\u00edgenas y trabajar en pro del resguardo de los derechos humanos de esta poblaci\u00f3n</li>\n</ul>\n<p><strong>Citas:</strong></p>\n<p><a href="#_ftnref1" name="_ftn1">[1]</a> \u201cArt\u00edculo 5\u00b0 &#8211; Car\u00e1cter intangible de las reservas ind\u00edgenas</p>\n<p>Las reservas ind\u00edgenas para los pueblos ind\u00edgenas en situaci\u00f3n de aislamiento o de contacto inicial son intangibles en tanto mantengan la calidad de tales. En ellas:</p>\n<ol>\n<li>No podr\u00e1n establecerse asentamientos poblacionales distintos a los de los pueblos ind\u00edgenas que habitan en su interior;</li>\n<li>Se proh\u00edbe la realizaci\u00f3n de cualquier actividad distinta a la de los usos y costumbres ancestrales de los habitantes ind\u00edgenas;</li>\n<li>No se otorgar\u00e1n derechos que impliquen el aprovechamiento de recursos naturales, salvo el que con fines de subsistencia realicen los pueblos que las habiten y aquellos que permitan su aprovechamiento mediante m\u00e9todos que no afecten los derechos de los pueblos ind\u00edgenas en situaci\u00f3n en aislamiento o en situaci\u00f3n de contacto inicial, y siempre que lo permita el correspondiente estudio ambiental. <strong><em><u>En caso de ubicarse un recurso natural susceptible de aprovechamiento cuya explotaci\u00f3n resulte de necesidad p\u00fablica, para el Estado, se proceder\u00e1 de acuerdo a Ley</u></em></strong>, y;</li>\n<li>Los pueblos ind\u00edgenas que las habitan son los \u00fanicos y mancomunados beneficiarios de la misma.\u201d [\u00c9nfasis agregado]</li>\n</ol>\n<p><a href="#_ftnref2" name="_ftn2">[2]</a> Informe\u00a0\u00a0\u00a0\u00a0 Brundtland.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 27\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 septiembre 2006.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Disponible\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 en:<a href="http://desarrollosostenible.wordpress.com/2006/09/27/informe-brundtland/"> http://desarrollosostenible.wordpress.com/2006/09/27/informe-brundtland/</a> [Consulta de fecha 31 de octubre del 2014].</p>\n<p><a href="#_ftnref3" name="_ftn3">[3]</a> Art\u00edculo V.- Del principio de sostenibilidad. La gesti\u00f3n del ambiente y de sus componentes, as\u00ed como el ejercicio y la protecci\u00f3n de los derechos que establece la presente Ley, se sustentan en la integraci\u00f3n equilibrada de los aspectos sociales, ambientales y econ\u00f3micos del desarrollo nacional, as\u00ed como en la satisfacci\u00f3n de las necesidades de las actuales y futuras generaciones.</p>\n<p><a href="#_ftnref4" name="_ftn4">[4]</a> Conferencia Internacional sobre las industrias extractivas y los pueblos ind\u00edgenas, Manila, 23 a 25 de marzo del 2009. Citado por Asamblea General de las Naciones Unidas. Informe de seguimiento sobre los pueblos ind\u00edgenas y el derecho a participar en la adopci\u00f3n de decisiones, con especial atenci\u00f3n a las industrias extractivas.</p>\n<p><a href="#_ftnref5" name="_ftn5">[5]</a> Comisi\u00f3n Interamericana de Derechos Humanos. Op. Cit. P\u00e1g. 45.</p>\n<p><a href="#_ftnref6" name="_ftn6">[6]</a> Ib\u00edd.</p>\n<p><a href="#_ftnref1" name="_ftn1">[7]</a> VIDAL RAMOS, Roger. Las \u00c1reas Naturales Protegidas y las Actividades en Hidrocarburos, a prop\u00f3sito de la sentencia del Tribunal Constitucional y la solicitud de aclaraci\u00f3n sobre la Cordillera Escalera. Separatas del Diplomado en \u201cEducaci\u00f3n Ambiental, Recursos Naturales y Patrimonio Cultural\u201d. Instituto de Defensa del Medio Ambiente. 2008.</p>\n<p><a href="#_ftnref2" name="_ftn2">[8]</a> Ley N\u00b0 26834 \u2013 Ley de \u00c1reas Naturales Protegidas</p>\n<p>Art\u00edculo 1\u00b0.- [\u2026] Las \u00c1reas Naturales Protegidas son los espacios continentales y/o marinos del territorio nacional, expresamente reconocidos y declarados como tales, incluyendo sus categor\u00edas y zonificaciones, para conservar la diversidad biol\u00f3gica y dem\u00e1s valores asociados de inter\u00e9s cultural, paisaj\u00edstico y cient\u00edfico, as\u00ed como por su contribuci\u00f3n al desarrollo sostenible del pa\u00eds. [\u2026]</p>\n<p><a href="#_ftnref3" name="_ftn3">[9]</a> Las \u00e1reas de <strong>uso indirecto </strong>son aquellas que permiten la investigaci\u00f3n cient\u00edfica\u00a0 no manipulativa, la recreaci\u00f3n y el turismo, en zonas designadas y manejadas apropiadamente para ello. En estas \u00e1reas no se permite la extracci\u00f3n de recursos naturales, as\u00ed como modificaciones y transformaciones del ambiente natural. Son \u00e1reas de uso indirecto los Parques Nacionales, los Santuarios Nacionales y los Santuarios Hist\u00f3ricos. Mientras que las \u00e1reas de <strong>uso directo </strong>son aquellas que permiten el aprovechamiento o extracci\u00f3n de los recursos, prioritariamente por las poblaciones locales, en aquellas zonas y lugares para aquellos recursos definidos por el plan de manejo del \u00e1rea. Las \u00e1reas de uso directo son las Reservas Nacionales, las Reservas Paisaj\u00edsticas, los Refugios de Vida Silvestre, las Reservas Comunales, los Bosques de Protecci\u00f3n, los Cotos de Caza y las \u00c1reas de Conservaci\u00f3n Regionales.</p>\n<p><a href="#_ftnref4" name="_ftn4">[10]</a> Comisi\u00f3n Interamericana de Derechos Humanos. Op. Cit. P\u00e1g. 35.</p>\n<p><a href="#_ftnref5" name="_ftn5">[11]</a> <strong>Art\u00edculo 89\u00b0. </strong>Las Comunidades Campesinas y las Nativas tienen existencia legal y son personas jur\u00eddicas.</p>\n<p>Son aut\u00f3nomas en su organizaci\u00f3n, en el trabajo comunal y en el uso y la libre disposici\u00f3n de sus tierras, as\u00ed como en lo econ\u00f3mico y administrativo, dentro del marco que la ley establece. La propiedad de sus tierras es imprescriptible, salvo en el caso de abandono previsto en el art\u00edculo anterior. El Estado respeta la identidad cultural de las Comunidades Campesinas y Nativas.</p>\n<p><a href="#_ftnref6" name="_ftn6">[12]</a> Convenio 160 OIT \u2013 \u201cArt\u00edculo 14</p>\n<ol>\n<li>Deber\u00e1 reconocerse a los pueblos interesados el derecho de propiedad y de posesi\u00f3n sobre las tierras que tradicionalmente ocupan. Adem\u00e1s, en los casos apropiados, deber\u00e1n tomarse medidas para salvaguardar el derecho de los pueblos interesados a utilizar tierras que no est\u00e9n exclusivamente ocupadas por ellos, pero a las que hayan tenido tradicionalmente acceso para sus actividades tradicionales y de subsistencia. A este respecto, deber\u00e1 prestarse particular atenci\u00f3n a la situaci\u00f3n de los pueblos n\u00f3madas y de los agricultores.</li>\n<li>Los gobiernos deber\u00e1n tomar las medidas que sean necesarias para determinar las tierras que los pueblos interesados ocupan tradicionalmente y garantizar la protecci\u00f3n efectiva de sus derechos de propiedad y posesi\u00f3n.</li>\n<li>Deber\u00e1n instituirse procedimientos adecuados en el marco del sistema jur\u00eddico nacional para solucionar las reivindicaciones de tierras formuladas por los pueblos \u201d.</li>\n</ol>\n<p><a href="#_ftnref1" name="_ftn1">[13]</a> Comisi\u00f3n Interamericana de Derechos Humanos. Pueblos Ind\u00edgenas en aislamiento voluntario y contacto inicial en las Am\u00e9ricas. 2013. Pg. 4</p>\n<p><a href="#_ftnref2" name="_ftn2">[14]</a> Ib\u00edd. Pg. 5.</p>\n<p><a href="#_ftnref3" name="_ftn3">[15]</a> V\u00e9ase el caso de la Cordillera Escalera. \u201cDel art\u00edculo 2, inciso 2, de la Constituci\u00f3n, se infiere un reconocimiento de la tolerancia a la diversidad como valor inherente al texto constitucional, lo que debe comprenderse, a su vez, como una aspiraci\u00f3n de la sociedad peruana. En tal sentido, los individuos no pueden ser arbitrariamente diferenciados perjudic\u00e1ndoseles por motivos basados, entre otros, por su opini\u00f3n, religi\u00f3n o idioma. <strong><em><u>As\u00ed, toda fuerza homogeneizadora que no respete o que amenace las singularidades de las personas identificables bajo alg\u00fan criterio</u> <u>de relevancia constitucional debe ser erradicada.\u201d</u> </em></strong>Sentencia del Tribunal Constitucional reca\u00edda en el Expediente N 03343-2007-AA [\u00c9nfasis agregado]</p>\n<p><a href="#_ftnref4" name="_ftn4">[16]</a> Comisi\u00f3n Interamericana de Derechos Humanos. P\u00e1g. 13.</p>\n<p><a href="#_ftnref1" name="_ftn1">[17]</a>\u00a0Definici\u00f3n establecida por Mart\u00ednez Cobo en 1986 planteada en la Sub Comisi\u00f3n de las Naciones para la Prevenci\u00f3n de la Discriminaci\u00f3n de Minor\u00edas. Citado por RAMOS PRUDENCIO, Gloria. Consulta Previa. Derecho fundamental de los Pueblos Ind\u00edgenas e Instrumento de Gesti\u00f3n Estatal para el Fortalecimiento de la Democracia. Congreso de la Rep\u00fablica. Lima. 2011. P\u00e1g. 89.</p>\n<p><a href="#_ftnref2" name="_ftn2">[18]</a> Ley N\u00b0 29785 \u2013 Ley del derecho a la consulta previa a los pueblos ind\u00edgenas u originarios, reconocido en el Convenio 169 de la Organizaci\u00f3n Internacional del Trabajo (OIT).</p>\n<p><a href="#_ftnref3" name="_ftn3">[19]</a> Reglamento de la Ley N\u00b0 29785, Decreto Supremo N\u00b0 001-2012-MC.</p>\n<p><a href="#_ftnref4" name="_ftn4">[20]</a> Ley N\u00b0 29785 \u2013 \u201cArt\u00edculo 7. Criterios de identificaci\u00f3n de los pueblos ind\u00edgenas u originarios</p>\n<p>Para identificar a los pueblos ind\u00edgenas u originarios como sujetos colectivos, se toman en cuenta criterios objetivos y subjetivos Los <strong><em><u>criterios objetivos</u> </em></strong>son los siguientes:</p>\n<ol>\n<li>Descendencia directa de las poblaciones originarias del territorio</li>\n<li>Estilos de vida y v\u00ednculos espirituales e hist\u00f3ricos con el territorio que tradicionalmente usan u ocupan.</li>\n<li>Instituciones sociales y costumbres</li>\n<li>Patrones culturales y modo de vida distintos a los de otros sectores de la poblaci\u00f3n</li>\n</ol>\n<p>El <strong><em><u>criterio subjetivo</u> </em></strong>se encuentra relacionado con la conciencia del grupo colectivo de poseer una identidad ind\u00edgena u originaria. <strong><em><u>Las comunidades campesinas o andinas y las comunidades nativas o</u> <u>pueblos amaz\u00f3nicos pueden ser identificados tambi\u00e9n como pueblos ind\u00edgenas u originarios, conforme a</u> <u>los criterios se\u00f1alados en el presente art\u00edculo.</u> </em></strong>Las denominaciones empleadas para designar a los pueblos ind\u00edgenas u originarios no alteran su naturaleza ni sus derechos colectivos.\u201d [\u00c9nfasis agregado]</p>\n<p><a href="#_ftnref5" name="_ftn5">[21]</a> YRIGOYEN FAJARDO, Raquel Z. El derecho a la libre determinaci\u00f3n del desarrollo, la participaci\u00f3n, la consulta y el consentimiento. En: APARICIO, Marco. (Coordinador). Los derechos de los pueblos ind\u00edgenas a los recursos naturales y al territorio. Conflictos y desaf\u00edos en Am\u00e9rica Latina. Icaria. 2011.</p>\n<p>Imagen extra\u00edda de la p\u00e1gina web del Sernanp: http://old.sernanp.gob.pe/sernanp/noticia.jsp?ID=814</p>\n<p>&nbsp;</p>\n<p>[/et_pb_text][et_pb_team_member name=\u00bbNelly Lucia Herrera Santos\u00bb facebook_url=\u00bbhttps://www.facebook.com/nelly.herrera.90&#8243; twitter_url=\u00bbhttps://twitter.com/galunrrape\u00bb linkedin_url=\u00bbhttps://www.linkedin.com/in/nelly-luc%C3%ADa-herrera-santos/\u00bb _builder_version=\u00bb4.4.7&#8243;]</p>\n<p><span class="lt-line-clamp__raw-line">Bachiller en Derecho por la UNMSM con 4 a\u00f1os de experiencia profesional en el sector p\u00fablico, en entidades tales como la Defensor\u00eda del Pueblo, el OEFA, el MINAM y la Sunedu. He participado en la elaboraci\u00f3n de diversas publicaciones en materia ambiental y he sido asistente de c\u00e1tedra del curso de Derecho Medioambiental en la Universidad ESAN.</span>\u00a0</p>\n<p>[/et_pb_team_member][/et_pb_column][/et_pb_row][/et_pb_section]</p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>An\u00e1lisis sobre la intangibilidad de las reservas territoriales de los Pueblos Ind\u00edgenas en Aislamiento Voluntario y Contacto Inicial, a prop\u00f3sito del Proyecto de Ley N\u00ba 4044/2018-CR y repaso de conceptos clave para su comprensi\u00f3n.</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 545,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "on",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [9],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/535" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=535",
-        },
-      ],
-      "version-history": [
-        {
-          count: 17,
-          href: "https://maqay.org/wp-json/wp/v2/posts/535/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 560,
-          href: "https://maqay.org/wp-json/wp/v2/posts/535/revisions/560",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/545",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=535" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=535",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=535",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 479,
-    date: "2020-06-02T19:37:38",
-    date_gmt: "2020-06-03T00:37:38",
-    guid: { rendered: "https://maqay.org/?p=479" },
-    modified: "2020-06-02T19:39:29",
-    modified_gmt: "2020-06-03T00:39:29",
-    slug: "escuela-de-formacion-maqay",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/escuela-de-formacion-maqay/",
-    title: { rendered: "Escuela de Formaci\u00f3n Maqay" },
-    content: {
-      rendered:
-        '<p>[et_pb_section fb_built=\u00bb1&#8243; admin_label=\u00bbsection\u00bb _builder_version=\u00bb3.22&#8243;][et_pb_row admin_label=\u00bbrow\u00bb _builder_version=\u00bb3.25&#8243; background_size=\u00bbinitial\u00bb background_position=\u00bbtop_left\u00bb background_repeat=\u00bbrepeat\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb3.25&#8243; custom_padding=\u00bb|||\u00bb custom_padding__hover=\u00bb|||\u00bb][et_pb_text admin_label=\u00bbText\u00bb _builder_version=\u00bb4.4.7&#8243; background_size=\u00bbinitial\u00bb background_position=\u00bbtop_left\u00bb background_repeat=\u00bbrepeat\u00bb]</p>\n<p>&nbsp;</p>\n<p><span style="color: #000000;">Durante el 2020, hemos previsto realizar dos grandes actividades: (i) Escuela de Formaci\u00f3n Maqay; y, (ii) Escuela de Participaci\u00f3n Ambiental.</span></p>\n<h2><strong>\u00bfQu\u00e9 es la Escuela de Formaci\u00f3n Maqay?</strong></h2>\n<p><span style="color: #000000;">La Escuela de Formaci\u00f3n Maqay es una iniciativa de educaci\u00f3n ambiental organizada por nuestra ONG, que tiene como objetivo fortalecer las capacidades en materia ambiental de j\u00f3venes de diferentes partes del pa\u00eds.</span></p>\n<h2><strong>\u00bfQui\u00e9nes participan de la Escuela de Formaci\u00f3n Maqay?</strong></h2>\n<p><span style="color: #000000;">Durante los meses de marzo y abril llevamos a cabo el proceso de convocatoria para seleccionar voluntarios/as.</span></p>\n<p><span style="color: #000000;">Como resultado de dicho proceso, se seleccionaron\u00a0 veintid\u00f3s (22) personas quienes se suman al equipo de Maqay y acceder\u00e1n a la Escuela de Formaci\u00f3n. </span><span style="color: #000000;">Ello permitira\u0301, posteriormente, replicar el conocimiento adquirido en la ejecucio\u0301n de nuestros proyectos.</span></p>\n<h2><strong>\u00bfCu\u00e1ndo inici\u00f3 la Escuela de Formaci\u00f3n Maqay?</strong></h2>\n<p><span style="color: #000000;">El sa\u0301bado 30 de mayo, dimos inicio a la Escuela de Formacio\u0301n Maqay con Sara Herrera, quien es UX Research del Banco Pichincha, e hizo una presentacio\u0301n de introduccio\u0301n al #designthinking .Este disen\u0303o de pensamiento tiene como objetivo mejorar la situacio\u0301n de las personas a partir de sus experiencias, solucionar problemas que vemos a diario a trave\u0301s de una herramienta dina\u0301mica que tiene una mayor probabilidad de e\u0301xito al involucrar al usuario en la construccio\u0301n del prototipo. De esta manera, se brindaron alcances para aplicar esta metodolog\u00eda en el \u00e1mbito ambiental.\u00a0</span></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>[/et_pb_text][et_pb_gallery gallery_ids=\u00bb494,496,500,493&#8243; fullwidth=\u00bbon\u00bb _builder_version=\u00bb4.4.7&#8243; hover_enabled=\u00bb0&#8243;][/et_pb_gallery][/et_pb_column][/et_pb_row][/et_pb_section]</p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>[et_pb_section fb_built=\u00bb1&#8243; admin_label=\u00bbsection\u00bb _builder_version=\u00bb3.22&#8243;][et_pb_row admin_label=\u00bbrow\u00bb _builder_version=\u00bb3.25&#8243; background_size=\u00bbinitial\u00bb background_position=\u00bbtop_left\u00bb background_repeat=\u00bbrepeat\u00bb][et_pb_column type=\u00bb4_4&#8243; _builder_version=\u00bb3.25&#8243; custom_padding=\u00bb|||\u00bb custom_padding__hover=\u00bb|||\u00bb][et_pb_text admin_label=\u00bbText\u00bb _builder_version=\u00bb4.4.7&#8243; background_size=\u00bbinitial\u00bb background_position=\u00bbtop_left\u00bb background_repeat=\u00bbrepeat\u00bb] &nbsp; Durante el 2020, hemos previsto realizar dos grandes actividades: (i) Escuela de Formaci\u00f3n Maqay; y, (ii) Escuela de Participaci\u00f3n Ambiental. \u00bfQu\u00e9 es la Escuela de Formaci\u00f3n Maqay? La Escuela de Formaci\u00f3n Maqay es una iniciativa de [&hellip;]</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 503,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "on",
-      _et_pb_old_content:
-        '<h3>sa\u0301bado 30, dimos inicio a la Escuela de Formacio\u0301n Maqay que tiene como objetivo fortalecer las capacidades en materia ambiental de los/as integrantes de la ONG.<br />Ello permitira\u0301, posteriormente, replicar el conocimiento adquirido en la ejecucio\u0301n de nuestros proyectos. En esta primera sesio\u0301n,\u00a0<a class="notranslate" href="https://www.instagram.com/yukidenis/">@yukidenis</a>\u00a0hizo una presentacio\u0301n de introduccio\u0301n al\u00a0<a class=" xil3i" href="https://www.instagram.com/explore/tags/designthinking/">#designthinking</a>\u00a0,disen\u0303o de pensamiento, que tiene como objetivo mejorar la situacio\u0301n de las personas a partir de sus experiencias, solucionar problemas que vemos a diario a trave\u0301s de una herramienta dina\u0301mica que tiene una mayor probabilidad de e\u0301xito al involucrar al usuario en la construccio\u0301n del prototipo.</h3>',
-      _et_gb_content_width: "",
-    },
-    categories: [9],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/479" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=479",
-        },
-      ],
-      "version-history": [
-        {
-          count: 12,
-          href: "https://maqay.org/wp-json/wp/v2/posts/479/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 505,
-          href: "https://maqay.org/wp-json/wp/v2/posts/479/revisions/505",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/503",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=479" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=479",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=479",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 396,
-    date: "2020-04-09T20:37:19",
-    date_gmt: "2020-04-10T01:37:19",
-    guid: { rendered: "https://maqay.org/?p=396" },
-    modified: "2020-04-13T11:14:43",
-    modified_gmt: "2020-04-13T16:14:43",
-    slug: "el-derecho-al-agua-como-derecho-humano",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/el-derecho-al-agua-como-derecho-humano/",
-    title: { rendered: "El derecho al agua como derecho humano" },
-    content: {
-      rendered:
-        '<h2 style="text-align: center;"><strong>\u00a0</strong></h2>\n<h2 style="text-align: center;"><strong>\u00bfCu\u00e1l es el contenido del derecho al agua?</strong></h2>\n<p>&nbsp;</p>\n<p style="text-align: left;">\u00bfPor qu\u00e9 es tan importante hablar del reconocimiento del acceso al agua como derecho humano? \u201cSu reconocimiento como un derecho permite el establecimiento de mecanismos de exigibilidad al Estado, particularmente los poderes Ejecutivo y Legislativo, para establecer este tema como prioridad m\u00e1xima y desarrollar las pol\u00edticas p\u00fablicas que hagan posible su concreci\u00f3n en cada persona\u201d<a href="#_ftn1" name="_ftnref1">[1]</a>.</p>\n<p style="text-align: left;">El agua es el principal componente del cuerpo humano. El ser humano no puede estar sin beberla m\u00e1s de cinco o seis d\u00edas sin poner en peligro su vida. El cuerpo humano tiene un 75 % de agua al nacer y cerca del 60 % en la edad adulta. Aproximadamente el 60 % de esta agua se encuentra en el interior de las c\u00e9lulas (agua intracelular). El resto (agua extracelular) es la que circula en la sangre y ba\u00f1a los tejidos. Desde su gestaci\u00f3n el ser humano mantiene una \u00edntima relaci\u00f3n con el l\u00edquido elemento. A pesar de ello, la falta de accesibilidad s\u00f3lo ha sido observada en aquellos ciudadanos que no gozan del servicio de agua potable y alcantarillado, sin tomar en cuenta otros elementos que son fundamentales para uso y acceso adecuado del agua.</p>\n<p style="text-align: left;">Debe entenderse al derecho humano al como un derecho que \u201ctiene su fundamento en el principio de que nadie puede ser privado de la cantidad suficiente de agua para satisfacer sus necesidades b\u00e1sicas. Se busca as\u00ed garantizar a cada persona una cantidad m\u00ednima de agua o m\u00ednimo vital, de buena calidad, pero que se suficiente para preservar la vida y la salud\u201d<a href="#_ftn2" name="_ftnref2">[2]</a>.</p>\n<p style="text-align: left;">En esa medida, el derecho humano al agua implica \u201cel derecho de todas las personas de contar con agua suficiente, segura, de calidad aceptable y accesible tanto en precio como f\u00edsicamente, para usos personales y dom\u00e9sticos.\u201d<a href="#_ftn3" name="_ftnref3">[3]</a> Sin embargo, el contenido del\u00a0 derecho humano al agua no siempre estuvo claro. En virtud a ello, desarrollaremos la evoluci\u00f3n que ha tenido el tratamiento de este derecho tanto en sede internacional como nacional.</p>\n<h2></h2>\n<h2><strong>El derecho humano al agua en los Tratados Internacionales</strong></h2>\n<p>&nbsp;</p>\n<p style="text-align: left;">El derecho al agua garantiza la vigencia de otros derechos como la vida, la salud, el medio ambiente adecuado y el respecto a la dignidad humana. En ese orden, el p\u00e1rrafo 1 del art\u00edculo 12\u00b0 del Pacto Internacional de Derechos Econ\u00f3micos, Sociales y Culturales, reconoce el derecho del m\u00e1s alto nivel posible de salud f\u00edsica y mental<a href="#_ftn4" name="_ftnref4">[4]</a>. En este marco, el agua se constituye en un elemento esencial para la vigencia del derecho a la salud.</p>\n<p style="text-align: left;">Por su parte, el inciso 1 del art\u00edculo 11\u00b0 del Protocolo Adicional a la Convenci\u00f3n Americana sobre Derechos Humanos en Materia de Derechos Econ\u00f3micos, Sociales y Culturales, tambi\u00e9n conocido como \u201cProtocolo de San Salvador\u201d de 1988 reconoce textualmente <em>\u201cel derecho a vivir en un ambiente sano y a contar con servicios p\u00fablicos b\u00e1sicos, de los cuales el m\u00e1s b\u00e1sico es precisamente el agua potable\u201d. </em></p>\n<p style="text-align: left;">Mediante la Observaci\u00f3n General N\u00b0 15 del Pacto de Derechos Econ\u00f3micos, Sociales y Culturales de la ONU se empiezan a consolidar los fundamentos jur\u00eddicos de la postulaci\u00f3n del derecho al agua como derecho humano, afirmando su innegable relaci\u00f3n con el derecho a la salud.</p>\n<p style="text-align: left;">Luego de este acontecimiento se desarrollaron campa\u00f1as y diversos esfuerzos por todo el mundo, Bolivia present\u00f3 una declaraci\u00f3n que en el IV Foro Mundial de M\u00e9xico en el 2006 fue firmado por cuatro pa\u00edses. Posteriormente en el V Foro Mundial de Turqu\u00eda en el 2009 fueron 25 pa\u00edses los que firmaron. Es as\u00ed que el 28 de julio del 2010, mediante Resoluci\u00f3n 64/292, la Asamblea General de la ONU reconoci\u00f3 el acceso al agua potable y al saneamiento como derechos humanos b\u00e1sicos e inst\u00f3 a garantizar que los casi 900 millones de personas que carec\u00edan de agua en ese entonces puedan ejercer ese derecho. El 30 de septiembre del 2010, mediante Resoluci\u00f3n 15/9, el Consejo de Derechos Humanos de la ONU reconoci\u00f3 el acceso al agua y saneamiento como derechos humanos.</p>\n<p style="text-align: left;">De esta forma el Consejo de Derechos Humanos reconoci\u00f3:</p>\n<p style="text-align: left;"><em>\u00a0</em><em>\u201c3. El derecho humano al agua potable y el saneamiento se deriva del derecho a un nivel de vida adecuado y est\u00e1 asociado al derecho a la salud, as\u00ed como al derecho a la vida y la dignidad humana;</em></p>\n<p style="text-align: left;"><em>[\u2026]</em></p>\n<ol style="text-align: left;" start="6">\n<li><em> El haber delegado en terceros el suministro de agua o de saneamiento no exime al Estado de sus obligaciones en materia de derechos humanos;</em></li>\n<li><em> Reconoce que los Estados, de conformidad con sus leyes, pueden optar por hacer participar a actores no estatales en el suministro de agua potable y saneamiento y, con independencia del modo de suministro, deben velar por la transparencia, la no discriminaci\u00f3n y la rendici\u00f3n de cuentas;</em></li>\n<li><em> Exhorta a los Estados que:</em></li>\n<li><em>a) Elaboren instrumentos y mecanismos adecuados, que pueden comprender legislaci\u00f3n, planes y estrategias integrales para el sector, para alcanzar paulatinamente la plena realizaci\u00f3n de las obligaciones de Derechos Humanos referentes al acceso al agua potable y al saneamiento. </em></li>\n<li><em>b) Velen por la total transparencia del proceso de planificaci\u00f3n y ejecuci\u00f3n en el suministro de agua y el saneamiento y la participaci\u00f3n activa, libre y aut\u00e9ntica de las comunidades locales afectadas y los interesados pertinentes;</em></li>\n<li><em>c) Presten especial atenci\u00f3n a grupos vulnerables y marginados, respetando los principios de no discriminaci\u00f3n e igualdad entre los g\u00e9neros.\u201d<a href="#_ftn5" name="_ftnref5"><strong>[5]</strong></a></em></li>\n</ol>\n<p style="text-align: left;">Finalmente, la Declaraci\u00f3n Universal de Derechos Humanos, el Pacto Internacional de Derechos Civiles y Pol\u00edticos, la Convenci\u00f3n Internacional sobre la Eliminaci\u00f3n de todas las Formas de Discriminaci\u00f3n Racial, la Convenci\u00f3n sobre la eliminaci\u00f3n de todas las formas de discriminaci\u00f3n contra la mujer<a href="#_ftn6" name="_ftnref6">[6]</a>, la Convenci\u00f3n sobre los Derechos del Ni\u00f1o<a href="#_ftn7" name="_ftnref7">[7]</a> y la Convenci\u00f3n sobre los derechos de las personas con discapacidad, tambi\u00e9n se reconoce al agua como derecho humano.</p>\n<p>&nbsp;</p>\n<h2><strong>El derecho humano al agua en el Per\u00fa</strong></h2>\n<p>&nbsp;</p>\n<p style="text-align: left;">En nuestra Constituci\u00f3n no encontr\u00e1bamos -hasta antes del 2017- de forma expresa el derecho humano al agua recogido en el listado de derechos fundamentales; sin embargo, eso no imped\u00eda sustentar que el derecho al agua recibe la m\u00e1xima protecci\u00f3n en nuestro ordenamiento jur\u00eddico.</p>\n<p style="text-align: left;">Mediante el art\u00edculo 3\u00b0 nuestra Constituci\u00f3n<a href="#_ftn8" name="_ftnref8">[8]</a> deja en claro que la lista de derechos del art\u00edculo 2\u00b0 no es taxativa sino de car\u00e1cter enunciativa, signando hasta tres posibilidades: naturaleza an\u00e1loga<a href="#_ftn9" name="_ftnref9">[9]</a>, que se funden en la dignidad del hombre o en los principios de soberan\u00eda del pueblo, del Estado democr\u00e1tico de derecho y de la forma republicana de gobierno (principios fundamentales). Mediante el art\u00edculo 3\u00b0 se introduce la llamada \u201ccl\u00e1usula de los derechos impl\u00edcitos\u201d<a href="#_ftn10" name="_ftnref10">[10]</a>. \u00a0En uso de esta cl\u00e1usula y de este argumento concreto el Tribunal Constitucional tuvo oportunidad de reconocer el derecho humano al agua potable<a href="#_ftn11" name="_ftnref11">[11]</a>.</p>\n<p style="text-align: left;">En esa medida, \u201cla jurisprudencia del Tribunal Constitucional sostiene que existen derechos \u201cexpl\u00edcitos\u201d \u2013mencionados por el propio texto constitucional- y derechos \u201cimpl\u00edcitos\u201d o \u201cinnominados\u201d \u2013que surgen de una interpretaci\u00f3n del art\u00edculo 3\u00b0 de la Constituci\u00f3n\u201d<a href="#_ftn12" name="_ftnref12">[12]</a>. De la misma forma que en el an\u00e1lisis realizado en el Derecho Internacional de los Derechos Humanos, sin el ejercicio del derecho al agua no ser\u00edan posibles el ejercicio de otros derechos como:</p>\n<ul style="text-align: left;">\n<li>Derecho a que se respete la dignidad del ser humano (Art\u00edculo 1\u00b0)</li>\n<li>Derecho a la vida y a su libre desarrollo y bienestar (Art\u00edculo 2\u00b0 inciso 1)</li>\n<li>Derecho de gozar de un ambiente equilibrado y adecuado al desarrollo de su vida (Art\u00edculo 2 inciso 22)</li>\n<li>Derecho a la protecci\u00f3n de su salud, la del medio familiar y la de la comunidad (Art\u00edculo 7\u00b0)</li>\n</ul>\n<p style="text-align: left;">Posteriormente, en el a\u00f1o 2017, mediante Ley N\u00ba 30588, Ley de reforma constitucional que reconoce el derecho de acceso al agua como derecho constitucional, se incorpor\u00f3 de manera expresa este derecho fundamental:</p>\n<p style="text-align: left;"><strong><em>\u201cArti\u0301culo u\u0301nico. Incorporacio\u0301n del arti\u0301culo 7o-A de la Constitucio\u0301n Poli\u0301tica del Peru\u0301 </em></strong></p>\n<p style="text-align: left;"><em>Incorpo\u0301rase el arti\u0301culo 7o-A de la Constitucio\u0301n Poli\u0301tica del Peru\u0301, conforme al texto siguiente: </em></p>\n<p style="text-align: left;"><em>\u201c<strong>Arti\u0301culo 7o-A.- </strong>El Estado reconoce el derecho de toda persona a acceder de forma progresiva y universal al agua potable. El Estado garantiza este derecho priorizando el consumo humano sobre otros usos. El Estado promueve el manejo sostenible del agua, el cual se reconoce como un recurso natural esencial y como tal, constituye un bien pu\u0301blico y patrimonio de la Nacio\u0301n. Su dominio es inalienable e imprescriptible\u201d</em></p>\n<h2></h2>\n<h2><strong>Contenido del derecho humano al agua</strong></h2>\n<p>&nbsp;</p>\n<p style="text-align: left;">La Observaci\u00f3n General N\u00b0 15 del Comit\u00e9 de Derechos Econ\u00f3micos, Sociales y Culturales se\u00f1ala que el contenido del derecho al agua se basa en la confluencia de dos requisitos: la continuidad y la suficiencia. Los elementos componentes del citado derecho lo constituyen la disponibilidad, la calidad y la accesibilidad. Respecto a esta \u00faltima es preciso identificar cuatro tipos: accesibilidad f\u00edsica, accesibilidad econ\u00f3mica, acceso a la informaci\u00f3n y no discriminaci\u00f3n.<strong>\u00a0</strong></p>\n<ul style="text-align: left;">\n<li><strong>Disponibilidad</strong></li>\n</ul>\n<p style="text-align: left;"><strong>\u00a0</strong>La disponibilidad se refiere a que el abastecimiento de agua de cada persona debe ser continuo y suficiente para usos personales y dom\u00e9sticos, que comprenden entre otros: el consumo, el saneamiento, la preparaci\u00f3n de alimentos y la higiene personal y dom\u00e9stica.</p>\n<ul style="text-align: left;">\n<li><strong>Accesibilidad</strong></li>\n</ul>\n<p style="text-align: left;"><strong>\u00a0</strong>El agua y las instalaciones deben estar al alcance de todos sin discriminaci\u00f3n alguna. Esta accesibilidad cuatro aspectos o dimensiones:</p>\n<ol>\n<li><strong>Accesibilidad f\u00edsica:</strong> Debe estar al alcance f\u00edsico de todos los sectores de la poblaci\u00f3n.</li>\n<li><strong>Accesibilidad econ\u00f3mica:</strong> Los costos y cargos directos o indirectos asociados con el abastecimiento de agua deben ser asequibles y no deben comprometer ni poner en peligro el ejercicio de otros derechos.</li>\n<li><strong>No discriminaci\u00f3n:</strong> El agua y los servicios e instalaciones de agua deben ser accesibles a todos de hecho y de derecho, incluso a los sectores m\u00e1s vulnerables y marginados de la poblaci\u00f3n.</li>\n<li><strong>Acceso a la informaci\u00f3n:</strong> La accesibilidad comprende el derecho de solicitar, recibir y difundir la informaci\u00f3n sobre las cuestiones relativas al agua.</li>\n</ol>\n<ul style="text-align: left;">\n<li><strong>Calidad</strong></li>\n</ul>\n<p style="text-align: left;">El agua para uso personal o dom\u00e9stico debe ser salubre. No ha de contener microorganismos o sustancias qu\u00edmicas o radioactivas que puedan constituir una amenaza para la salud de las personas. Adem\u00e1s, el agua deber\u00eda tener un color, un olor y sabor aceptables para cada uso personal dom\u00e9stico.</p>\n<p>&nbsp;</p>\n<h2 style="text-align: left;"><strong>Conclusiones</strong></h2>\n<p>&nbsp;</p>\n<ol style="text-align: left;">\n<li>El derecho al agua es un derecho humano considerado como derecho fundamental reconocido expresamente en nuestra Constituci\u00f3n, y\u00a0 garantiza la eficacia de otros derechos fundamentales como la dignidad, vida, la salud y el disfrute de un ambiente equilibrado.</li>\n</ol>\n<ol style="text-align: left;" start="2">\n<li>El contenido del derecho al agua se basa en la confluencia de dos requisitos: la continuidad y la suficiencia. Los elementos componentes del citado derecho lo constituyen la disponibilidad, la calidad y la accesibilidad. Respecto a esta \u00faltima es preciso identificar cuatro tipos: accesibilidad f\u00edsica, accesibilidad econ\u00f3mica, acceso a la informaci\u00f3n y no discriminaci\u00f3n.</li>\n</ol>\n<p style="text-align: left;"><a href="#_ftnref1" name="_ftn1">[1]</a> DEFENSOR\u00cdA DEL PUEBLO. Per\u00fa. Informe Defensorial N\u00b0 94. \u201cCiudadanos sin agua: An\u00e1lisis de un derecho vulnerado\u201d. Lima.\u00a0 2003. P\u00e1g. 8</p>\n<p style="text-align: left;"><a href="#_ftnref2" name="_ftn2">[2]</a> DEFENSOR\u00cdA DEL PUEBLO. Colombia. <em>\u00bfQu\u00e9 es el derecho humano al agua?</em><strong> \u00a9</strong> 2003-2013 Direcci\u00f3n: <a href="http://www.defensoria.org.co/red/?_item=110603&amp;_secc=11&amp;ts=2&amp;hs=1106">http://www.defensoria.org.co/red/?_item=110603&amp;_secc=11&amp;ts=2&amp;hs=1106</a> [Consulta: 06 de diciembre del 2013]</p>\n<p style="text-align: left;"><a href="#_ftnref3" name="_ftn3">[3]</a> Observaci\u00f3n General 15, Aplicaci\u00f3n del Pacto Internacional de los Derechos Econ\u00f3micos, Sociales y Culturales, El derecho al agua (art\u00edculos 11 y 12 del Pacto) 29\u00b0 per\u00edodo de sesiones del 2002, U.N. Doc. HRI/GEN/1/Rev.7 at 117 (2002)</p>\n<p style="text-align: left;"><a href="#_ftnref4" name="_ftn4">[4]</a> Art\u00edculo 12</p>\n<ol style="text-align: left;">\n<li>Los Estados Partes en el presente Pacto reconocen el derecho de toda persona al disfrute del m\u00e1s alto nivel posible de salud f\u00edsica y mental.</li>\n</ol>\n<ol style="text-align: left;" start="2">\n<li>Entre las medidas que deber\u00e1n adoptar los Estados Partes en el Pacto a fin de asegurar la plena efectividad de este derecho, figurar\u00e1n las necesarias para:</li>\n</ol>\n<ol style="text-align: left;">\n<li>a) La reducci\u00f3n de la mortinatalidad y de la mortalidad infantil, y el sano desarrollo de los ni\u00f1os;</li>\n</ol>\n<ol style="text-align: left;">\n<li>b) El mejoramiento en todos sus aspectos de la higiene del trabajo y del medio ambiente;</li>\n</ol>\n<ol style="text-align: left;">\n<li>c) La prevenci\u00f3n y el tratamiento de las enfermedades epid\u00e9micas, end\u00e9micas, profesionales y de otra \u00edndole, y la lucha contra ellas;</li>\n</ol>\n<ol style="text-align: left;">\n<li>d) La creaci\u00f3n de condiciones que aseguren a todos asistencia m\u00e9dica y servicios m\u00e9dicos en caso de enfermedad.</li>\n</ol>\n<p style="text-align: left;"><a href="#_ftnref5" name="_ftn5">[5]</a> Pacto Internacional de Derechos Econ\u00f3micos, Sociales y Culturales. Adoptado y abierto a la firma, ratificaci\u00f3n y adhesi\u00f3n por la Asamblea General en su resoluci\u00f3n 2200 A (XXI), de 16 de diciembre de 1966. Entrada en vigor: 3 de enero de 1976, de conformidad con el art\u00edculo 27</p>\n<p style="text-align: left;"><a href="#_ftnref6" name="_ftn6">[6]</a> Inciso 2 art\u00edculo 14\u00b0 que los Estados Partes asegurar\u00e1n a\u00a0 las mujeres el abastecimiento de agua.</p>\n<p style="text-align: left;"><a href="#_ftnref7" name="_ftn7">[7]</a> Inciso 2 art\u00edculo 24\u00b0 exige a los Estados Partes luchar contra las enfermedades y la malnutrici\u00f3n mediante el suministro de alimentos nutritivos adecuados y agua potable salubre.</p>\n<p style="text-align: left;"><a href="#_ftnref8" name="_ftn8">[8]</a> Art\u00edculo 3\u00b0.\u00a0\u00a0La enumeraci\u00f3n de los derechos establecidos en este cap\u00edtulo no excluye los dem\u00e1s que la Constituci\u00f3n garantiza, ni otros de naturaleza an\u00e1loga o que se fundan en la dignidad del hombre, o en los principios de soberan\u00eda del pueblo, del Estado democr\u00e1tico de derecho y de la forma republicana de gobierno.</p>\n<p style="text-align: left;"><a href="#_ftnref9" name="_ftn9">[9]</a>\u00a0 Los derechos constitucionales de naturaleza an\u00e1loga, que son aquellos que aunque no est\u00e1n expresamente mencionados en la Carta Pol\u00edtica, se encuentran en otros instrumentos como tratados internacionales sobre derechos.</p>\n<p style="text-align: left;"><a href="#_ftnref10" name="_ftn10">[10]</a> \u00a0RUBIO CORREA, Marcial. La interpretaci\u00f3n de la Constituci\u00f3n seg\u00fan el Tribunal Constitucional. Lima. Fondo Editorial. PUCP. 2005.</p>\n<p style="text-align: left;"><a href="#_ftnref11" name="_ftn11">[11]</a> Sentencias del Tribunal Constitucional reca\u00eddas en los expedientes N\u00b0 06534-2006-PA/TC, N\u00b0 2064-2004-AA/TC.</p>\n<p style="text-align: left;"><a href="#_ftnref12" name="_ftn12">[12]</a> DEFENSOR\u00cdA DEL PUEBLO DEL PER\u00da. Op. Cit. P\u00e1g. 11</p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>Conoce sobre el contenido esencial del derecho al agua. </p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 398,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [12],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/396" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=396",
-        },
-      ],
-      "version-history": [
-        {
-          count: 8,
-          href: "https://maqay.org/wp-json/wp/v2/posts/396/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 445,
-          href: "https://maqay.org/wp-json/wp/v2/posts/396/revisions/445",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/398",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=396" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=396",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=396",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 391,
-    date: "2020-04-09T18:25:08",
-    date_gmt: "2020-04-09T23:25:08",
-    guid: { rendered: "https://maqay.org/?p=391" },
-    modified: "2020-04-10T07:57:49",
-    modified_gmt: "2020-04-10T12:57:49",
-    slug: "ampliamos-convocatoria-unete-a-maqay-2020",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/ampliamos-convocatoria-unete-a-maqay-2020/",
-    title: {
-      rendered: "Ampliamos convocatoria \u00ab\u00danete a Maqay\u00bb 2020",
-    },
-    content: {
-      rendered:
-        '<p>&nbsp;</p>\n<h2 style="text-align: center;"><span style="color: #000000;"><strong><span class="JsGRdQ">Ampliamos convocatoria para asociado/as y voluntarios/as.</span></strong></span></h2>\n<h2 style="text-align: center;"><span class="JsGRdQ" style="color: #000000;">Postula hasta el 15 de abril de 2020.</span></h2>\n<p class="_04xlpA direction-ltr align-center para-style-body"><span style="color: #000000;"><strong><span class="JsGRdQ">\u00bfQui\u00e9nes somos?</span></strong></span></p>\n<p class="_04xlpA direction-ltr align-center para-style-body"><span class="JsGRdQ" style="color: #000000;">Somos una organizaci\u00f3n ambiental sin fines de lucro.</span></p>\n<p><span style="color: #000000;"><strong>\u00bfQu\u00e9 actividades realizamos?</strong></span></p>\n<p class="_04xlpA direction-ltr align-center para-style-body"><span class="JsGRdQ" style="color: #000000;">Actualmente, estamos realizando acciones de educaci\u00f3n ambiental en Cusco.</span></p>\n<p class="_04xlpA direction-ltr align-center para-style-body"><span class="JsGRdQ" style="color: #000000;">Tenemos previsto ampliar dichas acciones a trav\u00e9s de proyectos en instituciones educativas de Lima.</span></p>\n<p class="_04xlpA direction-ltr align-center para-style-body"><span class="JsGRdQ" style="color: #000000;">Por ello, necesitamos ampliar el equipo de la organizaci\u00f3n.</span></p>\n<p><span style="color: #000000;"><strong>Participaci\u00f3n como asociado/a:</strong></span></p>\n<p><span class="JsGRdQ" style="color: #000000;">Como asociado/a podr\u00e1s participar en las decisiones de la organizaci\u00f3n, conformar equipos de trabajo por proyectos y especialidad.</span></p>\n<p><span style="color: #000000;"><strong>Participaci\u00f3n como voluntario/a:</strong></span></p>\n<p><span class="JsGRdQ" style="color: #000000;">Como voluntario/a podr\u00e1s apoyar en las acciones de educaci\u00f3n ambiental de la organizaci\u00f3n y recibir capacitaci\u00f3n previa sobre las actividades a realizar.</span></p>\n<p><span style="color: #000000;"><strong><span class="JsGRdQ">\u00bfQui\u00e9nes pueden participar?</span></strong></span></p>\n<p><span class="JsGRdQ" style="color: #000000;">Estudiantes y/o profesionales interesados en temas ambientales.</span></p>\n<p><span style="color: #000000;"><strong><span class="JsGRdQ">\u00bfC\u00f3mo postulo?</span></strong></span></p>\n<p><span class="JsGRdQ" style="color: #000000;">Deber\u00e1s enviar los siguientes documentos al correo \u00abhola@maqay.org\u00bb:</span></p>\n<p class="_04xlpA direction-ltr align-center para-style-body"><span class="JsGRdQ" style="color: #000000;">&#8211; Hoja de vida</span></p>\n<p class="_04xlpA direction-ltr align-center para-style-body"><span class="JsGRdQ" style="color: #000000;">&#8211; Carta de motivaci\u00f3n</span></p>\n<p><span class="JsGRdQ" style="color: #000000;">Cualquier duda o consulta sobre la convocatoria escr\u00edbenos al correo \u00abhola@maqay.org\u00bb o a trav\u00e9s del IG \u00abong.maqay\u00bb</span></p>\n<p>&nbsp;</p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>&nbsp; Ampliamos convocatoria para asociado/as y voluntarios/as. Postula hasta el 15 de abril de 2020. \u00bfQui\u00e9nes somos? Somos una organizaci\u00f3n ambiental sin fines de lucro. \u00bfQu\u00e9 actividades realizamos? Actualmente, estamos realizando acciones de educaci\u00f3n ambiental en Cusco. Tenemos previsto ampliar dichas acciones a trav\u00e9s de proyectos en instituciones educativas de Lima. Por ello, necesitamos ampliar [&hellip;]</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 186,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [9],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/391" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=391",
-        },
-      ],
-      "version-history": [
-        {
-          count: 4,
-          href: "https://maqay.org/wp-json/wp/v2/posts/391/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 405,
-          href: "https://maqay.org/wp-json/wp/v2/posts/391/revisions/405",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/186",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=391" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=391",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=391",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 380,
-    date: "2020-03-18T15:09:07",
-    date_gmt: "2020-03-18T20:09:07",
-    guid: { rendered: "https://maqay.org/?p=380" },
-    modified: "2020-03-18T15:21:31",
-    modified_gmt: "2020-03-18T20:21:31",
-    slug: "convocatoria-2020-unete-a-maqay",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/convocatoria-2020-unete-a-maqay/",
-    title: { rendered: "Convocatoria 2020 \u00ab\u00danete a Maqay\u00bb" },
-    content: {
-      rendered:
-        '<h1><strong>Convocatoria 2020 para incorporar personas asociadas a la organizaci\u00f3n. </strong></h1>\n<h4><strong>\u00bfQu\u00e9 es Maqay?</strong></h4>\n<p>Somos una organizaci\u00f3n ambiental sin fines de lucro, con campo de acci\u00f3n en Cusco y Lima.</p>\n<h4><strong>\u00bfQu\u00e9 hacemos?</strong></h4>\n<p>Promovemos el ejercicio efectivo de los derechos de acceso a la informaci\u00f3n ambiental, participaci\u00f3n ciudadana y acceso a la justicia ambiental.</p>\n<h4><strong>\u00bfQu\u00e9 acciones estamos desarrollando actualmente?</strong></h4>\n<ol>\n<li>Acciones de capacitaci\u00f3n ambiental a docentes para la transversalizaci\u00f3n del enfoque ambiental en instituciones educativas del Cusco.</li>\n<li>Acciones de educaci\u00f3n ambiental dirigidas a las y los estudiantes de instituciones educativas (Educaci\u00f3n B\u00e1sica Regular) del Cusco.</li>\n</ol>\n<h4><strong>\u00bfQu\u00e9 proyectos implementaremos este a\u00f1o 2020?</strong></h4>\n<ol>\n<li>Escuela de participaci\u00f3n ambiental.</li>\n<li>Consultorio jur\u00eddico ambiental.</li>\n<li>Voluntariado con prop\u00f3sito.</li>\n</ol>\n<h4><strong>\u00bfQui\u00e9nes pueden participar?</strong></h4>\n<p>Estudiantes de educaci\u00f3n superior y/o profesionales, interesados en temas ambientales.</p>\n<h4><strong>\u00bfC\u00f3mo postular?</strong></h4>\n<p>Deber\u00e1s enviar los siguientes documentos al correo \u00abhola@maqay.org\u00bb:</p>\n<ol>\n<li>Hoja de vida.</li>\n<li>Carta de motivaci\u00f3n.</li>\n</ol>\n<h4><strong>Cronograma de convocatoria:</strong></h4>\n<p><img loading="lazy" class="aligncenter wp-image-381 size-full" src="https://maqay.org/wp-content/uploads/2020/03/Captura-de-Pantalla-2020-03-18-a-las-08.10.48.png" alt="" width="1741" height="1019" srcset="https://maqay.org/wp-content/uploads/2020/03/Captura-de-Pantalla-2020-03-18-a-las-08.10.48.png 1741w, https://maqay.org/wp-content/uploads/2020/03/Captura-de-Pantalla-2020-03-18-a-las-08.10.48-1280x749.png 1280w, https://maqay.org/wp-content/uploads/2020/03/Captura-de-Pantalla-2020-03-18-a-las-08.10.48-980x574.png 980w, https://maqay.org/wp-content/uploads/2020/03/Captura-de-Pantalla-2020-03-18-a-las-08.10.48-480x281.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1741px, 100vw" /></p>\n<blockquote><p>Cualquier duda o consulta sobre la convocatoria escr\u00edbenos al correo \u00abhola@maqay.org\u00bb o a trav\u00e9s del DM de IG \u00abong.maqay\u00bb.</p></blockquote>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>Para postular deber\u00e1s enviar los siguientes documentos al correo \u00abhola@maqay.org\u00bb:</p>\n<p>1. Hoja de vida.<br />\n2. Carta de motivaci\u00f3n.</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 387,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [11],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/380" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=380",
-        },
-      ],
-      "version-history": [
-        {
-          count: 5,
-          href: "https://maqay.org/wp-json/wp/v2/posts/380/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 388,
-          href: "https://maqay.org/wp-json/wp/v2/posts/380/revisions/388",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/387",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=380" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=380",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=380",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 366,
-    date: "2020-03-18T10:50:36",
-    date_gmt: "2020-03-18T15:50:36",
-    guid: { rendered: "https://maqay.org/?p=366" },
-    modified: "2020-03-18T10:53:51",
-    modified_gmt: "2020-03-18T15:53:51",
-    slug: "curso-de-derecho-ambiental-para-ciencias-sociales",
-    status: "publish",
-    type: "post",
-    link:
-      "https://maqay.org/curso-de-derecho-ambiental-para-ciencias-sociales/",
-    title: {
-      rendered: "Curso de Derecho Ambiental para Ciencias Sociales",
-    },
-    content: {
-      rendered:
-        '<p>Del 26 de febrero al 06 de marzo del 2020, Maqay desarroll\u00f3 el Curso de Derecho Ambiental para Ciencias Sociales en la Facultad de Ciencias Sociales de la Universidad Nacional Mayor de San Marcos (UNMSM).</p>\n<p>El curso tuvo como finalidad que el estudiante maneje los principios y conceptos ba\u0301sicos que integran el Derecho Ambiental, a trave\u0301s del estudio de una serie de instituciones juri\u0301dicas cuyo conocimiento es indispensable para una aproximacio\u0301n panora\u0301mica de las variables ambiental, social, econo\u0301mica que garantizan un desarrollo sostenible.</p>\n<p>Estuvo dirigido a estudiantes o egresados, de cualquier especialidad, interesados en la tema\u0301tica ambiental.</p>\n<p>El curso estuvo compuesto por 4 sesiones con el siguiente contenido:</p>\n<p>Sesio\u0301n 1:<br />\nInstrumentos Internacionales en materia ambiental<br />\nSesio\u0301n 2:<br />\nPrincipios del Derecho Ambiental<br />\nGestio\u0301n Ambiental<br />\nSesio\u0301n 3:<br />\nAcceso a la informacio\u0301n ambiental<br />\nParticipacio\u0301n ciudadana ambiental<br />\nSesio\u0301n 4:<br />\nGestio\u0301n de conflictos socioambientales</p>\n<p>Dejamos el link donde podr\u00e1s ubicar las diapositivas y material bibliogr\u00e1fico de referencia: <a href="https://drive.google.com/open?id=1qLYXthcOD6s0KmMiEmVzmU1DT9Vi1ray">https://drive.google.com/open?id=1qLYXthcOD6s0KmMiEmVzmU1DT9Vi1ray</a></p>\n<p>Si deseas que dictemos este curso en tu universidad, escr\u00edbenos al correo \u00abhola@maqay.org\u00bb con el asunto \u00abCurso de Derecho Ambiental\u00bb, indicando para qu\u00e9 carreras estar\u00eda dirigido. </p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>Si deseas que dictemos este curso en tu universidad, escr\u00edbenos al correo \u00abhola@maqay.org\u00bb con el asunto \u00abCurso de Derecho Ambiental\u00bb, indicando para qu\u00e9 carreras estar\u00eda dirigido. </p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 375,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "off",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [11],
-    tags: [],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/366" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2",
-        },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=366",
-        },
-      ],
-      "version-history": [
-        {
-          count: 8,
-          href: "https://maqay.org/wp-json/wp/v2/posts/366/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 379,
-          href: "https://maqay.org/wp-json/wp/v2/posts/366/revisions/379",
-        },
-      ],
-      "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/375",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=366" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=366",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=366",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
 ];
 
 export default allPosts;
+
+/* https://maqay.org/wp-json/wp/v2/posts?page=1&per_page=100&categories=23 */

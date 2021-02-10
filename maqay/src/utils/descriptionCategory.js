@@ -1,10 +1,12 @@
 const descriptionCategory = {
-  cambioclimático: `1. El Perú está entre los 10 países más vulnerables del mundo al Cambio Climático. El país presenta 4 de las 5 características de vulnerabilidad: zonas costeras bajas; zonas áridas y semiáridas; zonas expuestas a inundaciones, sequía y desertificación; y ecosistemas montañosos frágiles.  
+  cambioclimático: `
+ 1. El Perú está entre los 10 países más vulnerables del mundo al Cambio Climático. El país presenta 4 de las 5 características de vulnerabilidad: zonas costeras bajas; zonas áridas y semiáridas; zonas expuestas a inundaciones, sequía y desertificación; y ecosistemas montañosos frágiles.  
     2. El 71% de los glaciares tropicales del mundo están en Perú. Lamentablemente, en los últimos 35 años, hemos perdido el 22% de todos ellos.
     3. En la última década, las emergencias por peligros naturales se incrementaron hasta en 6 veces. El 72% fueron de origen climático.
     4. Entre 2003 y 2014, las inundaciones y las fuertes lluvias causaron 14 887 emergencias climáticas declaradas, lo que representa aproximadamente 46% de las emergencias climáticas totales (MINAM, 2016a
     5. Sólo entre los años 2003 y 2017 se han presentado un aproximado de 69 mil 419 emergencias y desastres; habiendo generado casi dos millones de damnificados en total y más de 16 millones de personas afectadas.
-    6. En los últimos 10 años, por efectos climáticos, se han perdido más de 15 mil hectáreas de cultivos`,
+    6. En los últimos 10 años, por efectos climáticos, se han perdido más de 15 mil hectáreas de cultivos
+    `,
 
   gestióndelagua: `1. Perú es el octavo país con mayores recursos hídricos (agua dulce) del mundo, y el tercero en América Latina (después de Brasil y Colombia) 
   
