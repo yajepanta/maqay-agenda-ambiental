@@ -7,7 +7,9 @@ const Footer = () => {
     <footer>
       <div>
         La Agenda Ambiental es una iniciativa de:
-        <img src={logomaqay} alt={logomaqay} className='footer-logo'></img>
+        <a href='https://www.maqay.org/' className='footer-logo'>
+          <img src={logomaqay} alt={logomaqay}></img>
+        </a>
       </div>
       <div>
         Si tienes dudas, consultas o quieres participar de la iniciativa
@@ -15,7 +17,7 @@ const Footer = () => {
         <a
           className='footer-email'
           href='mailto:hola@maqay.org'
-          style={{ "text-decoration": "none !important", color: "#ffffff" }}
+          style={{ textDecoration: "none !important", color: "#ffffff" }}
         >
           hola@maqay.org
         </a>

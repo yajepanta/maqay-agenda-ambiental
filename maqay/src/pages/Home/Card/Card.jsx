@@ -21,7 +21,7 @@ const Card = ({ post, categorySelected, path }) => {
 
   return (
     <div className='card-home'>
-      <Link to={path}>
+      <Link to={path} className='card-home-link'>
         <img
           className='card-home-logo'
           src={background}

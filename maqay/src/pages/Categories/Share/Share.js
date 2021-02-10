@@ -5,6 +5,8 @@ import {
   EmailIcon,
   FacebookShareButton,
   FacebookIcon,
+  FacebookMessengerShareButton,
+  FacebookMessengerIcon,
   LinkedinShareButton,
   LinkedinIcon,
   TelegramShareButton,
@@ -36,6 +38,7 @@ const Share = (shareContent) => {
           <EmailIcon size={30} round={true} />
           <span>Email</span>
         </EmailShareButton>
+
         <FacebookShareButton
           url={shareContent.url}
           quote={shareContent.content}

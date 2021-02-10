@@ -63,7 +63,10 @@ const Card = ({ post }) => {
         <div className='container-proposal-title'>{post.title.rendered}</div>
 
         <div className='container-proposal-content'>{`${stripPTags(
-          post.content.rendered
+          post.content.rendered.replace(
+            /^(\s*<br( \/)?>)*|(<br( \/)?>\s*)*$/gm,
+            " "
+          )
         )}`}</div>
 
         <div className='container-proposal-footer'>

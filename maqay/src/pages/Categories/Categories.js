@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useLocation } from "react-router-dom";
 import "./Categories.css";
-import descriptionCategory from "../../utils/descriptionCategory";
 import Card from "./Card/Card";
 import Footer from "../commons/Footer/Footer";
 import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
@@ -14,6 +13,7 @@ import MetaDecorator from "./MetaDecorator/MetaDecorator";
 import allPosts from "../../utils/data/allPosts.js";
 import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
 import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
+import CategoryDescription from "./CategoryDescription/CategoryDescription.js";
 
 const Categories = () => {
   /* posts to render */
@@ -121,19 +121,26 @@ const Categories = () => {
             <span className='highlighted'>{filteredPosts.length}</span>{" "}
             PROPUESTAS
           </span>
-          <p className='main-text'>
-            {categorySelected.length > 0 &&
-              descriptionCategory[categorySelected.replace(/ /g, "")]}
-          </p>
+          <div className='main-text'>
+            {mainCategory === "Tema ambiental" &&
+              categorySelected.length > 0 && (
+                <CategoryDescription
+                  category={categorySelected.replace(/ /g, "")}
+                />
+              )}
+          </div>
           <p className='leyenda'>
             Para facilitar el análisis de las propuestas hemos identificado 8
-            temas ambientales que son prioritarios para el país, las propuestas
-            de color VERDE, son aquellas que corresponden a estos temas. Las
-            propuestas color ÁMBAR, son aquellas que no abordan los temas
-            priorizados. En el caso del color ROJO, son aquellas en las que se
-            proponen disminuir estándares o permisos ambientales, cambios
-            institucionales como la absorción o eliminación de instituciones
-            ambientales.
+            temas ambientales que son prioritarios para el país. Las propuestas
+            de color{" "}
+            <span className='leyenda-highlited alert-green'>VERDE</span>, son
+            aquellas que corresponden a estos temas. Las propuestas color{" "}
+            <span className='leyenda-highlited no-alert'>ÁMBAR</span>, son
+            aquellas que no abordan los temas priorizados. En el caso del color{" "}
+            <span className='leyenda-highlited alert-red'>ROJO</span>, son
+            aquellas en las que se proponen disminuir estándares o permisos
+            ambientales, cambios institucionales como la absorción o eliminación
+            de instituciones ambientales.
           </p>
           <div className='alerts-guide'> </div>
           <div className='categories-cards-container'>

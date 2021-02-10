@@ -1,20 +1,19 @@
-.nav-link{
-    height: 50px; 
-    border-top: none;
-    border: 1px #C4C4C4 solid;
-    border-left: none;
-    border-right: none;
-    text-align: left;
-    padding-left: 10px;
-    font-size: 18px;
-    text-transform: capitalize;
-    text-decoration: none;
-    color:  #C2306D;
+.nav-link {
+  height: 50px;
+  border-top: none;
+  border: 1px #c4c4c4 solid;
+  border-left: none;
+  border-right: none;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 18px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #c2306d;
 }
 
-.nav-link:hover{
-    background-color: #C2306D;
-    color: #ffffff;
-    font-weight: 600;
-    
+.nav-link:hover {
+  background-color: #c2306d;
+  color: #ffffff;
+  font-weight: 600;
 }

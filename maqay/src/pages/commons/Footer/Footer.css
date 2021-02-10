@@ -4,8 +4,7 @@ footer {
   grid-template-columns: 25% 35% 25%;
   column-gap: 5%;
   font-size: 15px;
-  margin-top: 200px;
-  padding-top: 15px;
+  padding-top: 30px;
   background-color: #c7017f;
   color: #ffffff;
 }
@@ -19,12 +18,17 @@ footer {
   height: 20px;
 }
 .footer-logo {
-  width: 120px;
+  height: 50px;
+  align-items: center;
+}
+.footer-logo > img {
+  width: 100px;
 }
 
 .list-social-links {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .list-social-links > a {
