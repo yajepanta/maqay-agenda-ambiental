@@ -1,4 +1,3 @@
-import React from "react";
 import "./CategoryDescription.css";
 import descriptionCategory from "../../../utils/data/textDescriptionByCategory";
 

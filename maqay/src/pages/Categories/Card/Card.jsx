@@ -34,7 +34,7 @@ const Card = ({ post }) => {
 
   const location = useLocation();
   const currentUrl =
-    "https://agendaambiental.info" + location.pathname.replace(/ /g, "%20");
+    "http://agendaambiental.info" + location.pathname.replace(/ /g, "%20");
   const shareContent = {
     url: currentUrl,
     content: `${getPartieName()} propone: ${stripPTags(

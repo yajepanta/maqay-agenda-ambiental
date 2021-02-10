@@ -1,14 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import "./Home.css";
 import Card from "./Card/Card";
 import Footer from "../commons/Footer/Footer";
-import {
-  getAllPosts,
-  getTagsByGroupName,
-  getAllTagsNameAndNumber,
-} from "../../controller/postController";
-import allPosts from "../../utils/data/allPosts.js";
+import { getTagsByGroupName } from "../../controller/postController";
 import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
 import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
 import logoheader from "../../assets/img/logoheader.png";

@@ -3,7 +3,7 @@
   height: 313px;
   display: flex;
   border-radius: 20px;
-  background-color: rgb(0, 155, 58, 0.9);
+  background-color: #00b2a8;
   text-transform: capitalize;
 }
 
@@ -24,7 +24,7 @@
 }
 .sub-card-home {
   background-color: #ffffff;
-  color: rgb(0, 155, 58, 0.9);
+  color: #00b2a8;
 }
 
 .card-footer {

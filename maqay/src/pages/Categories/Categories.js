@@ -4,11 +4,7 @@ import "./Categories.css";
 import Card from "./Card/Card";
 import Footer from "../commons/Footer/Footer";
 import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
-import {
-  getAllPosts,
-  getTagsByGroupName,
-  getAllTagsNameAndNumber,
-} from "../../controller/postController";
+import { getTagsByGroupName } from "../../controller/postController";
 import MetaDecorator from "./MetaDecorator/MetaDecorator";
 import allPosts from "../../utils/data/allPosts.js";
 import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
@@ -24,18 +20,6 @@ const Categories = () => {
   const [mainCategory, setMainCategory] = useState([]);
   const [categorySelected, setCategorySelected] = useState([]);
   const [categorySelectedTags, setCategorySelectedTags] = useState([]);
-
-  /* All posts from Wordpress within category Environmental, with a number set by WP */
-  /*   useEffect(() => {
-    const categoryAmbiental = 23;
-    getAllPosts()
-      .then((res) =>
-        res.filter((posts) => posts.categories[0] === categoryAmbiental)
-      )
-      .then((res) => {
-        return setFilteredPosts(res);
-      });
-  }, []); */
 
   /* Political Parties Tags */
   useEffect(() => {

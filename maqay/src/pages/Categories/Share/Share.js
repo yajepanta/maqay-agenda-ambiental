@@ -5,8 +5,6 @@ import {
   EmailIcon,
   FacebookShareButton,
   FacebookIcon,
-  FacebookMessengerShareButton,
-  FacebookMessengerIcon,
   LinkedinShareButton,
   LinkedinIcon,
   TelegramShareButton,

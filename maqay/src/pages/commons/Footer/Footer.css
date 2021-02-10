@@ -5,7 +5,8 @@ footer {
   column-gap: 5%;
   font-size: 15px;
   padding-top: 30px;
-  background-color: #c7017f;
+  /* background: url(../../../assets/img/header.png); */
+  background-color: #00b2a8;
   color: #ffffff;
 }
 
