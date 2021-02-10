@@ -7,6 +7,9 @@ import {
   getTagsByGroupName,
   getAllTagsNameAndNumber,
 } from "../../controller/postController";
+import allPosts from "../../utils/data/allPosts.js";
+import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
+import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
 
 const Home = () => {
   /* necesito todos los posts
@@ -25,53 +28,40 @@ Cuando se hace click en card, debe pasar el nombre del tag seleccionado a la rut
 Y de la ruta, Categories toma lo que se selecciono para pasar al filtrado
 
 */
-  const [allPosts, setAllPosts] = useState([]);
   /* posts to render: posts ya filtrados */
   const [filteredPosts, setFilteredPosts] = useState([]);
   /* Acá accederemos para conseguir datos de tags */
-  const [allTagsNameAndNumber, setAllTagsNameAndNumber] = useState([]);
+  /*   const [allTagsNameAndNumber, setAllTagsNameAndNumber] = useState([]); */
 
   const [categorySelected, setCategorySelected] = useState("Tema ambiental");
   const [tagsFromCategorySelected, setTagsFromCategorySelected] = useState([]);
 
-  /* All posts from Wordpress within category Environmental, with a number set by WP */
-  useEffect(() => {
-    const categoryAmbiental = 23;
-    getAllPosts()
-      .then((res) =>
-        res.filter((posts) => posts.categories[0] === categoryAmbiental)
-      )
-      .then((res) => {
-        /* setFilteredPosts(res); */
-        return setAllPosts(res);
-      });
-  }, []);
-
   /* Saves in state: object with Tags' Name and Number */
-  useEffect(() => {
+  /*   useEffect(() => {
     getAllTagsNameAndNumber().then((res) => {
       return setAllTagsNameAndNumber(res);
     });
-  }, []);
+  }, []); */
 
   useEffect(() => {
-    getTagsByGroupName(categorySelected).then((tags) => {
-      return setTagsFromCategorySelected(tags);
+    getTagsByGroupName(tagsByGroupName, categorySelected).map((tags) => {
+      return setTagsFromCategorySelected((prevState) => [...prevState, tags]);
     });
   }, [categorySelected]);
 
   const filterByCategorySelected = (categorySelected) => {
     setCategorySelected(categorySelected);
-    getTagsByGroupName(categorySelected).then((tags) => {
-      return setTagsFromCategorySelected(tags);
+    getTagsByGroupName(tagsByGroupName, categorySelected).map((tags) => {
+      return setTagsFromCategorySelected((prevState) => [...prevState, tags]);
     });
   };
+
   useEffect(() => {
     const newArray = allTagsNameAndNumber.filter((tag) => {
       return tagsFromCategorySelected.includes(tag.id);
     });
     setFilteredPosts(newArray);
-  }, [allTagsNameAndNumber, tagsFromCategorySelected]);
+  }, [tagsFromCategorySelected]);
 
   return (
     <div>

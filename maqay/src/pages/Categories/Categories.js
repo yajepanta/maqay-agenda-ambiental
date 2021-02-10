@@ -10,15 +10,18 @@ import {
   getAllTagsNameAndNumber,
 } from "../../controller/postController";
 import MetaDecorator from "./MetaDecorator/MetaDecorator";
+import allPosts from "../../utils/data/allPosts.js";
+import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
+import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
 
 const Categories = () => {
-  const [allPosts, setAllPosts] = useState([]);
+  /* const [allPosts, setAllPosts] = useState([]); */
   /* posts to render: posts ya filtrados */
   const [filteredPosts, setFilteredPosts] = useState([]);
   /* Acá accederemos para conseguir datos de tags */
-  const [allTagsNameAndNumber, setAllTagsNameAndNumber] = useState([]);
+  /* const [allTagsNameAndNumber, setAllTagsNameAndNumber] = useState([]); */
   const [politicalPartiesTags, setPoliticalPartiesTags] = useState([]);
-  const [environmentalTags, setEnvironmentalTags] = useState([]);
+  /* const [environmentalTags, setEnvironmentalTags] = useState([]); */
   const [navBarTags, setNavBarTags] = useState([]);
   /* Object with Topic's Name and Number */
   /* set category debe ir dentro de la fx que saca las cosas del windowlocation */
@@ -27,29 +30,28 @@ const Categories = () => {
   const [categorySelectedTags, setCategorySelectedTags] = useState([]);
 
   /* All posts from Wordpress within category Environmental, with a number set by WP */
-  useEffect(() => {
+  /*   useEffect(() => {
     const categoryAmbiental = 23;
     getAllPosts()
       .then((res) =>
         res.filter((posts) => posts.categories[0] === categoryAmbiental)
       )
       .then((res) => {
-        setFilteredPosts(res);
-        return setAllPosts(res);
+        return setFilteredPosts(res);
       });
-  }, []);
+  }, []); */
 
   /* Saves in state: object with Tags' Name and Number */
-  useEffect(() => {
+  /* useEffect(() => {
     getAllTagsNameAndNumber().then((res) => {
       return setAllTagsNameAndNumber(res);
     });
-  });
+  }); */
 
   /* Political Parties Tags */
   useEffect(() => {
-    getTagsByGroupName("Partidos políticos").then((tags) => {
-      return setPoliticalPartiesTags(tags);
+    getTagsByGroupName(tagsByGroupName, "Partidos políticos").map((tags) => {
+      return setPoliticalPartiesTags((prevState) => [...prevState, tags]);
     });
   }, []);
   /* Returns all tags numbers within tag group name required */
@@ -67,20 +69,18 @@ const Categories = () => {
 
   const { category, subcategory } = useParams();
   useEffect(() => {
-    console.log("category / subcategory", category, subcategory);
     setCategorySelected(subcategory);
     setMainCategory(category);
   }, [category, subcategory]);
 
   useEffect(() => {
-    console.log(mainCategory, "mainCategory");
-
     if (mainCategory.length > 0) {
-      getTagsByGroupName(mainCategory).then((tags) => {
-        return setCategorySelectedTags(tags);
+      getTagsByGroupName(tagsByGroupName, mainCategory).map((tags) => {
+        return setCategorySelectedTags((prevState) => [...prevState, tags]);
       });
     }
   }, [mainCategory]);
+
   /* NAVIGATION BAR Functions 
   DEBE CONVERTIRSE FX PURA CON ARGUMENTO ENVIRONMENTAL O POLITICAL Y VARIAR SEGUN CATEGORY SELECTED*/
   useEffect(() => {
@@ -90,9 +90,10 @@ const Categories = () => {
       });
       setNavBarTags(newArray);
     }
-  }, [allTagsNameAndNumber, categorySelectedTags]);
+  }, [categorySelectedTags]);
 
   /* Create property "politicalParties" with only tag number of politicalparties from every post*/
+
   const tagName = () => {
     // post.tags es el array de tags de cada post
     return allPosts.map((post) => {
@@ -105,6 +106,7 @@ const Categories = () => {
   };
   console.log("tagName: ", tagName());
 
+  /* filtered posts */
   useEffect(() => {
     const newArray = allTagsNameAndNumber.find((tag) => {
       return categorySelected.includes(tag.name);
@@ -117,7 +119,7 @@ const Categories = () => {
       });
       return setFilteredPosts(array);
     }
-  }, [allPosts, allTagsNameAndNumber, categorySelected]);
+  }, [categorySelected]);
   /* Filters posts by topic selected on NavBar */
   /*   const filterByCategory = (id, tagByCategory) => {
     console.log(tagByCategory, id);
