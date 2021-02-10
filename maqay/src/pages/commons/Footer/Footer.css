@@ -1,0 +1,32 @@
+footer {
+    display: grid;
+    grid-template-columns: 35% 25% 25%;
+    column-gap: 5%;
+    font-size: 15px;
+    margin-top: 200px;
+    height: 100px;
+}
+
+.footer-social-links {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-email{
+    height: 20px;
+}
+.footer-logo {
+    width: 120px;
+}
+
+.list-social-links{
+    display: flex;
+    flex-direction: row;
+}
+.list-social-links > a {
+    display: flex;
+    font-size: 18px;
+    flex-direction: row;
+    justify-content: space-between;
+}

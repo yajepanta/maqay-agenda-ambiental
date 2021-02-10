@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import Card from "./Card/Card";
+import Footer from "../commons/Footer/Footer";
 import {
   getAllPosts,
   getTagsByGroupName,
@@ -101,6 +102,7 @@ Y de la ruta, Categories toma lo que se selecciono para pasar al filtrado
           })}
         </section>
       </section>
+      <Footer></Footer>
     </div>
   );
 };

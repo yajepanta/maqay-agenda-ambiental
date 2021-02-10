@@ -3,6 +3,7 @@ import { useParams, useLocation } from "react-router-dom";
 import "./Categories.css";
 import descriptionCategory from "../../utils/descriptionCategory";
 import Card from "./Card/Card";
+import Footer from "../commons/Footer/Footer";
 import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
 import {
   getAllPosts,
@@ -164,6 +165,7 @@ const Categories = () => {
           })}
         </nav>
       </main>
+      <Footer></Footer>
     </div>
   );
 };
