@@ -24,20 +24,10 @@ const Card = ({ post, categorySelected, path }) => {
     )}.png)`,
   };
 
-  const flipCard = (target) => {
-    console.log(target);
-    /* const news = `<p>HOLAAAAAAAAAAA</p>`
-        return news; */
-  };
   return (
     <div className='card-home' style={background}>
       <Link to={path}>
-        <div
-          className='sub-card-home'
-          onMouseOver={(e) => {
-            flipCard(e.currentTarget);
-          }}
-        >
+        <div className='sub-card-home'>
           <div className='card-footer'>
             {categorySelected === "Tema ambiental" && <h1>{post.name}</h1>}
             <p>Propuestas de:</p>

@@ -16,7 +16,7 @@ import perúpatriasegura from "../assets/img/iconsPartidos/perúpatriasegura.png
 import podemosperú from "../assets/img/iconsPartidos/podemosperú.png";
 import renovaciónpopular from "../assets/img/iconsPartidos/renovaciónpopular.png";
 import somosperú from "../assets/img/iconsPartidos/somosperú.png";
-/* import uniónporelperú from "../assets/img/iconsPartidos/uniónporelperú.png"; */
+import uniónporelperú from "../assets/img/iconsPartidos/uniónporelperú.png";
 import alianzaparaelprogreso from "../assets/img/iconsPartidos/alianzaparaelprogreso.png";
 /* import frepap from "../assets/img/iconsPartidos/frepap.png"; */
 
@@ -42,12 +42,12 @@ const iconsPartidos = {
   48: perúlibre,
   51: perúpatriasegura,
   55: podemosperú,
-  47: renacimientounidonacional,
+  64: renacimientounidonacional,
   53: renovaciónpopular,
   /* 35: residuossólidos, */
   56: somosperú,
   /* 36: talaymineríailegal, */
-  /* 57: uniónporelperú, */
+  57: uniónporelperú,
   31: victorianacional,
 };
 

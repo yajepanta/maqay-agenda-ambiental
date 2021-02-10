@@ -1,12 +1,12 @@
 const descriptionCategory = {
-  Cambioclimático: `1. El Perú está entre los 10 países más vulnerables del mundo al Cambio Climático. El país presenta 4 de las 5 características de vulnerabilidad: zonas costeras bajas; zonas áridas y semiáridas; zonas expuestas a inundaciones, sequía y desertificación; y ecosistemas montañosos frágiles.  
+  cambioclimático: `1. El Perú está entre los 10 países más vulnerables del mundo al Cambio Climático. El país presenta 4 de las 5 características de vulnerabilidad: zonas costeras bajas; zonas áridas y semiáridas; zonas expuestas a inundaciones, sequía y desertificación; y ecosistemas montañosos frágiles.  
     2. El 71% de los glaciares tropicales del mundo están en Perú. Lamentablemente, en los últimos 35 años, hemos perdido el 22% de todos ellos.
     3. En la última década, las emergencias por peligros naturales se incrementaron hasta en 6 veces. El 72% fueron de origen climático.
     4. Entre 2003 y 2014, las inundaciones y las fuertes lluvias causaron 14 887 emergencias climáticas declaradas, lo que representa aproximadamente 46% de las emergencias climáticas totales (MINAM, 2016a
     5. Sólo entre los años 2003 y 2017 se han presentado un aproximado de 69 mil 419 emergencias y desastres; habiendo generado casi dos millones de damnificados en total y más de 16 millones de personas afectadas.
     6. En los últimos 10 años, por efectos climáticos, se han perdido más de 15 mil hectáreas de cultivos`,
 
-  Gestióndelagua: `1. Perú es el octavo país con mayores recursos hídricos (agua dulce) del mundo, y el tercero en América Latina (después de Brasil y Colombia) 
+  gestióndelagua: `1. Perú es el octavo país con mayores recursos hídricos (agua dulce) del mundo, y el tercero en América Latina (después de Brasil y Colombia) 
   
   2. Los ríos más importantes se encuentran en la vertiente del Atlántico, propiamente en la Amazonía. El río Amazonas, es el río más largo y caudaloso del mundo. 
   
@@ -14,7 +14,7 @@ const descriptionCategory = {
   
   4. 3.4 millones de peruanos y peruanas (10,2% de la población) carecen de acceso a servicios hídricos, y 8 millones de (25,5%) carecen de acceso a servicios de alcantarillado.`,
 
-  Gobernanzaambiental: `1. El Sistema de Gestión Ambiental está conformado por los ministerios, organismos públicos, gobiernos regionales y municipalidades con competencias ambientales. El Ministerio del Ambiente, es el ente rector  y cuenta con 7 organismos adscritos: 
+  gobernanzaambiental: `1. El Sistema de Gestión Ambiental está conformado por los ministerios, organismos públicos, gobiernos regionales y municipalidades con competencias ambientales. El Ministerio del Ambiente, es el ente rector  y cuenta con 7 organismos adscritos: 
 
   Instituto de Investigaciones de la Amazonía Peruana - IIAP
     Servicio Nacional de Meteorología e Hidrología del Perú - SENAMHI
@@ -34,7 +34,7 @@ const descriptionCategory = {
     
     5. El acceso a la información, la participación pública y el acceso a la justicia, son pilares clave de una gobernanza ambiental sólida. Los “derechos de acceso” son fundamentales para una gobernanza ambiental transparente, inclusiva y responsable.`,
 
-  Deforestación: `1. El Perú es el noveno país con mayor extensión de bosques del mundo y el cuarto país con mayor extensión de bosques tropicales. 
+  deforestación: `1. El Perú es el noveno país con mayor extensión de bosques del mundo y el cuarto país con mayor extensión de bosques tropicales. 
   
     2. 60% del territorio peruano está cubierto por bosques (73.3 millones de hectáreas), ubicados en la costa, sierra y selva; lo que nos convierte en el segundo país de América Latina con mayor extensión de bosques tropicales, después de Brasil.
   
@@ -42,7 +42,7 @@ const descriptionCategory = {
   
     4. La tala ilegal es considerada como una de las principales actividades ilegales del mundo. Se estima que entre el 15% y el 30% de toda la madera comercializada en el planeta es ilegal. Solo en Perú se genera una pérdida por encima de los 200 millones de dólares al año. `,
 
-  Conservacióndeecosistemas: `1. El Perú ha sido reconocido como uno de los 17 países llamados megadiversos, por ser poseedores en conjunto de más del 70 % de la biodiversidad del planeta. En el país se pueden encontrar más de 20.375 especies de flora, 523 de mamíferos, 1.847 de aves, 446 de reptiles y 1.070 de peces marinos. Además, se encuentran presentes 84 de las 117 zonas de vida del planeta. 
+  conservacióndeecosistemas: `1. El Perú ha sido reconocido como uno de los 17 países llamados megadiversos, por ser poseedores en conjunto de más del 70 % de la biodiversidad del planeta. En el país se pueden encontrar más de 20.375 especies de flora, 523 de mamíferos, 1.847 de aves, 446 de reptiles y 1.070 de peces marinos. Además, se encuentran presentes 84 de las 117 zonas de vida del planeta. 
   
     2. Las áreas naturales protegidas son espacios continentales y/o marinos del territorio nacional reconocidos, establecidos y protegidos legalmente por el Estado, debido a su importancia para la conservación de la diversidad biológica. 
     
@@ -54,7 +54,7 @@ const descriptionCategory = {
 
     6. Solo en Perú, entre octubre del 2017 y agosto de 2018, Osinfor identificó la extracción ilegal de 274 mil metros cúbicos de madera valorizada en más de 30 millones de dólares, equivalente a la carga de 5 mil camiones. El negocio de la madera de origen ilegal puede movilizar 750 millones de dólares al año, casi la tercera parte de lo que mueve el narcotráfico.`,
 
-  Residuossólidosyeconomíacircular: `1. En el año 2017, se generaron más de 7 millones de toneladas de residuos sólidos, el 50% se dispuso adecuadamente en rellenos sanitarios. Y solo se han reciclado 45 mil toneladas de residuos. Lo que no representa ni el 1% del total de residuos generados. 
+  residuossólidosyeconomíacircular: `1. En el año 2017, se generaron más de 7 millones de toneladas de residuos sólidos, el 50% se dispuso adecuadamente en rellenos sanitarios. Y solo se han reciclado 45 mil toneladas de residuos. Lo que no representa ni el 1% del total de residuos generados. 
    
     2. En el año 2018 el 80,3% de las municipalidades destinaron alguna parte de sus residuos sólidos a botaderos y solo el 19,2% lo destinaron a un relleno sanitario.
   
@@ -64,11 +64,11 @@ const descriptionCategory = {
     
     5. La economía circular es un sistema de aprovechamiento de recursos donde se busca, minimizar la producción al mínimo indispensable, reutilización de los elementos que por sus propiedades no pueden volver al medio ambiente.`,
 
-  Educaciónambiental: `1. La educación ambiental aumenta la concienciación y el conocimiento de la ciudadanía sobre temáticas o problemas ambientales. Al hacerlo, nos brinda las herramientas necesarias para tomar decisiones informadas y medidas responsables.   
+  educaciónambiental: `1. La educación ambiental aumenta la concienciación y el conocimiento de la ciudadanía sobre temáticas o problemas ambientales. Al hacerlo, nos brinda las herramientas necesarias para tomar decisiones informadas y medidas responsables.   
 
     2. El Perú cuenta con una Política Nacional de Educación Ambiental y un Plan para su implementación, el que está a cargo de los ministerio de Educación y Ambiente. `,
 
-  Pueblosindígenas: `1. El Perú es el tercer país con mayor presencia de pueblos indígenas, después de Guatemala y Bolivia, que habitan en 55 pueblos indígenas diferentes. 
+  pueblosindígenas: `1. El Perú es el tercer país con mayor presencia de pueblos indígenas, después de Guatemala y Bolivia, que habitan en 55 pueblos indígenas diferentes. 
 
     2. La población indígena en el Perú podría significar entre un 12 a 18% del total nacional.
 

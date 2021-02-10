@@ -15,15 +15,10 @@ import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
 import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
 
 const Categories = () => {
-  /* const [allPosts, setAllPosts] = useState([]); */
-  /* posts to render: posts ya filtrados */
+  /* posts to render */
   const [filteredPosts, setFilteredPosts] = useState([]);
-  /* Acá accederemos para conseguir datos de tags */
-  /* const [allTagsNameAndNumber, setAllTagsNameAndNumber] = useState([]); */
   const [politicalPartiesTags, setPoliticalPartiesTags] = useState([]);
-  /* const [environmentalTags, setEnvironmentalTags] = useState([]); */
   const [navBarTags, setNavBarTags] = useState([]);
-  /* Object with Topic's Name and Number */
   /* set category debe ir dentro de la fx que saca las cosas del windowlocation */
   const [mainCategory, setMainCategory] = useState([]);
   const [categorySelected, setCategorySelected] = useState([]);
@@ -41,31 +36,12 @@ const Categories = () => {
       });
   }, []); */
 
-  /* Saves in state: object with Tags' Name and Number */
-  /* useEffect(() => {
-    getAllTagsNameAndNumber().then((res) => {
-      return setAllTagsNameAndNumber(res);
-    });
-  }); */
-
   /* Political Parties Tags */
   useEffect(() => {
     getTagsByGroupName(tagsByGroupName, "Partidos políticos").map((tags) => {
       return setPoliticalPartiesTags((prevState) => [...prevState, tags]);
     });
   }, []);
-  /* Returns all tags numbers within tag group name required */
-  /*   useEffect(() => {
-    getTagsByGroupName("Partidos políticos").then((tags) => {
-      return setPoliticalPartiesTags(tags);
-    });
-  }, []);
-
-  useEffect(() => {
-    getTagsByGroupName("Tema ambiental").then((tags) => {
-      return setEnvironmentalTags(tags);
-    });
-  }, []); */
 
   const { category, subcategory } = useParams();
   useEffect(() => {
@@ -120,31 +96,20 @@ const Categories = () => {
       return setFilteredPosts(array);
     }
   }, [categorySelected]);
-  /* Filters posts by topic selected on NavBar */
-  /*   const filterByCategory = (id, tagByCategory) => {
-    console.log(tagByCategory, id);
-    setCategorySelected(tagByCategory);
-    const array = allPosts.filter((post) => {
-      const tags = post.tags;
-      return tags.includes(parseInt(id));
-    });
-    return setFilteredPosts(array);
-  }; */
 
-  console.log("allTagsNameAndNumber", allTagsNameAndNumber);
-
-  /*  const location = useLocation();
-  const currentUrl = "https://maqay.netlify.app" + location.pathname; */
+  const location = useLocation();
+  const currentUrl =
+    "https://maqay.netlify.app" + location.pathname.replace(/ /g, "-");
 
   return (
     <div>
-      {/* {categorySelected.length > 0 && (
+      {categorySelected.length > 0 && (
         <MetaDecorator
           title={`Agenda Ambiental - ${categorySelected}`}
           description={currentUrl}
           imgURL={`/img/${categorySelected.replace(/<\/?p[^>]*>/g, "")}.png`}
         />
-      )} */}
+      )}
       <header>
         <span>{categorySelected}</span>
       </header>
@@ -158,6 +123,16 @@ const Categories = () => {
           <p className='main-text'>
             {categorySelected.length > 0 &&
               descriptionCategory[categorySelected.replace(/ /g, "")]}
+          </p>
+          <p className='leyenda'>
+            Para facilitar el análisis de las propuestas hemos identificado 8
+            temas ambientales que son prioritarios para el país, las propuestas
+            de color VERDE, son aquellas que corresponden a estos temas. Las
+            propuestas color ÁMBAR, son aquellas que no abordan los temas
+            priorizados. En el caso del color ROJO, son aquellas en las que se
+            proponen disminuir estándares o permisos ambientales, cambios
+            institucionales como la absorción o eliminación de instituciones
+            ambientales.
           </p>
           <div className='alerts-guide'> </div>
           <div className='categories-cards-container'>

@@ -181,8 +181,8 @@ const allTagsNameAndNumber = [
   },
   {
     id: 64,
-    name: "Renacimiento Unido Nacional - RUNA",
-    slug: "renacimiento-unido-nacional-runa",
+    name: "Renacimiento Unido Nacional",
+    slug: "renacimiento-unido-nacional",
     taxonomy: "post_tag",
     description: "",
     groups: [1],

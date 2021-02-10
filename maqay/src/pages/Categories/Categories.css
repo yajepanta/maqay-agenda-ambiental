@@ -33,6 +33,13 @@ main {
 }
 .main-text{
     text-align: justify;
+    font-size: 15px;
+    width: 50vw;
+}
+
+.leyenda{
+    text-align: justify;
+    font-size: 13px;
     width: 50vw;
 }
 .categories-cards-container {

@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
-
+import { useLocation } from "react-router-dom";
 import "./Card.css";
 import Share from "../Share/Share.js";
 
 import { writeLike } from "../../../controller/likesController";
 import iconsPartidos from "../../../utils/iconsPartidos";
+import allTagsNameAndNumber from "../../../utils/data/allTagsNameAndNumber.js";
 
 const Card = ({ post }) => {
   const [like, setLike] = useState(false);
@@ -25,9 +26,21 @@ const Card = ({ post }) => {
 
   const stripPTags = (content) => content.replace(/<\/?p[^>]*>/g, "");
 
+  const getPartieName = () => {
+    const partieObject = allTagsNameAndNumber.find((tag) => {
+      return (tag.id = post.politicalParties);
+    });
+    return partieObject.name.toUpperCase();
+  };
+
+  const location = useLocation();
+  const currentUrl =
+    "https://maqay.netlify.app" + location.pathname.replace(/ /g, "%20");
   const shareContent = {
-    url: "https://maqay.netlify.app",
-    content: `${stripPTags(post.content.rendered).substring(0, 80)}`,
+    url: currentUrl,
+    content: `${getPartieName()} propone: ${stripPTags(
+      post.content.rendered
+    ).substring(0, 99)}...`,
   };
 
   /* const metaTags = {
@@ -59,7 +72,7 @@ const Card = ({ post }) => {
         )}`}</div>
 
         <div className='container-proposal-footer'>
-          <span className='text-small'>
+          <div className='footer-logo'>
             Propuestas de:
             {post.politicalParties &&
               post.politicalParties.map((idPartido) => {
@@ -69,17 +82,20 @@ const Card = ({ post }) => {
                     alt='icon'
                     width='50px'
                     className='partie-logo'
+                    key={Math.random()}
                   />
                 );
               })}
-          </span>
+          </div>
 
-          <i
-            className={like ? "fas fa-heart" : "far fa-heart"}
-            onClick={onLikeClick}
-          ></i>
-          <label className='like-box'></label>
-          {Share(shareContent)}
+          <div className='social-media-buttons'>
+            <i
+              className={like ? "fas fa-heart" : "far fa-heart"}
+              onClick={onLikeClick}
+            ></i>
+            <label className='like-box'></label>
+            {Share(shareContent)}
+          </div>
         </div>
       </div>
     </div>
