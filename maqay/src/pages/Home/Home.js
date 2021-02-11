@@ -6,29 +6,38 @@ import { getTagsByGroupName } from "../../controller/postController";
 import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
 import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
 import logoheader from "../../assets/img/logoheader.png";
+
 const Home = () => {
-  /* posts to render: posts ya filtrados */
+  /* Posts ya filtrados, son los que se renderizan */
   const [filteredPosts, setFilteredPosts] = useState([]);
-  const [categorySelected, setCategorySelected] = useState("Tema ambiental");
+  const [mainCategory, setMainCategory] = useState("Tema ambiental");
   const [tagsFromCategorySelected, setTagsFromCategorySelected] = useState([]);
 
+  /* Obtenemos todos los tags correspondientes a la categoría seleccionada,
+   y la almacenamos en un estado*/
   useEffect(() => {
     const tags = [];
-    getTagsByGroupName(tagsByGroupName, categorySelected).map((tag) => {
+    getTagsByGroupName(tagsByGroupName, mainCategory).map((tag) => {
       return tags.push(tag);
     });
     return setTagsFromCategorySelected(tags);
-  }, [categorySelected]);
+  }, [mainCategory]);
 
-  const filterByCategorySelected = (categorySelected) => {
+  /* Función al hacer clic. Recibe la categoría y 
+  volvemos a solicitar los tags correspondientes a la categoría seleccionada para almacenarlas en el estado */
+  const filterByCategorySelected = (mainCategory) => {
     const tags = [];
-    setCategorySelected(categorySelected);
-    getTagsByGroupName(tagsByGroupName, categorySelected).map((tag) => {
+    setMainCategory(mainCategory);
+    getTagsByGroupName(tagsByGroupName, mainCategory).map((tag) => {
       return tags.push(tag);
     });
 
     return setTagsFromCategorySelected(tags);
   };
+
+  /* Buscamos en el array con los nombres y números de etiquetas, todas las que incluyan
+  los ids de las etiquetas de la categoría seleccionada
+  y almacenamos en el estado de los posts filtrados */
 
   useEffect(() => {
     const newArray = allTagsNameAndNumber.filter((tag) => {
@@ -71,8 +80,8 @@ const Home = () => {
               <Card
                 post={post}
                 key={post.id}
-                categorySelected={categorySelected}
-                path={`/propuestas/${categorySelected}/${post.name}`}
+                mainCategory={mainCategory}
+                path={`/propuestas/${mainCategory}/${post.name}`}
               />
             );
           })}

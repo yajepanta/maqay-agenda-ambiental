@@ -1,3 +1,5 @@
+import React from "react";
+
 const descriptionCategory = {
   cambioclimático: (
     <ul className='description-category-list'>

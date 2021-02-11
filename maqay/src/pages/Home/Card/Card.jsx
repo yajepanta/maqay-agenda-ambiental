@@ -2,7 +2,7 @@ import React from "react";
 import "./Card.css";
 import { Link } from "react-router-dom";
 
-const Card = ({ post, categorySelected, path }) => {
+const Card = ({ post, mainCategory, path }) => {
   const nameFile = post.name.replace(/ /g, "");
   const nameSinTilde = nameFile
     .normalize("NFD")
@@ -20,7 +20,7 @@ const Card = ({ post, categorySelected, path }) => {
         <div className='sub-card-home'>
           <div className='card-footer'>
             <p>{post.name}</p>
-            {/* {categorySelected === "Tema ambiental" && <p>Propuestas de:</p>} */}
+            {/* {mainCategory === "Tema ambiental" && <p>Propuestas de:</p>} */}
           </div>
         </div>
       </Link>
