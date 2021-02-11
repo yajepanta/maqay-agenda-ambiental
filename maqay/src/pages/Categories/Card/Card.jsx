@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import "./Card.css";
-import Share from "../Share/Share.js";
 import { writeLike } from "../../../controller/likesController";
-import iconsPartidos from "../../../utils/iconsPartidos";
 import allTagsNameAndNumber from "../../../utils/data/allTagsNameAndNumber.js";
-
+import iconsPartidos from "../../../utils/iconsPartidos";
+import Share from "../Share/Share.js";
 const Card = ({ post }) => {
   const [like, setLike] = useState(false);
 

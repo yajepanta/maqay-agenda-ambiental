@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
-import "./Home.css";
-import Card from "./Card/Card";
-import Footer from "../commons/Footer/Footer";
+
+import logoheader from "../../assets/img/logoheader.png";
 import { getTagsByGroupName } from "../../controller/postController";
 import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
 import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
-import logoheader from "../../assets/img/logoheader.png";
+import Footer from "../commons/Footer/Footer";
+
+import Card from "./Card/Card";
+import "./Home.css";
 
 const Home = () => {
   /* Posts ya filtrados, son los que se renderizan */
