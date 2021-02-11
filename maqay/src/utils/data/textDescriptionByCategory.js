@@ -81,7 +81,7 @@ const descriptionCategory = {
       <li>
         Además cuenta con un Programa Nacional de Conservación de Bosques para
         la Mitigación del Cambio Climático y un Proyecto Especial Parque
-        Ecológico Nacional "Antonio Raimondi"
+        Ecológico Nacional Antonio Raimondi.
       </li>
       <li></li>
       <li>
