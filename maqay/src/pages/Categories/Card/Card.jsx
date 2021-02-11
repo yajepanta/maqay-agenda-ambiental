@@ -32,9 +32,9 @@ const Card = ({ post }) => {
     return partieObject.name.toUpperCase();
   };
 
-  const location = useLocation();
-  const currentUrl =
-    "http://agendaambiental.info" + location.pathname.replace(/ /g, "%20");
+  /* const location = useLocation(); */
+  /* "https://agendaambiental.info" + location.pathname.replace(/ /g, "%20"); */
+  const currentUrl = "https://agendaambiental.info";
   const shareContent = {
     url: currentUrl,
     content: `${getPartieName()} propone: ${stripPTags(

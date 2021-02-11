@@ -162,10 +162,3 @@ const Categories = () => {
 };
 
 export default Categories;
-
-/*  useEffect(() => {
-    const newArray = allTagsNameAndNumber.filter((tag) => {
-      return politicalPartiesTags.includes(tag.number);
-    });
-    setNavBarTags(newArray);
-  }, []); */
