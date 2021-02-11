@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useLocation } from "react-router-dom";
 import "./Categories.css";
-import Card from "./Card/Card";
 import Footer from "../commons/Footer/Footer";
 import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
 import { getTagsByGroupName } from "../../controller/postController";
-import MetaDecorator from "./MetaDecorator/MetaDecorator";
 import allPosts from "../../utils/data/allPosts.js";
 import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
 import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
 import CategoryDescription from "./CategoryDescription/CategoryDescription.js";
+import Card from "./Card/Card";
 
 const Categories = () => {
   /* posts to render */
