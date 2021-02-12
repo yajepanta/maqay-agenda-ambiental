@@ -18,6 +18,9 @@ export const getAllPosts = () => {
 };
 
 export const getAllTagsNameAndNumber = () => {
+  return fetch(`${URLroot}tag-groups/v1/terms/`).then((res) => res.json());
+};
+/* export const getAllTagsNameAndNumber = () => {
   return fetch(`${URLroot}tag-groups/v1/terms/`)
     .then((res) => res.json())
     .then((tagGroups) => {
@@ -25,7 +28,7 @@ export const getAllTagsNameAndNumber = () => {
         return { id: object.id, name: object.name };
       });
     });
-};
+}; */
 
 export const getTagsByGroupName = (allTags, groupName) => {
   const group = allTags.find(

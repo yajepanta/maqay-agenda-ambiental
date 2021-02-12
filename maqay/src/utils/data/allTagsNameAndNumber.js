@@ -1,4 +1,11 @@
-const allTagsNameAndNumber = [
+import { getAllTagsNameAndNumber } from "../../controller/postController.js";
+
+const allTagsNameAndNumber = [];
+
+getAllTagsNameAndNumber().then((resp) => {
+  return resp.map((res) => allTagsNameAndNumber.push(res));
+});
+/* const allTagsNameAndNumber = [
   {
     id: 30,
     name: "acci\u00f3n popular",
@@ -251,6 +258,6 @@ const allTagsNameAndNumber = [
     groups: [1],
     post_count: 27,
   },
-];
+]; */
 
 export default allTagsNameAndNumber;

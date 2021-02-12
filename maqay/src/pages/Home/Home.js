@@ -11,7 +11,16 @@ const Home = () => {
   const [filteredPosts, setFilteredPosts] = useState([]);
   const [categorySelected, setCategorySelected] = useState("Tema ambiental");
   const [tagsFromCategorySelected, setTagsFromCategorySelected] = useState([]);
+  console.log("allTagsNameAndNumber", typeof allTagsNameAndNumber.id);
+  /* 
+  retorna todas las etiquetas del grupo seleccionado
+  todas la de tema ambietnal/tema politico pero en automatico seria tema ambiental
 
+  export const getTagsByGroupName = (allTags, groupName) => {
+  const group = allTags.find(
+    (group) => group.label === groupName.replace(/-/g, " ")
+  );
+  return group.terms; */
   useEffect(() => {
     const tags = [];
     getTagsByGroupName(tagsByGroupName, categorySelected).map((tag) => {
@@ -30,13 +39,15 @@ const Home = () => {
     return setTagsFromCategorySelected(tags);
   };
 
+  console.log("allTagsNameAndNumber", allTagsNameAndNumber);
   useEffect(() => {
     const newArray = allTagsNameAndNumber.filter((tag) => {
+      console.log("tag", tag);
       return tagsFromCategorySelected.includes(tag.id);
     });
-    setFilteredPosts(newArray);
+    console.log("newArray", typeof newArray);
+    return setFilteredPosts(newArray);
   }, [tagsFromCategorySelected]);
-
   return (
     <div>
       <section className='view-home'>
