@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+/* import { useLocation } from "react-router-dom"; */
 import "./Card.css";
 import { writeLike } from "../../../controller/likesController";
 import allTagsNameAndNumber from "../../../utils/data/allTagsNameAndNumber.js";

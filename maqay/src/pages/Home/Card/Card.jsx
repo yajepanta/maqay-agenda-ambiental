@@ -2,7 +2,9 @@ import React from "react";
 import "./Card.css";
 import { Link } from "react-router-dom";
 
+/* quite llaves */
 const Card = ({ post, mainCategory, path }) => {
+  console.log("decoded:", decodeURI(mainCategory));
   const nameFile = post.name.replace(/ /g, "");
   const nameSinTilde = nameFile
     .normalize("NFD")

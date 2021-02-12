@@ -78,12 +78,16 @@ const Home = () => {
 
         <section className='home-cards-container'>
           {filteredPosts.map((post) => {
+            console.log("mainCategory:", mainCategory);
+            console.log("post.name", post.name);
             return (
               <Card
                 post={post}
                 key={post.id}
                 mainCategory={mainCategory}
-                path={`/propuestas/${mainCategory}/${post.name}`}
+                path={`/propuestas/${encodeURI(mainCategory)}/${encodeURI(
+                  post.name
+                )}`}
               />
             );
           })}

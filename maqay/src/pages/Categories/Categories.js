@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams, useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 import "./Categories.css";
 import { getTagsByGroupName } from "../../controller/postController";
@@ -83,9 +83,9 @@ const Categories = () => {
     }
   }, [categorySelected]);
 
-  const location = useLocation();
-  const currentUrl =
-    "https://maqay.netlify.app" + location.pathname.replace(/ /g, "-");
+  /*  const location = useLocation(); */
+  /*   const currentUrl =
+    "https://maqay.netlify.app" + location.pathname.replace(/ /g, "-"); */
 
   return (
     <div>
