@@ -1,10 +1,11 @@
 const URLroot = "https://maqay.org/wp-json/";
 const headers = {
   "Content-Type": "application/json",
-  "Access-Control-Allow-Methods": "GET",
-  "Access-Control-Allow-Headers": "*",
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Credentials": "true",
+  /* "Access-Control-Allow-Methods": "GET",
+  "Access-Control-Allow-Headers": "access-control-allow-headers,Origin,Accept,X-Requested-With,Content-Type,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization"
+  , */
+  /* "Access-Control-Allow-Origin": "localhost:3000", */
+ /*  "Access-Control-Allow-Credentials": "true", */
 };
 
 const getOptions = {
@@ -14,7 +15,7 @@ const getOptions = {
 };
 
 export const getAllPosts = () => {
-  return fetch(`${URLroot}/wp/v2/posts`, getOptions).then((res) => res.json());
+  return fetch(`${URLroot}wp/v2/posts?per_page=10&page=2`, getOptions).then((res) => res.json()).catch((error)=>console.log(error));
 };
 
 export const getAllTagsNameAndNumber = () => {

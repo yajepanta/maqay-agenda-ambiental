@@ -10,6 +10,10 @@ import allPosts from "../../utils/data/allPosts.js";
 import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
 import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
 import CategoryDescription from "./CategoryDescription/CategoryDescription.js";
+import arrowDown from '../../assets/img/arrow-down.svg'
+import {SimpleSlider} from './slider'
+import { getAllPosts } from '../../controller/postController'
+
 
 const Categories = () => {
   /* posts to render */
@@ -20,6 +24,8 @@ const Categories = () => {
   const [mainCategory, setMainCategory] = useState([]);
   const [categorySelected, setCategorySelected] = useState([]);
   const [categorySelectedTags, setCategorySelectedTags] = useState([]);
+
+  getAllPosts().then(json=> console.table(json));
 
   /* Political Parties Tags */
   useEffect(() => {
@@ -86,6 +92,12 @@ const Categories = () => {
   const currentUrl =
     "https://maqay.netlify.app" + location.pathname.replace(/ /g, "-");
 
+  let navShow = false;
+  const navClick = () =>{
+    navShow=!navShow
+    console.log(navShow)
+  }
+
   return (
     <div>
       {categorySelected.length > 0 && (
@@ -99,12 +111,41 @@ const Categories = () => {
         <span>{categorySelected}</span>
       </header>
       <main>
+      <div className='navContainer'>
+        <nav>
+            <div className='nav-btn-container'>
+              <button
+                className='btn-back'
+                onClick={() => {
+                  window.location = "/";
+                }}
+              >
+                <i className='fas fa-chevron-left'></i>REGRESAR
+              </button>
+              <button className='btn-list' onClick={()=>navClick()}><span>Cambiar de tema ambiental</span><img src={arrowDown} className='arrow-down' alt='arrowDown'/></button>
+            </div>
+          <div className={navShow===true ? 'list-nav':'list-nav-hidden'}>
+          {navBarTags.map((tag) => {
+            return (
+              <ButtonFilterNav
+                key={tag.id}
+                tagByTopic={tag}
+                path={`/propuestas/${mainCategory}/${tag.name}`}
+              />
+            );
+          })}
+          </div>
+        </nav>
+        </div>
         <section className='view-categories'>
           <span className='text-bold'>
             HEMOS IDENTIFICADO{" "}
             <span className='highlighted'>{filteredPosts.length}</span>{" "}
             PROPUESTAS
           </span>
+          <div className='sliderContainer'>
+          <SimpleSlider/>
+          </div>
           <div className='main-text'>
             {mainCategory === "Tema ambiental" &&
               categorySelected.length > 0 && (
@@ -115,16 +156,12 @@ const Categories = () => {
           </div>
           <p className='leyenda'>
             Para facilitar el análisis de las propuestas hemos identificado 8
-            temas ambientales que son prioritarios para el país. Las propuestas
-            de color{" "}
-            <span className='leyenda-highlited alert-green'>VERDE</span>, son
-            aquellas que corresponden a estos temas. Las propuestas color{" "}
-            <span className='leyenda-highlited no-alert'>ÁMBAR</span>, son
-            aquellas que no abordan los temas priorizados. En el caso del color{" "}
-            <span className='leyenda-highlited alert-red'>ROJO</span>, son
-            aquellas en las que se proponen disminuir estándares o permisos
+            temas ambientales prioritarios para el país. <div>Las propuestas de color</div>
+            <div><span className='leyenda-highlited alert-green'>VERDE </span><span>Corresponden a estos temas.</span></div>
+            <div><span className='leyenda-highlited no-alert'>ÁMBAR</span><span>no abordan los temas priorizados</span></div>
+            <div><span className='leyenda-highlited alert-red'>ROJO </span><span>proponen disminuir estándares o permisos
             ambientales, cambios institucionales como la absorción o eliminación
-            de instituciones ambientales.
+            de instituciones ambientales.</span></div>
           </p>
           <div className='alerts-guide'> </div>
           <div className='categories-cards-container'>
@@ -134,27 +171,7 @@ const Categories = () => {
             })}
           </div>
         </section>
-
-        <nav>
-          <button
-            className='btn-back'
-            onClick={() => {
-              window.location = "/";
-            }}
-          >
-            <i className='fas fa-chevron-left'></i>REGRESAR
-          </button>
-          <span>Cambiar de tema ambiental</span>
-          {navBarTags.map((tag) => {
-            return (
-              <ButtonFilterNav
-                key={tag.id}
-                tagByTopic={tag}
-                path={`/propuestas/${mainCategory}/${tag.name}`}
-              />
-            );
-          })}
-        </nav>
+        
       </main>
       <Footer></Footer>
     </div>

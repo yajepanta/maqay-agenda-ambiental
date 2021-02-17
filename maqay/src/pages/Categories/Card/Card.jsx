@@ -73,7 +73,7 @@ const Card = ({ post }) => {
           <div className='proposal-footer-logo'>
             Propuestas de:
             {post.politicalParties &&
-              post.politicalParties.map((idPartido) => {
+              post.politicalParties.slice(0, 1).map((idPartido) => {
                 return (
                   <img
                     src={`${iconsPartidos[idPartido]}`}
@@ -87,11 +87,10 @@ const Card = ({ post }) => {
           </div>
 
           <div className='social-media-buttons'>
-            <i
+            <label className='like-box'><i
               className={like ? "fas fa-heart" : "far fa-heart"}
               onClick={onLikeClick}
-            ></i>
-            <label className='like-box'></label>
+            ></i></label>
             {Share(shareContent)}
           </div>
         </div>

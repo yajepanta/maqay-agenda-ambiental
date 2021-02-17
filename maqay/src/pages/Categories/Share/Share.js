@@ -25,7 +25,7 @@ const Share = (shareContent) => {
   return (
     <div className='dropdown share'>
       <button className='dropbtn'>
-        Compartir<i className='fas fa-share-alt'></i>
+        <i className='fas fa-share-alt'></i>
       </button>
       <div className='dropdown-content'>
         <EmailShareButton
