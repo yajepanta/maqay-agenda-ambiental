@@ -122,8 +122,9 @@ const Categories = () => {
 
   return (
     <div>
-      <header>
+      <header className='header-categories'>
         <span>{categorySelected}</span>
+       
       </header>
       <main>
         <section className='view-categories'>
@@ -147,8 +148,15 @@ const Categories = () => {
             })}
           </div>
         </section>
+        
+        <div className="wrapper">
+        <input type="checkbox" id="btn" hidden/>
+        <label for="btn" className="menu-btn">
+        <i className="fas fa-bars fa-2x"></i>
+        <i className="fas fa-times fa-2x"></i>
+        </label>
 
-        <nav>
+        <nav className='sidebar'>
           <button
             className='btn-back'
             onClick={() => {
@@ -156,18 +164,19 @@ const Categories = () => {
             }}
           >
             <i className='fas fa-chevron-left'></i>REGRESAR
-          </button>
+          </button> <br></br>
           <span>Cambiar de tema ambiental</span>
           {navBarTags.map((tag) => {
             return (
-              <ButtonFilterNav
+              <li><ButtonFilterNav
                 key={tag.id}
                 tagByTopic={tag}
                 path={`/propuestas/${mainCategory}/${tag.name}`}
-              />
+              /></li>
             );
           })}
         </nav>
+        </div>
       </main>
     </div>
   );

@@ -73,7 +73,8 @@ Y de la ruta, Categories toma lo que se selecciono para pasar al filtrado
 
   return (
     <div>
-      <section className='view-home'>
+      <section>
+        <header className='view-home'>
         <h1>Conoce las propuestas de los candidatos</h1>
         <h2>ELECCIONES 2021</h2>
         <p>Ordenar propuestas</p>
@@ -95,6 +96,8 @@ Y de la ruta, Categories toma lo que se selecciono para pasar al filtrado
             Por partido político
           </button>
         </div>
+        </header>
+      </section>
 
         <section className='home-cards-container'>
           {filteredPosts.map((post) => {
@@ -108,7 +111,6 @@ Y de la ruta, Categories toma lo que se selecciono para pasar al filtrado
             );
           })}
         </section>
-      </section>
     </div>
   );
 };

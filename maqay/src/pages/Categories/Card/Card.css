@@ -1,7 +1,5 @@
 .container-proposal{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 320px;
-    height: 350px;
     color: #ffffff;
     background: url('../../../assets/img/climateChange.png');
     border-radius: 20px;
@@ -63,4 +61,140 @@
 .no-alert {
     background: rgb(246, 168, 24, 0.9);
     /* background: rgb(242, 144, 0, 0.9); */
+}
+
+@media screen and (min-width: 451px) and (max-width: 770px) {
+    .container-proposal{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #ffffff;
+        background: url('../../../assets/img/climateChange.png');
+        border-radius: 20px;
+        margin: 30px;
+    }
+    
+    .container-proposal > .content {    
+        border-radius: inherit;
+        width: 280px;
+        height: 310px;
+        padding: 20px;
+    }
+    .container-proposal-title{
+        font-size: 0.4em;
+        font-weight: 400;
+        background-color: white;
+        color: black;
+        width: 75px;
+        margin-left: -19px;
+        margin-top: -19px;
+        height: 60px;
+        /* padding: 15px 0px 50px 50px; */
+        border-top-left-radius: 20px;
+        text-transform: rotate(50deg);
+        -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
+        clip-path: polygon(0 0, 0% 100%, 100% 0);
+        z-index: 5;
+    }
+    
+    .container-proposal-content{
+        margin: -5px 0px 18px 0px;
+        font-size: 1em;
+        text-align:left;
+    }
+    .text-small{
+        font-size: 0.8em;
+    }
+    .container-proposals-footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .partie-logo{
+        width: 30px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        padding: 5px;
+        justify-self: flex-start;
+    }
+    
+    .alert-green {
+        background: rgb(0, 155, 58, 0.9);
+    }
+    
+    .alert-red {
+        background: rgb(215, 10, 10, 0.85);
+    }
+    
+    .no-alert {
+        background: rgb(246, 168, 24, 0.9);
+        /* background: rgb(242, 144, 0, 0.9); */
+    }
+}
+
+@media screen and (min-width: 771px) {
+.container-proposal{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* width: 320px;
+    height: 350px; */
+    color: #ffffff;
+    background: url('../../../assets/img/climateChange.png');
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.container-proposal > .content {    
+    border-radius: inherit;
+    width: 280px;
+    height: 310px;
+    padding: 20px;
+}
+.container-proposal-title{
+    font-size: 0.4em;
+    font-weight: 400;
+    background-color: white;
+    color: black;
+    width: 75px;
+    margin-left: -19px;
+    margin-top: -19px;
+    height: 60px;
+    /* padding: 15px 0px 50px 50px; */
+    border-top-left-radius: 20px;
+    text-transform: rotate(50deg);
+    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+    z-index: 5;
+}
+
+.container-proposal-content{
+    margin: -5px 0px 18px 0px;
+    font-size: 1em;
+    text-align:left;
+}
+.text-small{
+    font-size: 0.8em;
+}
+.container-proposals-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.partie-logo{
+    width: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 5px;
+    justify-self: flex-start;
+}
+
+.alert-green {
+    background: rgb(0, 155, 58, 0.9);
+}
+
+.alert-red {
+    background: rgb(215, 10, 10, 0.85);
+}
+
+.no-alert {
+    background: rgb(246, 168, 24, 0.9);
+    /* background: rgb(242, 144, 0, 0.9); */
+}
 }
