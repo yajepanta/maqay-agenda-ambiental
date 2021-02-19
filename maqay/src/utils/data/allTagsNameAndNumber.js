@@ -1,10 +1,14 @@
 import { getAllTagsNameAndNumber } from "../../controller/postController.js";
+import { trackPromise } from "react-promise-tracker";
 
 const allTagsNameAndNumber = [];
 
-getAllTagsNameAndNumber().then((resp) => {
-  return resp.map((res) => allTagsNameAndNumber.push(res));
-});
+trackPromise(
+  getAllTagsNameAndNumber().then((resp) => {
+    return resp.map((res) => allTagsNameAndNumber.push(res));
+  })
+);
+
 /* const allTagsNameAndNumber = [
   {
     id: 30,
@@ -258,6 +262,6 @@ getAllTagsNameAndNumber().then((resp) => {
     groups: [1],
     post_count: 27,
   },
-]; */
-
+];
+ */
 export default allTagsNameAndNumber;

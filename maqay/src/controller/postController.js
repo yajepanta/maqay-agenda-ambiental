@@ -1,10 +1,6 @@
 const URLroot = "https://maqay.org/wp-json/";
 const headers = {
   "Content-Type": "application/json",
-  "Access-Control-Allow-Methods": "GET",
-  "Access-Control-Allow-Headers": "*",
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Credentials": "true",
 };
 
 const getOptions = {

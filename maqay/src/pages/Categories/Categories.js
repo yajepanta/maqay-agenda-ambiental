@@ -106,12 +106,12 @@ const Categories = () => {
             PROPUESTAS
           </span>
           <div className='main-text'>
-            {mainCategory === "Tema ambiental" &&
+            {/* {mainCategory === "Tema ambiental" &&
               categorySelected.length > 0 && (
                 <CategoryDescription
                   category={categorySelected.replace(/ /g, "")}
                 />
-              )}
+              )} */}
           </div>
           <p className='leyenda'>
             Para facilitar el análisis de las propuestas hemos identificado 8

@@ -1,53 +1,48 @@
-import React, { useEffect, useState } from "react";
-import "./Home.css";
-import Card from "./Card/Card";
-import Footer from "../commons/Footer/Footer";
-import { getTagsByGroupName } from "../../controller/postController";
-import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
-import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
+import React, { useEffect, useMemo, useState } from "react";
 import logoheader from "../../assets/img/logoheader.png";
+import { getTagsByGroupName } from "../../controller/postController";
+import allTagsNameAndNumberData from "../../utils/data/allTagsNameAndNumber.js";
+import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
+import Footer from "../commons/Footer/Footer";
+import Card from "./Card/Card";
+import "./Home.css";
+
 const Home = () => {
-  /* posts to render: posts ya filtrados */
   const [filteredPosts, setFilteredPosts] = useState([]);
-  const [categorySelected, setCategorySelected] = useState("Tema ambiental");
+  const [mainCategory, setMainCategory] = useState("Tema ambiental");
   const [tagsFromCategorySelected, setTagsFromCategorySelected] = useState([]);
-  console.log("allTagsNameAndNumber", typeof allTagsNameAndNumber.id);
-  /* 
-  retorna todas las etiquetas del grupo seleccionado
-  todas la de tema ambietnal/tema politico pero en automatico seria tema ambiental
 
-  export const getTagsByGroupName = (allTags, groupName) => {
-  const group = allTags.find(
-    (group) => group.label === groupName.replace(/-/g, " ")
-  );
-  return group.terms; */
+  /* Obtenemos todos los tags correspondientes a la categoría seleccionada,
+   y la almacenamos en un estado*/
+
   useEffect(() => {
-    const tags = [];
-    getTagsByGroupName(tagsByGroupName, categorySelected).map((tag) => {
-      return tags.push(tag);
-    });
-    return setTagsFromCategorySelected(tags);
-  }, [categorySelected]);
+    const alltags = getTagsByGroupName(tagsByGroupName, mainCategory);
+    return setTagsFromCategorySelected(alltags);
+  }, [mainCategory]);
 
-  const filterByCategorySelected = (categorySelected) => {
-    const tags = [];
-    setCategorySelected(categorySelected);
-    getTagsByGroupName(tagsByGroupName, categorySelected).map((tag) => {
-      return tags.push(tag);
-    });
+  /* Buscamos en el array con los nombres y números de etiquetas, todas las que incluyan
+  los ids de las etiquetas de la categoría seleccionada
+  y almacenamos en el estado los posts filtrados */
 
-    return setTagsFromCategorySelected(tags);
+  useEffect(() => {
+    const newArray = allTagsNameAndNumberData.filter((tag) =>
+      tagsFromCategorySelected.includes(tag.id)
+    );
+    console.log("newArray", newArray);
+
+    setFilteredPosts(newArray);
+  }, [tagsFromCategorySelected]);
+
+  console.log("filteredPosts", filteredPosts);
+
+  /* Función al hacer clic. Recibe la categoría y 
+  volvemos a solicitar los tags correspondientes a la categoría seleccionada para almacenarlas en el estado */
+  const filterByCategorySelected = (mainCategory) => {
+    setMainCategory(mainCategory);
+    const alltags = getTagsByGroupName(tagsByGroupName, mainCategory);
+    return setTagsFromCategorySelected(alltags);
   };
 
-  console.log("allTagsNameAndNumber", allTagsNameAndNumber);
-  useEffect(() => {
-    const newArray = allTagsNameAndNumber.filter((tag) => {
-      console.log("tag", tag);
-      return tagsFromCategorySelected.includes(tag.id);
-    });
-    console.log("newArray", typeof newArray);
-    return setFilteredPosts(newArray);
-  }, [tagsFromCategorySelected]);
   return (
     <div>
       <section className='view-home'>
@@ -77,16 +72,17 @@ const Home = () => {
         </div>
 
         <section className='home-cards-container'>
-          {filteredPosts.map((post) => {
-            return (
-              <Card
-                post={post}
-                key={post.id}
-                categorySelected={categorySelected}
-                path={`/propuestas/${categorySelected}/${post.name}`}
-              />
-            );
-          })}
+          {filteredPosts.length > 0 &&
+            filteredPosts.map((post) => {
+              return (
+                <Card
+                  post={post}
+                  key={post.id}
+                  mainCategory={mainCategory}
+                  path={`/propuestas/${mainCategory}/${post.name}`}
+                />
+              );
+            })}
         </section>
       </section>
       <Footer></Footer>
