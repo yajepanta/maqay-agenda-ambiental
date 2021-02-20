@@ -27,9 +27,7 @@ export const getAllTagsNameAndNumber = () => {
 }; */
 
 export const getTagsByGroupName = (allTags, groupName) => {
-  const group = allTags.find(
-    (group) => group.label === groupName.replace(/-/g, " ")
-  );
+  const group = allTags.find((group) => group.label === groupName);
   return group.terms;
 };
 /* export const getTagsByGroupName = (groupName) => {

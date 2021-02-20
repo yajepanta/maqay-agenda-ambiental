@@ -9,7 +9,7 @@ import "./Home.css";
 
 const Home = () => {
   const [filteredPosts, setFilteredPosts] = useState([]);
-  const [mainCategory, setMainCategory] = useState("Tema ambiental");
+  const [mainCategory, setMainCategory] = useState("tema-ambiental");
   const [tagsFromCategorySelected, setTagsFromCategorySelected] = useState([]);
 
   /* Obtenemos todos los tags correspondientes a la categoría seleccionada,
@@ -25,12 +25,12 @@ const Home = () => {
   y almacenamos en el estado los posts filtrados */
 
   useEffect(() => {
-    const newArray = allTagsNameAndNumberData.filter((tag) =>
+    const arrayOfPosts = allTagsNameAndNumberData.filter((tag) =>
       tagsFromCategorySelected.includes(tag.id)
     );
-    console.log("newArray", newArray);
+    console.log("arrayOfPosts", arrayOfPosts);
 
-    setFilteredPosts(newArray);
+    setFilteredPosts(arrayOfPosts);
   }, [tagsFromCategorySelected]);
 
   console.log("filteredPosts", filteredPosts);
@@ -53,17 +53,17 @@ const Home = () => {
           <p>Ordenar propuestas</p>
           <div className='home-filter-buttons'>
             <button
-              name='Tema ambiental'
-              onClick={(e) => {
-                return filterByCategorySelected(e.target.name);
+              name='tema-ambiental'
+              onClick={(event) => {
+                return filterByCategorySelected(event.target.name);
               }}
             >
               Por tema ambiental
             </button>
             <button
-              name='Partidos políticos'
-              onClick={(e) => {
-                return filterByCategorySelected(e.target.name);
+              name='partidos-politicos'
+              onClick={(event) => {
+                return filterByCategorySelected(event.target.name);
               }}
             >
               Por partido político
@@ -79,7 +79,7 @@ const Home = () => {
                   post={post}
                   key={post.id}
                   mainCategory={mainCategory}
-                  path={`/propuestas/${mainCategory}/${post.name}`}
+                  path={`/propuestas/${mainCategory}/${post.slug}`}
                 />
               );
             })}

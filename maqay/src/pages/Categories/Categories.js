@@ -16,29 +16,28 @@ const Categories = () => {
   const [filteredPosts, setFilteredPosts] = useState([]);
   const [politicalPartiesTags, setPoliticalPartiesTags] = useState([]);
   const [navBarTags, setNavBarTags] = useState([]);
-  /* set category debe ir dentro de la fx que saca las cosas del windowlocation */
   const [mainCategory, setMainCategory] = useState([]);
   const [categorySelected, setCategorySelected] = useState([]);
   const [categorySelectedTags, setCategorySelectedTags] = useState([]);
 
-  /* Political Parties Tags */
+  /* Set Political Parties Tags */
   useEffect(() => {
-    getTagsByGroupName(tagsByGroupName, "Partidos políticos").map((tags) => {
-      return setPoliticalPartiesTags((prevState) => [...prevState, tags]);
-    });
+    const allTags = getTagsByGroupName(tagsByGroupName, "partidos-politicos");
+    setPoliticalPartiesTags(allTags);
   }, []);
 
+  /* Pass URL Params to the States */
   const { category, subcategory } = useParams();
   useEffect(() => {
     setCategorySelected(subcategory);
     setMainCategory(category);
   }, [category, subcategory]);
 
+  /*  */
   useEffect(() => {
     if (mainCategory.length > 0) {
-      getTagsByGroupName(tagsByGroupName, mainCategory).map((tags) => {
-        return setCategorySelectedTags((prevState) => [...prevState, tags]);
-      });
+      const allTags = getTagsByGroupName(tagsByGroupName, mainCategory);
+      setCategorySelectedTags(allTags);
     }
   }, [mainCategory]);
 
@@ -69,14 +68,14 @@ const Categories = () => {
 
   /* filtered posts */
   useEffect(() => {
-    const newArray = allTagsNameAndNumber.find((tag) => {
-      return categorySelected.includes(tag.name);
+    const dataOfCategorySelected = allTagsNameAndNumber.find((tag) => {
+      return categorySelected.includes(tag.slug);
     });
 
-    if (newArray) {
+    if (dataOfCategorySelected) {
       const array = allPosts.filter((post) => {
         const tags = post.tags;
-        return tags.includes(newArray.id);
+        return tags.includes(dataOfCategorySelected.id);
       });
       return setFilteredPosts(array);
     }
@@ -150,7 +149,7 @@ const Categories = () => {
               <ButtonFilterNav
                 key={tag.id}
                 tagByTopic={tag}
-                path={`/propuestas/${mainCategory}/${tag.name}`}
+                path={`/propuestas/${mainCategory}/${tag.slug}`}
               />
             );
           })}

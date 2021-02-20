@@ -1,15 +1,15 @@
 import { getAllTagsNameAndNumber } from "../../controller/postController.js";
 import { trackPromise } from "react-promise-tracker";
 
-const allTagsNameAndNumber = [];
+/* const allTagsNameAndNumber = [];
 
 trackPromise(
   getAllTagsNameAndNumber().then((resp) => {
     return resp.map((res) => allTagsNameAndNumber.push(res));
   })
-);
+); */
 
-/* const allTagsNameAndNumber = [
+const allTagsNameAndNumber = [
   {
     id: 30,
     name: "acci\u00f3n popular",
@@ -263,5 +263,5 @@ trackPromise(
     post_count: 27,
   },
 ];
- */
+
 export default allTagsNameAndNumber;
