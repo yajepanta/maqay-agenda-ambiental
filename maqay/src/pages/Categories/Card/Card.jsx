@@ -5,6 +5,7 @@ import Share from "../Share/Share.js";
 import { writeLike } from "../../../controller/likesController";
 import iconsPartidos from "../../../utils/iconsPartidos";
 import allTagsNameAndNumber from "../../../utils/data/allTagsNameAndNumber.js";
+import { getAllTagsNameAndNumber } from '../../../controller/postController' 
 
 const Card = ({ post }) => {
   const [like, setLike] = useState(false);
@@ -26,11 +27,13 @@ const Card = ({ post }) => {
   const stripPTags = (content) => content.replace(/<\/?p[^>]*>/g, "");
 
   const getPartieName = () => {
-    const partieObject = allTagsNameAndNumber.find((tag) => {
-      return (tag.id = post.politicalParties);
-    });
-    return partieObject.name.toUpperCase();
-  };
+    const partieObject = allTagsNameAndNumber.find((tag) => 
+      tag.id===post.tags[1]
+    );
+    if(partieObject) {
+      return partieObject.name.toUpperCase();
+    }
+  }; 
 
   const location = useLocation();
   const currentUrl =
@@ -40,6 +43,7 @@ const Card = ({ post }) => {
     content: `${getPartieName()} propone: ${stripPTags(
       post.content.rendered
     ).substring(0, 99)}...`,
+    img: 'http://www.geneaconsultores.com/wp-content/uploads/2019/04/Participacion-politica-actitud.png',
   };
 
   useEffect(() => {
@@ -71,7 +75,7 @@ const Card = ({ post }) => {
 
         <div className='container-proposal-footer'>
           <div className='proposal-footer-logo'>
-            Propuestas de:
+            Propuesta de:
             {post.politicalParties &&
               post.politicalParties.slice(0, 1).map((idPartido) => {
                 return (

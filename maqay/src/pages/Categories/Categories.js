@@ -12,8 +12,7 @@ import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
 import CategoryDescription from "./CategoryDescription/CategoryDescription.js";
 import arrowDown from '../../assets/img/arrow-down.svg'
 import {SimpleSlider} from './slider'
-import { getAllPosts } from '../../controller/postController'
-
+//import { getAllPosts } from '../../controller/postController'
 
 const Categories = () => {
   /* posts to render */
@@ -24,8 +23,10 @@ const Categories = () => {
   const [mainCategory, setMainCategory] = useState([]);
   const [categorySelected, setCategorySelected] = useState([]);
   const [categorySelectedTags, setCategorySelectedTags] = useState([]);
+  const [navShow, setNavShow] = useState(0);
+  const [searchField, setSearchField] = useState('');
 
-  getAllPosts().then(json=> console.table(json));
+  //getAllPosts().then(json=> console.table(json));
 
   /* Political Parties Tags */
   useEffect(() => {
@@ -71,7 +72,6 @@ const Categories = () => {
       return (post.politicalParties = array);
     });
   };
-  console.log("tagName: ", tagName());
 
   /* filtered posts */
   useEffect(() => {
@@ -88,15 +88,47 @@ const Categories = () => {
     }
   }, [categorySelected]);
 
+
+
+    const filteredArray = allPosts.filter((post)=>{
+        return post.content.rendered.includes(searchField);
+    })
+
+    const redArray = (posts) => posts.filter((post)=>{
+      return post.tags.includes(39);
+    })
+
+    const yellowArray = (posts) => posts.filter((post)=>{
+      return post.tags.includes(41);
+    })
+
+    const greenArray = (posts) => posts.filter((post)=>{
+      return post.tags.includes(40);
+    })
+
+
   const location = useLocation();
   const currentUrl =
     "https://maqay.netlify.app" + location.pathname.replace(/ /g, "-");
 
-  let navShow = false;
   const navClick = () =>{
-    navShow=!navShow
-    console.log(navShow)
+    if(navShow===0){
+      setNavShow(1);
+    } else {
+      setNavShow(0)
+    }
+    return navShow;
   }
+
+  const More = () =>{
+    if(categorySelected==='cambio climático'||categorySelected==='conservación de ecosistemas'||categorySelected==='deforestación'
+    ||categorySelected==='educación ambiental'||categorySelected==='gestión del agua'||categorySelected==='gobernanza ambiental'
+    ||categorySelected==='pueblos indígenas'||categorySelected==='residuos sólidos y economía circular'){
+      return <span><span className='hiddenMore'>Tema</span><span className='more'>Cambiar de tema ambiental</span></span>
+    } else {
+      return <span><span className='hiddenMore'>Partido</span><span className='more'>Cambiar de partido político</span></span>
+    }
+  } 
 
   return (
     <div>
@@ -108,23 +140,29 @@ const Categories = () => {
         />
       )}
       <header>
-        <span>{categorySelected}</span>
+      {searchField.length>0 ? <span>Resultados para "{searchField}"</span> : <span>{categorySelected}</span>}
       </header>
       <main>
       <div className='navContainer'>
         <nav>
-            <div className='nav-btn-container'>
-              <button
-                className='btn-back'
-                onClick={() => {
-                  window.location = "/";
-                }}
-              >
-                <i className='fas fa-chevron-left'></i>REGRESAR
-              </button>
-              <button className='btn-list' onClick={()=>navClick()}><span>Cambiar de tema ambiental</span><img src={arrowDown} className='arrow-down' alt='arrowDown'/></button>
+          <div className='nav-btn-container'>
+            <button
+              className='btn-back'
+              onClick={() => {
+                window.location = "/";
+              }}
+            ><i className='fas fa-chevron-left'></i><span>REGRESAR</span>
+            </button>
+            <div className='nav-right-container'>
+            <input
+              type="search"
+              placeholder="Buscar propuesta"
+              value={searchField} onChange={(e)=>setSearchField(e.target.value)} 
+            />
+            <button className='btn-list' onClick={()=>navClick()}><More/><img src={arrowDown} className='arrow-down' alt='arrowDown'/></button>
+          </div>
             </div>
-          <div className={navShow===true ? 'list-nav':'list-nav-hidden'}>
+          <div className={navShow===1 ? 'list-nav':'list-nav-hidden'}>
           {navBarTags.map((tag) => {
             return (
               <ButtonFilterNav
@@ -136,42 +174,50 @@ const Categories = () => {
           })}
           </div>
         </nav>
-        </div>
+        </div> 
         <section className='view-categories'>
           <span className='text-bold'>
             HEMOS IDENTIFICADO{" "}
-            <span className='highlighted'>{filteredPosts.length}</span>{" "}
+            <span className='highlighted'>{searchField.length>0 ? filteredArray.length : filteredPosts.length}</span>{" "}
             PROPUESTAS
           </span>
-          <div className='sliderContainer'>
-          <SimpleSlider/>
-          </div>
-          <div className='main-text'>
+           {/* <div className='sliderContainer'>
+           {mainCategory === "Tema ambiental" &&
+              categorySelected.length > 0 && (
+                <SimpleSlider
+                  category={categorySelected.replace(/ /g, "")}
+                />
+              )}
+          </div> */}
+         
+         {searchField.length>0 ? '' : <div className='main-text'>
             {mainCategory === "Tema ambiental" &&
               categorySelected.length > 0 && (
                 <CategoryDescription
                   category={categorySelected.replace(/ /g, "")}
                 />
               )}
+          </div>}
+          <div className='leyenda'>
+            <div className='flexLeyenda'><div className='leyenda-highlited alert-green'><span>{searchField.length>0 ? greenArray(filteredArray).length: greenArray(filteredPosts).length}</span></div><span className='leyenda-text'>Propuestas alineadas con los 8 temas ambientales priorizados para el país</span></div>
+            <div className='flexLeyenda'><div className='leyenda-highlited no-alert'><span>{searchField.length>0 ? yellowArray(filteredArray).length: yellowArray(filteredPosts).length}</span></div><span className='leyenda-text'>Propuestas que no abordan los temas priorizados</span></div>
+            <div className='flexLeyenda'><div className='leyenda-highlited alert-red'><span>{searchField.length>0 ? redArray(filteredArray).length: redArray(filteredPosts).length}</span></div><span className='leyenda-text'>Propuestas que buscan disminuir estándares ambientales, eliminar instituciones 
+              ambientales o derechos.</span></div>
           </div>
-          <p className='leyenda'>
-            Para facilitar el análisis de las propuestas hemos identificado 8
-            temas ambientales prioritarios para el país. <div>Las propuestas de color</div>
-            <div><span className='leyenda-highlited alert-green'>VERDE </span><span>Corresponden a estos temas.</span></div>
-            <div><span className='leyenda-highlited no-alert'>ÁMBAR</span><span>no abordan los temas priorizados</span></div>
-            <div><span className='leyenda-highlited alert-red'>ROJO </span><span>proponen disminuir estándares o permisos
-            ambientales, cambios institucionales como la absorción o eliminación
-            de instituciones ambientales.</span></div>
-          </p>
           <div className='alerts-guide'> </div>
+          {searchField.length>0 ? <div className='categories-cards-container'>
+            {filteredArray.map((post) => {
+              return <Card key={post.id} post={post} />;
+            })}
+          </div> :
           <div className='categories-cards-container'>
             {/* Recibe los posts filtrados según el tema seleccionado */}
             {filteredPosts.map((post) => {
-              return <Card key={post.id} post={post} />;
+              return <Card key={post.id} post={post} tagNameHandler={tagName()}/>;
             })}
           </div>
+          }
         </section>
-        
       </main>
       <Footer></Footer>
     </div>

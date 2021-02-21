@@ -1,38 +1,18 @@
 import React from "react";
 import "./Footer.css";
-import logomaqay from "../../../assets/img/logomaqay.png";
+import logomaqay from "../../../assets/img/logoFooter.png";
 
 const Footer = () => {
   return (
     <footer>
-      <div className='footer-nosotros'>
+      <div className='footer-logo'>
         <a href='https://www.maqay.org/' className='footer-logo'>
           <img src={logomaqay} alt={logomaqay}></img>
         </a>
-        <span>La Agenda Ambiental es una iniciativa de Maqay</span>
       </div>
-      <div className='footer-resources'>
-        <span>RECURSOS</span>
-        <div className='list-resources'>
-          <a href='https://maqay.org/'>
-            <p>Maqay</p>
-          </a>
-          <a href='https://www.onpe.gob.pe/servicios/financiamiento-organizaciones-politicas/partidos-alianzas/'>
-            <p>ONPE: Partidos políticos</p>
-          </a>
-          <a href='https://www.gob.pe/minam'>
-            <p>MINAM: Ministerio del Ambiente</p>
-          </a>
-          <a href='https://github.com/yajepanta/maqay-agenda-ambiental'>
-            <p></p>
-          </a>
-          <a href='https://www.linkedin.com/in/ivy-feraco-56477ba/'>
-            <p></p>
-          </a>
-          <a href='https://www.linkedin.com/in/laurajimenezb/'>
-            <p></p>
-          </a>
-        </div>
+      <div className='footer-nosotros'>
+        <span>NOSOTROS</span>
+        <p>La Agenda Ambiental 2021 es un proyecto de la ONG Maqay puedes revisar la metodología para su construcción aquí.</p>
       </div>
       <div className='footer-social-links'>
         <span>EQUIPO</span>
