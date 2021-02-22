@@ -15,7 +15,9 @@ const getOptions = {
 };
 
 export const getAllPosts = () => {
-  return fetch(`${URLroot}wp/v2/posts?per_page=10&page=2`, getOptions).then((res) => res.json()).catch((error)=>console.log(error));
+  return fetch(`${URLroot}wp/v2/posts?per_page=100&page=1`, getOptions)
+  .then((res) => res.json())
+  .catch((error)=>console.log(error));
 };
 
 export const getAllTagsNameAndNumber = () => {
@@ -23,7 +25,7 @@ export const getAllTagsNameAndNumber = () => {
     .then((res) => res.json())
     .then((tagGroups) => {
       return tagGroups.map((object) => {
-        return { id: object.id, name: object.name };
+        return { id: object.id, name: object.name, groupName:object.groups[0] };//agregar groupname, groups es array de 1 elemento
       });
     });
 };
@@ -33,7 +35,7 @@ export const getTagsByGroupName = (allTags, groupName) => {
     (group) => group.label === groupName.replace(/-/g, " ")
   );
   return group.terms;
-};
+}; 
 /* export const getTagsByGroupName = (groupName) => {
   return fetch(`${URLroot}tag-groups/v1/groups/`)
     .then((resp) => resp.json())

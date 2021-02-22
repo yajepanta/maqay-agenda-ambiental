@@ -12,7 +12,8 @@ import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
 import CategoryDescription from "./CategoryDescription/CategoryDescription.js";
 import arrowDown from '../../assets/img/arrow-down.svg'
 import {SimpleSlider} from './slider'
-//import { getAllPosts } from '../../controller/postController'
+import { getAllPosts } from '../../controller/postController'
+import { getAllTagsNameAndNumber } from '../../controller/postController'
 
 const Categories = () => {
   /* posts to render */
@@ -25,8 +26,6 @@ const Categories = () => {
   const [categorySelectedTags, setCategorySelectedTags] = useState([]);
   const [navShow, setNavShow] = useState(0);
   const [searchField, setSearchField] = useState('');
-
-  //getAllPosts().then(json=> console.table(json));
 
   /* Political Parties Tags */
   useEffect(() => {
@@ -60,31 +59,42 @@ const Categories = () => {
     }
   }, [categorySelectedTags]);
 
+  //getAllTagsNameAndNumber().then(res=>console.log(res))
+
   /* Create property "politicalParties" with only tag number of politicalparties from every post*/
 
-  const tagName = () => {
+  //const allOfThePosts = getAllPosts().then(json=> (json));
+
+  function tagName ()  {
     // post.tags es el array de tags de cada post
-    return allPosts.map((post) => {
-      const tags = post.tags;
-      const array = politicalPartiesTags.filter((politicalTagNumber) => {
-        return tags.includes(politicalTagNumber);
+    if(allPosts) {
+      return allPosts.map((post) => {
+        const tags = post.tags;
+        const array = politicalPartiesTags.filter((politicalTagNumber) => {
+          return tags.includes(politicalTagNumber);
+        });
+        return (post.politicalParties = array);
       });
-      return (post.politicalParties = array);
-    });
+    }
   };
+  
 
   /* filtered posts */
+  
+
   useEffect(() => {
     const newArray = allTagsNameAndNumber.find((tag) => {
       return categorySelected.includes(tag.name);
     });
 
     if (newArray) {
-      const array = allPosts.filter((post) => {
-        const tags = post.tags;
-        return tags.includes(newArray.id);
+      getAllPosts().then(postsJson => {
+        const arrayFilteredPosts = postsJson.filter((post) => {
+          const tags = post.tags;
+          return tags.includes(newArray.id);
+        });
+        return setFilteredPosts(arrayFilteredPosts);
       });
-      return setFilteredPosts(array);
     }
   }, [categorySelected]);
 
@@ -93,19 +103,19 @@ const Categories = () => {
     const filteredArray = allPosts.filter((post)=>{
         return post.content.rendered.includes(searchField);
     })
-
-    const redArray = (posts) => posts.filter((post)=>{
+ 
+    const redArray = (numOfPosts) => numOfPosts.filter((post)=>{
       return post.tags.includes(39);
     })
 
-    const yellowArray = (posts) => posts.filter((post)=>{
+    const yellowArray = (numOfPosts) => numOfPosts.filter((post)=>{
       return post.tags.includes(41);
     })
 
-    const greenArray = (posts) => posts.filter((post)=>{
+    const greenArray = (numOfPosts) => numOfPosts.filter((post)=>{
       return post.tags.includes(40);
     })
-
+ 
 
   const location = useLocation();
   const currentUrl =
@@ -181,14 +191,14 @@ const Categories = () => {
             <span className='highlighted'>{searchField.length>0 ? filteredArray.length : filteredPosts.length}</span>{" "}
             PROPUESTAS
           </span>
-           {/* <div className='sliderContainer'>
+           {/*  <div className='sliderContainer'>
            {mainCategory === "Tema ambiental" &&
               categorySelected.length > 0 && (
                 <SimpleSlider
                   category={categorySelected.replace(/ /g, "")}
                 />
               )}
-          </div> */}
+          </div>  */}
          
          {searchField.length>0 ? '' : <div className='main-text'>
             {mainCategory === "Tema ambiental" &&
