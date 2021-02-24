@@ -12,11 +12,15 @@ const getOptions = {
   method: "GET",
   mode: "cors",
   headers,
-};
+}
 
 export const getAllPosts = () => {
   return fetch(`${URLroot}wp/v2/posts?per_page=10&page=2`, getOptions).then((res) => res.json()).catch((error)=>console.log(error));
 };
+
+/* export const getMedia = (idMedia) => {
+  return fetch(`${URLroot}wp/v2/media/${idMedia}`, getOptions).then((res) => res.json()).catch((error)=>console.log(error));
+}; */
 
 export const getAllTagsNameAndNumber = () => {
   return fetch(`${URLroot}tag-groups/v1/terms/`)

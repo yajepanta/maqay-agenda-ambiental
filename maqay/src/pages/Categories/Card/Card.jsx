@@ -5,10 +5,12 @@ import Share from "../Share/Share.js";
 import { writeLike } from "../../../controller/likesController";
 import iconsPartidos from "../../../utils/iconsPartidos";
 import allTagsNameAndNumber from "../../../utils/data/allTagsNameAndNumber.js";
-import { getAllTagsNameAndNumber } from '../../../controller/postController' 
+//import { getAllTagsNameAndNumber } from '../../../controller/postController' 
+import media from '../../../utils/data/media';
 
 const Card = ({ post }) => {
   const [like, setLike] = useState(false);
+  const [image, setImage ] = useState("");
 
   /* Numbers set by Wordpress */
   const alertRed = 39;
@@ -35,6 +37,19 @@ const Card = ({ post }) => {
     }
   }; 
 
+  
+  //obtener string del link de la imagen o "No hay imagen" en el state "image"
+useEffect(()=>{
+  if(post.featured_media===0){
+    setImage('No hay imagen')
+  } else {
+      const linkImage = media.filter(object=>object.id===post.featured_media);
+      setImage(linkImage[0].source_url)
+  }
+}, [post])
+
+
+  //Aquí se llama al state "image"
   const location = useLocation();
   const currentUrl =
     "http://agendaambiental.info" + location.pathname.replace(/ /g, "%20");
@@ -43,8 +58,9 @@ const Card = ({ post }) => {
     content: `${getPartieName()} propone: ${stripPTags(
       post.content.rendered
     ).substring(0, 99)}...`,
-    img: 'http://www.geneaconsultores.com/wp-content/uploads/2019/04/Participacion-politica-actitud.png',
+    img: `${image}`,
   };
+
 
   useEffect(() => {
     if (localStorage.getItem(post.id)) {

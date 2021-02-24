@@ -6,12 +6,13 @@ import Footer from "../commons/Footer/Footer";
 import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
 import { getTagsByGroupName } from "../../controller/postController";
 import MetaDecorator from "./MetaDecorator/MetaDecorator";
-import allPosts from "../../utils/data/allPosts.js";
+import allPosts from "../../utils/data/allPosts2.js";
 import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
 import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
 import CategoryDescription from "./CategoryDescription/CategoryDescription.js";
 import arrowDown from '../../assets/img/arrow-down.svg'
-import {SimpleSlider} from './slider'
+import searchIcon from '../../assets/img/searchIcon2.svg'
+//import {SimpleSlider} from './slider'
 //import { getAllPosts } from '../../controller/postController'
 
 const Categories = () => {
@@ -72,6 +73,7 @@ const Categories = () => {
       return (post.politicalParties = array);
     });
   };
+
 
   /* filtered posts */
   useEffect(() => {
@@ -154,14 +156,15 @@ const Categories = () => {
             ><i className='fas fa-chevron-left'></i><span>REGRESAR</span>
             </button>
             <div className='nav-right-container'>
-            <input
-              type="search"
-              placeholder="Buscar propuesta"
-              value={searchField} onChange={(e)=>setSearchField(e.target.value)} 
-            />
-            <button className='btn-list' onClick={()=>navClick()}><More/><img src={arrowDown} className='arrow-down' alt='arrowDown'/></button>
-          </div>
+                <img alt="searchIcon" src={searchIcon} className={searchField.length>0 ? 'searchIconHidden' : 'searchIcon'}/>
+                <input
+                  type="search"
+                  placeholder="       Buscar propuesta"
+                  value={searchField} onChange={(e)=>setSearchField(e.target.value)} 
+                />
+              <button className='btn-list' onClick={()=>navClick()}><More/><img src={arrowDown} className='arrow-down' alt='arrowDown'/></button>
             </div>
+          </div>
           <div className={navShow===1 ? 'list-nav':'list-nav-hidden'}>
           {navBarTags.map((tag) => {
             return (

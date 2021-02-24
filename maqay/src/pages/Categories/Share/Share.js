@@ -48,7 +48,7 @@ const Share = (shareContent) => {
           <span>Facebook</span>
         </FacebookShareButton>
         <LinkedinShareButton
-          source={shareContent.url}
+          url={shareContent.url}
           summary={shareContent.content}
         >
           <LinkedinIcon size={30} round={true} />
@@ -56,7 +56,7 @@ const Share = (shareContent) => {
         </LinkedinShareButton>
         <TelegramShareButton
           url={shareContent.url}
-          title={shareContent.content}
+          title={shareContent.img}
         >
           <TelegramIcon size={30} round={true} />
           <span>Telegram</span>
