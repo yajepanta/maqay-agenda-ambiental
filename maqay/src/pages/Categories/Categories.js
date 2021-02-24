@@ -4,122 +4,105 @@ import "./Categories.css";
 import Card from "./Card/Card";
 import Footer from "../commons/Footer/Footer";
 import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
-import { getTagsByGroupName } from "../../controller/postController";
+//import { getTagsByGroupName } from "../../controller/postController";
 import MetaDecorator from "./MetaDecorator/MetaDecorator";
-import allPosts from "../../utils/data/allPosts.js";
-import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
-import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
+//import allPosts from "../../utils/data/allPosts.js";
+//import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
+//import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
 import CategoryDescription from "./CategoryDescription/CategoryDescription.js";
 import arrowDown from '../../assets/img/arrow-down.svg'
-import {SimpleSlider} from './slider'
+//import {SimpleSlider} from './slider'
 import { getAllPosts } from '../../controller/postController'
 import { getAllTagsNameAndNumber } from '../../controller/postController'
+
+const POST_GROUP_TYPES = {
+  partido: 1,
+  tema_ambiente: 2
+}
+
+const tagCategorias = {
+  red: 39,
+  yellow: 41,
+  green:40
+ }
 
 const Categories = () => {
   /* posts to render */
   const [filteredPosts, setFilteredPosts] = useState([]);
-  const [politicalPartiesTags, setPoliticalPartiesTags] = useState([]);
   const [navBarTags, setNavBarTags] = useState([]);
   /* set category debe ir dentro de la fx que saca las cosas del windowlocation */
-  const [mainCategory, setMainCategory] = useState([]);
-  const [categorySelected, setCategorySelected] = useState([]);
-  const [categorySelectedTags, setCategorySelectedTags] = useState([]);
+  //const [categorySelectedTags, setCategorySelectedTags] = useState([]);
   const [navShow, setNavShow] = useState(0);
   const [searchField, setSearchField] = useState('');
 
-  /* Political Parties Tags */
-  useEffect(() => {
-    getTagsByGroupName(tagsByGroupName, "Partidos políticos").map((tags) => {
-      return setPoliticalPartiesTags((prevState) => [...prevState, tags]);
-    });
-  }, []);
-
-  const { category, subcategory } = useParams();
-  useEffect(() => {
-    setCategorySelected(subcategory);
-    setMainCategory(category);
-  }, [category, subcategory]);
-
-  useEffect(() => {
-    if (mainCategory.length > 0) {
-      getTagsByGroupName(tagsByGroupName, mainCategory).map((tags) => {
-        return setCategorySelectedTags((prevState) => [...prevState, tags]);
-      });
-    }
-  }, [mainCategory]);
-
-  /* NAVIGATION BAR Functions 
-  DEBE CONVERTIRSE FX PURA CON ARGUMENTO ENVIRONMENTAL O POLITICAL Y VARIAR SEGUN CATEGORY SELECTED*/
-  useEffect(() => {
-    if (categorySelectedTags) {
-      const newArray = allTagsNameAndNumber.filter((tag) => {
-        return categorySelectedTags.includes(tag.id);
-      });
-      setNavBarTags(newArray);
-    }
-  }, [categorySelectedTags]);
-
-  //getAllTagsNameAndNumber().then(res=>console.log(res))
-
-  /* Create property "politicalParties" with only tag number of politicalparties from every post*/
-
-  //const allOfThePosts = getAllPosts().then(json=> (json));
-
-  function tagName ()  {
-    // post.tags es el array de tags de cada post
-    if(allPosts) {
-      return allPosts.map((post) => {
-        const tags = post.tags;
-        const array = politicalPartiesTags.filter((politicalTagNumber) => {
-          return tags.includes(politicalTagNumber);
-        });
-        return (post.politicalParties = array);
-      });
-    }
-  };
-  
-
-  /* filtered posts */
-  
-
-  useEffect(() => {
-    const newArray = allTagsNameAndNumber.find((tag) => {
-      return categorySelected.includes(tag.name);
-    });
-
-    if (newArray) {
-      getAllPosts().then(postsJson => {
-        const arrayFilteredPosts = postsJson.filter((post) => {
-          const tags = post.tags;
-          return tags.includes(newArray.id);
-        });
-        return setFilteredPosts(arrayFilteredPosts);
-      });
-    }
-  }, [categorySelected]);
-
-
-
-    const filteredArray = allPosts.filter((post)=>{
-        return post.content.rendered.includes(searchField);
-    })
- 
-    const redArray = (numOfPosts) => numOfPosts.filter((post)=>{
-      return post.tags.includes(39);
-    })
-
-    const yellowArray = (numOfPosts) => numOfPosts.filter((post)=>{
-      return post.tags.includes(41);
-    })
-
-    const greenArray = (numOfPosts) => numOfPosts.filter((post)=>{
-      return post.tags.includes(40);
-    })
- 
 
   const location = useLocation();
   const currentUrl =
     "https://maqay.netlify.app" + location.pathname.replace(/ /g, "-");
+
+  /* Pass URL Params to the States */
+  const { category, subcategory } = useParams();
+  const [categorySelected , setCategorySelected] = useState(subcategory);
+  const [mainCategory] = useState(category);
+  const [allTheTags, setAllTheTags] = useState([])
+
+  useEffect(()=>{
+    setCategorySelected(subcategory)
+  }, [subcategory])
+  
+  useEffect(() => {
+    getAllTagsNameAndNumber().then(res=>setAllTheTags(res));
+  }, []);
+  
+  /* const environmentThemes = allTheTags.filter(tags=> tags.groupName === POST_GROUP_TYPES.tema_ambiente); 
+  const politicalParties =  allTheTags.filter(tags=> tags.groupName === POST_GROUP_TYPES.partido); 
+ */
+
+  useEffect(() => {
+      if(mainCategory==='Tema ambiental') {
+        const environmentThemes = allTheTags.filter(tags=> tags.groupName === POST_GROUP_TYPES.tema_ambiente);
+       return setNavBarTags(environmentThemes);
+      } else {
+        const politicalParties =  allTheTags.filter(tags=> tags.groupName === POST_GROUP_TYPES.partido); 
+        return setNavBarTags (politicalParties);
+      }
+  }, [mainCategory, allTheTags]); 
+   
+  //setNavBarTags(array)
+
+  /* filtered posts */
+  console.log('categorySelectedOUTSIDE',categorySelected)
+  useEffect(() => {
+    getAllPosts().then(postsJson => {
+      let filteredPosts=[];
+      if (searchField.length>0){
+        filteredPosts =  postsJson.filter((post) => {
+          return post.content.rendered.includes(searchField);
+        });
+      } else {
+        console.log('categorySelectedINSIDE',categorySelected)
+        const objectSelectedCategory= allTheTags.find((tag) => {
+          return tag.name===categorySelected
+        })
+        console.log(objectSelectedCategory)
+        if(objectSelectedCategory) {
+          filteredPosts = postsJson.filter((post) => {
+            const tags = post.tags;
+            return tags.includes(objectSelectedCategory.id);
+          });
+        }
+      }
+      setFilteredPosts(filteredPosts);
+    }); 
+  }, [categorySelected, subcategory, searchField.length, searchField, allTheTags]);  
+    
+
+     const arrayByColor = (numOfPosts, color) => {
+        const posts = numOfPosts.filter((post)=>{
+          return post.tags.includes(color);
+       })
+       return posts
+    }
 
   const navClick = () =>{
     if(navShow===0){
@@ -131,9 +114,7 @@ const Categories = () => {
   }
 
   const More = () =>{
-    if(categorySelected==='cambio climático'||categorySelected==='conservación de ecosistemas'||categorySelected==='deforestación'
-    ||categorySelected==='educación ambiental'||categorySelected==='gestión del agua'||categorySelected==='gobernanza ambiental'
-    ||categorySelected==='pueblos indígenas'||categorySelected==='residuos sólidos y economía circular'){
+    if(mainCategory==='Tema ambiental'){
       return <span><span className='hiddenMore'>Tema</span><span className='more'>Cambiar de tema ambiental</span></span>
     } else {
       return <span><span className='hiddenMore'>Partido</span><span className='more'>Cambiar de partido político</span></span>
@@ -188,7 +169,7 @@ const Categories = () => {
         <section className='view-categories'>
           <span className='text-bold'>
             HEMOS IDENTIFICADO{" "}
-            <span className='highlighted'>{searchField.length>0 ? filteredArray.length : filteredPosts.length}</span>{" "}
+            <span className='highlighted'>{/* searchField.length>0 ? filteredArray.length :  */filteredPosts.length}</span>{" "}
             PROPUESTAS
           </span>
            {/*  <div className='sliderContainer'>
@@ -209,21 +190,21 @@ const Categories = () => {
               )}
           </div>}
           <div className='leyenda'>
-            <div className='flexLeyenda'><div className='leyenda-highlited alert-green'><span>{searchField.length>0 ? greenArray(filteredArray).length: greenArray(filteredPosts).length}</span></div><span className='leyenda-text'>Propuestas alineadas con los 8 temas ambientales priorizados para el país</span></div>
-            <div className='flexLeyenda'><div className='leyenda-highlited no-alert'><span>{searchField.length>0 ? yellowArray(filteredArray).length: yellowArray(filteredPosts).length}</span></div><span className='leyenda-text'>Propuestas que no abordan los temas priorizados</span></div>
-            <div className='flexLeyenda'><div className='leyenda-highlited alert-red'><span>{searchField.length>0 ? redArray(filteredArray).length: redArray(filteredPosts).length}</span></div><span className='leyenda-text'>Propuestas que buscan disminuir estándares ambientales, eliminar instituciones 
-              ambientales o derechos.</span></div>
-          </div>
+            <div className='flexLeyenda'><div className='leyenda-highlited alert-green'><span>{/* searchField.length>0 ? arrayByColor(filteredArray, tagCategorias.green).length:  */arrayByColor(filteredPosts, tagCategorias.green).length}</span></div><span className='leyenda-text'>Propuestas alineadas con los 8 temas ambientales priorizados para el país</span></div>
+            <div className='flexLeyenda'><div className='leyenda-highlited no-alert'><span>{/* searchField.length>0 ? arrayByColor(filteredArray, tagCategorias.yellow).length:  */arrayByColor(filteredPosts, tagCategorias.yellow).length}</span></div><span className='leyenda-text'>Propuestas que no abordan los temas priorizados</span></div>
+            <div className='flexLeyenda'><div className='leyenda-highlited alert-red'><span>{/* searchField.length>0 ? arrayByColor(filteredArray, tagCategorias.red).length:  */arrayByColor(filteredPosts, tagCategorias.red).length}</span></div><span className='leyenda-text'>Propuestas que buscan disminuir estándares ambientales, eliminar instituciones 
+              ambientales o derechos.</span></div> 
+          </div> 
           <div className='alerts-guide'> </div>
-          {searchField.length>0 ? <div className='categories-cards-container'>
+          {/* searchField.length>0 ? <div className='categories-cards-container'>
             {filteredArray.map((post) => {
               return <Card key={post.id} post={post} />;
             })}
-          </div> :
+          </div> : */
           <div className='categories-cards-container'>
             {/* Recibe los posts filtrados según el tema seleccionado */}
             {filteredPosts.map((post) => {
-              return <Card key={post.id} post={post} tagNameHandler={tagName()}/>;
+              return <Card key={post.id} post={post}  politicalParties={navBarTags} /* tagNameHandler={tagName()} *//>;
             })}
           </div>
           }

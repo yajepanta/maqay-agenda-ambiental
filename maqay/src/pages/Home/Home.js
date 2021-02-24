@@ -3,9 +3,10 @@ import "./Home.css";
 import Card from "./Card/Card";
 import Footer from "../commons/Footer/Footer";
 import { getTagsByGroupName } from "../../controller/postController";
-import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
+//import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
 import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
 import logoheader from "../../assets/img/logoheader.png";
+import {getAllTagsNameAndNumber} from '../../controller/postController'
 const Home = () => {
   /* posts to render: posts ya filtrados */
   const [filteredPosts, setFilteredPosts] = useState([]);
@@ -31,10 +32,12 @@ const Home = () => {
   };
 
   useEffect(() => {
-    const newArray = allTagsNameAndNumber.filter((tag) => {
-      return tagsFromCategorySelected.includes(tag.id);
-    });
-    setFilteredPosts(newArray);
+    getAllTagsNameAndNumber().then(postsJson=>{
+      const newArray = postsJson.filter((tag) => {
+        return tagsFromCategorySelected.includes(tag.id);
+      });
+      setFilteredPosts(newArray);
+    })
   }, [tagsFromCategorySelected]);
 
   return (
@@ -71,7 +74,6 @@ const Home = () => {
               <Card
                 post={post}
                 key={post.id}
-                categorySelected={categorySelected}
                 path={`/propuestas/${categorySelected}/${post.name}`}
               />
             );

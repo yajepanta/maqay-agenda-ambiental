@@ -16,7 +16,7 @@ import apra from '../../assets/img/apra.png'; */
 /* <img src={climateChange} alt="" /> 
 src={require('../logo.png')}*/
 
-const Card = ({ post, categorySelected, path }) => {
+const Card = ({ post, path }) => {
   const background = `/img/${post.name.replace(/ /g, "")}.png`;
 
   return (

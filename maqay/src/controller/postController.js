@@ -14,8 +14,8 @@ const getOptions = {
   headers,
 };
 
-export const getAllPosts = () => {
-  return fetch(`${URLroot}wp/v2/posts?per_page=100&page=1`, getOptions)
+export const getAllPosts= ( pageLimit=100, pageNumber=1) => {
+  return fetch(`${URLroot}wp/v2/posts?per_page=${pageLimit}&page=${pageNumber}`, getOptions)
   .then((res) => res.json())
   .catch((error)=>console.log(error));
 };
@@ -32,7 +32,8 @@ export const getAllTagsNameAndNumber = () => {
 
 export const getTagsByGroupName = (allTags, groupName) => {
   const group = allTags.find(
-    (group) => group.label === groupName.replace(/-/g, " ")
+    (group) => 
+      group.label === groupName
   );
   return group.terms;
 }; 

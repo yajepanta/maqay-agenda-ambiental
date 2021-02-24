@@ -5,11 +5,10 @@ import Share from "../Share/Share.js";
 import { writeLike } from "../../../controller/likesController";
 import iconsPartidos from "../../../utils/iconsPartidos";
 import allTagsNameAndNumber from "../../../utils/data/allTagsNameAndNumber.js";
-import { getAllTagsNameAndNumber } from '../../../controller/postController' 
 
-const Card = ({ post }) => {
+const Card = (props) => {
   const [like, setLike] = useState(false);
-
+  const post = props.post;
   /* Numbers set by Wordpress */
   const alertRed = 39;
   const alertGreen = 40;
@@ -23,11 +22,10 @@ const Card = ({ post }) => {
       return "content no-alert";
     }
   };
-
   const stripPTags = (content) => content.replace(/<\/?p[^>]*>/g, "");
 
   const getPartieName = () => {
-    const partieObject = allTagsNameAndNumber.find((tag) => 
+    const partieObject = props.politicalParties.find((tag) => 
       tag.id===post.tags[1]
     );
     if(partieObject) {
@@ -35,12 +33,19 @@ const Card = ({ post }) => {
     }
   }; 
 
+  //console.log(post.tags)
+/* 
+  const getPartieName = () => {
+    props.
+  }
+ */
+  //console.log(post.tags[1])
   const location = useLocation();
   const currentUrl =
     "http://agendaambiental.info" + location.pathname.replace(/ /g, "%20");
   const shareContent = {
     url: currentUrl,
-    content: `${getPartieName()} propone: ${stripPTags(
+    content: ` propone: ${stripPTags(
       post.content.rendered
     ).substring(0, 99)}...`,
     img: 'http://www.geneaconsultores.com/wp-content/uploads/2019/04/Participacion-politica-actitud.png',
