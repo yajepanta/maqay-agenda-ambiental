@@ -41,7 +41,7 @@ const Share = (shareContent) => {
 
         <FacebookShareButton
           url={shareContent.url}
-          quote={shareContent.content}
+          quote={shareContent.img}
           hashtag='#AgendaAmbiental'
         >
           <FacebookIcon size={30} round={true} />
@@ -49,7 +49,7 @@ const Share = (shareContent) => {
         </FacebookShareButton>
         <LinkedinShareButton
           url={shareContent.url}
-          summary={shareContent.content}
+          summary={shareContent.img}
         >
           <LinkedinIcon size={30} round={true} />
           <span>LinkedIn</span>
@@ -63,7 +63,7 @@ const Share = (shareContent) => {
         </TelegramShareButton>
         <TwitterShareButton
           url={shareContent.url}
-          title={shareContent.content}
+          title={shareContent.img}
           hashtag='#AgendaAmbiental'
         >
           <TwitterIcon size={30} round={true} />
@@ -71,7 +71,7 @@ const Share = (shareContent) => {
         </TwitterShareButton>
         <WhatsappShareButton
           url={shareContent.url}
-          title={shareContent.content}
+          title={shareContent.img}
         >
           <WhatsappIcon size={30} round={true} />
           <span>Whatsapp</span>

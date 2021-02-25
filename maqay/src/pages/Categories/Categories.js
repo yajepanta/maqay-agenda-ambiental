@@ -101,8 +101,11 @@ const Categories = () => {
     return post.content.rendered.includes(searchField);
   });
 
-  const redArray = (posts) =>
-    posts.filter((post) => {
+    const filteredArray = allPosts.filter((post)=>{
+        return post.excerpt.rendered.includes(searchField);
+    })
+
+    const redArray = (posts) => posts.filter((post)=>{
       return post.tags.includes(39);
     });
 
@@ -305,6 +308,7 @@ const Categories = () => {
               )}
           </div>
           <div className='alerts-guide'> </div>
+
           {searchField.length > 0 ? (
             <div className='categories-cards-container'>
               {filteredArray.map((post) => {
