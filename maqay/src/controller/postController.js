@@ -1,28 +1,22 @@
 const URLroot = "https://maqay.org/wp-json/";
 const headers = {
   "Content-Type": "application/json",
-  /* "Access-Control-Allow-Methods": "GET",
-  "Access-Control-Allow-Headers": "access-control-allow-headers,Origin,Accept,X-Requested-With,Content-Type,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization"
-  , */
-  /* "Access-Control-Allow-Origin": "localhost:3000", */
- /*  "Access-Control-Allow-Credentials": "true", */
 };
 
 const getOptions = {
   method: "GET",
   mode: "cors",
   headers,
-}
-
-export const getAllPosts = () => {
-  return fetch(`${URLroot}wp/v2/posts?per_page=10&page=2`, getOptions).then((res) => res.json()).catch((error)=>console.log(error));
 };
 
-/* export const getMedia = (idMedia) => {
-  return fetch(`${URLroot}wp/v2/media/${idMedia}`, getOptions).then((res) => res.json()).catch((error)=>console.log(error));
-}; */
+export const getAllPosts = () => {
+  return fetch(`${URLroot}/wp/v2/posts`, getOptions).then((res) => res.json());
+};
 
 export const getAllTagsNameAndNumber = () => {
+  return fetch(`${URLroot}tag-groups/v1/terms/`).then((res) => res.json());
+};
+/* export const getAllTagsNameAndNumber = () => {
   return fetch(`${URLroot}tag-groups/v1/terms/`)
     .then((res) => res.json())
     .then((tagGroups) => {
@@ -30,12 +24,10 @@ export const getAllTagsNameAndNumber = () => {
         return { id: object.id, name: object.name };
       });
     });
-};
+}; */
 
 export const getTagsByGroupName = (allTags, groupName) => {
-  const group = allTags.find(
-    (group) => group.label === groupName.replace(/-/g, " ")
-  );
+  const group = allTags.find((group) => group.label === groupName);
   return group.terms;
 };
 /* export const getTagsByGroupName = (groupName) => {

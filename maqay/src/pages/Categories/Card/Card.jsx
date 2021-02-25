@@ -1,16 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import "./Card.css";
-import Share from "../Share/Share.js";
 import { writeLike } from "../../../controller/likesController";
-import iconsPartidos from "../../../utils/iconsPartidos";
 import allTagsNameAndNumber from "../../../utils/data/allTagsNameAndNumber.js";
-//import { getAllTagsNameAndNumber } from '../../../controller/postController' 
-import media from '../../../utils/data/media';
+import media from "../../../utils/data/media";
+import iconsPartidos from "../../../utils/iconsPartidos";
+import Share from "../Share/Share.js";
 
 const Card = ({ post }) => {
   const [like, setLike] = useState(false);
-  const [image, setImage ] = useState("");
+  const [image, setImage] = useState("");
 
   /* Numbers set by Wordpress */
   const alertRed = 39;
@@ -29,30 +28,31 @@ const Card = ({ post }) => {
   const stripPTags = (content) => content.replace(/<\/?p[^>]*>/g, "");
 
   const getPartieName = () => {
-    const partieObject = allTagsNameAndNumber.find((tag) => 
-      tag.id===post.tags[1]
+    const partieObject = allTagsNameAndNumber.find(
+      (tag) => tag.id === post.tags[1]
     );
-    if(partieObject) {
+    if (partieObject) {
       return partieObject.name.toUpperCase();
     }
-  }; 
+  };
 
-  
   //obtener string del link de la imagen o "No hay imagen" en el state "image"
-useEffect(()=>{
-  if(post.featured_media===0){
-    setImage('No hay imagen')
-  } else {
-      const linkImage = media.filter(object=>object.id===post.featured_media);
-      setImage(linkImage[0].source_url)
-  }
-}, [post])
-
+  useEffect(() => {
+    if (post.featured_media === 0) {
+      setImage("No hay imagen");
+    } else {
+      const linkImage = media.filter(
+        (object) => object.id === post.featured_media
+      );
+      setImage(linkImage[0].source_url);
+    }
+  }, [post]);
 
   //Aquí se llama al state "image"
   const location = useLocation();
   const currentUrl =
     "http://agendaambiental.info" + location.pathname.replace(/ /g, "%20");
+
   const shareContent = {
     url: currentUrl,
     content: `${getPartieName()} propone: ${stripPTags(
@@ -60,7 +60,6 @@ useEffect(()=>{
     ).substring(0, 99)}...`,
     img: `${image}`,
   };
-
 
   useEffect(() => {
     if (localStorage.getItem(post.id)) {
@@ -83,7 +82,7 @@ useEffect(()=>{
         <div className='container-proposal-title'>{post.title.rendered}</div>
 
         <div className='container-proposal-content'>{`${stripPTags(
-          post.content.rendered.replace(
+          post.excerpt.rendered.replace(
             /^(\s*<br( \/)?>)*|(<br( \/)?>\s*)*$/gm,
             " "
           )
@@ -107,10 +106,12 @@ useEffect(()=>{
           </div>
 
           <div className='social-media-buttons'>
-            <label className='like-box'><i
-              className={like ? "fas fa-heart" : "far fa-heart"}
-              onClick={onLikeClick}
-            ></i></label>
+            <label className='like-box'>
+              <i
+                className={like ? "fas fa-heart" : "far fa-heart"}
+                onClick={onLikeClick}
+              ></i>
+            </label>
             {Share(shareContent)}
           </div>
         </div>

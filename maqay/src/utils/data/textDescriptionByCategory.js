@@ -1,5 +1,7 @@
+import React from "react";
+
 const descriptionCategory = {
-  cambioclimático: (
+  cambioclimatico: (
     <ul className='description-category-list'>
       <li>
         1. El Perú está entre los 10 países más vulnerables del mundo al Cambio
@@ -34,7 +36,7 @@ const descriptionCategory = {
     </ul>
   ),
 
-  gestióndelagua: (
+  gestiondelagua: (
     <ul className='description-category-list'>
       <li>
         1. Perú es el octavo país con mayores recursos hídricos (agua dulce) del
@@ -79,7 +81,7 @@ const descriptionCategory = {
       <li>
         Además cuenta con un Programa Nacional de Conservación de Bosques para
         la Mitigación del Cambio Climático y un Proyecto Especial Parque
-        Ecológico Nacional "Antonio Raimondi"
+        Ecológico Nacional Antonio Raimondi.
       </li>
       <li>
         {" "}
@@ -111,7 +113,7 @@ const descriptionCategory = {
     </ul>
   ),
 
-  deforestación: (
+  deforestacion: (
     <ul className='description-category-list'>
       <li>
         1. El Perú es el noveno país con mayor extensión de bosques del mundo y
@@ -137,7 +139,7 @@ const descriptionCategory = {
       </li>
     </ul>
   ),
-  conservacióndeecosistemas: (
+  conservaciondeecosistema: (
     <ul className='description-category-list'>
       <li>
         1. El Perú ha sido reconocido como uno de los 17 países llamados
@@ -180,7 +182,7 @@ const descriptionCategory = {
       </li>
     </ul>
   ),
-  residuossólidosyeconomíacircular: (
+  residuossolidos: (
     <ul className='description-category-list'>
       <li>
         1. En el año 2017, se generaron más de 7 millones de toneladas de
@@ -212,7 +214,7 @@ const descriptionCategory = {
     </ul>
   ),
 
-  educaciónambiental: (
+  educacionambiental: (
     <ul className='description-category-list'>
       <li>
         1. La educación ambiental aumenta la concienciación y el conocimiento de
@@ -228,7 +230,7 @@ const descriptionCategory = {
     </ul>
   ),
 
-  pueblosindígenas: (
+  pueblosindigenas: (
     <ul className='description-category-list'>
       <li>
         1. El Perú es el tercer país con mayor presencia de pueblos indígenas,

@@ -1,17 +1,21 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useLocation } from "react-router-dom";
+
 import "./Categories.css";
-import Card from "./Card/Card";
-import Footer from "../commons/Footer/Footer";
-import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
 import { getTagsByGroupName } from "../../controller/postController";
+
 import MetaDecorator from "./MetaDecorator/MetaDecorator";
-import allPosts from "../../utils/data/allPosts2.js";
+import allPosts from "../../utils/data/allPosts.js";
+
 import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
 import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
+import Footer from "../commons/Footer/Footer";
+
+import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
+import Card from "./Card/Card";
 import CategoryDescription from "./CategoryDescription/CategoryDescription.js";
-import arrowDown from '../../assets/img/arrow-down.svg'
-import searchIcon from '../../assets/img/searchIcon2.svg'
+import arrowDown from "../../assets/img/arrow-down.svg";
+import searchIcon from "../../assets/img/searchIcon2.svg";
 //import {SimpleSlider} from './slider'
 //import { getAllPosts } from '../../controller/postController'
 
@@ -25,7 +29,7 @@ const Categories = () => {
   const [categorySelected, setCategorySelected] = useState([]);
   const [categorySelectedTags, setCategorySelectedTags] = useState([]);
   const [navShow, setNavShow] = useState(0);
-  const [searchField, setSearchField] = useState('');
+  const [searchField, setSearchField] = useState("");
 
   //getAllPosts().then(json=> console.table(json));
 
@@ -38,8 +42,12 @@ const Categories = () => {
 
   const { category, subcategory } = useParams();
   useEffect(() => {
+    if (category === "tema-ambiental") {
+      setMainCategory("Tema ambiental");
+    } else if (category === "partidos-politicos") {
+      setMainCategory("Partidos políticos");
+    }
     setCategorySelected(subcategory);
-    setMainCategory(category);
   }, [category, subcategory]);
 
   useEffect(() => {
@@ -74,11 +82,10 @@ const Categories = () => {
     });
   };
 
-
   /* filtered posts */
   useEffect(() => {
     const newArray = allTagsNameAndNumber.find((tag) => {
-      return categorySelected.includes(tag.name);
+      return categorySelected.includes(tag.slug);
     });
 
     if (newArray) {
@@ -90,102 +97,148 @@ const Categories = () => {
     }
   }, [categorySelected]);
 
-
+  const filteredArray = allPosts.filter((post) => {
+    return post.content.rendered.includes(searchField);
+  });
 
     const filteredArray = allPosts.filter((post)=>{
         return post.excerpt.rendered.includes(searchField);
     })
 
-
     const redArray = (posts) => posts.filter((post)=>{
       return post.tags.includes(39);
-    })
+    });
 
-    const yellowArray = (posts) => posts.filter((post)=>{
+  const yellowArray = (posts) =>
+    posts.filter((post) => {
       return post.tags.includes(41);
-    })
+    });
 
-    const greenArray = (posts) => posts.filter((post)=>{
+  const greenArray = (posts) =>
+    posts.filter((post) => {
       return post.tags.includes(40);
-    })
-
+    });
 
   const location = useLocation();
   const currentUrl =
     "https://maqay.netlify.app" + location.pathname.replace(/ /g, "-");
 
-  const navClick = () =>{
-    if(navShow===0){
+  const navClick = () => {
+    if (navShow === 0) {
       setNavShow(1);
     } else {
-      setNavShow(0)
+      setNavShow(0);
     }
     return navShow;
-  }
+  };
 
-  const More = () =>{
-    if(categorySelected==='cambio climático'||categorySelected==='conservación de ecosistemas'||categorySelected==='deforestación'
-    ||categorySelected==='educación ambiental'||categorySelected==='gestión del agua'||categorySelected==='gobernanza ambiental'
-    ||categorySelected==='pueblos indígenas'||categorySelected==='residuos sólidos y economía circular'){
-      return <span><span className='hiddenMore'>Tema</span><span className='more'>Cambiar de tema ambiental</span></span>
+  /* Para ver si es partido o tema ambiental, se puede sacar de la categoría principal en la URI */
+  /*   const More = () => {
+    if (
+      categorySelected === "cambio climático" ||
+      categorySelected === "conservación de ecosistemas" ||
+      categorySelected === "deforestación" ||
+      categorySelected === "educación ambiental" ||
+      categorySelected === "gestión del agua" ||
+      categorySelected === "gobernanza ambiental" ||
+      categorySelected === "pueblos indígenas" ||
+      categorySelected === "residuos sólidos y economía circular"
+    ) {
+      return (
+        <span>
+          <span className='hiddenMore'>Tema</span>
+          <span className='more'>Cambiar de tema ambiental</span>
+        </span>
+      );
     } else {
-      return <span><span className='hiddenMore'>Partido</span><span className='more'>Cambiar de partido político</span></span>
+      return (
+        <span>
+          <span className='hiddenMore'>Partido</span>
+          <span className='more'>Cambiar de partido político</span>
+        </span>
+      );
     }
-  } 
+  }; */
 
   return (
     <div>
-      {categorySelected.length > 0 && (
+      {/* {categorySelected.length > 0 && (
         <MetaDecorator
           title={`Agenda Ambiental - ${categorySelected}`}
           description={currentUrl}
           imgURL={`/img/${categorySelected.replace(/<\/?p[^>]*>/g, "")}.png`}
         />
-      )}
+      )} */}
       <header>
-      {searchField.length>0 ? <span>Resultados para "{searchField}"</span> : <span>{categorySelected}</span>}
+        {searchField.length > 0 ? (
+          <span>Resultados para "{searchField}"</span>
+        ) : (
+          <span>
+            {categorySelected.length > 0 &&
+              categorySelected.toUpperCase().replace(/-/g, " ")}
+          </span>
+        )}
       </header>
       <main>
-      <div className='navContainer'>
-        <nav>
-          <div className='nav-btn-container'>
-            <button
-              className='btn-back'
-              onClick={() => {
-                window.location = "/";
-              }}
-            ><i className='fas fa-chevron-left'></i><span>REGRESAR</span>
-            </button>
-            <div className='nav-right-container'>
-                <img alt="searchIcon" src={searchIcon} className={searchField.length>0 ? 'searchIconHidden' : 'searchIcon'}/>
-                <input
-                  type="search"
-                  placeholder="       Buscar propuesta"
-                  value={searchField} onChange={(e)=>setSearchField(e.target.value)} 
+        <div className='navContainer'>
+          <nav>
+            <div className='nav-btn-container'>
+              <button
+                className='btn-back'
+                onClick={() => {
+                  window.location = "/";
+                }}
+              >
+                <i className='fas fa-chevron-left'></i>
+                <span>REGRESAR</span>
+              </button>
+              <div className='nav-right-container'>
+                <img
+                  alt='searchIcon'
+                  src={searchIcon}
+                  className={
+                    searchField.length > 0 ? "searchIconHidden" : "searchIcon"
+                  }
                 />
-              <button className='btn-list' onClick={()=>navClick()}><More/><img src={arrowDown} className='arrow-down' alt='arrowDown'/></button>
+                <input
+                  type='search'
+                  placeholder='       Buscar propuesta'
+                  value={searchField}
+                  onChange={(e) => setSearchField(e.target.value)}
+                />
+                <button className='btn-list' onClick={() => navClick()}>
+                  <span>
+                    <span className='hiddenMore'>Tema</span>
+                    <span className='more'>Cambiar según {mainCategory}</span>
+                  </span>
+                  <img src={arrowDown} className='arrow-down' alt='arrowDown' />
+                </button>
+              </div>
             </div>
-          </div>
-          <div className={navShow===1 ? 'list-nav':'list-nav-hidden'}>
-          {navBarTags.map((tag) => {
-            return (
-              <ButtonFilterNav
-                key={tag.id}
-                tagByTopic={tag}
-                path={`/propuestas/${mainCategory}/${tag.name}`}
-              />
-            );
-          })}
-          </div>
-        </nav>
-        </div> 
+            <div className={navShow === 1 ? "list-nav" : "list-nav-hidden"}>
+              {navBarTags.map((tag) => {
+                return (
+                  <ButtonFilterNav
+                    key={tag.id}
+                    tagByTopic={tag}
+                    path={`/propuestas/${category}/${tag.slug}`}
+                  />
+                );
+              })}
+            </div>
+          </nav>
+        </div>
         <section className='view-categories'>
           <span className='text-bold'>
             HEMOS IDENTIFICADO{" "}
-            <span className='highlighted'>{searchField.length>0 ? filteredArray.length : filteredPosts.length}</span>{" "}
+            <span className='highlighted'>
+              {searchField.length > 0
+                ? filteredArray.length
+                : filteredPosts.length}
+            </span>{" "}
             PROPUESTAS
           </span>
-           {/* <div className='sliderContainer'>
+          {/* <div className='sliderContainer'>
            {mainCategory === "Tema ambiental" &&
               categorySelected.length > 0 && (
                 <SimpleSlider
@@ -193,34 +246,85 @@ const Categories = () => {
                 />
               )}
           </div> */}
-         
-         {searchField.length>0 ? '' : <div className='main-text'>
+
+          {/* {searchField.length > 0 ? (
+            ""
+          ) : (
+            <div className='main-text'>
+              {mainCategory === "Tema ambiental" &&
+                categorySelected.length > 0 && (
+                  <CategoryDescription
+                    category={categorySelected.replace(/ /g, "")}
+                  />
+                )}
+            </div>
+          )} */}
+          <div className='leyenda'>
+            <div className='flexLeyenda'>
+              <div className='leyenda-highlited alert-green'>
+                <span>
+                  {searchField.length > 0
+                    ? greenArray(filteredArray).length
+                    : greenArray(filteredPosts).length}
+                </span>
+              </div>
+              <span className='leyenda-text'>
+                Propuestas alineadas con los 8 temas ambientales priorizados
+                para el país
+              </span>
+            </div>
+            <div className='flexLeyenda'>
+              <div className='leyenda-highlited no-alert'>
+                <span>
+                  {searchField.length > 0
+                    ? yellowArray(filteredArray).length
+                    : yellowArray(filteredPosts).length}
+                </span>
+              </div>
+              <span className='leyenda-text'>
+                Propuestas que no abordan los temas priorizados
+              </span>
+            </div>
+            <div className='flexLeyenda'>
+              <div className='leyenda-highlited alert-red'>
+                <span>
+                  {searchField.length > 0
+                    ? redArray(filteredArray).length
+                    : redArray(filteredPosts).length}
+                </span>
+              </div>
+              <span className='leyenda-text'>
+                Propuestas que buscan disminuir estándares ambientales, eliminar
+                instituciones ambientales o derechos.
+              </span>
+            </div>
+          </div>
+          <div className='main-text'>
             {mainCategory === "Tema ambiental" &&
               categorySelected.length > 0 && (
                 <CategoryDescription
-                  category={categorySelected.replace(/ /g, "")}
+                  category={categorySelected.replace(/-/g, "")}
                 />
               )}
-          </div>}
-          <div className='leyenda'>
-            <div className='flexLeyenda'><div className='leyenda-highlited alert-green'><span>{searchField.length>0 ? greenArray(filteredArray).length: greenArray(filteredPosts).length}</span></div><span className='leyenda-text'>Propuestas alineadas con los 8 temas ambientales priorizados para el país</span></div>
-            <div className='flexLeyenda'><div className='leyenda-highlited no-alert'><span>{searchField.length>0 ? yellowArray(filteredArray).length: yellowArray(filteredPosts).length}</span></div><span className='leyenda-text'>Propuestas que no abordan los temas priorizados</span></div>
-            <div className='flexLeyenda'><div className='leyenda-highlited alert-red'><span>{searchField.length>0 ? redArray(filteredArray).length: redArray(filteredPosts).length}</span></div><span className='leyenda-text'>Propuestas que buscan disminuir estándares ambientales, eliminar instituciones 
-              ambientales o derechos.</span></div>
           </div>
           <div className='alerts-guide'> </div>
-          {searchField.length>0 ? <div className='categories-cards-container'>
-            {filteredArray.map((post) => {
-              return <Card key={post.id} post={post} tagNameHandler={tagName()}/>;
-            })}
-          </div> :
-          <div className='categories-cards-container'>
-            {/* Recibe los posts filtrados según el tema seleccionado */}
-            {filteredPosts.map((post) => {
-              return <Card key={post.id} post={post} tagNameHandler={tagName()}/>;
-            })}
-          </div>
-          }
+
+          {searchField.length > 0 ? (
+            <div className='categories-cards-container'>
+              {filteredArray.map((post) => {
+                return <Card key={post.id} post={post} />;
+              })}
+            </div>
+          ) : (
+            <div className='categories-cards-container'>
+              {/* Recibe los posts filtrados según el tema seleccionado */}
+              {filteredPosts.map((post) => {
+                return (
+                  <Card key={post.id} post={post} tagNameHandler={tagName()} />
+                );
+              })}
+            </div>
+          )}
         </section>
       </main>
       <Footer></Footer>
@@ -229,10 +333,3 @@ const Categories = () => {
 };
 
 export default Categories;
-
-/*  useEffect(() => {
-    const newArray = allTagsNameAndNumber.filter((tag) => {
-      return politicalPartiesTags.includes(tag.number);
-    });
-    setNavBarTags(newArray);
-  }, []); */
