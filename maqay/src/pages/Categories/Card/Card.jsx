@@ -3,10 +3,13 @@ import { useLocation } from "react-router-dom";
 import "./Card.css";
 import { writeLike } from "../../../controller/likesController";
 import allTagsNameAndNumber from "../../../utils/data/allTagsNameAndNumber.js";
+import media from '../../../utils/data/media';
 import iconsPartidos from "../../../utils/iconsPartidos";
 import Share from "../Share/Share.js";
+
 const Card = ({ post }) => {
   const [like, setLike] = useState(false);
+  const [image, setImage ] = useState("");
 
   /* Numbers set by Wordpress */
   const alertRed = 39;
@@ -25,21 +28,40 @@ const Card = ({ post }) => {
   const stripPTags = (content) => content.replace(/<\/?p[^>]*>/g, "");
 
   const getPartieName = () => {
-    const partieObject = allTagsNameAndNumber.find((tag) => {
-      return (tag.id = post.politicalParties);
-    });
-    return partieObject.name.toUpperCase();
-  };
+    const partieObject = allTagsNameAndNumber.find((tag) => 
+      tag.id===post.tags[1]
+    );
+    if(partieObject) {
+      return partieObject.name.toUpperCase();
+    }
+  }; 
 
-  /* const location = useLocation(); */
-  /* "https://agendaambiental.info" + location.pathname.replace(/ /g, "%20"); */
-  const currentUrl = "https://agendaambiental.info";
+  
+  //obtener string del link de la imagen o "No hay imagen" en el state "image"
+useEffect(()=>{
+  if(post.featured_media===0){
+    setImage('No hay imagen')
+  } else {
+      const linkImage = media.filter(object=>object.id===post.featured_media);
+      setImage(linkImage[0].source_url)
+  }
+}, [post])
+
+
+
+  //Aquí se llama al state "image"
+  const location = useLocation();
+  const currentUrl =
+    "http://agendaambiental.info" + location.pathname.replace(/ /g, "%20");
+
   const shareContent = {
     url: currentUrl,
     content: `${getPartieName()} propone: ${stripPTags(
       post.content.rendered
     ).substring(0, 99)}...`,
+    img: `${image}`,
   };
+
 
   useEffect(() => {
     if (localStorage.getItem(post.id)) {
@@ -70,9 +92,9 @@ const Card = ({ post }) => {
 
         <div className='container-proposal-footer'>
           <div className='proposal-footer-logo'>
-            Propuestas de:
+            Propuesta de:
             {post.politicalParties &&
-              post.politicalParties.map((idPartido) => {
+              post.politicalParties.slice(0, 1).map((idPartido) => {
                 return (
                   <img
                     src={`${iconsPartidos[idPartido]}`}
@@ -86,11 +108,10 @@ const Card = ({ post }) => {
           </div>
 
           <div className='social-media-buttons'>
-            <i
+            <label className='like-box'><i
               className={like ? "fas fa-heart" : "far fa-heart"}
               onClick={onLikeClick}
-            ></i>
-            <label className='like-box'></label>
+            ></i></label>
             {Share(shareContent)}
           </div>
         </div>
