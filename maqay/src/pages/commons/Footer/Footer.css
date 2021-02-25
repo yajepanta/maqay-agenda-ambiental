@@ -12,7 +12,7 @@ footer {
   padding-bottom: 30px;
 }
 
-.footer-logo{
+.footer-logo {
   display: flex;
   flex-direction: column;
   height: 150px;
@@ -24,19 +24,18 @@ footer {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  top:-2.5vw;
-  left:2.5vw;
+  top: -2.5vw;
+  left: 2.5vw;
 }
 
-.footer-contacto{
+.footer-contacto {
   display: flex;
   flex-direction: column;
   height: 150px;
   text-align: left;
   width: 25vw;
-  
 }
-.footer-contacto p{
+.footer-contacto p {
   margin-block: 0px;
   font-weight: bold;
   font-size: 16px;
@@ -50,24 +49,24 @@ footer {
   color: #ffffff;
   text-decoration: none;
 }
-.footer-contacto a p{
+.footer-contacto a p {
   font-weight: 350;
   font-size: 14px;
 }
-.footer-contacto a i{
+.footer-contacto a i {
   margin-right: 10px;
   font-size: 22px;
 }
-.footer-contacto span{
+.footer-contacto span {
   margin-top: 10px;
 }
-.footer-nosotros{
+.footer-nosotros {
   display: flex;
   flex-direction: column;
   width: 15vw;
   text-align: left;
 }
-.footer-nosotros span{
+.footer-nosotros span {
   font-weight: bold;
   margin-block: 0;
   font-size: 16px;
@@ -78,14 +77,13 @@ footer {
   color: #ffffff;
   font-size: 14px;
   flex-direction: row;
-  justify-content:left;
+  justify-content: left;
   text-align: justify;
   margin-top: 5px;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 20px;
 }
-
 
 .footer-social-links {
   display: flex;
@@ -98,7 +96,6 @@ footer {
   height: 20px;
 }
 
-
 .list-social-links {
   display: flex;
   flex-direction: column;
@@ -107,7 +104,7 @@ footer {
   flex-wrap: wrap;
   margin-top: 10px;
 }
-.list-social-links i{
+.list-social-links i {
   font-size: 18px;
 }
 .list-social-links a {
@@ -118,7 +115,7 @@ footer {
   justify-content: left;
   margin-top: 5px;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 140px;
   line-height: 20px;
 }
@@ -127,7 +124,7 @@ footer {
   margin-left: 10px;
   margin-block: 0px;
 }
-.footer-social-links span{
+.footer-social-links span {
   font-weight: bold;
   margin-block: 0;
   font-size: 16px;
@@ -137,39 +134,43 @@ footer {
   color: #ffffff;
 }
 
+.footer-regular-link {
+  color: #ffffff;
+  text-decoration: none;
+}
 @media only screen and (max-width: 750px) {
   footer {
     grid: none;
   }
-  .footer-logo{
+  .footer-logo {
     margin-left: auto;
     margin-right: auto;
     width: 90vw;
     height: 130px;
   }
-  .footer-logo > img{
+  .footer-logo > img {
     width: 150px;
     left: -25vw;
   }
-  .footer-nosotros{
+  .footer-nosotros {
     margin-left: auto;
     margin-right: auto;
     width: 90vw;
   }
-  .footer-contacto{
+  .footer-contacto {
     margin-left: auto;
     margin-right: auto;
     width: 90vw;
     margin-bottom: 20px;
   }
-  .footer-social-links{
+  .footer-social-links {
     margin-left: auto;
     margin-right: auto;
     width: 90vw;
     text-align: left;
     margin-bottom: 20px;
   }
-  .list-social-links{
+  .list-social-links {
     margin-left: auto;
     margin-right: auto;
     width: 90vw;

@@ -101,11 +101,8 @@ const Categories = () => {
     return post.content.rendered.includes(searchField);
   });
 
-    const filteredArray = allPosts.filter((post)=>{
-        return post.excerpt.rendered.includes(searchField);
-    })
-
-    const redArray = (posts) => posts.filter((post)=>{
+  const redArray = (posts) =>
+    posts.filter((post) => {
       return post.tags.includes(39);
     });
 
@@ -209,7 +206,10 @@ const Categories = () => {
                 <button className='btn-list' onClick={() => navClick()}>
                   <span>
                     <span className='hiddenMore'>Tema</span>
-                    <span className='more'>Cambiar según {mainCategory}</span>
+                    <span className='more'>
+                      Cambiar según{" "}
+                      {mainCategory.length > 0 && mainCategory.toLowerCase()}
+                    </span>
                   </span>
                   <img src={arrowDown} className='arrow-down' alt='arrowDown' />
                 </button>
@@ -299,14 +299,15 @@ const Categories = () => {
               </span>
             </div>
           </div>
-          <div className='main-text'>
-            {mainCategory === "Tema ambiental" &&
-              categorySelected.length > 0 && (
+          {
+            <div className='main-text'>
+              {mainCategory === "Tema ambiental" && searchField.length < 1 && (
                 <CategoryDescription
                   category={categorySelected.replace(/-/g, "")}
                 />
               )}
-          </div>
+            </div>
+          }
           <div className='alerts-guide'> </div>
 
           {searchField.length > 0 ? (

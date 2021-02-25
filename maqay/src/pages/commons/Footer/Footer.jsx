@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Footer.css";
 import logomaqay from "../../../assets/img/logoFooter.png";
 
@@ -12,46 +13,67 @@ const Footer = () => {
       </div>
       <div className='footer-nosotros'>
         <span>NOSOTROS</span>
-        <p>La Agenda Ambiental 2021 es un proyecto de la ONG Maqay puedes revisar la metodología para su construcción aquí.</p>
+        <a
+          href='https://maqay.org/metodologia-para-la-construccion-de-la-pagina-web-agenda-ambiental/'
+          target='_blank'
+          rel='noreferrer'
+          className='footer-regular-link'
+        >
+          <p>
+            La Agenda Ambiental 2021 es un proyecto de la ONG Maqay puedes
+            revisar la metodología para su construcción aquí .
+          </p>
+        </a>
       </div>
       <div className='footer-social-links'>
         <span>EQUIPO</span>
         <div className='list-social-links'>
           <a href='https://www.instagram.com/200org/'>
-            <i className='fab fa-instagram-square'></i><p>200pe</p>
+            <i className='fab fa-instagram-square'></i>
+            <p>200pe</p>
           </a>
           <a href='https://www.linkedin.com/in/lesliechavezp/'>
-            <i className='fab fa-linkedin'></i><p>Leslie Chávez</p>
+            <i className='fab fa-linkedin'></i>
+            <p>Leslie Chávez</p>
           </a>
 
           <a href='https://www.linkedin.com/in/dalejandra-cruzacosta/'>
-            <i className='fab fa-linkedin'></i><p>Alejandra Cruz</p>
+            <i className='fab fa-linkedin'></i>
+            <p>Alejandra Cruz</p>
           </a>
 
           <a href='https://github.com/yajepanta/maqay-agenda-ambiental'>
-            <i className='fab fa-github-square'></i><p>Yajeleth Panta</p>
+            <i className='fab fa-github-square'></i>
+            <p>Yaje Panta</p>
           </a>
 
           <a href='https://www.linkedin.com/in/ivy-feraco-56477ba/'>
-            <i className='fab fa-linkedin'></i><p>Ivy Feraco</p>
+            <i className='fab fa-linkedin'></i>
+            <p>Ivy Feraco</p>
           </a>
           <a href='https://www.linkedin.com/in/laurajimenezb/'>
-            <i className='fab fa-linkedin'></i><p>Laura Jimenez</p>
+            <i className='fab fa-linkedin'></i>
+            <p>Laura Jimenez</p>
           </a>
         </div>
       </div>
       <div className='footer-contacto'>
         <p>CONTACTO</p>
-        <span>Si tienes dudas, consultas o quieres participar de la iniciativa
-        escríbenos a</span>
+        <span>
+          Si tienes dudas, consultas o quieres participar de la iniciativa
+          escríbenos a
+        </span>
         <a href='mailto:hola@maqay.org'>
-            <i className='far fa-envelope'></i><p>hola@maqay.org</p>
+          <i className='far fa-envelope'></i>
+          <p>hola@maqay.org</p>
         </a>
         <a href='https://www.instagram.com/200org/'>
-            <i className='fab fa-instagram-square'></i><p>ong.maqay</p>
+          <i className='fab fa-instagram-square'></i>
+          <p>ong.maqay</p>
         </a>
         <a href='https://www.instagram.com/200org/'>
-            <i className='fab fa-facebook-square'></i><p>ong.maqay</p>
+          <i className='fab fa-facebook-square'></i>
+          <p>ong.maqay</p>
         </a>
       </div>
     </footer>

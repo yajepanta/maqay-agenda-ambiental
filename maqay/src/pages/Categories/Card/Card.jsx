@@ -51,7 +51,7 @@ const Card = ({ post }) => {
   //Aquí se llama al state "image"
   const location = useLocation();
   const currentUrl =
-    "http://agendaambiental.info" + location.pathname.replace(/ /g, "%20");
+    "https://agendaambiental.info" + location.pathname + `#${post.id}`;
 
   const shareContent = {
     url: currentUrl,
@@ -76,7 +76,7 @@ const Card = ({ post }) => {
 
   return (
     /* container proposals es "container-proposal" ahora container-card */
-    <div className='container-proposal'>
+    <div className='container-proposal' id={post.id}>
       {/* content sera container header */}
       <div className={alertColor(post.tags)}>
         <div className='container-proposal-title'>{post.title.rendered}</div>

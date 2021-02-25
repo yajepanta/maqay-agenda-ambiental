@@ -2,7 +2,7 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 320px;
-  height: 450px;
+  height: 480px;
   color: #ffffff;
   background: url("../../../assets/img/climateChange.png");
   border-radius: 20px;
@@ -37,7 +37,6 @@
   font-size: 1em;
   text-align: left;
   min-height: 350px;
-  /* max-height: 300px; */
 }
 .container-proposal-footer {
   display: flex;
@@ -75,7 +74,8 @@
   font-size: 25px;
 }
 
-.fa, .fas {
+.fa,
+.fas {
   font-size: 18px;
 }
 
@@ -92,10 +92,11 @@
 }
 
 @media only screen and (max-width: 860px) {
- .container-proposal{
-  margin: 15px;
-  margin-bottom: 30px;
-  margin-top: 30px;
-  padding-bottom: 30px;
- }
+  .container-proposal {
+    margin: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    height: 450px;
+  }
 }

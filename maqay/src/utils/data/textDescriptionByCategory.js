@@ -243,8 +243,9 @@ const descriptionCategory = {
       </li>
       <li>3. 74% de la población indígena no ha terminado la secundaria.</li>
       <li>
-        4. Al 2020, se han concluido solo 41 procesos de Consulta Previa, el
-        Congreso de la República nunca realizó un proceso de consulta previa.
+        4. Al 15 de octubre del 2020, se han concluido solo 56 procesos de
+        Consulta Previa, el Congreso de la República nunca realizó un proceso de
+        consulta previa.
       </li>
     </ul>
   ),
