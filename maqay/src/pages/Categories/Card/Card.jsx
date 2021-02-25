@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import "./Card.css";
-import Share from "../Share/Share.js";
 import { writeLike } from "../../../controller/likesController";
-import iconsPartidos from "../../../utils/iconsPartidos";
 import allTagsNameAndNumber from "../../../utils/data/allTagsNameAndNumber.js";
-//import { getAllTagsNameAndNumber } from '../../../controller/postController' 
 import media from '../../../utils/data/media';
+import iconsPartidos from "../../../utils/iconsPartidos";
+import Share from "../Share/Share.js";
 
 const Card = ({ post }) => {
   const [like, setLike] = useState(false);
@@ -49,10 +48,12 @@ useEffect(()=>{
 }, [post])
 
 
+
   //Aquí se llama al state "image"
   const location = useLocation();
   const currentUrl =
     "http://agendaambiental.info" + location.pathname.replace(/ /g, "%20");
+
   const shareContent = {
     url: currentUrl,
     content: `${getPartieName()} propone: ${stripPTags(

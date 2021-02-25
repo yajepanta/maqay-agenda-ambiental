@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Home from "../pages/Home/Home.js";
+
 import Categories from "../pages/Categories/Categories.js";
+import Home from "../pages/Home/Home.js";
 
 const Routes = () => {
   return (

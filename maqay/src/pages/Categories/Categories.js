@@ -1,14 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useLocation } from "react-router-dom";
+
 import "./Categories.css";
-import Card from "./Card/Card";
-import Footer from "../commons/Footer/Footer";
-import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
 import { getTagsByGroupName } from "../../controller/postController";
+
 import MetaDecorator from "./MetaDecorator/MetaDecorator";
 import allPosts from "../../utils/data/allPosts2.js";
+
 import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
 import tagsByGroupName from "../../utils/data/tagsByGroupName.js";
+import Footer from "../commons/Footer/Footer";
+
+import ButtonFilterNav from "./ButtonFilterNav/ButtonFilterNav.jsx";
+import Card from "./Card/Card";
 import CategoryDescription from "./CategoryDescription/CategoryDescription.js";
 import arrowDown from '../../assets/img/arrow-down.svg'
 import searchIcon from '../../assets/img/searchIcon2.svg'
@@ -134,13 +138,13 @@ const Categories = () => {
 
   return (
     <div>
-      {categorySelected.length > 0 && (
+      {/* {categorySelected.length > 0 && (
         <MetaDecorator
           title={`Agenda Ambiental - ${categorySelected}`}
           description={currentUrl}
           imgURL={`/img/${categorySelected.replace(/<\/?p[^>]*>/g, "")}.png`}
         />
-      )}
+      )} */}
       <header>
       {searchField.length>0 ? <span>Resultados para "{searchField}"</span> : <span>{categorySelected}</span>}
       </header>
@@ -228,10 +232,3 @@ const Categories = () => {
 };
 
 export default Categories;
-
-/*  useEffect(() => {
-    const newArray = allTagsNameAndNumber.filter((tag) => {
-      return politicalPartiesTags.includes(tag.number);
-    });
-    setNavBarTags(newArray);
-  }, []); */
