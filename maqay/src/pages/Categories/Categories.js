@@ -93,8 +93,9 @@ const Categories = () => {
 
 
     const filteredArray = allPosts.filter((post)=>{
-        return post.content.rendered.includes(searchField);
+        return post.excerpt.rendered.includes(searchField);
     })
+
 
     const redArray = (posts) => posts.filter((post)=>{
       return post.tags.includes(39);
@@ -210,7 +211,7 @@ const Categories = () => {
           <div className='alerts-guide'> </div>
           {searchField.length>0 ? <div className='categories-cards-container'>
             {filteredArray.map((post) => {
-              return <Card key={post.id} post={post} />;
+              return <Card key={post.id} post={post} tagNameHandler={tagName()}/>;
             })}
           </div> :
           <div className='categories-cards-container'>

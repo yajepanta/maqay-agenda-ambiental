@@ -56,7 +56,7 @@ useEffect(()=>{
   const shareContent = {
     url: currentUrl,
     content: `${getPartieName()} propone: ${stripPTags(
-      post.excerpt.rendered
+      post.content.rendered
     ).substring(0, 99)}...`,
     img: `${image}`,
   };
@@ -83,7 +83,7 @@ useEffect(()=>{
         <div className='container-proposal-title'>{post.title.rendered}</div>
 
         <div className='container-proposal-content'>{`${stripPTags(
-          post.excerpt.rendered.replace(
+          post.content.rendered.replace(
             /^(\s*<br( \/)?>)*|(<br( \/)?>\s*)*$/gm,
             " "
           )
