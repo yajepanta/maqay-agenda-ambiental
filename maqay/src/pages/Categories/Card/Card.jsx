@@ -4,7 +4,7 @@ import "./Card.css";
 import Share from "../Share/Share.js";
 import { writeLike } from "../../../controller/likesController";
 import iconsPartidos from "../../../utils/iconsPartidos";
-import allTagsNameAndNumber from "../../../utils/data/allTagsNameAndNumber.js";
+import allTagsNameAndNumber from "../../../utils/data/allTagsNameAndNumber";
 
 const Card = ({ post }) => {
   const [like, setLike] = useState(false);
