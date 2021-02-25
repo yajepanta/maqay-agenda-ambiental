@@ -3,25 +3,23 @@ const allPosts = [
     id: 1644,
     date: "2021-02-19T18:55:38",
     date_gmt: "2021-02-19T23:55:38",
-    guid: {
-      rendered: "https://maqay.org/?p=1644"
-    },
+    guid: { rendered: "https://maqay.org/?p=1644" },
     modified: "2021-02-24T13:41:39",
     modified_gmt: "2021-02-24T18:41:39",
     slug: "propuesta-247",
     status: "publish",
     type: "post",
     link: "https://maqay.org/propuesta-247/",
-    title: {
-      rendered: "Propuesta 247"
-    },
+    title: { rendered: "Propuesta 247" },
     content: {
-      rendered: "<p>PROPUESTA 247</p>",
-      protected: false
+      rendered:
+        '<p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Dise\u00f1ar e implementar sistemas de participaci\u00f3n ciudadana para la protecci\u00f3n ambiental tanto en zonas urbanas como rurales.&quot;}" data-sheets-userformat="{&quot;2&quot;:15257,&quot;3&quot;:{&quot;1&quot;:0},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;10&quot;:2,&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Calibri, sans-serif&quot;,&quot;16&quot;:11}">Dise\u00f1ar e implementar sistemas de participaci\u00f3n ciudadana para la protecci\u00f3n ambiental tanto en zonas urbanas como rurales.</span></p>\n',
+      protected: false,
     },
     excerpt: {
-      rendered: "<p>Diseñar e implementar sistemas de participación ciudadana para la protección ambiental tanto en zonas urbanas como rurales.</p>\n",
-      protected: false
+      rendered:
+        "<p>Dise\u00f1ar e implementar sistemas de participaci\u00f3n ciudadana para la protecci\u00f3n ambiental tanto en zonas urbanas como rurales.</p>\n",
+      protected: false,
     },
     author: 2,
     featured_media: 893,
@@ -33,94 +31,227 @@ const allPosts = [
     meta: {
       _et_pb_use_builder: "",
       _et_pb_old_content: "",
-      _et_gb_content_width: ""
+      _et_gb_content_width: "",
     },
-    categories: [
-      23
-    ],
-    tags: [
-      41,
-      30
-    ],
+    categories: [23],
+    tags: [41, 65],
     _links: {
-      self: [
-        {
-          href: "https://maqay.org/wp-json/wp/v2/posts/1644"
-        }
-      ],
-      collection: [
-        {
-          href: "https://maqay.org/wp-json/wp/v2/posts"
-        }
-      ],
-      about: [
-        {
-          href: "https://maqay.org/wp-json/wp/v2/types/post"
-        }
-      ],
+      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1644" }],
+      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
+      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/users/2"
-        }
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
       ],
       replies: [
         {
           embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=1644"
-        }
+          href: "https://maqay.org/wp-json/wp/v2/comments?post=1644",
+        },
       ],
       "version-history": [
         {
-          "count": 1,
-          "href": "https://maqay.org/wp-json/wp/v2/posts/1644/revisions"
-        }
+          count: 1,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1644/revisions",
+        },
       ],
       "predecessor-version": [
         {
-          "id": 1645,
-          "href": "https://maqay.org/wp-json/wp/v2/posts/1644/revisions/1645"
-        }
+          id: 1645,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1644/revisions/1645",
+        },
       ],
       "wp:featuredmedia": [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/media/893"
-        }
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/media/893" },
       ],
       "wp:attachment": [
-        {
-          href: "https://maqay.org/wp-json/wp/v2/media?parent=1644"
-        }
+        { href: "https://maqay.org/wp-json/wp/v2/media?parent=1644" },
       ],
       "wp:term": [
         {
           taxonomy: "category",
           embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=1644"
+          href: "https://maqay.org/wp-json/wp/v2/categories?post=1644",
         },
         {
           taxonomy: "post_tag",
           embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=1644"
-        }
+          href: "https://maqay.org/wp-json/wp/v2/tags?post=1644",
+        },
       ],
       curies: [
+        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
+      ],
+    },
+  },
+  {
+    id: 1642,
+    date: "2021-02-19T18:54:22",
+    date_gmt: "2021-02-19T23:54:22",
+    guid: { rendered: "https://maqay.org/?p=1642" },
+    modified: "2021-02-19T18:54:22",
+    modified_gmt: "2021-02-19T23:54:22",
+    slug: "propuesta-246",
+    status: "publish",
+    type: "post",
+    link: "https://maqay.org/propuesta-246/",
+    title: { rendered: "Propuesta 246" },
+    content: {
+      rendered:
+        '<p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Fomentar la miner\u00eda sostenible y responsable, sea peque\u00f1a, mediana o grande.&quot;}" data-sheets-userformat="{&quot;2&quot;:15257,&quot;3&quot;:{&quot;1&quot;:0},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;10&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Calibri, sans-serif&quot;,&quot;16&quot;:11}">Fomentar la miner\u00eda sostenible y responsable, sea peque\u00f1a, mediana o grande.</span></p>\n',
+      protected: false,
+    },
+    excerpt: {
+      rendered:
+        "<p>Fomentar la miner\u00eda sostenible y responsable, sea peque\u00f1a, mediana o grande.</p>\n",
+      protected: false,
+    },
+    author: 2,
+    featured_media: 0,
+    comment_status: "open",
+    ping_status: "open",
+    sticky: false,
+    template: "",
+    format: "standard",
+    meta: {
+      _et_pb_use_builder: "",
+      _et_pb_old_content: "",
+      _et_gb_content_width: "",
+    },
+    categories: [23],
+    tags: [41, 65],
+    _links: {
+      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1642" }],
+      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
+      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
+      author: [
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
+      ],
+      replies: [
         {
-          name: "wp",
-          href: "https://api.w.org/{rel}",
-          templated: true
-        }
-      ]
-    }
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/comments?post=1642",
+        },
+      ],
+      "version-history": [
+        {
+          count: 1,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1642/revisions",
+        },
+      ],
+      "predecessor-version": [
+        {
+          id: 1643,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1642/revisions/1643",
+        },
+      ],
+      "wp:attachment": [
+        { href: "https://maqay.org/wp-json/wp/v2/media?parent=1642" },
+      ],
+      "wp:term": [
+        {
+          taxonomy: "category",
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/categories?post=1642",
+        },
+        {
+          taxonomy: "post_tag",
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/tags?post=1642",
+        },
+      ],
+      curies: [
+        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
+      ],
+    },
+  },
+  {
+    id: 1640,
+    date: "2021-02-19T18:53:32",
+    date_gmt: "2021-02-19T23:53:32",
+    guid: { rendered: "https://maqay.org/?p=1640" },
+    modified: "2021-02-19T18:53:32",
+    modified_gmt: "2021-02-19T23:53:32",
+    slug: "propuesta-245",
+    status: "publish",
+    type: "post",
+    link: "https://maqay.org/propuesta-245/",
+    title: { rendered: "Propuesta 245" },
+    content: {
+      rendered:
+        '<p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Promover la formalizaci\u00f3n de la propiedad rural y de las comunidades campesinas y nativas.&quot;}" data-sheets-userformat="{&quot;2&quot;:15261,&quot;3&quot;:{&quot;1&quot;:0},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;10&quot;:2,&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Calibri, sans-serif&quot;,&quot;16&quot;:11}">Promover la formalizaci\u00f3n de la propiedad rural y de las comunidades campesinas y nativas.</span></p>\n',
+      protected: false,
+    },
+    excerpt: {
+      rendered:
+        "<p>Promover la formalizaci\u00f3n de la propiedad rural y de las comunidades campesinas y nativas.</p>\n",
+      protected: false,
+    },
+    author: 2,
+    featured_media: 0,
+    comment_status: "open",
+    ping_status: "open",
+    sticky: false,
+    template: "",
+    format: "standard",
+    meta: {
+      _et_pb_use_builder: "",
+      _et_pb_old_content: "",
+      _et_gb_content_width: "",
+    },
+    categories: [23],
+    tags: [65, 63, 40],
+    _links: {
+      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1640" }],
+      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
+      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
+      author: [
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
+      ],
+      replies: [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/comments?post=1640",
+        },
+      ],
+      "version-history": [
+        {
+          count: 1,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1640/revisions",
+        },
+      ],
+      "predecessor-version": [
+        {
+          id: 1641,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1640/revisions/1641",
+        },
+      ],
+      "wp:attachment": [
+        { href: "https://maqay.org/wp-json/wp/v2/media?parent=1640" },
+      ],
+      "wp:term": [
+        {
+          taxonomy: "category",
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/categories?post=1640",
+        },
+        {
+          taxonomy: "post_tag",
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/tags?post=1640",
+        },
+      ],
+      curies: [
+        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
+      ],
+    },
   },
   {
     id: 1580,
     date: "2021-02-09T16:47:34",
     date_gmt: "2021-02-09T21:47:34",
     guid: { rendered: "https://maqay.org/?p=1580" },
-    modified: "2021-02-09T16:47:34",
-    modified_gmt: "2021-02-09T21:47:34",
+    modified: "2021-02-10T13:03:01",
+    modified_gmt: "2021-02-10T18:03:01",
     slug: "propuesta-044",
     status: "publish",
     type: "post",
@@ -128,7 +259,7 @@ const allPosts = [
     title: { rendered: "Propuesta 044" },
     content: {
       rendered:
-        "<p>Crear el Programa Nacional de reforestaci\u00f3n y restauraci\u00f3n de paisajes p\u00fablicos y privados para al menos 4 millones<br />\nde hect\u00e1reas con especies compatibles con el h\u00e1bitat natural y aceptaci\u00f3n del mercado.</p>\n",
+        '<p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Crear el Programa Nacional de reforestaci\u00f3n y restauraci\u00f3n de\\npaisajes p\u00fablicos y privados para al menos 4 millones\\nde hect\u00e1reas con especies compatibles con el h\u00e1bitat\\nnatural y aceptaci\u00f3n del mercado.&quot;}" data-sheets-userformat="{&quot;2&quot;:14719,&quot;3&quot;:{&quot;1&quot;:0,&quot;3&quot;:1},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:11839446},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;9&quot;:0,&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Calibri&quot;,&quot;16&quot;:11}">Crear el Programa Nacional de reforestaci\u00f3n y restauraci\u00f3n de paisajes p\u00fablicos y privados para al menos 4 millones de hect\u00e1reas con especies compatibles con el h\u00e1bitat natural y aceptaci\u00f3n del mercado.</span></p>\n',
       protected: false,
     },
     excerpt: {
@@ -165,14 +296,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1580/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1581,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1580/revisions/1581",
+          id: 1603,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1580/revisions/1603",
         },
       ],
       "wp:attachment": [
@@ -200,8 +331,8 @@ const allPosts = [
     date: "2021-02-09T16:46:28",
     date_gmt: "2021-02-09T21:46:28",
     guid: { rendered: "https://maqay.org/?p=1578" },
-    modified: "2021-02-09T16:46:28",
-    modified_gmt: "2021-02-09T21:46:28",
+    modified: "2021-02-10T13:02:39",
+    modified_gmt: "2021-02-10T18:02:39",
     slug: "propuesta-043",
     status: "publish",
     type: "post",
@@ -209,7 +340,7 @@ const allPosts = [
     title: { rendered: "Propuesta 043" },
     content: {
       rendered:
-        "<p>Crear el Programa Nacional de Empoderamiento de capacidades locales para la gesti\u00f3n de bosques y el<br />\ncambio clim\u00e1tico, creando 100 escuelas rurales a nivel nacional con acreditaci\u00f3n oficial.</p>\n",
+        '<p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Crear el Programa Nacional de Empoderamiento de\\ncapacidades locales para la gesti\u00f3n de bosques y el\\ncambio clim\u00e1tico, creando 100 escuelas rurales a nivel\\nnacional con acreditaci\u00f3n oficial.&quot;}" data-sheets-userformat="{&quot;2&quot;:14717,&quot;3&quot;:{&quot;1&quot;:0,&quot;3&quot;:1},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;9&quot;:0,&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Calibri&quot;,&quot;16&quot;:11}">Crear el Programa Nacional de Empoderamiento de capacidades locales para la gesti\u00f3n de bosques y el cambio clim\u00e1tico, creando 100 escuelas rurales a nivel nacional con acreditaci\u00f3n oficial.</span></p>\n',
       protected: false,
     },
     excerpt: {
@@ -246,14 +377,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1578/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1579,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1578/revisions/1579",
+          id: 1602,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1578/revisions/1602",
         },
       ],
       "wp:attachment": [
@@ -281,8 +412,8 @@ const allPosts = [
     date: "2021-02-09T16:44:46",
     date_gmt: "2021-02-09T21:44:46",
     guid: { rendered: "https://maqay.org/?p=1576" },
-    modified: "2021-02-10T10:56:44",
-    modified_gmt: "2021-02-10T15:56:44",
+    modified: "2021-02-10T15:54:29",
+    modified_gmt: "2021-02-10T20:54:29",
     slug: "propuesta-042",
     status: "publish",
     type: "post",
@@ -290,12 +421,12 @@ const allPosts = [
     title: { rendered: "Propuesta 042" },
     content: {
       rendered:
-        "<p>Aprobar una Ley que proteja las cabeceras de cuencas y  las praderas alto andinas para garantizar la producci\u00f3n de agua, prohibiendo actividades econ\u00f3micas que amenazan la base de los glaciares y la producci\u00f3n de agua en las praderas alto andinas.</p>\n",
+        "<p>Aprobar una Ley que proteja las cabeceras de cuencas y las praderas alto andinas para garantizar la producci\u00f3n de agua, prohibiendo actividades econ\u00f3micas que amenacen la base de los glaciares y la producci\u00f3n de agua en las praderas alto andinas.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Aprobar una Ley que proteja las cabeceras de cuencas y las praderas alto andinas para garantizar la producci\u00f3n de agua, prohibiendo actividades econ\u00f3micas que amenazan la base de los glaciares y la producci\u00f3n de agua en las praderas alto andinas.</p>\n",
+        "<p>Aprobar una Ley que proteja las cabeceras de cuencas y las praderas alto andinas para garantizar la producci\u00f3n de agua, prohibiendo actividades econ\u00f3micas que amenacen la base de los glaciares y la producci\u00f3n de agua en las praderas alto andinas.</p>\n",
       protected: false,
     },
     author: 2,
@@ -327,14 +458,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1576/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1582,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1576/revisions/1582",
+          id: 1616,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1576/revisions/1616",
         },
       ],
       "wp:attachment": [
@@ -1253,8 +1384,8 @@ const allPosts = [
     date: "2021-02-09T12:25:35",
     date_gmt: "2021-02-09T17:25:35",
     guid: { rendered: "https://maqay.org/?p=1553" },
-    modified: "2021-02-09T12:25:35",
-    modified_gmt: "2021-02-09T17:25:35",
+    modified: "2021-02-10T15:33:47",
+    modified_gmt: "2021-02-10T20:33:47",
     slug: "propuesta-244",
     status: "publish",
     type: "post",
@@ -1262,12 +1393,12 @@ const allPosts = [
     title: { rendered: "Propuesta 244" },
     content: {
       rendered:
-        "<p>Minimizar el uso de combustibles fo\u0301siles y maximizaremos el de energi\u0301as limpias (electro movilidad) en el transporte.</p>\n",
+        "<p>Minimizar el uso de combustibles fo\u0301siles y maximizar el uso de energi\u0301as limpias (electro movilidad) en el transporte.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Minimizar el uso de combustibles fo\u0301siles y maximizaremos el de energi\u0301as limpias (electro movilidad) en el transporte.</p>\n",
+        "<p>Minimizar el uso de combustibles fo\u0301siles y maximizar el uso de energi\u0301as limpias (electro movilidad) en el transporte.</p>\n",
       protected: false,
     },
     author: 2,
@@ -1299,14 +1430,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1553/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1554,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1553/revisions/1554",
+          id: 1605,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1553/revisions/1605",
         },
       ],
       "wp:attachment": [
@@ -2630,8 +2761,8 @@ const allPosts = [
     date: "2021-02-09T12:03:58",
     date_gmt: "2021-02-09T17:03:58",
     guid: { rendered: "https://maqay.org/?p=1508" },
-    modified: "2021-02-09T12:03:58",
-    modified_gmt: "2021-02-09T17:03:58",
+    modified: "2021-02-12T09:57:48",
+    modified_gmt: "2021-02-12T14:57:48",
     slug: "propuesta-227",
     status: "publish",
     type: "post",
@@ -2639,12 +2770,12 @@ const allPosts = [
     title: { rendered: "Propuesta 227" },
     content: {
       rendered:
-        "<p>Crear el Viceministerio de Cambio Clima\u0301tico y Desertificacio\u0301n.</p>\n",
+        "<p>Crear el Viceministerio de Cambio Clim\u00e1tico y Desertificaci\u00f3n</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Crear el Viceministerio de Cambio Clima\u0301tico y Desertificacio\u0301n.</p>\n",
+        "<p>Crear el Viceministerio de Cambio Clim\u00e1tico y Desertificaci\u00f3n</p>\n",
       protected: false,
     },
     author: 2,
@@ -2660,7 +2791,7 @@ const allPosts = [
       _et_gb_content_width: "",
     },
     categories: [23],
-    tags: [61, 39, 31],
+    tags: [61, 40, 31],
     _links: {
       self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1508" }],
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
@@ -2676,14 +2807,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1508/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1509,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1508/revisions/1509",
+          id: 1632,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1508/revisions/1632",
         },
       ],
       "wp:attachment": [
@@ -2711,8 +2842,8 @@ const allPosts = [
     date: "2021-02-09T11:59:11",
     date_gmt: "2021-02-09T16:59:11",
     guid: { rendered: "https://maqay.org/?p=1499" },
-    modified: "2021-02-10T11:13:02",
-    modified_gmt: "2021-02-10T16:13:02",
+    modified: "2021-02-10T15:42:43",
+    modified_gmt: "2021-02-10T20:42:43",
     slug: "propuesta-226",
     status: "publish",
     type: "post",
@@ -2720,12 +2851,12 @@ const allPosts = [
     title: { rendered: "Propuesta 226" },
     content: {
       rendered:
-        "<p>Poner en marcha sistemas de gesti\u00f3n de prevenci\u00f3n, gesti\u00f3n de riesgos y adaptaci\u00f3n, principalmente en los sistemas naturales y productivos m\u00e1s vulnerables (poblaciones extremadamente pobres; productores agr\u00edcolas y pescadores artesanales; cuencas y bosques tropicales; ecosistemas de monta\u00f1a; y ecosistemas marino- costeros)</p>\n",
+        "<p>Poner en marcha sistemas de gesti\u00f3n de prevenci\u00f3n y gesti\u00f3n de riesgos y adaptaci\u00f3n, principalmente en los sistemas naturales y productivos m\u00e1s vulnerables (poblaciones extremadamente pobres; productores agr\u00edcolas y pescadores artesanales; cuencas y bosques tropicales; ecosistemas de monta\u00f1a; y ecosistemas marino-costeros).</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Poner en marcha sistemas de gesti\u00f3n de prevenci\u00f3n, gesti\u00f3n de riesgos y adaptaci\u00f3n, principalmente en los sistemas naturales y productivos m\u00e1s vulnerables (poblaciones extremadamente pobres; productores agr\u00edcolas y pescadores artesanales; cuencas y bosques tropicales; ecosistemas de monta\u00f1a; y ecosistemas marino- costeros)</p>\n",
+        "<p>Poner en marcha sistemas de gesti\u00f3n de prevenci\u00f3n y gesti\u00f3n de riesgos y adaptaci\u00f3n, principalmente en los sistemas naturales y productivos m\u00e1s vulnerables (poblaciones extremadamente pobres; productores agr\u00edcolas y pescadores artesanales; cuencas y bosques tropicales; ecosistemas de monta\u00f1a; y ecosistemas marino-costeros).</p>\n",
       protected: false,
     },
     author: 2,
@@ -2757,14 +2888,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 3,
+          count: 5,
           href: "https://maqay.org/wp-json/wp/v2/posts/1499/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1597,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1499/revisions/1597",
+          id: 1610,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1499/revisions/1610",
         },
       ],
       "wp:attachment": [
@@ -3762,8 +3893,8 @@ const allPosts = [
     date: "2021-02-09T11:36:44",
     date_gmt: "2021-02-09T16:36:44",
     guid: { rendered: "https://maqay.org/?p=1472" },
-    modified: "2021-02-09T11:36:56",
-    modified_gmt: "2021-02-09T16:36:56",
+    modified: "2021-02-10T15:35:27",
+    modified_gmt: "2021-02-10T20:35:27",
     slug: "propuesta-187",
     status: "publish",
     type: "post",
@@ -3771,12 +3902,12 @@ const allPosts = [
     title: { rendered: "Propuesta 187" },
     content: {
       rendered:
-        "<p>Promover una cultura de prevenci\u00f3n, capacitar y preparar a la poblaci\u00f3n en los planes, de mitigaci\u00f3n de los impactos del cambio clim\u00e1tico y enfermedades globales.</p>\n",
+        "<p>Promover una cultura de prevenci\u00f3n; capacitando y preparando a la poblaci\u00f3n en los planes de mitigaci\u00f3n de los impactos del cambio clim\u00e1tico y enfermedades globales.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Promover una cultura de prevenci\u00f3n, capacitar y preparar a la poblaci\u00f3n en los planes, de mitigaci\u00f3n de los impactos del cambio clim\u00e1tico y enfermedades globales.</p>\n",
+        "<p>Promover una cultura de prevenci\u00f3n; capacitando y preparando a la poblaci\u00f3n en los planes de mitigaci\u00f3n de los impactos del cambio clim\u00e1tico y enfermedades globales.</p>\n",
       protected: false,
     },
     author: 2,
@@ -3808,14 +3939,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1472/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1474,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1472/revisions/1474",
+          id: 1606,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1472/revisions/1606",
         },
       ],
       "wp:attachment": [
@@ -4815,8 +4946,8 @@ const allPosts = [
     date: "2021-02-09T11:24:57",
     date_gmt: "2021-02-09T16:24:57",
     guid: { rendered: "https://maqay.org/?p=1430" },
-    modified: "2021-02-09T11:24:57",
-    modified_gmt: "2021-02-09T16:24:57",
+    modified: "2021-02-10T15:55:44",
+    modified_gmt: "2021-02-10T20:55:44",
     slug: "propuesta-219",
     status: "publish",
     type: "post",
@@ -4824,12 +4955,12 @@ const allPosts = [
     title: { rendered: "Propuesta 219" },
     content: {
       rendered:
-        "<p>Impulsara el manejo de cuencas bajo un enfoque integral, tomando en cuenta el manejo de suelos, bosques y pasturas.</p>\n",
+        "<p>Impulsar el manejo de cuencas bajo un enfoque integral, tomando en cuenta el manejo de suelos, bosques y pasturas.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Impulsara el manejo de cuencas bajo un enfoque integral, tomando en cuenta el manejo de suelos, bosques y pasturas.</p>\n",
+        "<p>Impulsar el manejo de cuencas bajo un enfoque integral, tomando en cuenta el manejo de suelos, bosques y pasturas.</p>\n",
       protected: false,
     },
     author: 2,
@@ -4861,14 +4992,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1430/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1447,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1430/revisions/1447",
+          id: 1617,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1430/revisions/1617",
         },
       ],
       "wp:attachment": [
@@ -5866,8 +5997,8 @@ const allPosts = [
     date: "2021-02-09T11:15:44",
     date_gmt: "2021-02-09T16:15:44",
     guid: { rendered: "https://maqay.org/?p=1417" },
-    modified: "2021-02-09T11:15:44",
-    modified_gmt: "2021-02-09T16:15:44",
+    modified: "2021-02-10T16:12:31",
+    modified_gmt: "2021-02-10T21:12:31",
     slug: "propuesta-077",
     status: "publish",
     type: "post",
@@ -5875,12 +6006,12 @@ const allPosts = [
     title: { rendered: "Propuesta 077" },
     content: {
       rendered:
-        "<p>Establecer una pol\u00edtica nacional de econom\u00eda circular y desarrollar el marco normativo necesario, desarrollando la institucionalidad requerida.</p>\n",
+        "<p>Establecer una pol\u00edtica nacional de econom\u00eda circular y desarrollar el marco normativo necesario desarrollando la institucionalidad requerida.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Establecer una pol\u00edtica nacional de econom\u00eda circular y desarrollar el marco normativo necesario, desarrollando la institucionalidad requerida.</p>\n",
+        "<p>Establecer una pol\u00edtica nacional de econom\u00eda circular y desarrollar el marco normativo necesario desarrollando la institucionalidad requerida.</p>\n",
       protected: false,
     },
     author: 2,
@@ -5912,14 +6043,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1417/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1422,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1417/revisions/1422",
+          id: 1627,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1417/revisions/1627",
         },
       ],
       "wp:attachment": [
@@ -6269,8 +6400,8 @@ const allPosts = [
     date: "2021-02-09T11:13:02",
     date_gmt: "2021-02-09T16:13:02",
     guid: { rendered: "https://maqay.org/?p=1411" },
-    modified: "2021-02-09T11:13:02",
-    modified_gmt: "2021-02-09T16:13:02",
+    modified: "2021-02-10T16:04:21",
+    modified_gmt: "2021-02-10T21:04:21",
     slug: "propuesta-075",
     status: "publish",
     type: "post",
@@ -6278,12 +6409,12 @@ const allPosts = [
     title: { rendered: "Propuesta 075" },
     content: {
       rendered:
-        "<p>Fortalecer las instituciones y organismos; incluyendo la creaci\u00f3n de una Autoridad Nacional que gestione la diversidad biol\u00f3gica.</p>\n",
+        "<p>Fortalecer las instituciones y organismos, incluyendo la creaci\u00f3n de una Autoridad Nacional que gestione la diversidad biol\u00f3gica.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Fortalecer las instituciones y organismos; incluyendo la creaci\u00f3n de una Autoridad Nacional que gestione la diversidad biol\u00f3gica.</p>\n",
+        "<p>Fortalecer las instituciones y organismos, incluyendo la creaci\u00f3n de una Autoridad Nacional que gestione la diversidad biol\u00f3gica.</p>\n",
       protected: false,
     },
     author: 2,
@@ -6315,14 +6446,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1411/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1412,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1411/revisions/1412",
+          id: 1624,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1411/revisions/1624",
         },
       ],
       "wp:attachment": [
@@ -7941,8 +8072,8 @@ const allPosts = [
       ],
       "predecessor-version": [
         {
-          id: 1595,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1361/revisions/1595",
+          id: 1625,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1361/revisions/1625",
         },
       ],
       "wp:attachment": [
@@ -8456,8 +8587,8 @@ const allPosts = [
     date: "2021-02-09T10:50:36",
     date_gmt: "2021-02-09T15:50:36",
     guid: { rendered: "https://maqay.org/?p=1337" },
-    modified: "2021-02-10T11:10:24",
-    modified_gmt: "2021-02-10T16:10:24",
+    modified: "2021-02-10T15:38:15",
+    modified_gmt: "2021-02-10T20:38:15",
     slug: "propuesta-211",
     status: "publish",
     type: "post",
@@ -8465,12 +8596,12 @@ const allPosts = [
     title: { rendered: "Propuesta 211" },
     content: {
       rendered:
-        "<p>Implementar medidas frente al cambio clim\u00e1tico a trav\u00e9s de jurisdicciones sostenibles, de una estrat\u00e9gia de desarrollo rural bajo en emisiones, de un sistema de transporte basado en la electromovilidad, de la implementaci\u00f3n de la segregaci\u00f3n en fuente y valorizaci\u00f3n de residuos y el cumpimiento de las Contribuciones Nacionalmente Determinadas</p>\n",
+        "<p>Implementar medidas frente al cambio clim\u00e1tico a trav\u00e9s de jurisdicciones sostenibles; de una estrategia de desarrollo rural bajo en emisiones; de un sistema de transporte basado en la electromovilidad; de la implementaci\u00f3n de la segregaci\u00f3n en fuente y valorizaci\u00f3n de residuos; y el cumplimiento de las Contribuciones Nacionalmente Determinadas.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Implementar medidas frente al cambio clim\u00e1tico a trav\u00e9s de jurisdicciones sostenibles, de una estrat\u00e9gia de desarrollo rural bajo en emisiones, de un sistema de transporte basado en la electromovilidad, de la implementaci\u00f3n de la segregaci\u00f3n en fuente y valorizaci\u00f3n de residuos y el cumpimiento de las Contribuciones Nacionalmente Determinadas</p>\n",
+        "<p>Implementar medidas frente al cambio clim\u00e1tico a trav\u00e9s de jurisdicciones sostenibles; de una estrategia de desarrollo rural bajo en emisiones; de un sistema de transporte basado en la electromovilidad; de la implementaci\u00f3n de la segregaci\u00f3n en fuente y valorizaci\u00f3n de residuos; y el cumplimiento de las Contribuciones Nacionalmente Determinadas.</p>\n",
       protected: false,
     },
     author: 2,
@@ -8502,14 +8633,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 4,
           href: "https://maqay.org/wp-json/wp/v2/posts/1337/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1592,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1337/revisions/1592",
+          id: 1608,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1337/revisions/1608",
         },
       ],
       "wp:attachment": [
@@ -10234,8 +10365,8 @@ const allPosts = [
     date: "2021-02-09T10:17:23",
     date_gmt: "2021-02-09T15:17:23",
     guid: { rendered: "https://maqay.org/?p=1304" },
-    modified: "2021-02-09T10:17:23",
-    modified_gmt: "2021-02-09T15:17:23",
+    modified: "2021-02-10T15:44:05",
+    modified_gmt: "2021-02-10T20:44:05",
     slug: "propuesta-122",
     status: "publish",
     type: "post",
@@ -10243,12 +10374,12 @@ const allPosts = [
     title: { rendered: "Propuesta 122" },
     content: {
       rendered:
-        "<p>Aumentar las penas a infractores que atentan contra la amazonia peruana. </p>\n",
+        "<p>Aumentar las penas a infractores que atentan contra la Amazon\u00eda peruana.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Aumentar las penas a infractores que atentan contra la amazonia peruana.</p>\n",
+        "<p>Aumentar las penas a infractores que atentan contra la Amazon\u00eda peruana.</p>\n",
       protected: false,
     },
     author: 2,
@@ -10280,14 +10411,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1304/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1307,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1304/revisions/1307",
+          id: 1611,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1304/revisions/1611",
         },
       ],
       "wp:attachment": [
@@ -10396,8 +10527,8 @@ const allPosts = [
     date: "2021-02-09T10:16:25",
     date_gmt: "2021-02-09T15:16:25",
     guid: { rendered: "https://maqay.org/?p=1302" },
-    modified: "2021-02-09T10:16:25",
-    modified_gmt: "2021-02-09T15:16:25",
+    modified: "2021-02-10T15:51:52",
+    modified_gmt: "2021-02-10T20:51:52",
     slug: "propuesta-121",
     status: "publish",
     type: "post",
@@ -10405,12 +10536,12 @@ const allPosts = [
     title: { rendered: "Propuesta 121" },
     content: {
       rendered:
-        "<p>Promover la participaci\u00f3n activa de los medios de comunicaci\u00f3n del sector estatal y privado estableciendo la difusi\u00f3n de spots gratuitos a favor de la vida sostenible como contribuci\u00f3n a sus obligaciones sociales.</p>\n",
+        "<p>Promover la participaci\u00f3n activa de los medios de comunicaci\u00f3n, del sector estatal y privado, en la difusi\u00f3n de spots gratuitos a favor de la vida sostenible (como contribuci\u00f3n a sus obligaciones sociales).</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Promover la participaci\u00f3n activa de los medios de comunicaci\u00f3n del sector estatal y privado estableciendo la difusi\u00f3n de spots gratuitos a favor de la vida sostenible como contribuci\u00f3n a sus obligaciones sociales.</p>\n",
+        "<p>Promover la participaci\u00f3n activa de los medios de comunicaci\u00f3n, del sector estatal y privado, en la difusi\u00f3n de spots gratuitos a favor de la vida sostenible (como contribuci\u00f3n a sus obligaciones sociales).</p>\n",
       protected: false,
     },
     author: 2,
@@ -10442,14 +10573,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1302/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1303,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1302/revisions/1303",
+          id: 1614,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1302/revisions/1614",
         },
       ],
       "wp:attachment": [
@@ -10882,8 +11013,8 @@ const allPosts = [
     date: "2021-02-09T10:09:14",
     date_gmt: "2021-02-09T15:09:14",
     guid: { rendered: "https://maqay.org/?p=1175" },
-    modified: "2021-02-09T10:09:14",
-    modified_gmt: "2021-02-09T15:09:14",
+    modified: "2021-02-10T13:06:58",
+    modified_gmt: "2021-02-10T18:06:58",
     slug: "propuesta-169",
     status: "publish",
     type: "post",
@@ -10891,7 +11022,7 @@ const allPosts = [
     title: { rendered: "Propuesta 169" },
     content: {
       rendered:
-        "<p>Fomentar \u00e1reas naturales protegidas y los bosques nacionales donde los nativos puedan desarrollar sus actividades<br />\ntradicionales.</p>\n",
+        "<p>Fomentar \u00e1reas naturales protegidas y los bosques nacionales donde los nativos puedan desarrollar sus actividades tradicionales.</p>\n",
       protected: false,
     },
     excerpt: {
@@ -10928,14 +11059,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1175/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1287,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1175/revisions/1287",
+          id: 1604,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1175/revisions/1604",
         },
       ],
       "wp:attachment": [
@@ -11044,8 +11175,8 @@ const allPosts = [
     date: "2021-02-09T10:02:11",
     date_gmt: "2021-02-09T15:02:11",
     guid: { rendered: "https://maqay.org/?p=1273" },
-    modified: "2021-02-09T10:02:11",
-    modified_gmt: "2021-02-09T15:02:11",
+    modified: "2021-02-10T15:58:26",
+    modified_gmt: "2021-02-10T20:58:26",
     slug: "propuesta-146",
     status: "publish",
     type: "post",
@@ -11053,12 +11184,12 @@ const allPosts = [
     title: { rendered: "Propuesta 146" },
     content: {
       rendered:
-        "<p>Promover el acceso generalizado a servicios p\u00fablicos de agua y desag\u00fce mediante el Programa Nacional Integrado para la construcci\u00f3n de infraestructura local, y regional de agua y alcantarillado, el cual ayudar\u00e1 a disminuir la contaminaci\u00f3n, principalmente, de zonas urbanas.</p>\n",
+        "<p>Promover el acceso generalizado a servicios p\u00fablicos de agua y desag\u00fce mediante el Programa Nacional Integrado para la construcci\u00f3n de infraestructura local y regional de agua y alcantarillado; el cual ayudar\u00e1 a disminuir la contaminaci\u00f3n, principalmente de zonas urbanas.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Promover el acceso generalizado a servicios p\u00fablicos de agua y desag\u00fce mediante el Programa Nacional Integrado para la construcci\u00f3n de infraestructura local, y regional de agua y alcantarillado, el cual ayudar\u00e1 a disminuir la contaminaci\u00f3n, principalmente, de zonas urbanas.</p>\n",
+        "<p>Promover el acceso generalizado a servicios p\u00fablicos de agua y desag\u00fce mediante el Programa Nacional Integrado para la construcci\u00f3n de infraestructura local y regional de agua y alcantarillado; el cual ayudar\u00e1 a disminuir la contaminaci\u00f3n, principalmente de zonas urbanas.</p>\n",
       protected: false,
     },
     author: 2,
@@ -11090,14 +11221,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1273/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1276,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1273/revisions/1276",
+          id: 1619,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1273/revisions/1619",
         },
       ],
       "wp:attachment": [
@@ -11929,87 +12060,6 @@ const allPosts = [
     },
   },
   {
-    id: 1249,
-    date: "2021-02-09T09:52:33",
-    date_gmt: "2021-02-09T14:52:33",
-    guid: { rendered: "https://maqay.org/?p=1249" },
-    modified: "2021-02-09T09:52:33",
-    modified_gmt: "2021-02-09T14:52:33",
-    slug: "propuesta-109",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/propuesta-109/",
-    title: { rendered: "Propuesta 109" },
-    content: {
-      rendered:
-        "<p>Inventariar los recursos h\u00eddricos, realizar una reforma institucional para la gesti\u00f3n de recursos h\u00eddricos y recuperar las cuencas. </p>\n",
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>Inventariar los recursos h\u00eddricos, realizar una reforma institucional para la gesti\u00f3n de recursos h\u00eddricos y recuperar las cuencas.</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 0,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [23],
-    tags: [33, 51, 40],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1249" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=1249",
-        },
-      ],
-      "version-history": [
-        {
-          count: 1,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1249/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 1252,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1249/revisions/1252",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=1249" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=1249",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=1249",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
     id: 1251,
     date: "2021-02-09T09:52:33",
     date_gmt: "2021-02-09T14:52:33",
@@ -12083,6 +12133,87 @@ const allPosts = [
           taxonomy: "post_tag",
           embeddable: true,
           href: "https://maqay.org/wp-json/wp/v2/tags?post=1251",
+        },
+      ],
+      curies: [
+        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
+      ],
+    },
+  },
+  {
+    id: 1249,
+    date: "2021-02-09T09:52:33",
+    date_gmt: "2021-02-09T14:52:33",
+    guid: { rendered: "https://maqay.org/?p=1249" },
+    modified: "2021-02-09T09:52:33",
+    modified_gmt: "2021-02-09T14:52:33",
+    slug: "propuesta-109",
+    status: "publish",
+    type: "post",
+    link: "https://maqay.org/propuesta-109/",
+    title: { rendered: "Propuesta 109" },
+    content: {
+      rendered:
+        "<p>Inventariar los recursos h\u00eddricos, realizar una reforma institucional para la gesti\u00f3n de recursos h\u00eddricos y recuperar las cuencas. </p>\n",
+      protected: false,
+    },
+    excerpt: {
+      rendered:
+        "<p>Inventariar los recursos h\u00eddricos, realizar una reforma institucional para la gesti\u00f3n de recursos h\u00eddricos y recuperar las cuencas.</p>\n",
+      protected: false,
+    },
+    author: 2,
+    featured_media: 0,
+    comment_status: "open",
+    ping_status: "open",
+    sticky: false,
+    template: "",
+    format: "standard",
+    meta: {
+      _et_pb_use_builder: "",
+      _et_pb_old_content: "",
+      _et_gb_content_width: "",
+    },
+    categories: [23],
+    tags: [33, 51, 40],
+    _links: {
+      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1249" }],
+      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
+      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
+      author: [
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
+      ],
+      replies: [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/comments?post=1249",
+        },
+      ],
+      "version-history": [
+        {
+          count: 1,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1249/revisions",
+        },
+      ],
+      "predecessor-version": [
+        {
+          id: 1252,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1249/revisions/1252",
+        },
+      ],
+      "wp:attachment": [
+        { href: "https://maqay.org/wp-json/wp/v2/media?parent=1249" },
+      ],
+      "wp:term": [
+        {
+          taxonomy: "category",
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/categories?post=1249",
+        },
+        {
+          taxonomy: "post_tag",
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/tags?post=1249",
         },
       ],
       curies: [
@@ -13226,8 +13357,8 @@ const allPosts = [
     date: "2021-02-09T09:37:50",
     date_gmt: "2021-02-09T14:37:50",
     guid: { rendered: "https://maqay.org/?p=1216" },
-    modified: "2021-02-09T09:37:50",
-    modified_gmt: "2021-02-09T14:37:50",
+    modified: "2021-02-10T15:48:41",
+    modified_gmt: "2021-02-10T20:48:41",
     slug: "propuesta-099",
     status: "publish",
     type: "post",
@@ -13235,12 +13366,12 @@ const allPosts = [
     title: { rendered: "Propuesta 099" },
     content: {
       rendered:
-        "<p>Establecer la presencia del estado a trav\u00e9s de la polic\u00eda forestal, programas sociales como los Tambos, para proteger a las comunidades nativas y a la vez ayudar al SERNANP en la tarea de protecci\u00f3n del medio ambiente. </p>\n",
+        "<p>Establecer la presencia del estado a trav\u00e9s de la polic\u00eda forestal y programas sociales como los Tambos, para proteger a las comunidades nativas y a la vez ayudar al SERNANP en la tarea de protecci\u00f3n del medio ambiente.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Establecer la presencia del estado a trav\u00e9s de la polic\u00eda forestal, programas sociales como los Tambos, para proteger a las comunidades nativas y a la vez ayudar al SERNANP en la tarea de protecci\u00f3n del medio ambiente.</p>\n",
+        "<p>Establecer la presencia del estado a trav\u00e9s de la polic\u00eda forestal y programas sociales como los Tambos, para proteger a las comunidades nativas y a la vez ayudar al SERNANP en la tarea de protecci\u00f3n del medio ambiente.</p>\n",
       protected: false,
     },
     author: 2,
@@ -13272,14 +13403,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1216/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1220,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1216/revisions/1220",
+          id: 1612,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1216/revisions/1612",
         },
       ],
       "wp:attachment": [
@@ -15897,8 +16028,8 @@ const allPosts = [
     date: "2021-02-09T09:16:56",
     date_gmt: "2021-02-09T14:16:56",
     guid: { rendered: "https://maqay.org/?p=1139" },
-    modified: "2021-02-10T10:59:31",
-    modified_gmt: "2021-02-10T15:59:31",
+    modified: "2021-02-10T16:00:56",
+    modified_gmt: "2021-02-10T21:00:56",
     slug: "propuesta-087",
     status: "publish",
     type: "post",
@@ -15906,12 +16037,12 @@ const allPosts = [
     title: { rendered: "Propuesta 087" },
     content: {
       rendered:
-        "<p>Promover  peque\u00f1as irrigaciones, uso masivo de sistemas de riego tecnificado, tecnolog\u00edas de siembra de agua, y recuperaci\u00f3n de ecosistemas h\u00eddricos naturales, principalmente altoandinos, con participaci\u00f3n del Estado y del sector privado, como estrategias para enfrentar el cambio clim\u00e1tico.</p>\n",
+        "<p>Promover peque\u00f1as irrigaciones, uso masivo de sistemas de riego tecnificado, tecnolog\u00edas de siembra de agua y recuperaci\u00f3n de ecosistemas h\u00eddricos naturales, principalmente altoandinos, con participaci\u00f3n del Estado y del sector privado, como estrategias para enfrentar el cambio clim\u00e1tico.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Promover peque\u00f1as irrigaciones, uso masivo de sistemas de riego tecnificado, tecnolog\u00edas de siembra de agua, y recuperaci\u00f3n de ecosistemas h\u00eddricos naturales, principalmente altoandinos, con participaci\u00f3n del Estado y del sector privado, como estrategias para enfrentar el cambio clim\u00e1tico.</p>\n",
+        "<p>Promover peque\u00f1as irrigaciones, uso masivo de sistemas de riego tecnificado, tecnolog\u00edas de siembra de agua y recuperaci\u00f3n de ecosistemas h\u00eddricos naturales, principalmente altoandinos, con participaci\u00f3n del Estado y del sector privado, como estrategias para enfrentar el cambio clim\u00e1tico.</p>\n",
       protected: false,
     },
     author: 2,
@@ -15943,14 +16074,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1139/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1585,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1139/revisions/1585",
+          id: 1620,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1139/revisions/1620",
         },
       ],
       "wp:attachment": [
@@ -17193,8 +17324,8 @@ const allPosts = [
     date: "2021-02-08T20:30:50",
     date_gmt: "2021-02-09T01:30:50",
     guid: { rendered: "https://maqay.org/?p=1114" },
-    modified: "2021-02-08T20:31:01",
-    modified_gmt: "2021-02-09T01:31:01",
+    modified: "2021-02-10T15:53:26",
+    modified_gmt: "2021-02-10T20:53:26",
     slug: "propuesta-033",
     status: "publish",
     type: "post",
@@ -17202,12 +17333,12 @@ const allPosts = [
     title: { rendered: "Propuesta 033" },
     content: {
       rendered:
-        "<p>Incorporar el enfoque de buen vivir en la educaci\u00f3n b\u00e1sica, media y superior y elaborar un programa de capacitaci\u00f3n docente. </p>\n",
+        "<p>Incorporar el enfoque de buen vivir en la educaci\u00f3n b\u00e1sica, media y superior, y elaborar un programa de capacitaci\u00f3n docente.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Incorporar el enfoque de buen vivir en la educaci\u00f3n b\u00e1sica, media y superior y elaborar un programa de capacitaci\u00f3n docente.</p>\n",
+        "<p>Incorporar el enfoque de buen vivir en la educaci\u00f3n b\u00e1sica, media y superior, y elaborar un programa de capacitaci\u00f3n docente.</p>\n",
       protected: false,
     },
     author: 2,
@@ -17239,14 +17370,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1114/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1116,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1114/revisions/1116",
+          id: 1615,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1114/revisions/1615",
         },
       ],
       "wp:attachment": [
@@ -18084,8 +18215,8 @@ const allPosts = [
     date: "2021-02-08T20:05:11",
     date_gmt: "2021-02-09T01:05:11",
     guid: { rendered: "https://maqay.org/?p=1089" },
-    modified: "2021-02-08T20:05:11",
-    modified_gmt: "2021-02-09T01:05:11",
+    modified: "2021-02-10T17:04:29",
+    modified_gmt: "2021-02-10T22:04:29",
     slug: "propuesta-022",
     status: "publish",
     type: "post",
@@ -18093,12 +18224,12 @@ const allPosts = [
     title: { rendered: "Propuesta 022" },
     content: {
       rendered:
-        "<p>Crear la Superintendencia Nacional de Bosques &#8211; PROBOSQUES, que velar\u00e1 por el desarrollo de infraestructura para las concesiones forestales maderables y por el desarrollo del ecoturismo </p>\n",
+        "<p>Crear la Superintendencia Nacional de Bosques (PROBOSQUES), que velar\u00e1 por el desarrollo de infraestructura para las concesiones forestales maderables y por el desarrollo del ecoturismo.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Crear la Superintendencia Nacional de Bosques &#8211; PROBOSQUES, que velar\u00e1 por el desarrollo de infraestructura para las concesiones forestales maderables y por el desarrollo del ecoturismo</p>\n",
+        "<p>Crear la Superintendencia Nacional de Bosques (PROBOSQUES), que velar\u00e1 por el desarrollo de infraestructura para las concesiones forestales maderables y por el desarrollo del ecoturismo.</p>\n",
       protected: false,
     },
     author: 2,
@@ -18130,14 +18261,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1089/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1090,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1089/revisions/1090",
+          id: 1629,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1089/revisions/1629",
         },
       ],
       "wp:attachment": [
@@ -19055,8 +19186,8 @@ const allPosts = [
     date: "2021-02-08T19:51:59",
     date_gmt: "2021-02-09T00:51:59",
     guid: { rendered: "https://maqay.org/?p=1065" },
-    modified: "2021-02-08T19:51:59",
-    modified_gmt: "2021-02-09T00:51:59",
+    modified: "2021-02-10T16:01:30",
+    modified_gmt: "2021-02-10T21:01:30",
     slug: "propuesta-010",
     status: "publish",
     type: "post",
@@ -19064,12 +19195,12 @@ const allPosts = [
     title: { rendered: "Propuesta 010" },
     content: {
       rendered:
-        "<p>Lograr que el 100% de las aguas servidas de las principales ciudades sean tratadas </p>\n",
+        "<p>Lograr que el 100% de las aguas servidas de las principales ciudades sean tratadas.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Lograr que el 100% de las aguas servidas de las principales ciudades sean tratadas</p>\n",
+        "<p>Lograr que el 100% de las aguas servidas de las principales ciudades sean tratadas.</p>\n",
       protected: false,
     },
     author: 2,
@@ -19101,14 +19232,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1065/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1066,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1065/revisions/1066",
+          id: 1621,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1065/revisions/1621",
         },
       ],
       "wp:attachment": [
@@ -19136,8 +19267,8 @@ const allPosts = [
     date: "2021-02-08T19:51:00",
     date_gmt: "2021-02-09T00:51:00",
     guid: { rendered: "https://maqay.org/?p=1063" },
-    modified: "2021-02-08T19:51:00",
-    modified_gmt: "2021-02-09T00:51:00",
+    modified: "2021-02-10T16:14:11",
+    modified_gmt: "2021-02-10T21:14:11",
     slug: "propuesta-009",
     status: "publish",
     type: "post",
@@ -19145,12 +19276,12 @@ const allPosts = [
     title: { rendered: "Propuesta 009" },
     content: {
       rendered:
-        "<p>Lograr el tratamiento sostenible de 100% de residuos s\u00f3lidos en las principales ciudades del pa\u00eds </p>\n",
+        "<p>Lograr el tratamiento sostenible de 100% de residuos s\u00f3lidos en las principales ciudades del pa\u00eds.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Lograr el tratamiento sostenible de 100% de residuos s\u00f3lidos en las principales ciudades del pa\u00eds</p>\n",
+        "<p>Lograr el tratamiento sostenible de 100% de residuos s\u00f3lidos en las principales ciudades del pa\u00eds.</p>\n",
       protected: false,
     },
     author: 2,
@@ -19182,14 +19313,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1063/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1064,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1063/revisions/1064",
+          id: 1628,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1063/revisions/1628",
         },
       ],
       "wp:attachment": [
@@ -19616,15 +19747,15 @@ const allPosts = [
     date: "2021-02-08T19:13:43",
     date_gmt: "2021-02-09T00:13:43",
     guid: { rendered: "https://maqay.org/?p=1051" },
-    modified: "2021-02-08T19:13:43",
-    modified_gmt: "2021-02-09T00:13:43",
+    modified: "2021-02-10T15:40:29",
+    modified_gmt: "2021-02-10T20:40:29",
     slug: "propuesta-004",
     status: "publish",
     type: "post",
     link: "https://maqay.org/propuesta-004/",
     title: { rendered: "Propuesta 004" },
     content: {
-      rendered: "<p>Impulsar las energ\u00edas limpias renovables. </p>\n",
+      rendered: "<p>Impulsar las energ\u00edas limpias renovables.</p>\n",
       protected: false,
     },
     excerpt: {
@@ -19644,7 +19775,7 @@ const allPosts = [
       _et_gb_content_width: "",
     },
     categories: [23],
-    tags: [37, 40],
+    tags: [30, 37, 40],
     _links: {
       self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1051" }],
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
@@ -19776,8 +19907,8 @@ const allPosts = [
     date: "2021-02-08T19:05:41",
     date_gmt: "2021-02-09T00:05:41",
     guid: { rendered: "https://maqay.org/?p=1047" },
-    modified: "2021-02-08T19:09:01",
-    modified_gmt: "2021-02-09T00:09:01",
+    modified: "2021-02-10T16:03:20",
+    modified_gmt: "2021-02-10T21:03:20",
     slug: "propuesta-001",
     status: "publish",
     type: "post",
@@ -19785,12 +19916,12 @@ const allPosts = [
     title: { rendered: "Propuesta 001" },
     content: {
       rendered:
-        "<p>Establecer una tarifa de consumo para el agua a empresas. Regulaci\u00f3n del uso de aguas subterranea y Regular el uso de aguas subterraneas. Construcci\u00f3n de represas en las zonas altas del Per\u00fa. No se permitir\u00e1 la privatizaci\u00f3n del agua, </p>\n",
+        "<p>Establecer una tarifa de consumo para el agua a empresas y regular el uso de aguas subterr\u00e1neas. Construcci\u00f3n de represas en las zonas altas del Per\u00fa. No se permitir\u00e1 la privatizaci\u00f3n del agua.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Establecer una tarifa de consumo para el agua a empresas. Regulaci\u00f3n del uso de aguas subterranea y Regular el uso de aguas subterraneas. Construcci\u00f3n de represas en las zonas altas del Per\u00fa. No se permitir\u00e1 la privatizaci\u00f3n del agua,</p>\n",
+        "<p>Establecer una tarifa de consumo para el agua a empresas y regular el uso de aguas subterr\u00e1neas. Construcci\u00f3n de represas en las zonas altas del Per\u00fa. No se permitir\u00e1 la privatizaci\u00f3n del agua.</p>\n",
       protected: false,
     },
     author: 2,
@@ -19822,14 +19953,14 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1047/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1048,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1047/revisions/1048",
+          id: 1623,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1047/revisions/1623",
         },
       ],
       "wp:attachment": [

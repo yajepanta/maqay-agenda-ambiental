@@ -13,6 +13,7 @@ const Home = () => {
   /* Posts ya filtrados, son los que se renderizan */
   const [filteredPosts, setFilteredPosts] = useState([]);
   const [mainCategory, setMainCategory] = useState("Tema ambiental");
+  const [mainCategoryURI, setMainCategoryURI] = useState("tema-ambiental");
   const [tagsFromCategorySelected, setTagsFromCategorySelected] = useState([]);
 
   /* Obtenemos todos los tags correspondientes a la categoría seleccionada,
@@ -27,7 +28,9 @@ const Home = () => {
 
   /* Función al hacer clic. Recibe la categoría y 
   volvemos a solicitar los tags correspondientes a la categoría seleccionada para almacenarlas en el estado */
-  const filterByCategorySelected = (mainCategory) => {
+  const filterByCategorySelected = (mainCategory, mainCategoryURI) => {
+    console.log(mainCategoryURI);
+    setMainCategoryURI(mainCategoryURI);
     const tags = [];
     setMainCategory(mainCategory);
     getTagsByGroupName(tagsByGroupName, mainCategory).map((tag) => {
@@ -59,16 +62,18 @@ const Home = () => {
           <div className='home-filter-buttons'>
             <button
               name='Tema ambiental'
+              id='tema-ambiental'
               onClick={(e) => {
-                return filterByCategorySelected(e.target.name);
+                return filterByCategorySelected(e.target.name, e.target.id);
               }}
             >
               Por tema ambiental
             </button>
             <button
               name='Partidos políticos'
+              id='partidos-politicos'
               onClick={(e) => {
-                return filterByCategorySelected(e.target.name);
+                return filterByCategorySelected(e.target.name, e.target.id);
               }}
             >
               Por partido político
@@ -83,7 +88,7 @@ const Home = () => {
                 post={post}
                 key={post.id}
                 mainCategory={mainCategory}
-                path={`/propuestas/${mainCategory}/${post.name}`}
+                path={`/propuestas/${mainCategoryURI}/${post.slug}`}
               />
             );
           })}
