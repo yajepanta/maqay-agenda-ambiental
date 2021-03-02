@@ -1,108 +1,28 @@
 const allPosts = [
   {
-    id: 1644,
-    date: "2021-02-19T18:55:38",
-    date_gmt: "2021-02-19T23:55:38",
-    guid: { rendered: "https://maqay.org/?p=1644" },
-    modified: "2021-02-24T13:41:39",
-    modified_gmt: "2021-02-24T18:41:39",
-    slug: "propuesta-247",
+    id: 1649,
+    date: "2021-02-25T09:50:16",
+    date_gmt: "2021-02-25T14:50:16",
+    guid: { rendered: "https://maqay.org/?p=1649" },
+    modified: "2021-02-25T09:50:16",
+    modified_gmt: "2021-02-25T14:50:16",
+    slug: "metodologia-para-la-construccion-de-la-pagina-web-agenda-ambiental",
     status: "publish",
     type: "post",
-    link: "https://maqay.org/propuesta-247/",
-    title: { rendered: "Propuesta 247" },
+    link:
+      "https://maqay.org/metodologia-para-la-construccion-de-la-pagina-web-agenda-ambiental/",
+    title: {
+      rendered:
+        "Metodolog\u00eda para la construcci\u00f3n de la p\u00e1gina web Agenda Ambiental",
+    },
     content: {
       rendered:
-        '<p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Dise\u00f1ar e implementar sistemas de participaci\u00f3n ciudadana para la protecci\u00f3n ambiental tanto en zonas urbanas como rurales.&quot;}" data-sheets-userformat="{&quot;2&quot;:15257,&quot;3&quot;:{&quot;1&quot;:0},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;10&quot;:2,&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Calibri, sans-serif&quot;,&quot;16&quot;:11}">Dise\u00f1ar e implementar sistemas de participaci\u00f3n ciudadana para la protecci\u00f3n ambiental tanto en zonas urbanas como rurales.</span></p>\n',
+        "<p>Para la construcci\u00f3n de la p\u00e1gina web hemos seguido los siguientes pasos: </p>\n<p>1. Revisi\u00f3n de los planes de gobierno de los partidos pol\u00edticos. </p>\n<p>2. Identificaci\u00f3n de las propuestas ambientales. </p>\n<p>3. Resumen de las propuestas: con la finalidad de facilitar el proceso de difusi\u00f3n de las propuestas las hemos resumido en menos de 50 palabras, hemos conservado la esencia de las propuestas. Cabe mencionar que como parte de la difusi\u00f3n de la Agenda Ambiental 2021, los partidos tendr\u00e1n la posibilidad de solicitar la precisi\u00f3n de alguna de las propuestas en caso consideren que no evidencia la propuesta principal. </p>\n<p>4. Identificaci\u00f3n de temas priorizados, considerando la amplia variedad de tem\u00e1ticas y problemas ambientales en nuestro pa\u00eds, hemos considerado necesario identificar algunos temas prioritarios para as\u00ed ordenar de mejor manera las propuestas y brindarle a las usuarias mejores herramientas de an\u00e1lisis de las propuestas.<br />\n\tPara la identificaci\u00f3n de los temas hemos realizado una investigaci\u00f3n documentaria, ademas de entrevistas con especialistas en materia ambiental. </p>\n<p>5. Clasificaci\u00f3n de las propuestas: Considerando los temas priorizados se han clasificado las propuestas en 3 tipos a mono de sem\u00e1foro:<br />\n&#8211; Verde: se consider\u00f3 a las propuestas que abordan alguno de los 8 temas priorizados.<br />\n&#8211; Ambar: se consider\u00f3 a las propuestas que no abordan los 8 temas priorizados.<br />\n&#8211; Rojo: Se considera a las propuestas que podr\u00edan significar una amenaza a los avances en materia ambiental, como por ejemplo reducir los est\u00e1ndares o permisos ambientales, o eliminar o fusionar instituciones ambientales. </p>\n<p>6. Publicaci\u00f3n de las propuestas: finalmente en la p\u00e1gina web hemos publicado las propuestas por tema ambiental considerando en este grupo solo las propuestas clasificadas como verde. Adem\u00e1s hemos publicado las propuestas por partido pol\u00edtico en donde se consignan todas las propuestas, sin importar su clasificaci\u00f3n. </p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Dise\u00f1ar e implementar sistemas de participaci\u00f3n ciudadana para la protecci\u00f3n ambiental tanto en zonas urbanas como rurales.</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 893,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [23],
-    tags: [41, 65],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1644" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=1644",
-        },
-      ],
-      "version-history": [
-        {
-          count: 1,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1644/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 1645,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1644/revisions/1645",
-        },
-      ],
-      "wp:featuredmedia": [
-        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/media/893" },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=1644" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=1644",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=1644",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 1642,
-    date: "2021-02-19T18:54:22",
-    date_gmt: "2021-02-19T23:54:22",
-    guid: { rendered: "https://maqay.org/?p=1642" },
-    modified: "2021-02-19T18:54:22",
-    modified_gmt: "2021-02-19T23:54:22",
-    slug: "propuesta-246",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/propuesta-246/",
-    title: { rendered: "Propuesta 246" },
-    content: {
-      rendered:
-        '<p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Fomentar la miner\u00eda sostenible y responsable, sea peque\u00f1a, mediana o grande.&quot;}" data-sheets-userformat="{&quot;2&quot;:15257,&quot;3&quot;:{&quot;1&quot;:0},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;10&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Calibri, sans-serif&quot;,&quot;16&quot;:11}">Fomentar la miner\u00eda sostenible y responsable, sea peque\u00f1a, mediana o grande.</span></p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>Fomentar la miner\u00eda sostenible y responsable, sea peque\u00f1a, mediana o grande.</p>\n",
+        "<p>Para la construcci\u00f3n de la p\u00e1gina web hemos seguido los siguientes pasos: 1. Revisi\u00f3n de los planes de gobierno de los partidos pol\u00edticos. 2. Identificaci\u00f3n de las propuestas ambientales. 3. Resumen de las propuestas: con la finalidad de facilitar el proceso de difusi\u00f3n de las propuestas las hemos resumido en menos de 50 palabras, hemos [&hellip;]</p>\n",
       protected: false,
     },
     author: 2,
@@ -118,9 +38,9 @@ const allPosts = [
       _et_gb_content_width: "",
     },
     categories: [23],
-    tags: [41, 65],
+    tags: [],
     _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1642" }],
+      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1649" }],
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
       about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
       author: [
@@ -129,115 +49,34 @@ const allPosts = [
       replies: [
         {
           embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=1642",
+          href: "https://maqay.org/wp-json/wp/v2/comments?post=1649",
         },
       ],
       "version-history": [
         {
           count: 1,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1642/revisions",
+          href: "https://maqay.org/wp-json/wp/v2/posts/1649/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1643,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1642/revisions/1643",
+          id: 1650,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1649/revisions/1650",
         },
       ],
       "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=1642" },
+        { href: "https://maqay.org/wp-json/wp/v2/media?parent=1649" },
       ],
       "wp:term": [
         {
           taxonomy: "category",
           embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=1642",
+          href: "https://maqay.org/wp-json/wp/v2/categories?post=1649",
         },
         {
           taxonomy: "post_tag",
           embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=1642",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
-    id: 1640,
-    date: "2021-02-19T18:53:32",
-    date_gmt: "2021-02-19T23:53:32",
-    guid: { rendered: "https://maqay.org/?p=1640" },
-    modified: "2021-02-19T18:53:32",
-    modified_gmt: "2021-02-19T23:53:32",
-    slug: "propuesta-245",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/propuesta-245/",
-    title: { rendered: "Propuesta 245" },
-    content: {
-      rendered:
-        '<p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Promover la formalizaci\u00f3n de la propiedad rural y de las comunidades campesinas y nativas.&quot;}" data-sheets-userformat="{&quot;2&quot;:15261,&quot;3&quot;:{&quot;1&quot;:0},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;10&quot;:2,&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Calibri, sans-serif&quot;,&quot;16&quot;:11}">Promover la formalizaci\u00f3n de la propiedad rural y de las comunidades campesinas y nativas.</span></p>\n',
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>Promover la formalizaci\u00f3n de la propiedad rural y de las comunidades campesinas y nativas.</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 0,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [23],
-    tags: [65, 63, 40],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1640" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=1640",
-        },
-      ],
-      "version-history": [
-        {
-          count: 1,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1640/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 1641,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1640/revisions/1641",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=1640" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=1640",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=1640",
+          href: "https://maqay.org/wp-json/wp/v2/tags?post=1649",
         },
       ],
       curies: [
@@ -250,8 +89,8 @@ const allPosts = [
     date: "2021-02-09T16:47:34",
     date_gmt: "2021-02-09T21:47:34",
     guid: { rendered: "https://maqay.org/?p=1580" },
-    modified: "2021-02-10T13:03:01",
-    modified_gmt: "2021-02-10T18:03:01",
+    modified: "2021-02-25T12:43:13",
+    modified_gmt: "2021-02-25T17:43:13",
     slug: "propuesta-044",
     status: "publish",
     type: "post",
@@ -268,7 +107,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1700,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -296,14 +135,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 3,
+          count: 4,
           href: "https://maqay.org/wp-json/wp/v2/posts/1580/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1603,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1580/revisions/1603",
+          id: 1900,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1580/revisions/1900",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1700",
         },
       ],
       "wp:attachment": [
@@ -331,8 +176,8 @@ const allPosts = [
     date: "2021-02-09T16:46:28",
     date_gmt: "2021-02-09T21:46:28",
     guid: { rendered: "https://maqay.org/?p=1578" },
-    modified: "2021-02-10T13:02:39",
-    modified_gmt: "2021-02-10T18:02:39",
+    modified: "2021-02-25T12:41:00",
+    modified_gmt: "2021-02-25T17:41:00",
     slug: "propuesta-043",
     status: "publish",
     type: "post",
@@ -349,7 +194,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1699,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -377,14 +222,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1578/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1602,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1578/revisions/1602",
+          id: 1898,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1578/revisions/1898",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1699",
         },
       ],
       "wp:attachment": [
@@ -412,8 +263,8 @@ const allPosts = [
     date: "2021-02-09T16:44:46",
     date_gmt: "2021-02-09T21:44:46",
     guid: { rendered: "https://maqay.org/?p=1576" },
-    modified: "2021-02-10T15:54:29",
-    modified_gmt: "2021-02-10T20:54:29",
+    modified: "2021-02-25T12:40:51",
+    modified_gmt: "2021-02-25T17:40:51",
     slug: "propuesta-042",
     status: "publish",
     type: "post",
@@ -430,7 +281,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1698,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -468,6 +319,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1576/revisions/1616",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1698",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1576" },
       ],
@@ -493,8 +350,8 @@ const allPosts = [
     date: "2021-02-09T16:43:08",
     date_gmt: "2021-02-09T21:43:08",
     guid: { rendered: "https://maqay.org/?p=1574" },
-    modified: "2021-02-09T16:43:08",
-    modified_gmt: "2021-02-09T21:43:08",
+    modified: "2021-02-25T12:40:46",
+    modified_gmt: "2021-02-25T17:40:46",
     slug: "propuesta-041",
     status: "publish",
     type: "post",
@@ -511,7 +368,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1697,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -549,6 +406,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1574/revisions/1575",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1697",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1574" },
       ],
@@ -574,8 +437,8 @@ const allPosts = [
     date: "2021-02-09T12:38:59",
     date_gmt: "2021-02-09T17:38:59",
     guid: { rendered: "https://maqay.org/?p=1572" },
-    modified: "2021-02-09T12:38:59",
-    modified_gmt: "2021-02-09T17:38:59",
+    modified: "2021-02-25T15:39:34",
+    modified_gmt: "2021-02-25T20:39:34",
     slug: "propuesta-204",
     status: "publish",
     type: "post",
@@ -592,7 +455,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1878,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -630,6 +493,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1572/revisions/1573",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1878",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1572" },
       ],
@@ -655,8 +524,8 @@ const allPosts = [
     date: "2021-02-09T12:38:14",
     date_gmt: "2021-02-09T17:38:14",
     guid: { rendered: "https://maqay.org/?p=1570" },
-    modified: "2021-02-09T12:38:14",
-    modified_gmt: "2021-02-09T17:38:14",
+    modified: "2021-02-25T15:39:35",
+    modified_gmt: "2021-02-25T20:39:35",
     slug: "propuesta-203",
     status: "publish",
     type: "post",
@@ -673,7 +542,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1877,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -711,6 +580,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1570/revisions/1571",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1877",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1570" },
       ],
@@ -736,8 +611,8 @@ const allPosts = [
     date: "2021-02-09T12:37:24",
     date_gmt: "2021-02-09T17:37:24",
     guid: { rendered: "https://maqay.org/?p=1568" },
-    modified: "2021-02-09T12:37:24",
-    modified_gmt: "2021-02-09T17:37:24",
+    modified: "2021-02-25T15:39:38",
+    modified_gmt: "2021-02-25T20:39:38",
     slug: "propuesta-202",
     status: "publish",
     type: "post",
@@ -754,7 +629,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1876,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -792,6 +667,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1568/revisions/1569",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1876",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1568" },
       ],
@@ -817,8 +698,8 @@ const allPosts = [
     date: "2021-02-09T12:36:29",
     date_gmt: "2021-02-09T17:36:29",
     guid: { rendered: "https://maqay.org/?p=1566" },
-    modified: "2021-02-09T12:36:29",
-    modified_gmt: "2021-02-09T17:36:29",
+    modified: "2021-02-25T15:39:44",
+    modified_gmt: "2021-02-25T20:39:44",
     slug: "propuesta-201",
     status: "publish",
     type: "post",
@@ -835,7 +716,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1875,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -863,14 +744,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1566/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1567,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1566/revisions/1567",
+          id: 1961,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1566/revisions/1961",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1875",
         },
       ],
       "wp:attachment": [
@@ -898,8 +785,8 @@ const allPosts = [
     date: "2021-02-09T12:35:14",
     date_gmt: "2021-02-09T17:35:14",
     guid: { rendered: "https://maqay.org/?p=1564" },
-    modified: "2021-02-09T12:35:14",
-    modified_gmt: "2021-02-09T17:35:14",
+    modified: "2021-02-25T15:40:03",
+    modified_gmt: "2021-02-25T20:40:03",
     slug: "propuesta-200",
     status: "publish",
     type: "post",
@@ -979,8 +866,8 @@ const allPosts = [
     date: "2021-02-09T12:34:17",
     date_gmt: "2021-02-09T17:34:17",
     guid: { rendered: "https://maqay.org/?p=1562" },
-    modified: "2021-02-09T12:34:17",
-    modified_gmt: "2021-02-09T17:34:17",
+    modified: "2021-02-25T15:31:41",
+    modified_gmt: "2021-02-25T20:31:41",
     slug: "propuesta-199",
     status: "publish",
     type: "post",
@@ -997,7 +884,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1872,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -1035,6 +922,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1562/revisions/1563",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1872",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1562" },
       ],
@@ -1060,8 +953,8 @@ const allPosts = [
     date: "2021-02-09T12:33:20",
     date_gmt: "2021-02-09T17:33:20",
     guid: { rendered: "https://maqay.org/?p=1560" },
-    modified: "2021-02-09T12:33:20",
-    modified_gmt: "2021-02-09T17:33:20",
+    modified: "2021-02-25T15:31:40",
+    modified_gmt: "2021-02-25T20:31:40",
     slug: "propuesta-198",
     status: "publish",
     type: "post",
@@ -1078,7 +971,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1871,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -1116,6 +1009,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1560/revisions/1561",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1871",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1560" },
       ],
@@ -1141,8 +1040,8 @@ const allPosts = [
     date: "2021-02-09T12:32:35",
     date_gmt: "2021-02-09T17:32:35",
     guid: { rendered: "https://maqay.org/?p=1558" },
-    modified: "2021-02-09T12:32:35",
-    modified_gmt: "2021-02-09T17:32:35",
+    modified: "2021-02-25T15:31:37",
+    modified_gmt: "2021-02-25T20:31:37",
     slug: "propuesta-197",
     status: "publish",
     type: "post",
@@ -1159,7 +1058,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1870,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -1197,6 +1096,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1558/revisions/1559",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1870",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1558" },
       ],
@@ -1222,8 +1127,8 @@ const allPosts = [
     date: "2021-02-09T12:31:24",
     date_gmt: "2021-02-09T17:31:24",
     guid: { rendered: "https://maqay.org/?p=1556" },
-    modified: "2021-02-09T12:31:24",
-    modified_gmt: "2021-02-09T17:31:24",
+    modified: "2021-02-25T15:31:34",
+    modified_gmt: "2021-02-25T20:31:34",
     slug: "propuesta-196",
     status: "publish",
     type: "post",
@@ -1240,7 +1145,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1869,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -1278,6 +1183,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1556/revisions/1557",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1869",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1556" },
       ],
@@ -1303,8 +1214,8 @@ const allPosts = [
     date: "2021-02-09T12:30:13",
     date_gmt: "2021-02-09T17:30:13",
     guid: { rendered: "https://maqay.org/?p=1504" },
-    modified: "2021-02-09T12:30:13",
-    modified_gmt: "2021-02-09T17:30:13",
+    modified: "2021-02-25T15:31:27",
+    modified_gmt: "2021-02-25T20:31:27",
     slug: "propuesta-195",
     status: "publish",
     type: "post",
@@ -1321,7 +1232,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1868,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -1359,6 +1270,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1504/revisions/1555",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1868",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1504" },
       ],
@@ -1384,8 +1301,8 @@ const allPosts = [
     date: "2021-02-09T12:25:35",
     date_gmt: "2021-02-09T17:25:35",
     guid: { rendered: "https://maqay.org/?p=1553" },
-    modified: "2021-02-10T15:33:47",
-    modified_gmt: "2021-02-10T20:33:47",
+    modified: "2021-02-25T16:13:37",
+    modified_gmt: "2021-02-25T21:13:37",
     slug: "propuesta-244",
     status: "publish",
     type: "post",
@@ -1402,7 +1319,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1924,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -1440,6 +1357,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1553/revisions/1605",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1924",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1553" },
       ],
@@ -1465,8 +1388,8 @@ const allPosts = [
     date: "2021-02-09T12:24:47",
     date_gmt: "2021-02-09T17:24:47",
     guid: { rendered: "https://maqay.org/?p=1551" },
-    modified: "2021-02-09T12:24:47",
-    modified_gmt: "2021-02-09T17:24:47",
+    modified: "2021-02-25T16:13:37",
+    modified_gmt: "2021-02-25T21:13:37",
     slug: "propuesta-243",
     status: "publish",
     type: "post",
@@ -1483,7 +1406,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1923,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -1511,14 +1434,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1551/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1552,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1551/revisions/1552",
+          id: 1968,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1551/revisions/1968",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1923",
         },
       ],
       "wp:attachment": [
@@ -1546,8 +1475,8 @@ const allPosts = [
     date: "2021-02-09T12:24:03",
     date_gmt: "2021-02-09T17:24:03",
     guid: { rendered: "https://maqay.org/?p=1547" },
-    modified: "2021-02-10T11:14:43",
-    modified_gmt: "2021-02-10T16:14:43",
+    modified: "2021-02-25T16:13:27",
+    modified_gmt: "2021-02-25T21:13:27",
     slug: "propuesta-242",
     status: "publish",
     type: "post",
@@ -1564,7 +1493,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1922,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -1602,6 +1531,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1547/revisions/1600",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1922",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1547" },
       ],
@@ -1627,8 +1562,8 @@ const allPosts = [
     date: "2021-02-09T12:22:35",
     date_gmt: "2021-02-09T17:22:35",
     guid: { rendered: "https://maqay.org/?p=1548" },
-    modified: "2021-02-10T11:14:11",
-    modified_gmt: "2021-02-10T16:14:11",
+    modified: "2021-02-25T16:13:23",
+    modified_gmt: "2021-02-25T21:13:23",
     slug: "propuesta-241",
     status: "publish",
     type: "post",
@@ -1645,7 +1580,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1920,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -1683,6 +1618,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1548/revisions/1599",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1920",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1548" },
       ],
@@ -1708,8 +1649,8 @@ const allPosts = [
     date: "2021-02-09T12:19:32",
     date_gmt: "2021-02-09T17:19:32",
     guid: { rendered: "https://maqay.org/?p=1535" },
-    modified: "2021-02-09T12:22:42",
-    modified_gmt: "2021-02-09T17:22:42",
+    modified: "2021-02-25T16:13:21",
+    modified_gmt: "2021-02-25T21:13:21",
     slug: "propuesta-240",
     status: "publish",
     type: "post",
@@ -1726,7 +1667,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1919,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -1764,6 +1705,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1535/revisions/1537",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1919",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1535" },
       ],
@@ -1789,8 +1736,8 @@ const allPosts = [
     date: "2021-02-09T12:18:47",
     date_gmt: "2021-02-09T17:18:47",
     guid: { rendered: "https://maqay.org/?p=1533" },
-    modified: "2021-02-09T12:21:19",
-    modified_gmt: "2021-02-09T17:21:19",
+    modified: "2021-02-25T16:13:18",
+    modified_gmt: "2021-02-25T21:13:18",
     slug: "propuesta-239",
     status: "publish",
     type: "post",
@@ -1807,7 +1754,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1918,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -1835,14 +1782,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1533/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1546,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1533/revisions/1546",
+          id: 1967,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1533/revisions/1967",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1918",
         },
       ],
       "wp:attachment": [
@@ -1870,8 +1823,8 @@ const allPosts = [
     date: "2021-02-09T12:18:02",
     date_gmt: "2021-02-09T17:18:02",
     guid: { rendered: "https://maqay.org/?p=1530" },
-    modified: "2021-02-09T12:21:12",
-    modified_gmt: "2021-02-09T17:21:12",
+    modified: "2021-02-25T16:13:16",
+    modified_gmt: "2021-02-25T21:13:16",
     slug: "propuesta-238",
     status: "publish",
     type: "post",
@@ -1888,7 +1841,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1917,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -1926,6 +1879,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1530/revisions/1545",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1917",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1530" },
       ],
@@ -1951,8 +1910,8 @@ const allPosts = [
     date: "2021-02-09T12:17:25",
     date_gmt: "2021-02-09T17:17:25",
     guid: { rendered: "https://maqay.org/?p=1529" },
-    modified: "2021-02-09T12:21:03",
-    modified_gmt: "2021-02-09T17:21:03",
+    modified: "2021-02-25T16:09:56",
+    modified_gmt: "2021-02-25T21:09:56",
     slug: "propuesta-237",
     status: "publish",
     type: "post",
@@ -1969,7 +1928,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1915,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -2007,6 +1966,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1529/revisions/1544",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1915",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1529" },
       ],
@@ -2032,8 +1997,8 @@ const allPosts = [
     date: "2021-02-09T12:16:25",
     date_gmt: "2021-02-09T17:16:25",
     guid: { rendered: "https://maqay.org/?p=1526" },
-    modified: "2021-02-09T12:20:53",
-    modified_gmt: "2021-02-09T17:20:53",
+    modified: "2021-02-25T16:09:55",
+    modified_gmt: "2021-02-25T21:09:55",
     slug: "propuesta-236",
     status: "publish",
     type: "post",
@@ -2050,7 +2015,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1914,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -2088,6 +2053,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1526/revisions/1543",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1914",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1526" },
       ],
@@ -2113,8 +2084,8 @@ const allPosts = [
     date: "2021-02-09T12:15:23",
     date_gmt: "2021-02-09T17:15:23",
     guid: { rendered: "https://maqay.org/?p=1524" },
-    modified: "2021-02-09T12:20:43",
-    modified_gmt: "2021-02-09T17:20:43",
+    modified: "2021-02-25T16:09:53",
+    modified_gmt: "2021-02-25T21:09:53",
     slug: "propuesta-235",
     status: "publish",
     type: "post",
@@ -2131,7 +2102,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1913,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -2169,6 +2140,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1524/revisions/1542",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1913",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1524" },
       ],
@@ -2194,8 +2171,8 @@ const allPosts = [
     date: "2021-02-09T12:14:36",
     date_gmt: "2021-02-09T17:14:36",
     guid: { rendered: "https://maqay.org/?p=1521" },
-    modified: "2021-02-09T12:20:32",
-    modified_gmt: "2021-02-09T17:20:32",
+    modified: "2021-02-25T16:09:51",
+    modified_gmt: "2021-02-25T21:09:51",
     slug: "propuesta-234",
     status: "publish",
     type: "post",
@@ -2212,7 +2189,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1912,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -2240,14 +2217,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1521/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1541,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1521/revisions/1541",
+          id: 1966,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1521/revisions/1966",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1912",
         },
       ],
       "wp:attachment": [
@@ -2275,8 +2258,8 @@ const allPosts = [
     date: "2021-02-09T12:14:00",
     date_gmt: "2021-02-09T17:14:00",
     guid: { rendered: "https://maqay.org/?p=1520" },
-    modified: "2021-02-09T12:20:23",
-    modified_gmt: "2021-02-09T17:20:23",
+    modified: "2021-02-25T16:09:47",
+    modified_gmt: "2021-02-25T21:09:47",
     slug: "propuesta-233",
     status: "publish",
     type: "post",
@@ -2293,7 +2276,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1911,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -2331,6 +2314,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1520/revisions/1540",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1911",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1520" },
       ],
@@ -2356,8 +2345,8 @@ const allPosts = [
     date: "2021-02-09T12:10:51",
     date_gmt: "2021-02-09T17:10:51",
     guid: { rendered: "https://maqay.org/?p=1518" },
-    modified: "2021-02-10T11:13:34",
-    modified_gmt: "2021-02-10T16:13:34",
+    modified: "2021-02-25T16:07:27",
+    modified_gmt: "2021-02-25T21:07:27",
     slug: "propuesta-232",
     status: "publish",
     type: "post",
@@ -2374,7 +2363,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1909,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -2412,6 +2401,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1518/revisions/1598",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1909",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1518" },
       ],
@@ -2437,8 +2432,8 @@ const allPosts = [
     date: "2021-02-09T12:09:53",
     date_gmt: "2021-02-09T17:09:53",
     guid: { rendered: "https://maqay.org/?p=1516" },
-    modified: "2021-02-09T12:19:58",
-    modified_gmt: "2021-02-09T17:19:58",
+    modified: "2021-02-25T16:07:18",
+    modified_gmt: "2021-02-25T21:07:18",
     slug: "propuesta-231",
     status: "publish",
     type: "post",
@@ -2455,7 +2450,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1908,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -2483,14 +2478,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1516/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1538,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1516/revisions/1538",
+          id: 1965,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1516/revisions/1965",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1908",
         },
       ],
       "wp:attachment": [
@@ -2518,8 +2519,8 @@ const allPosts = [
     date: "2021-02-09T12:09:02",
     date_gmt: "2021-02-09T17:09:02",
     guid: { rendered: "https://maqay.org/?p=1514" },
-    modified: "2021-02-09T12:09:02",
-    modified_gmt: "2021-02-09T17:09:02",
+    modified: "2021-02-25T16:07:14",
+    modified_gmt: "2021-02-25T21:07:14",
     slug: "propuesta-230",
     status: "publish",
     type: "post",
@@ -2536,7 +2537,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1907,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -2574,6 +2575,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1514/revisions/1515",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1907",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1514" },
       ],
@@ -2599,8 +2606,8 @@ const allPosts = [
     date: "2021-02-09T12:07:00",
     date_gmt: "2021-02-09T17:07:00",
     guid: { rendered: "https://maqay.org/?p=1512" },
-    modified: "2021-02-09T12:08:31",
-    modified_gmt: "2021-02-09T17:08:31",
+    modified: "2021-02-25T16:07:10",
+    modified_gmt: "2021-02-25T21:07:10",
     slug: "propuesta-229",
     status: "publish",
     type: "post",
@@ -2617,7 +2624,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1905,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -2655,6 +2662,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1512/revisions/1513",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1905",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1512" },
       ],
@@ -2680,8 +2693,8 @@ const allPosts = [
     date: "2021-02-09T12:05:39",
     date_gmt: "2021-02-09T17:05:39",
     guid: { rendered: "https://maqay.org/?p=1510" },
-    modified: "2021-02-09T12:05:39",
-    modified_gmt: "2021-02-09T17:05:39",
+    modified: "2021-02-25T16:07:06",
+    modified_gmt: "2021-02-25T21:07:06",
     slug: "propuesta-228",
     status: "publish",
     type: "post",
@@ -2698,7 +2711,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1904,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -2736,6 +2749,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1510/revisions/1511",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1904",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1510" },
       ],
@@ -2761,8 +2780,8 @@ const allPosts = [
     date: "2021-02-09T12:03:58",
     date_gmt: "2021-02-09T17:03:58",
     guid: { rendered: "https://maqay.org/?p=1508" },
-    modified: "2021-02-12T09:57:48",
-    modified_gmt: "2021-02-12T14:57:48",
+    modified: "2021-02-25T16:05:00",
+    modified_gmt: "2021-02-25T21:05:00",
     slug: "propuesta-227",
     status: "publish",
     type: "post",
@@ -2770,16 +2789,16 @@ const allPosts = [
     title: { rendered: "Propuesta 227" },
     content: {
       rendered:
-        "<p>Crear el Viceministerio de Cambio Clim\u00e1tico y Desertificaci\u00f3n</p>\n",
+        "<p>Crear el Viceministerio de Cambio Clim\u00e1tico y Desertificaci\u00f3n. </p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Crear el Viceministerio de Cambio Clim\u00e1tico y Desertificaci\u00f3n</p>\n",
+        "<p>Crear el Viceministerio de Cambio Clim\u00e1tico y Desertificaci\u00f3n.</p>\n",
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1903,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -2807,14 +2826,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 3,
+          count: 4,
           href: "https://maqay.org/wp-json/wp/v2/posts/1508/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1632,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1508/revisions/1632",
+          id: 1651,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1508/revisions/1651",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1903",
         },
       ],
       "wp:attachment": [
@@ -2842,8 +2867,8 @@ const allPosts = [
     date: "2021-02-09T11:59:11",
     date_gmt: "2021-02-09T16:59:11",
     guid: { rendered: "https://maqay.org/?p=1499" },
-    modified: "2021-02-10T15:42:43",
-    modified_gmt: "2021-02-10T20:42:43",
+    modified: "2021-02-25T16:04:57",
+    modified_gmt: "2021-02-25T21:04:57",
     slug: "propuesta-226",
     status: "publish",
     type: "post",
@@ -2860,7 +2885,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1902,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -2898,6 +2923,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1499/revisions/1610",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1902",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1499" },
       ],
@@ -2923,8 +2954,8 @@ const allPosts = [
     date: "2021-02-09T11:53:38",
     date_gmt: "2021-02-09T16:53:38",
     guid: { rendered: "https://maqay.org/?p=1502" },
-    modified: "2021-02-09T11:53:38",
-    modified_gmt: "2021-02-09T16:53:38",
+    modified: "2021-02-25T15:27:21",
+    modified_gmt: "2021-02-25T20:27:21",
     slug: "propuesta-194",
     status: "publish",
     type: "post",
@@ -2941,7 +2972,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1867,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -2979,6 +3010,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1502/revisions/1503",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1867",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1502" },
       ],
@@ -3004,8 +3041,8 @@ const allPosts = [
     date: "2021-02-09T11:49:58",
     date_gmt: "2021-02-09T16:49:58",
     guid: { rendered: "https://maqay.org/?p=1500" },
-    modified: "2021-02-09T11:50:08",
-    modified_gmt: "2021-02-09T16:50:08",
+    modified: "2021-02-25T15:27:25",
+    modified_gmt: "2021-02-25T20:27:25",
     slug: "propuesta-193",
     status: "publish",
     type: "post",
@@ -3022,7 +3059,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1866,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -3060,6 +3097,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1500/revisions/1501",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1866",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1500" },
       ],
@@ -3085,8 +3128,8 @@ const allPosts = [
     date: "2021-02-09T11:48:54",
     date_gmt: "2021-02-09T16:48:54",
     guid: { rendered: "https://maqay.org/?p=1494" },
-    modified: "2021-02-09T12:26:32",
-    modified_gmt: "2021-02-09T17:26:32",
+    modified: "2021-02-25T16:01:25",
+    modified_gmt: "2021-02-25T21:01:25",
     slug: "propuesta-225-2",
     status: "publish",
     type: "post",
@@ -3103,7 +3146,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1901,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -3141,6 +3184,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1494/revisions/1506",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1901",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1494" },
       ],
@@ -3166,8 +3215,8 @@ const allPosts = [
     date: "2021-02-09T11:48:53",
     date_gmt: "2021-02-09T16:48:53",
     guid: { rendered: "https://maqay.org/?p=1496" },
-    modified: "2021-02-09T11:48:53",
-    modified_gmt: "2021-02-09T16:48:53",
+    modified: "2021-02-25T15:27:28",
+    modified_gmt: "2021-02-25T20:27:28",
     slug: "propuesta-192",
     status: "publish",
     type: "post",
@@ -3184,7 +3233,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1865,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -3222,6 +3271,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1496/revisions/1497",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1865",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1496" },
       ],
@@ -3247,8 +3302,8 @@ const allPosts = [
     date: "2021-02-09T11:47:46",
     date_gmt: "2021-02-09T16:47:46",
     guid: { rendered: "https://maqay.org/?p=1492" },
-    modified: "2021-02-09T11:47:46",
-    modified_gmt: "2021-02-09T16:47:46",
+    modified: "2021-02-25T15:27:37",
+    modified_gmt: "2021-02-25T20:27:37",
     slug: "propuesta-191",
     status: "publish",
     type: "post",
@@ -3265,7 +3320,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1864,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -3303,6 +3358,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1492/revisions/1495",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1864",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1492" },
       ],
@@ -3328,8 +3389,8 @@ const allPosts = [
     date: "2021-02-09T11:47:37",
     date_gmt: "2021-02-09T16:47:37",
     guid: { rendered: "https://maqay.org/?p=1491" },
-    modified: "2021-02-09T11:47:37",
-    modified_gmt: "2021-02-09T16:47:37",
+    modified: "2021-02-25T16:04:50",
+    modified_gmt: "2021-02-25T21:04:50",
     slug: "propuesta-224",
     status: "publish",
     type: "post",
@@ -3344,7 +3405,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1899,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -3382,6 +3443,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1491/revisions/1493",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1899",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1491" },
       ],
@@ -3407,8 +3474,8 @@ const allPosts = [
     date: "2021-02-09T11:46:30",
     date_gmt: "2021-02-09T16:46:30",
     guid: { rendered: "https://maqay.org/?p=1484" },
-    modified: "2021-02-09T11:46:30",
-    modified_gmt: "2021-02-09T16:46:30",
+    modified: "2021-02-25T16:05:04",
+    modified_gmt: "2021-02-25T21:05:04",
     slug: "propuesta-223",
     status: "publish",
     type: "post",
@@ -3425,7 +3492,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1897,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -3453,14 +3520,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1484/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1490,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1484/revisions/1490",
+          id: 1964,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1484/revisions/1964",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1897",
         },
       ],
       "wp:attachment": [
@@ -3488,8 +3561,8 @@ const allPosts = [
     date: "2021-02-09T11:46:27",
     date_gmt: "2021-02-09T16:46:27",
     guid: { rendered: "https://maqay.org/?p=1488" },
-    modified: "2021-02-09T11:46:42",
-    modified_gmt: "2021-02-09T16:46:42",
+    modified: "2021-02-25T15:27:17",
+    modified_gmt: "2021-02-25T20:27:17",
     slug: "propuesta-190",
     status: "publish",
     type: "post",
@@ -3506,7 +3579,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1862,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -3544,6 +3617,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1488/revisions/1489",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1862",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1488" },
       ],
@@ -3569,8 +3648,8 @@ const allPosts = [
     date: "2021-02-09T11:45:28",
     date_gmt: "2021-02-09T16:45:28",
     guid: { rendered: "https://maqay.org/?p=1485" },
-    modified: "2021-02-09T11:45:28",
-    modified_gmt: "2021-02-09T16:45:28",
+    modified: "2021-02-25T15:14:57",
+    modified_gmt: "2021-02-25T20:14:57",
     slug: "propuesta-189",
     status: "publish",
     type: "post",
@@ -3587,7 +3666,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1861,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -3625,6 +3704,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1485/revisions/1487",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1861",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1485" },
       ],
@@ -3650,8 +3735,8 @@ const allPosts = [
     date: "2021-02-09T11:43:11",
     date_gmt: "2021-02-09T16:43:11",
     guid: { rendered: "https://maqay.org/?p=1477" },
-    modified: "2021-02-09T11:43:11",
-    modified_gmt: "2021-02-09T16:43:11",
+    modified: "2021-02-25T15:51:54",
+    modified_gmt: "2021-02-25T20:51:54",
     slug: "propuesta-222",
     status: "publish",
     type: "post",
@@ -3668,7 +3753,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1896,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -3706,6 +3791,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1477/revisions/1486",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1896",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1477" },
       ],
@@ -3731,8 +3822,8 @@ const allPosts = [
     date: "2021-02-09T11:40:11",
     date_gmt: "2021-02-09T16:40:11",
     guid: { rendered: "https://maqay.org/?p=1478" },
-    modified: "2021-02-09T11:40:11",
-    modified_gmt: "2021-02-09T16:40:11",
+    modified: "2021-02-25T15:14:55",
+    modified_gmt: "2021-02-25T20:14:55",
     slug: "propuesta-188",
     status: "publish",
     type: "post",
@@ -3749,7 +3840,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1859,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -3787,6 +3878,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1478/revisions/1481",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1859",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1478" },
       ],
@@ -3812,8 +3909,8 @@ const allPosts = [
     date: "2021-02-09T11:37:11",
     date_gmt: "2021-02-09T16:37:11",
     guid: { rendered: "https://maqay.org/?p=1464" },
-    modified: "2021-02-09T11:41:10",
-    modified_gmt: "2021-02-09T16:41:10",
+    modified: "2021-02-25T15:51:52",
+    modified_gmt: "2021-02-25T20:51:52",
     slug: "propuesta-211-2",
     status: "publish",
     type: "post",
@@ -3830,7 +3927,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1895,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -3868,6 +3965,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1464/revisions/1482",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1895",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1464" },
       ],
@@ -3893,8 +3996,8 @@ const allPosts = [
     date: "2021-02-09T11:36:44",
     date_gmt: "2021-02-09T16:36:44",
     guid: { rendered: "https://maqay.org/?p=1472" },
-    modified: "2021-02-10T15:35:27",
-    modified_gmt: "2021-02-10T20:35:27",
+    modified: "2021-02-25T15:14:52",
+    modified_gmt: "2021-02-25T20:14:52",
     slug: "propuesta-187",
     status: "publish",
     type: "post",
@@ -3911,7 +4014,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1858,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -3949,6 +4052,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1472/revisions/1606",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1858",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1472" },
       ],
@@ -3974,8 +4083,8 @@ const allPosts = [
     date: "2021-02-09T11:35:29",
     date_gmt: "2021-02-09T16:35:29",
     guid: { rendered: "https://maqay.org/?p=1470" },
-    modified: "2021-02-09T11:35:29",
-    modified_gmt: "2021-02-09T16:35:29",
+    modified: "2021-02-25T15:14:50",
+    modified_gmt: "2021-02-25T20:14:50",
     slug: "propuesta-186",
     status: "publish",
     type: "post",
@@ -3992,7 +4101,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1857,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -4030,6 +4139,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1470/revisions/1471",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1857",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1470" },
       ],
@@ -4055,8 +4170,8 @@ const allPosts = [
     date: "2021-02-09T11:34:37",
     date_gmt: "2021-02-09T16:34:37",
     guid: { rendered: "https://maqay.org/?p=1468" },
-    modified: "2021-02-09T11:34:37",
-    modified_gmt: "2021-02-09T16:34:37",
+    modified: "2021-02-25T15:14:46",
+    modified_gmt: "2021-02-25T20:14:46",
     slug: "propuesta-185",
     status: "publish",
     type: "post",
@@ -4073,7 +4188,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1855,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -4111,6 +4226,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1468/revisions/1469",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1855",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1468" },
       ],
@@ -4136,8 +4257,8 @@ const allPosts = [
     date: "2021-02-09T11:33:32",
     date_gmt: "2021-02-09T16:33:32",
     guid: { rendered: "https://maqay.org/?p=1466" },
-    modified: "2021-02-09T11:33:32",
-    modified_gmt: "2021-02-09T16:33:32",
+    modified: "2021-02-25T15:11:39",
+    modified_gmt: "2021-02-25T20:11:39",
     slug: "propuesta-184",
     status: "publish",
     type: "post",
@@ -4154,7 +4275,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1854,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -4192,6 +4313,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1466/revisions/1467",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1854",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1466" },
       ],
@@ -4217,8 +4344,8 @@ const allPosts = [
     date: "2021-02-09T11:32:35",
     date_gmt: "2021-02-09T16:32:35",
     guid: { rendered: "https://maqay.org/?p=1462" },
-    modified: "2021-02-09T11:32:35",
-    modified_gmt: "2021-02-09T16:32:35",
+    modified: "2021-02-25T15:11:37",
+    modified_gmt: "2021-02-25T20:11:37",
     slug: "propuesta-183",
     status: "publish",
     type: "post",
@@ -4235,7 +4362,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1853,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -4273,6 +4400,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1462/revisions/1465",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1853",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1462" },
       ],
@@ -4298,8 +4431,8 @@ const allPosts = [
     date: "2021-02-09T11:31:55",
     date_gmt: "2021-02-09T16:31:55",
     guid: { rendered: "https://maqay.org/?p=1448" },
-    modified: "2021-02-09T11:31:55",
-    modified_gmt: "2021-02-09T16:31:55",
+    modified: "2021-02-25T15:51:49",
+    modified_gmt: "2021-02-25T20:51:49",
     slug: "propuesta-220",
     status: "publish",
     type: "post",
@@ -4316,7 +4449,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1894,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -4354,6 +4487,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1448/revisions/1463",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1894",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1448" },
       ],
@@ -4379,8 +4518,8 @@ const allPosts = [
     date: "2021-02-09T11:31:23",
     date_gmt: "2021-02-09T16:31:23",
     guid: { rendered: "https://maqay.org/?p=1460" },
-    modified: "2021-02-09T11:31:23",
-    modified_gmt: "2021-02-09T16:31:23",
+    modified: "2021-02-25T15:11:33",
+    modified_gmt: "2021-02-25T20:11:33",
     slug: "propuesta-182",
     status: "publish",
     type: "post",
@@ -4397,7 +4536,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1852,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -4435,6 +4574,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1460/revisions/1461",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1852",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1460" },
       ],
@@ -4460,8 +4605,8 @@ const allPosts = [
     date: "2021-02-09T11:30:15",
     date_gmt: "2021-02-09T16:30:15",
     guid: { rendered: "https://maqay.org/?p=1454" },
-    modified: "2021-02-09T11:30:15",
-    modified_gmt: "2021-02-09T16:30:15",
+    modified: "2021-02-25T13:03:01",
+    modified_gmt: "2021-02-25T18:03:01",
     slug: "propuesta-084",
     status: "publish",
     type: "post",
@@ -4478,7 +4623,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1743,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -4516,6 +4661,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1454/revisions/1459",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1743",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1454" },
       ],
@@ -4541,8 +4692,8 @@ const allPosts = [
     date: "2021-02-09T11:30:10",
     date_gmt: "2021-02-09T16:30:10",
     guid: { rendered: "https://maqay.org/?p=1456" },
-    modified: "2021-02-09T11:30:10",
-    modified_gmt: "2021-02-09T16:30:10",
+    modified: "2021-02-25T15:02:00",
+    modified_gmt: "2021-02-25T20:02:00",
     slug: "propuesta-164",
     status: "publish",
     type: "post",
@@ -4559,7 +4710,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1833,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -4597,6 +4748,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1456/revisions/1458",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1833",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1456" },
       ],
@@ -4622,8 +4779,8 @@ const allPosts = [
     date: "2021-02-09T11:29:58",
     date_gmt: "2021-02-09T16:29:58",
     guid: { rendered: "https://maqay.org/?p=1455" },
-    modified: "2021-02-09T11:29:58",
-    modified_gmt: "2021-02-09T16:29:58",
+    modified: "2021-02-25T15:11:29",
+    modified_gmt: "2021-02-25T20:11:29",
     slug: "propuesta-181",
     status: "publish",
     type: "post",
@@ -4640,7 +4797,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1851,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -4678,6 +4835,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1455/revisions/1457",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1851",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1455" },
       ],
@@ -4703,8 +4866,8 @@ const allPosts = [
     date: "2021-02-09T11:28:05",
     date_gmt: "2021-02-09T16:28:05",
     guid: { rendered: "https://maqay.org/?p=1449" },
-    modified: "2021-02-09T11:28:05",
-    modified_gmt: "2021-02-09T16:28:05",
+    modified: "2021-02-25T15:01:57",
+    modified_gmt: "2021-02-25T20:01:57",
     slug: "propuesta-163",
     status: "publish",
     type: "post",
@@ -4721,7 +4884,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1830,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -4759,6 +4922,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1449/revisions/1453",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1830",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1449" },
       ],
@@ -4784,8 +4953,8 @@ const allPosts = [
     date: "2021-02-09T11:27:50",
     date_gmt: "2021-02-09T16:27:50",
     guid: { rendered: "https://maqay.org/?p=1450" },
-    modified: "2021-02-09T11:27:50",
-    modified_gmt: "2021-02-09T16:27:50",
+    modified: "2021-02-25T15:11:25",
+    modified_gmt: "2021-02-25T20:11:25",
     slug: "propuesta-180",
     status: "publish",
     type: "post",
@@ -4802,7 +4971,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1850,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -4840,6 +5009,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1450/revisions/1452",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1850",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1450" },
       ],
@@ -4865,8 +5040,8 @@ const allPosts = [
     date: "2021-02-09T11:25:56",
     date_gmt: "2021-02-09T16:25:56",
     guid: { rendered: "https://maqay.org/?p=1445" },
-    modified: "2021-02-09T11:25:56",
-    modified_gmt: "2021-02-09T16:25:56",
+    modified: "2021-02-25T13:02:57",
+    modified_gmt: "2021-02-25T18:02:57",
     slug: "propuesta-083",
     status: "publish",
     type: "post",
@@ -4883,7 +5058,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1742,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -4921,6 +5096,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1445/revisions/1451",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1742",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1445" },
       ],
@@ -4946,8 +5127,8 @@ const allPosts = [
     date: "2021-02-09T11:24:57",
     date_gmt: "2021-02-09T16:24:57",
     guid: { rendered: "https://maqay.org/?p=1430" },
-    modified: "2021-02-10T15:55:44",
-    modified_gmt: "2021-02-10T20:55:44",
+    modified: "2021-02-25T15:51:47",
+    modified_gmt: "2021-02-25T20:51:47",
     slug: "propuesta-219",
     status: "publish",
     type: "post",
@@ -4964,7 +5145,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1893,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -5002,6 +5183,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1430/revisions/1617",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1893",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1430" },
       ],
@@ -5027,8 +5214,8 @@ const allPosts = [
     date: "2021-02-09T11:24:56",
     date_gmt: "2021-02-09T16:24:56",
     guid: { rendered: "https://maqay.org/?p=1436" },
-    modified: "2021-02-09T11:24:56",
-    modified_gmt: "2021-02-09T16:24:56",
+    modified: "2021-02-25T15:08:17",
+    modified_gmt: "2021-02-25T20:08:17",
     slug: "propuesta-179",
     status: "publish",
     type: "post",
@@ -5045,7 +5232,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1849,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -5083,6 +5270,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1436/revisions/1446",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1849",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1436" },
       ],
@@ -5108,8 +5301,8 @@ const allPosts = [
     date: "2021-02-09T11:24:31",
     date_gmt: "2021-02-09T16:24:31",
     guid: { rendered: "https://maqay.org/?p=1442" },
-    modified: "2021-02-09T11:27:09",
-    modified_gmt: "2021-02-09T16:27:09",
+    modified: "2021-02-25T13:02:54",
+    modified_gmt: "2021-02-25T18:02:54",
     slug: "propuesta-082",
     status: "publish",
     type: "post",
@@ -5126,7 +5319,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1740,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -5164,6 +5357,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1442/revisions/1444",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1740",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1442" },
       ],
@@ -5189,8 +5388,8 @@ const allPosts = [
     date: "2021-02-09T11:24:00",
     date_gmt: "2021-02-09T16:24:00",
     guid: { rendered: "https://maqay.org/?p=1440" },
-    modified: "2021-02-09T11:24:00",
-    modified_gmt: "2021-02-09T16:24:00",
+    modified: "2021-02-25T15:01:50",
+    modified_gmt: "2021-02-25T20:01:50",
     slug: "propuesta-162",
     status: "publish",
     type: "post",
@@ -5207,7 +5406,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1829,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -5245,6 +5444,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1440/revisions/1443",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1829",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1440" },
       ],
@@ -5270,8 +5475,8 @@ const allPosts = [
     date: "2021-02-09T11:23:15",
     date_gmt: "2021-02-09T16:23:15",
     guid: { rendered: "https://maqay.org/?p=1439" },
-    modified: "2021-02-09T11:23:15",
-    modified_gmt: "2021-02-09T16:23:15",
+    modified: "2021-02-25T13:02:53",
+    modified_gmt: "2021-02-25T18:02:53",
     slug: "propuesta-081",
     status: "publish",
     type: "post",
@@ -5288,7 +5493,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1739,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -5326,6 +5531,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1439/revisions/1441",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1739",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1439" },
       ],
@@ -5351,8 +5562,8 @@ const allPosts = [
     date: "2021-02-09T11:22:29",
     date_gmt: "2021-02-09T16:22:29",
     guid: { rendered: "https://maqay.org/?p=1433" },
-    modified: "2021-02-09T11:22:29",
-    modified_gmt: "2021-02-09T16:22:29",
+    modified: "2021-02-25T15:01:48",
+    modified_gmt: "2021-02-25T20:01:48",
     slug: "propuesta-161",
     status: "publish",
     type: "post",
@@ -5367,7 +5578,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1828,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -5405,6 +5616,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1433/revisions/1438",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1828",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1433" },
       ],
@@ -5430,8 +5647,8 @@ const allPosts = [
     date: "2021-02-09T11:22:25",
     date_gmt: "2021-02-09T16:22:25",
     guid: { rendered: "https://maqay.org/?p=1434" },
-    modified: "2021-02-09T11:22:25",
-    modified_gmt: "2021-02-09T16:22:25",
+    modified: "2021-02-25T13:02:50",
+    modified_gmt: "2021-02-25T18:02:50",
     slug: "propuesta-080",
     status: "publish",
     type: "post",
@@ -5448,7 +5665,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1738,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -5486,6 +5703,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1434/revisions/1437",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1738",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1434" },
       ],
@@ -5511,8 +5734,8 @@ const allPosts = [
     date: "2021-02-09T11:21:53",
     date_gmt: "2021-02-09T16:21:53",
     guid: { rendered: "https://maqay.org/?p=1421" },
-    modified: "2021-02-09T11:21:53",
-    modified_gmt: "2021-02-09T16:21:53",
+    modified: "2021-02-25T15:08:14",
+    modified_gmt: "2021-02-25T20:08:14",
     slug: "propuesta-178",
     status: "publish",
     type: "post",
@@ -5529,7 +5752,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1848,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -5567,6 +5790,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1421/revisions/1435",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1848",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1421" },
       ],
@@ -5592,8 +5821,8 @@ const allPosts = [
     date: "2021-02-09T11:20:50",
     date_gmt: "2021-02-09T16:20:50",
     guid: { rendered: "https://maqay.org/?p=1424" },
-    modified: "2021-02-09T11:20:50",
-    modified_gmt: "2021-02-09T16:20:50",
+    modified: "2021-02-25T15:01:45",
+    modified_gmt: "2021-02-25T20:01:45",
     slug: "propuesta-160",
     status: "publish",
     type: "post",
@@ -5610,7 +5839,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1825,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -5638,14 +5867,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1424/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1432,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1424/revisions/1432",
+          id: 1960,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1424/revisions/1960",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1825",
         },
       ],
       "wp:attachment": [
@@ -5673,8 +5908,8 @@ const allPosts = [
     date: "2021-02-09T11:20:49",
     date_gmt: "2021-02-09T16:20:49",
     guid: { rendered: "https://maqay.org/?p=1429" },
-    modified: "2021-02-09T11:20:49",
-    modified_gmt: "2021-02-09T16:20:49",
+    modified: "2021-02-25T13:00:18",
+    modified_gmt: "2021-02-25T18:00:18",
     slug: "propuesta-079",
     status: "publish",
     type: "post",
@@ -5691,7 +5926,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1736,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -5729,6 +5964,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1429/revisions/1431",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1736",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1429" },
       ],
@@ -5754,8 +5995,8 @@ const allPosts = [
     date: "2021-02-09T11:17:44",
     date_gmt: "2021-02-09T16:17:44",
     guid: { rendered: "https://maqay.org/?p=1425" },
-    modified: "2021-02-09T11:17:44",
-    modified_gmt: "2021-02-09T16:17:44",
+    modified: "2021-02-25T13:00:15",
+    modified_gmt: "2021-02-25T18:00:15",
     slug: "propuesta-078",
     status: "publish",
     type: "post",
@@ -5772,7 +6013,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1735,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -5810,6 +6051,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1425/revisions/1427",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1735",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1425" },
       ],
@@ -5835,8 +6082,8 @@ const allPosts = [
     date: "2021-02-09T11:17:30",
     date_gmt: "2021-02-09T16:17:30",
     guid: { rendered: "https://maqay.org/?p=1402" },
-    modified: "2021-02-09T11:17:30",
-    modified_gmt: "2021-02-09T16:17:30",
+    modified: "2021-02-25T15:51:44",
+    modified_gmt: "2021-02-25T20:51:44",
     slug: "propuesta-218",
     status: "publish",
     type: "post",
@@ -5853,7 +6100,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1892,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -5891,6 +6138,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1402/revisions/1426",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1892",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1402" },
       ],
@@ -5916,8 +6169,8 @@ const allPosts = [
     date: "2021-02-09T11:16:04",
     date_gmt: "2021-02-09T16:16:04",
     guid: { rendered: "https://maqay.org/?p=1419" },
-    modified: "2021-02-09T11:16:04",
-    modified_gmt: "2021-02-09T16:16:04",
+    modified: "2021-02-25T14:58:16",
+    modified_gmt: "2021-02-25T19:58:16",
     slug: "propuesta-159",
     status: "publish",
     type: "post",
@@ -5934,7 +6187,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1824,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -5972,6 +6225,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1419/revisions/1423",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1824",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1419" },
       ],
@@ -5997,8 +6256,8 @@ const allPosts = [
     date: "2021-02-09T11:15:44",
     date_gmt: "2021-02-09T16:15:44",
     guid: { rendered: "https://maqay.org/?p=1417" },
-    modified: "2021-02-10T16:12:31",
-    modified_gmt: "2021-02-10T21:12:31",
+    modified: "2021-02-25T13:00:12",
+    modified_gmt: "2021-02-25T18:00:12",
     slug: "propuesta-077",
     status: "publish",
     type: "post",
@@ -6015,7 +6274,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1734,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -6053,6 +6312,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1417/revisions/1627",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1734",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1417" },
       ],
@@ -6078,8 +6343,8 @@ const allPosts = [
     date: "2021-02-09T11:15:01",
     date_gmt: "2021-02-09T16:15:01",
     guid: { rendered: "https://maqay.org/?p=1380" },
-    modified: "2021-02-09T11:15:01",
-    modified_gmt: "2021-02-09T16:15:01",
+    modified: "2021-02-25T15:08:08",
+    modified_gmt: "2021-02-25T20:08:08",
     slug: "propuesta-177",
     status: "publish",
     type: "post",
@@ -6096,7 +6361,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1847,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -6134,6 +6399,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1380/revisions/1420",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1847",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1380" },
       ],
@@ -6159,8 +6430,8 @@ const allPosts = [
     date: "2021-02-09T11:14:38",
     date_gmt: "2021-02-09T16:14:38",
     guid: { rendered: "https://maqay.org/?p=1415" },
-    modified: "2021-02-09T11:14:38",
-    modified_gmt: "2021-02-09T16:14:38",
+    modified: "2021-02-25T14:58:14",
+    modified_gmt: "2021-02-25T19:58:14",
     slug: "propuesta-158",
     status: "publish",
     type: "post",
@@ -6175,7 +6446,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1823,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -6213,6 +6484,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1415/revisions/1418",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1823",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1415" },
       ],
@@ -6238,8 +6515,8 @@ const allPosts = [
     date: "2021-02-09T11:14:15",
     date_gmt: "2021-02-09T16:14:15",
     guid: { rendered: "https://maqay.org/?p=1413" },
-    modified: "2021-02-09T11:14:15",
-    modified_gmt: "2021-02-09T16:14:15",
+    modified: "2021-02-25T13:00:08",
+    modified_gmt: "2021-02-25T18:00:08",
     slug: "propuesta-076",
     status: "publish",
     type: "post",
@@ -6256,7 +6533,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1733,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -6294,6 +6571,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1413/revisions/1416",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1733",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1413" },
       ],
@@ -6319,8 +6602,8 @@ const allPosts = [
     date: "2021-02-09T11:13:17",
     date_gmt: "2021-02-09T16:13:17",
     guid: { rendered: "https://maqay.org/?p=1409" },
-    modified: "2021-02-09T11:13:17",
-    modified_gmt: "2021-02-09T16:13:17",
+    modified: "2021-02-25T14:58:13",
+    modified_gmt: "2021-02-25T19:58:13",
     slug: "propuesta-157",
     status: "publish",
     type: "post",
@@ -6337,7 +6620,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1822,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -6375,6 +6658,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1409/revisions/1414",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1822",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1409" },
       ],
@@ -6400,8 +6689,8 @@ const allPosts = [
     date: "2021-02-09T11:13:02",
     date_gmt: "2021-02-09T16:13:02",
     guid: { rendered: "https://maqay.org/?p=1411" },
-    modified: "2021-02-10T16:04:21",
-    modified_gmt: "2021-02-10T21:04:21",
+    modified: "2021-02-25T12:58:32",
+    modified_gmt: "2021-02-25T17:58:32",
     slug: "propuesta-075",
     status: "publish",
     type: "post",
@@ -6418,7 +6707,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1732,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -6456,6 +6745,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1411/revisions/1624",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1732",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1411" },
       ],
@@ -6481,8 +6776,8 @@ const allPosts = [
     date: "2021-02-09T11:11:46",
     date_gmt: "2021-02-09T16:11:46",
     guid: { rendered: "https://maqay.org/?p=1408" },
-    modified: "2021-02-09T11:11:46",
-    modified_gmt: "2021-02-09T16:11:46",
+    modified: "2021-02-25T12:57:51",
+    modified_gmt: "2021-02-25T17:57:51",
     slug: "propuesta-074",
     status: "publish",
     type: "post",
@@ -6499,7 +6794,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1730,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -6527,14 +6822,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1408/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1410,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1408/revisions/1410",
+          id: 1935,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1408/revisions/1935",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1730",
         },
       ],
       "wp:attachment": [
@@ -6562,8 +6863,8 @@ const allPosts = [
     date: "2021-02-09T11:10:45",
     date_gmt: "2021-02-09T16:10:45",
     guid: { rendered: "https://maqay.org/?p=1406" },
-    modified: "2021-02-09T11:10:45",
-    modified_gmt: "2021-02-09T16:10:45",
+    modified: "2021-02-25T12:57:47",
+    modified_gmt: "2021-02-25T17:57:47",
     slug: "propuesta-073",
     status: "publish",
     type: "post",
@@ -6580,7 +6881,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1729,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -6618,6 +6919,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1406/revisions/1407",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1729",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1406" },
       ],
@@ -6643,8 +6950,8 @@ const allPosts = [
     date: "2021-02-09T11:09:49",
     date_gmt: "2021-02-09T16:09:49",
     guid: { rendered: "https://maqay.org/?p=1404" },
-    modified: "2021-02-09T11:09:49",
-    modified_gmt: "2021-02-09T16:09:49",
+    modified: "2021-02-25T12:57:45",
+    modified_gmt: "2021-02-25T17:57:45",
     slug: "propuesta-072",
     status: "publish",
     type: "post",
@@ -6661,7 +6968,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1728,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -6689,14 +6996,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1404/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1405,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1404/revisions/1405",
+          id: 1934,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1404/revisions/1934",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1728",
         },
       ],
       "wp:attachment": [
@@ -6724,8 +7037,8 @@ const allPosts = [
     date: "2021-02-09T11:08:40",
     date_gmt: "2021-02-09T16:08:40",
     guid: { rendered: "https://maqay.org/?p=1400" },
-    modified: "2021-02-09T11:08:40",
-    modified_gmt: "2021-02-09T16:08:40",
+    modified: "2021-02-25T12:55:40",
+    modified_gmt: "2021-02-25T17:55:40",
     slug: "propuesta-071",
     status: "publish",
     type: "post",
@@ -6742,7 +7055,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1727,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -6780,6 +7093,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1400/revisions/1403",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1727",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1400" },
       ],
@@ -6805,8 +7124,8 @@ const allPosts = [
     date: "2021-02-09T11:07:48",
     date_gmt: "2021-02-09T16:07:48",
     guid: { rendered: "https://maqay.org/?p=1392" },
-    modified: "2021-02-09T11:07:48",
-    modified_gmt: "2021-02-09T16:07:48",
+    modified: "2021-02-25T15:47:02",
+    modified_gmt: "2021-02-25T20:47:02",
     slug: "propuesta-217",
     status: "publish",
     type: "post",
@@ -6823,7 +7142,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1891,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -6861,6 +7180,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1392/revisions/1401",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1891",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1392" },
       ],
@@ -6886,8 +7211,8 @@ const allPosts = [
     date: "2021-02-09T11:07:34",
     date_gmt: "2021-02-09T16:07:34",
     guid: { rendered: "https://maqay.org/?p=1397" },
-    modified: "2021-02-09T11:07:34",
-    modified_gmt: "2021-02-09T16:07:34",
+    modified: "2021-02-25T12:55:34",
+    modified_gmt: "2021-02-25T17:55:34",
     slug: "propuesta-070",
     status: "publish",
     type: "post",
@@ -6904,7 +7229,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1726,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -6942,6 +7267,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1397/revisions/1399",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1726",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1397" },
       ],
@@ -6967,8 +7298,8 @@ const allPosts = [
     date: "2021-02-09T11:07:02",
     date_gmt: "2021-02-09T16:07:02",
     guid: { rendered: "https://maqay.org/?p=1393" },
-    modified: "2021-02-09T11:07:02",
-    modified_gmt: "2021-02-09T16:07:02",
+    modified: "2021-02-25T14:58:06",
+    modified_gmt: "2021-02-25T19:58:06",
     slug: "propuesta-156",
     status: "publish",
     type: "post",
@@ -6985,7 +7316,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1821,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -7023,6 +7354,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1393/revisions/1398",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1821",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1393" },
       ],
@@ -7048,8 +7385,8 @@ const allPosts = [
     date: "2021-02-09T11:06:30",
     date_gmt: "2021-02-09T16:06:30",
     guid: { rendered: "https://maqay.org/?p=1395" },
-    modified: "2021-02-09T11:06:30",
-    modified_gmt: "2021-02-09T16:06:30",
+    modified: "2021-02-25T12:55:32",
+    modified_gmt: "2021-02-25T17:55:32",
     slug: "propuesta-069",
     status: "publish",
     type: "post",
@@ -7066,7 +7403,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1725,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -7094,14 +7431,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1395/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1396,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1395/revisions/1396",
+          id: 1933,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1395/revisions/1933",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1725",
         },
       ],
       "wp:attachment": [
@@ -7129,8 +7472,8 @@ const allPosts = [
     date: "2021-02-09T11:05:18",
     date_gmt: "2021-02-09T16:05:18",
     guid: { rendered: "https://maqay.org/?p=1389" },
-    modified: "2021-02-09T11:05:18",
-    modified_gmt: "2021-02-09T16:05:18",
+    modified: "2021-02-25T12:55:30",
+    modified_gmt: "2021-02-25T17:55:30",
     slug: "propuesta-068",
     status: "publish",
     type: "post",
@@ -7147,7 +7490,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1724,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -7175,14 +7518,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1389/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1394,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1389/revisions/1394",
+          id: 1932,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1389/revisions/1932",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1724",
         },
       ],
       "wp:attachment": [
@@ -7210,8 +7559,8 @@ const allPosts = [
     date: "2021-02-09T11:04:55",
     date_gmt: "2021-02-09T16:04:55",
     guid: { rendered: "https://maqay.org/?p=1383" },
-    modified: "2021-02-09T11:04:55",
-    modified_gmt: "2021-02-09T16:04:55",
+    modified: "2021-02-25T14:58:02",
+    modified_gmt: "2021-02-25T19:58:02",
     slug: "propuesta-155",
     status: "publish",
     type: "post",
@@ -7228,7 +7577,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1820,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -7266,6 +7615,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1383/revisions/1391",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1820",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1383" },
       ],
@@ -7291,8 +7646,8 @@ const allPosts = [
     date: "2021-02-09T11:04:26",
     date_gmt: "2021-02-09T16:04:26",
     guid: { rendered: "https://maqay.org/?p=1387" },
-    modified: "2021-02-09T11:04:26",
-    modified_gmt: "2021-02-09T16:04:26",
+    modified: "2021-02-25T15:47:01",
+    modified_gmt: "2021-02-25T20:47:01",
     slug: "propuesta-216",
     status: "publish",
     type: "post",
@@ -7309,7 +7664,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1890,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -7347,6 +7702,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1387/revisions/1390",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1890",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1387" },
       ],
@@ -7372,8 +7733,8 @@ const allPosts = [
     date: "2021-02-09T11:04:07",
     date_gmt: "2021-02-09T16:04:07",
     guid: { rendered: "https://maqay.org/?p=1386" },
-    modified: "2021-02-09T11:04:07",
-    modified_gmt: "2021-02-09T16:04:07",
+    modified: "2021-02-25T12:53:27",
+    modified_gmt: "2021-02-25T17:53:27",
     slug: "propuesta-067",
     status: "publish",
     type: "post",
@@ -7390,7 +7751,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1723,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -7418,14 +7779,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1386/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1388,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1386/revisions/1388",
+          id: 1931,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1386/revisions/1931",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1723",
         },
       ],
       "wp:attachment": [
@@ -7453,8 +7820,8 @@ const allPosts = [
     date: "2021-02-09T11:02:52",
     date_gmt: "2021-02-09T16:02:52",
     guid: { rendered: "https://maqay.org/?p=1373" },
-    modified: "2021-02-09T11:02:52",
-    modified_gmt: "2021-02-09T16:02:52",
+    modified: "2021-02-25T15:46:59",
+    modified_gmt: "2021-02-25T20:46:59",
     slug: "propuesta-215",
     status: "publish",
     type: "post",
@@ -7471,7 +7838,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1889,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -7509,6 +7876,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1373/revisions/1385",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1889",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1373" },
       ],
@@ -7534,8 +7907,8 @@ const allPosts = [
     date: "2021-02-09T11:02:50",
     date_gmt: "2021-02-09T16:02:50",
     guid: { rendered: "https://maqay.org/?p=1381" },
-    modified: "2021-02-09T11:02:50",
-    modified_gmt: "2021-02-09T16:02:50",
+    modified: "2021-02-25T12:53:26",
+    modified_gmt: "2021-02-25T17:53:26",
     slug: "propuesta-066",
     status: "publish",
     type: "post",
@@ -7552,7 +7925,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1722,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -7580,14 +7953,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1381/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1384,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1381/revisions/1384",
+          id: 1930,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1381/revisions/1930",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1722",
         },
       ],
       "wp:attachment": [
@@ -7615,8 +7994,8 @@ const allPosts = [
     date: "2021-02-09T11:02:18",
     date_gmt: "2021-02-09T16:02:18",
     guid: { rendered: "https://maqay.org/?p=1376" },
-    modified: "2021-02-09T11:02:18",
-    modified_gmt: "2021-02-09T16:02:18",
+    modified: "2021-02-25T14:54:23",
+    modified_gmt: "2021-02-25T19:54:23",
     slug: "propuesta-154",
     status: "publish",
     type: "post",
@@ -7633,7 +8012,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1819,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -7671,6 +8050,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1376/revisions/1382",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1819",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1376" },
       ],
@@ -7696,8 +8081,8 @@ const allPosts = [
     date: "2021-02-09T10:59:59",
     date_gmt: "2021-02-09T15:59:59",
     guid: { rendered: "https://maqay.org/?p=1374" },
-    modified: "2021-02-09T10:59:59",
-    modified_gmt: "2021-02-09T15:59:59",
+    modified: "2021-02-25T12:53:23",
+    modified_gmt: "2021-02-25T17:53:23",
     slug: "propuesta-065",
     status: "publish",
     type: "post",
@@ -7714,7 +8099,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1721,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -7742,14 +8127,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1374/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1377,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1374/revisions/1377",
+          id: 1929,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1374/revisions/1929",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1721",
         },
       ],
       "wp:attachment": [
@@ -7777,8 +8168,8 @@ const allPosts = [
     date: "2021-02-09T10:59:13",
     date_gmt: "2021-02-09T15:59:13",
     guid: { rendered: "https://maqay.org/?p=1367" },
-    modified: "2021-02-09T10:59:13",
-    modified_gmt: "2021-02-09T15:59:13",
+    modified: "2021-02-25T14:54:22",
+    modified_gmt: "2021-02-25T19:54:22",
     slug: "propuesta-153",
     status: "publish",
     type: "post",
@@ -7795,7 +8186,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1817,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -7833,6 +8224,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1367/revisions/1375",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1817",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1367" },
       ],
@@ -7858,8 +8255,8 @@ const allPosts = [
     date: "2021-02-09T10:58:14",
     date_gmt: "2021-02-09T15:58:14",
     guid: { rendered: "https://maqay.org/?p=1363" },
-    modified: "2021-02-09T10:58:14",
-    modified_gmt: "2021-02-09T15:58:14",
+    modified: "2021-02-25T12:53:20",
+    modified_gmt: "2021-02-25T17:53:20",
     slug: "propuesta-064",
     status: "publish",
     type: "post",
@@ -7876,7 +8273,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1720,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -7914,6 +8311,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1363/revisions/1372",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1720",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1363" },
       ],
@@ -7939,8 +8342,8 @@ const allPosts = [
     date: "2021-02-09T10:57:55",
     date_gmt: "2021-02-09T15:57:55",
     guid: { rendered: "https://maqay.org/?p=1368" },
-    modified: "2021-02-10T11:12:31",
-    modified_gmt: "2021-02-10T16:12:31",
+    modified: "2021-02-25T15:46:57",
+    modified_gmt: "2021-02-25T20:46:57",
     slug: "propuesta-214",
     status: "publish",
     type: "post",
@@ -7957,7 +8360,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1888,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -7995,6 +8398,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1368/revisions/1596",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1888",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1368" },
       ],
@@ -8020,8 +8429,8 @@ const allPosts = [
     date: "2021-02-09T10:54:46",
     date_gmt: "2021-02-09T15:54:46",
     guid: { rendered: "https://maqay.org/?p=1361" },
-    modified: "2021-02-10T11:12:05",
-    modified_gmt: "2021-02-10T16:12:05",
+    modified: "2021-02-25T15:46:49",
+    modified_gmt: "2021-02-25T20:46:49",
     slug: "propuesta-213",
     status: "publish",
     type: "post",
@@ -8038,7 +8447,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1887,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -8076,6 +8485,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1361/revisions/1625",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1887",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1361" },
       ],
@@ -8101,8 +8516,8 @@ const allPosts = [
     date: "2021-02-09T10:54:37",
     date_gmt: "2021-02-09T15:54:37",
     guid: { rendered: "https://maqay.org/?p=1364" },
-    modified: "2021-02-09T10:54:37",
-    modified_gmt: "2021-02-09T15:54:37",
+    modified: "2021-02-25T14:54:18",
+    modified_gmt: "2021-02-25T19:54:18",
     slug: "propuesta-152",
     status: "publish",
     type: "post",
@@ -8119,7 +8534,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1816,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -8147,14 +8562,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1364/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1365,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1364/revisions/1365",
+          id: 1958,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1364/revisions/1958",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1816",
         },
       ],
       "wp:attachment": [
@@ -8182,8 +8603,8 @@ const allPosts = [
     date: "2021-02-09T10:52:47",
     date_gmt: "2021-02-09T15:52:47",
     guid: { rendered: "https://maqay.org/?p=1356" },
-    modified: "2021-02-09T10:52:47",
-    modified_gmt: "2021-02-09T15:52:47",
+    modified: "2021-02-25T14:54:12",
+    modified_gmt: "2021-02-25T19:54:12",
     slug: "propuesta-151",
     status: "publish",
     type: "post",
@@ -8200,7 +8621,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1815,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -8228,14 +8649,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1356/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1362,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1356/revisions/1362",
+          id: 1957,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1356/revisions/1957",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1815",
         },
       ],
       "wp:attachment": [
@@ -8263,8 +8690,8 @@ const allPosts = [
     date: "2021-02-09T10:52:39",
     date_gmt: "2021-02-09T15:52:39",
     guid: { rendered: "https://maqay.org/?p=1352" },
-    modified: "2021-02-09T10:52:39",
-    modified_gmt: "2021-02-09T15:52:39",
+    modified: "2021-02-25T12:51:41",
+    modified_gmt: "2021-02-25T17:51:41",
     slug: "propuesta-063",
     status: "publish",
     type: "post",
@@ -8281,7 +8708,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1719,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -8319,6 +8746,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1352/revisions/1360",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1719",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1352" },
       ],
@@ -8344,8 +8777,8 @@ const allPosts = [
     date: "2021-02-09T10:52:18",
     date_gmt: "2021-02-09T15:52:18",
     guid: { rendered: "https://maqay.org/?p=1353" },
-    modified: "2021-02-10T11:11:30",
-    modified_gmt: "2021-02-10T16:11:30",
+    modified: "2021-02-25T15:46:46",
+    modified_gmt: "2021-02-25T20:46:46",
     slug: "propuesta-212",
     status: "publish",
     type: "post",
@@ -8362,7 +8795,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1886,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -8400,6 +8833,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1353/revisions/1593",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1886",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1353" },
       ],
@@ -8425,8 +8864,8 @@ const allPosts = [
     date: "2021-02-09T10:52:13",
     date_gmt: "2021-02-09T15:52:13",
     guid: { rendered: "https://maqay.org/?p=1354" },
-    modified: "2021-02-09T10:52:13",
-    modified_gmt: "2021-02-09T15:52:13",
+    modified: "2021-02-25T15:08:03",
+    modified_gmt: "2021-02-25T20:08:03",
     slug: "propuesta-176",
     status: "publish",
     type: "post",
@@ -8443,7 +8882,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1846,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -8481,6 +8920,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1354/revisions/1357",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1846",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1354" },
       ],
@@ -8506,8 +8951,8 @@ const allPosts = [
     date: "2021-02-09T10:51:06",
     date_gmt: "2021-02-09T15:51:06",
     guid: { rendered: "https://maqay.org/?p=1348" },
-    modified: "2021-02-09T10:51:06",
-    modified_gmt: "2021-02-09T15:51:06",
+    modified: "2021-02-25T14:54:08",
+    modified_gmt: "2021-02-25T19:54:08",
     slug: "propuesta-150",
     status: "publish",
     type: "post",
@@ -8524,7 +8969,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1814,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -8562,6 +9007,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1348/revisions/1355",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1814",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1348" },
       ],
@@ -8587,8 +9038,8 @@ const allPosts = [
     date: "2021-02-09T10:50:36",
     date_gmt: "2021-02-09T15:50:36",
     guid: { rendered: "https://maqay.org/?p=1337" },
-    modified: "2021-02-10T15:38:15",
-    modified_gmt: "2021-02-10T20:38:15",
+    modified: "2021-02-25T15:43:40",
+    modified_gmt: "2021-02-25T20:43:40",
     slug: "propuesta-211",
     status: "publish",
     type: "post",
@@ -8605,7 +9056,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1885,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -8643,6 +9094,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1337/revisions/1608",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1885",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1337" },
       ],
@@ -8668,8 +9125,8 @@ const allPosts = [
     date: "2021-02-09T10:50:31",
     date_gmt: "2021-02-09T15:50:31",
     guid: { rendered: "https://maqay.org/?p=1349" },
-    modified: "2021-02-09T10:50:31",
-    modified_gmt: "2021-02-09T15:50:31",
+    modified: "2021-02-25T12:51:34",
+    modified_gmt: "2021-02-25T17:51:34",
     slug: "propuesta-062",
     status: "publish",
     type: "post",
@@ -8686,7 +9143,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1718,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -8724,6 +9181,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1349/revisions/1350",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1718",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1349" },
       ],
@@ -8749,8 +9212,8 @@ const allPosts = [
     date: "2021-02-09T10:49:11",
     date_gmt: "2021-02-09T15:49:11",
     guid: { rendered: "https://maqay.org/?p=1345" },
-    modified: "2021-02-09T10:49:11",
-    modified_gmt: "2021-02-09T15:49:11",
+    modified: "2021-02-25T12:51:32",
+    modified_gmt: "2021-02-25T17:51:32",
     slug: "propuesta-061",
     status: "publish",
     type: "post",
@@ -8767,7 +9230,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1717,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -8795,14 +9258,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1345/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1347,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1345/revisions/1347",
+          id: 1928,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1345/revisions/1928",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1717",
         },
       ],
       "wp:attachment": [
@@ -8830,8 +9299,8 @@ const allPosts = [
     date: "2021-02-09T10:48:29",
     date_gmt: "2021-02-09T15:48:29",
     guid: { rendered: "https://maqay.org/?p=1343" },
-    modified: "2021-02-09T10:48:29",
-    modified_gmt: "2021-02-09T15:48:29",
+    modified: "2021-02-25T15:08:00",
+    modified_gmt: "2021-02-25T20:08:00",
     slug: "propuesta-175",
     status: "publish",
     type: "post",
@@ -8846,7 +9315,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1845,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -8884,6 +9353,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1343/revisions/1346",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1845",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1343" },
       ],
@@ -8909,8 +9384,8 @@ const allPosts = [
     date: "2021-02-09T10:48:02",
     date_gmt: "2021-02-09T15:48:02",
     guid: { rendered: "https://maqay.org/?p=1341" },
-    modified: "2021-02-09T10:48:02",
-    modified_gmt: "2021-02-09T15:48:02",
+    modified: "2021-02-25T12:51:30",
+    modified_gmt: "2021-02-25T17:51:30",
     slug: "propuesta-060",
     status: "publish",
     type: "post",
@@ -8927,7 +9402,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1716,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -8955,14 +9430,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1341/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1344,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1341/revisions/1344",
+          id: 1927,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1341/revisions/1927",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1716",
         },
       ],
       "wp:attachment": [
@@ -9071,8 +9552,8 @@ const allPosts = [
     date: "2021-02-09T10:46:35",
     date_gmt: "2021-02-09T15:46:35",
     guid: { rendered: "https://maqay.org/?p=1339" },
-    modified: "2021-02-09T10:46:35",
-    modified_gmt: "2021-02-09T15:46:35",
+    modified: "2021-02-25T12:49:33",
+    modified_gmt: "2021-02-25T17:49:33",
     slug: "propuesta-059",
     status: "publish",
     type: "post",
@@ -9089,7 +9570,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1715,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -9127,6 +9608,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1339/revisions/1340",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1715",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1339" },
       ],
@@ -9152,8 +9639,8 @@ const allPosts = [
     date: "2021-02-09T10:44:35",
     date_gmt: "2021-02-09T15:44:35",
     guid: { rendered: "https://maqay.org/?p=1335" },
-    modified: "2021-02-09T10:44:35",
-    modified_gmt: "2021-02-09T15:44:35",
+    modified: "2021-02-25T12:49:28",
+    modified_gmt: "2021-02-25T17:49:28",
     slug: "propuesta-058",
     status: "publish",
     type: "post",
@@ -9170,7 +9657,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1714,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -9198,14 +9685,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1335/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1338,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1335/revisions/1338",
+          id: 1926,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1335/revisions/1926",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1714",
         },
       ],
       "wp:attachment": [
@@ -9233,8 +9726,8 @@ const allPosts = [
     date: "2021-02-09T10:44:09",
     date_gmt: "2021-02-09T15:44:09",
     guid: { rendered: "https://maqay.org/?p=1224" },
-    modified: "2021-02-10T11:09:46",
-    modified_gmt: "2021-02-10T16:09:46",
+    modified: "2021-02-25T15:43:38",
+    modified_gmt: "2021-02-25T20:43:38",
     slug: "propuesta-210",
     status: "publish",
     type: "post",
@@ -9251,7 +9744,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1884,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -9289,6 +9782,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1224/revisions/1591",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1884",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1224" },
       ],
@@ -9314,8 +9813,8 @@ const allPosts = [
     date: "2021-02-09T10:42:35",
     date_gmt: "2021-02-09T15:42:35",
     guid: { rendered: "https://maqay.org/?p=1332" },
-    modified: "2021-02-09T10:42:35",
-    modified_gmt: "2021-02-09T15:42:35",
+    modified: "2021-02-25T14:50:56",
+    modified_gmt: "2021-02-25T19:50:56",
     slug: "propuesta-149",
     status: "publish",
     type: "post",
@@ -9332,7 +9831,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1813,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -9370,6 +9869,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1332/revisions/1334",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1813",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1332" },
       ],
@@ -9395,8 +9900,8 @@ const allPosts = [
     date: "2021-02-09T10:36:08",
     date_gmt: "2021-02-09T15:36:08",
     guid: { rendered: "https://maqay.org/?p=1330" },
-    modified: "2021-02-10T10:58:48",
-    modified_gmt: "2021-02-10T15:58:48",
+    modified: "2021-02-25T12:49:27",
+    modified_gmt: "2021-02-25T17:49:27",
     slug: "propuesta-057",
     status: "publish",
     type: "post",
@@ -9413,7 +9918,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1713,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -9451,6 +9956,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1330/revisions/1584",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1713",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1330" },
       ],
@@ -9476,8 +9987,8 @@ const allPosts = [
     date: "2021-02-09T10:33:01",
     date_gmt: "2021-02-09T15:33:01",
     guid: { rendered: "https://maqay.org/?p=1327" },
-    modified: "2021-02-10T11:09:05",
-    modified_gmt: "2021-02-10T16:09:05",
+    modified: "2021-02-25T14:51:00",
+    modified_gmt: "2021-02-25T19:51:00",
     slug: "propuesta-148",
     status: "publish",
     type: "post",
@@ -9494,7 +10005,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1812,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -9532,6 +10043,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1327/revisions/1590",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1812",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1327" },
       ],
@@ -9557,8 +10074,8 @@ const allPosts = [
     date: "2021-02-09T10:31:58",
     date_gmt: "2021-02-09T15:31:58",
     guid: { rendered: "https://maqay.org/?p=1326" },
-    modified: "2021-02-09T10:31:58",
-    modified_gmt: "2021-02-09T15:31:58",
+    modified: "2021-02-25T12:49:24",
+    modified_gmt: "2021-02-25T17:49:24",
     slug: "propuesta-056",
     status: "publish",
     type: "post",
@@ -9575,7 +10092,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1712,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -9613,6 +10130,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1326/revisions/1329",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1712",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1326" },
       ],
@@ -9638,8 +10161,8 @@ const allPosts = [
     date: "2021-02-09T10:26:56",
     date_gmt: "2021-02-09T15:26:56",
     guid: { rendered: "https://maqay.org/?p=1324" },
-    modified: "2021-02-09T10:26:56",
-    modified_gmt: "2021-02-09T15:26:56",
+    modified: "2021-02-25T12:47:37",
+    modified_gmt: "2021-02-25T17:47:37",
     slug: "propuesta-055",
     status: "publish",
     type: "post",
@@ -9654,7 +10177,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1711,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -9692,6 +10215,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1324/revisions/1325",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1711",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1324" },
       ],
@@ -9717,8 +10246,8 @@ const allPosts = [
     date: "2021-02-09T10:25:29",
     date_gmt: "2021-02-09T15:25:29",
     guid: { rendered: "https://maqay.org/?p=1321" },
-    modified: "2021-02-09T10:25:29",
-    modified_gmt: "2021-02-09T15:25:29",
+    modified: "2021-02-25T12:47:32",
+    modified_gmt: "2021-02-25T17:47:32",
     slug: "propuesta-054",
     status: "publish",
     type: "post",
@@ -9735,7 +10264,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1710,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -9769,8 +10298,14 @@ const allPosts = [
       ],
       "predecessor-version": [
         {
-          id: 1323,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1321/revisions/1323",
+          id: 1921,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1321/revisions/1921",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1710",
         },
       ],
       "wp:attachment": [
@@ -9798,8 +10333,8 @@ const allPosts = [
     date: "2021-02-09T10:23:32",
     date_gmt: "2021-02-09T15:23:32",
     guid: { rendered: "https://maqay.org/?p=1316" },
-    modified: "2021-02-09T10:23:32",
-    modified_gmt: "2021-02-09T15:23:32",
+    modified: "2021-02-25T12:47:30",
+    modified_gmt: "2021-02-25T17:47:30",
     slug: "propuesta-053",
     status: "publish",
     type: "post",
@@ -9816,7 +10351,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1709,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -9852,6 +10387,12 @@ const allPosts = [
         {
           id: 1320,
           href: "https://maqay.org/wp-json/wp/v2/posts/1316/revisions/1320",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1709",
         },
       ],
       "wp:attachment": [
@@ -10041,8 +10582,8 @@ const allPosts = [
     date: "2021-02-09T10:20:10",
     date_gmt: "2021-02-09T15:20:10",
     guid: { rendered: "https://maqay.org/?p=1311" },
-    modified: "2021-02-10T11:02:46",
-    modified_gmt: "2021-02-10T16:02:46",
+    modified: "2021-02-25T14:37:38",
+    modified_gmt: "2021-02-25T19:37:38",
     slug: "propuesta-124",
     status: "publish",
     type: "post",
@@ -10059,7 +10600,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1786,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -10087,14 +10628,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1311/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1587,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1311/revisions/1587",
+          id: 1952,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1311/revisions/1952",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1786",
         },
       ],
       "wp:attachment": [
@@ -10122,8 +10669,8 @@ const allPosts = [
     date: "2021-02-09T10:19:32",
     date_gmt: "2021-02-09T15:19:32",
     guid: { rendered: "https://maqay.org/?p=1305" },
-    modified: "2021-02-10T10:57:31",
-    modified_gmt: "2021-02-10T15:57:31",
+    modified: "2021-02-25T12:47:28",
+    modified_gmt: "2021-02-25T17:47:28",
     slug: "propuesta-052",
     status: "publish",
     type: "post",
@@ -10140,7 +10687,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1708,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -10168,14 +10715,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1305/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1583,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1305/revisions/1583",
+          id: 1925,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1305/revisions/1925",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1708",
         },
       ],
       "wp:attachment": [
@@ -10284,8 +10837,8 @@ const allPosts = [
     date: "2021-02-09T10:18:21",
     date_gmt: "2021-02-09T15:18:21",
     guid: { rendered: "https://maqay.org/?p=1308" },
-    modified: "2021-02-09T10:18:21",
-    modified_gmt: "2021-02-09T15:18:21",
+    modified: "2021-02-25T14:37:37",
+    modified_gmt: "2021-02-25T19:37:37",
     slug: "propuesta-123",
     status: "publish",
     type: "post",
@@ -10302,7 +10855,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1785,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -10340,6 +10893,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1308/revisions/1310",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1785",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1308" },
       ],
@@ -10365,8 +10924,8 @@ const allPosts = [
     date: "2021-02-09T10:17:23",
     date_gmt: "2021-02-09T15:17:23",
     guid: { rendered: "https://maqay.org/?p=1304" },
-    modified: "2021-02-10T15:44:05",
-    modified_gmt: "2021-02-10T20:44:05",
+    modified: "2021-02-25T14:37:32",
+    modified_gmt: "2021-02-25T19:37:32",
     slug: "propuesta-122",
     status: "publish",
     type: "post",
@@ -10383,7 +10942,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1784,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -10419,6 +10978,12 @@ const allPosts = [
         {
           id: 1611,
           href: "https://maqay.org/wp-json/wp/v2/posts/1304/revisions/1611",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1784",
         },
       ],
       "wp:attachment": [
@@ -10527,8 +11092,8 @@ const allPosts = [
     date: "2021-02-09T10:16:25",
     date_gmt: "2021-02-09T15:16:25",
     guid: { rendered: "https://maqay.org/?p=1302" },
-    modified: "2021-02-10T15:51:52",
-    modified_gmt: "2021-02-10T20:51:52",
+    modified: "2021-02-25T14:37:30",
+    modified_gmt: "2021-02-25T19:37:30",
     slug: "propuesta-121",
     status: "publish",
     type: "post",
@@ -10545,7 +11110,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1783,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -10573,7 +11138,7 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 3,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1302/revisions",
         },
       ],
@@ -10581,6 +11146,12 @@ const allPosts = [
         {
           id: 1614,
           href: "https://maqay.org/wp-json/wp/v2/posts/1302/revisions/1614",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1783",
         },
       ],
       "wp:attachment": [
@@ -10608,8 +11179,8 @@ const allPosts = [
     date: "2021-02-09T10:15:07",
     date_gmt: "2021-02-09T15:15:07",
     guid: { rendered: "https://maqay.org/?p=1297" },
-    modified: "2021-02-09T10:15:07",
-    modified_gmt: "2021-02-09T15:15:07",
+    modified: "2021-02-25T14:37:27",
+    modified_gmt: "2021-02-25T19:37:27",
     slug: "propuesta-120",
     status: "publish",
     type: "post",
@@ -10626,7 +11197,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1781,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -10654,14 +11225,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1297/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1301,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1297/revisions/1301",
+          id: 1951,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1297/revisions/1951",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1781",
         },
       ],
       "wp:attachment": [
@@ -10689,8 +11266,8 @@ const allPosts = [
     date: "2021-02-09T10:14:20",
     date_gmt: "2021-02-09T15:14:20",
     guid: { rendered: "https://maqay.org/?p=1293" },
-    modified: "2021-02-09T10:14:20",
-    modified_gmt: "2021-02-09T15:14:20",
+    modified: "2021-02-25T12:45:36",
+    modified_gmt: "2021-02-25T17:45:36",
     slug: "propuesta-051",
     status: "publish",
     type: "post",
@@ -10707,7 +11284,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1707,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -10745,6 +11322,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1293/revisions/1299",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1707",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1293" },
       ],
@@ -10770,8 +11353,8 @@ const allPosts = [
     date: "2021-02-09T10:13:28",
     date_gmt: "2021-02-09T15:13:28",
     guid: { rendered: "https://maqay.org/?p=1291" },
-    modified: "2021-02-09T10:13:28",
-    modified_gmt: "2021-02-09T15:13:28",
+    modified: "2021-02-25T14:35:32",
+    modified_gmt: "2021-02-25T19:35:32",
     slug: "propuesta-119",
     status: "publish",
     type: "post",
@@ -10788,7 +11371,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1780,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -10826,6 +11409,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1291/revisions/1296",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1780",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1291" },
       ],
@@ -10851,8 +11440,8 @@ const allPosts = [
     date: "2021-02-09T10:12:48",
     date_gmt: "2021-02-09T15:12:48",
     guid: { rendered: "https://maqay.org/?p=1289" },
-    modified: "2021-02-10T11:05:28",
-    modified_gmt: "2021-02-10T16:05:28",
+    modified: "2021-02-25T14:51:03",
+    modified_gmt: "2021-02-25T19:51:03",
     slug: "propuesta-147",
     status: "publish",
     type: "post",
@@ -10869,7 +11458,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1811,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -10907,6 +11496,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1289/revisions/1589",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1811",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1289" },
       ],
@@ -10932,8 +11527,8 @@ const allPosts = [
     date: "2021-02-09T10:09:53",
     date_gmt: "2021-02-09T15:09:53",
     guid: { rendered: "https://maqay.org/?p=1280" },
-    modified: "2021-02-09T10:10:36",
-    modified_gmt: "2021-02-09T15:10:36",
+    modified: "2021-02-25T14:35:31",
+    modified_gmt: "2021-02-25T19:35:31",
     slug: "propuesta-118",
     status: "publish",
     type: "post",
@@ -10950,7 +11545,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1779,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -10988,6 +11583,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1280/revisions/1288",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1779",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1280" },
       ],
@@ -11013,8 +11614,8 @@ const allPosts = [
     date: "2021-02-09T10:09:14",
     date_gmt: "2021-02-09T15:09:14",
     guid: { rendered: "https://maqay.org/?p=1175" },
-    modified: "2021-02-10T13:06:58",
-    modified_gmt: "2021-02-10T18:06:58",
+    modified: "2021-02-25T15:05:42",
+    modified_gmt: "2021-02-25T20:05:42",
     slug: "propuesta-169",
     status: "publish",
     type: "post",
@@ -11031,7 +11632,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1839,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -11069,6 +11670,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1175/revisions/1604",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1839",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1175" },
       ],
@@ -11094,8 +11701,8 @@ const allPosts = [
     date: "2021-02-09T10:04:31",
     date_gmt: "2021-02-09T15:04:31",
     guid: { rendered: "https://maqay.org/?p=1278" },
-    modified: "2021-02-09T10:04:31",
-    modified_gmt: "2021-02-09T15:04:31",
+    modified: "2021-02-25T14:35:26",
+    modified_gmt: "2021-02-25T19:35:26",
     slug: "propuesta-117",
     status: "publish",
     type: "post",
@@ -11112,7 +11719,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1778,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -11140,14 +11747,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1278/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1279,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1278/revisions/1279",
+          id: 1949,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1278/revisions/1949",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1778",
         },
       ],
       "wp:attachment": [
@@ -11175,8 +11788,8 @@ const allPosts = [
     date: "2021-02-09T10:02:11",
     date_gmt: "2021-02-09T15:02:11",
     guid: { rendered: "https://maqay.org/?p=1273" },
-    modified: "2021-02-10T15:58:26",
-    modified_gmt: "2021-02-10T20:58:26",
+    modified: "2021-02-25T14:51:07",
+    modified_gmt: "2021-02-25T19:51:07",
     slug: "propuesta-146",
     status: "publish",
     type: "post",
@@ -11193,7 +11806,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1810,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -11231,6 +11844,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1273/revisions/1619",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1810",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1273" },
       ],
@@ -11256,8 +11875,8 @@ const allPosts = [
     date: "2021-02-09T10:00:58",
     date_gmt: "2021-02-09T15:00:58",
     guid: { rendered: "https://maqay.org/?p=1272" },
-    modified: "2021-02-09T10:00:58",
-    modified_gmt: "2021-02-09T15:00:58",
+    modified: "2021-02-25T14:35:25",
+    modified_gmt: "2021-02-25T19:35:25",
     slug: "propuesta-116",
     status: "publish",
     type: "post",
@@ -11274,7 +11893,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1777,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -11302,14 +11921,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1272/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1274,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1272/revisions/1274",
+          id: 1950,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1272/revisions/1950",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1777",
         },
       ],
       "wp:attachment": [
@@ -11337,8 +11962,8 @@ const allPosts = [
     date: "2021-02-09T09:59:36",
     date_gmt: "2021-02-09T14:59:36",
     guid: { rendered: "https://maqay.org/?p=1269" },
-    modified: "2021-02-09T09:59:36",
-    modified_gmt: "2021-02-09T14:59:36",
+    modified: "2021-02-25T14:35:22",
+    modified_gmt: "2021-02-25T19:35:22",
     slug: "propuesta-115",
     status: "publish",
     type: "post",
@@ -11355,7 +11980,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1776,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -11393,6 +12018,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1269/revisions/1271",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1776",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1269" },
       ],
@@ -11418,8 +12049,8 @@ const allPosts = [
     date: "2021-02-09T09:59:23",
     date_gmt: "2021-02-09T14:59:23",
     guid: { rendered: "https://maqay.org/?p=1265" },
-    modified: "2021-02-09T09:59:23",
-    modified_gmt: "2021-02-09T14:59:23",
+    modified: "2021-02-25T14:51:49",
+    modified_gmt: "2021-02-25T19:51:49",
     slug: "propuesta-145",
     status: "publish",
     type: "post",
@@ -11436,7 +12067,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1809,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -11474,6 +12105,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1265/revisions/1270",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1809",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1265" },
       ],
@@ -11499,8 +12136,8 @@ const allPosts = [
     date: "2021-02-09T09:58:21",
     date_gmt: "2021-02-09T14:58:21",
     guid: { rendered: "https://maqay.org/?p=1267" },
-    modified: "2021-02-09T09:58:21",
-    modified_gmt: "2021-02-09T14:58:21",
+    modified: "2021-02-25T14:33:12",
+    modified_gmt: "2021-02-25T19:33:12",
     slug: "propuesta-114",
     status: "publish",
     type: "post",
@@ -11517,7 +12154,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1775,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -11555,6 +12192,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1267/revisions/1268",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1775",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1267" },
       ],
@@ -11580,8 +12223,8 @@ const allPosts = [
     date: "2021-02-09T09:57:11",
     date_gmt: "2021-02-09T14:57:11",
     guid: { rendered: "https://maqay.org/?p=1263" },
-    modified: "2021-02-09T09:57:11",
-    modified_gmt: "2021-02-09T14:57:11",
+    modified: "2021-02-25T14:33:10",
+    modified_gmt: "2021-02-25T19:33:10",
     slug: "propuesta-113",
     status: "publish",
     type: "post",
@@ -11598,7 +12241,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1774,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -11636,6 +12279,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1263/revisions/1266",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1774",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1263" },
       ],
@@ -11661,8 +12310,8 @@ const allPosts = [
     date: "2021-02-09T09:56:49",
     date_gmt: "2021-02-09T14:56:49",
     guid: { rendered: "https://maqay.org/?p=1261" },
-    modified: "2021-02-09T09:56:49",
-    modified_gmt: "2021-02-09T14:56:49",
+    modified: "2021-02-25T14:47:22",
+    modified_gmt: "2021-02-25T19:47:22",
     slug: "propuesta-144",
     status: "publish",
     type: "post",
@@ -11679,7 +12328,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1808,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -11717,6 +12366,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1261/revisions/1264",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1808",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1261" },
       ],
@@ -11742,8 +12397,8 @@ const allPosts = [
     date: "2021-02-09T09:56:16",
     date_gmt: "2021-02-09T14:56:16",
     guid: { rendered: "https://maqay.org/?p=1260" },
-    modified: "2021-02-09T09:56:16",
-    modified_gmt: "2021-02-09T14:56:16",
+    modified: "2021-02-25T14:33:06",
+    modified_gmt: "2021-02-25T19:33:06",
     slug: "propuesta-112",
     status: "publish",
     type: "post",
@@ -11760,7 +12415,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1773,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -11798,6 +12453,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1260/revisions/1262",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1773",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1260" },
       ],
@@ -11823,8 +12484,8 @@ const allPosts = [
     date: "2021-02-09T09:55:23",
     date_gmt: "2021-02-09T14:55:23",
     guid: { rendered: "https://maqay.org/?p=1255" },
-    modified: "2021-02-09T09:55:23",
-    modified_gmt: "2021-02-09T14:55:23",
+    modified: "2021-02-25T14:47:22",
+    modified_gmt: "2021-02-25T19:47:22",
     slug: "propuesta-143",
     status: "publish",
     type: "post",
@@ -11841,7 +12502,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1807,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -11879,6 +12540,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1255/revisions/1259",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1807",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1255" },
       ],
@@ -11904,8 +12571,8 @@ const allPosts = [
     date: "2021-02-09T09:55:20",
     date_gmt: "2021-02-09T14:55:20",
     guid: { rendered: "https://maqay.org/?p=1257" },
-    modified: "2021-02-09T09:55:20",
-    modified_gmt: "2021-02-09T14:55:20",
+    modified: "2021-02-25T14:33:04",
+    modified_gmt: "2021-02-25T19:33:04",
     slug: "propuesta-111",
     status: "publish",
     type: "post",
@@ -11920,7 +12587,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1772,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -11958,6 +12625,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1257/revisions/1258",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1772",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1257" },
       ],
@@ -11983,8 +12656,8 @@ const allPosts = [
     date: "2021-02-09T09:53:36",
     date_gmt: "2021-02-09T14:53:36",
     guid: { rendered: "https://maqay.org/?p=1254" },
-    modified: "2021-02-09T09:53:36",
-    modified_gmt: "2021-02-09T14:53:36",
+    modified: "2021-02-25T14:33:02",
+    modified_gmt: "2021-02-25T19:33:02",
     slug: "propuesta-110",
     status: "publish",
     type: "post",
@@ -12001,7 +12674,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1771,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -12039,6 +12712,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1254/revisions/1256",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1771",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1254" },
       ],
@@ -12060,93 +12739,12 @@ const allPosts = [
     },
   },
   {
-    id: 1251,
-    date: "2021-02-09T09:52:33",
-    date_gmt: "2021-02-09T14:52:33",
-    guid: { rendered: "https://maqay.org/?p=1251" },
-    modified: "2021-02-09T09:52:33",
-    modified_gmt: "2021-02-09T14:52:33",
-    slug: "propuesta-142",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/propuesta-142/",
-    title: { rendered: "Propuesta 142" },
-    content: {
-      rendered:
-        "<p>Prohibir el uso de combustibles contaminantes en f\u00e1bricas, empresas agropecuarias, y otras actividades productivas, brindando exoneraciones tributarias incrementales para promover el uso de veh\u00edculos el\u00e9ctricos.</p>\n",
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>Prohibir el uso de combustibles contaminantes en f\u00e1bricas, empresas agropecuarias, y otras actividades productivas, brindando exoneraciones tributarias incrementales para promover el uso de veh\u00edculos el\u00e9ctricos.</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 0,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [23],
-    tags: [41, 55],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1251" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=1251",
-        },
-      ],
-      "version-history": [
-        {
-          count: 1,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1251/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 1253,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1251/revisions/1253",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=1251" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=1251",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=1251",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
     id: 1249,
     date: "2021-02-09T09:52:33",
     date_gmt: "2021-02-09T14:52:33",
     guid: { rendered: "https://maqay.org/?p=1249" },
-    modified: "2021-02-09T09:52:33",
-    modified_gmt: "2021-02-09T14:52:33",
+    modified: "2021-02-25T14:30:55",
+    modified_gmt: "2021-02-25T19:30:55",
     slug: "propuesta-109",
     status: "publish",
     type: "post",
@@ -12163,7 +12761,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1770,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -12201,6 +12799,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1249/revisions/1252",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1770",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1249" },
       ],
@@ -12222,12 +12826,99 @@ const allPosts = [
     },
   },
   {
+    id: 1251,
+    date: "2021-02-09T09:52:33",
+    date_gmt: "2021-02-09T14:52:33",
+    guid: { rendered: "https://maqay.org/?p=1251" },
+    modified: "2021-02-25T14:47:15",
+    modified_gmt: "2021-02-25T19:47:15",
+    slug: "propuesta-142",
+    status: "publish",
+    type: "post",
+    link: "https://maqay.org/propuesta-142/",
+    title: { rendered: "Propuesta 142" },
+    content: {
+      rendered:
+        "<p>Prohibir el uso de combustibles contaminantes en f\u00e1bricas, empresas agropecuarias, y otras actividades productivas, brindando exoneraciones tributarias incrementales para promover el uso de veh\u00edculos el\u00e9ctricos.</p>\n",
+      protected: false,
+    },
+    excerpt: {
+      rendered:
+        "<p>Prohibir el uso de combustibles contaminantes en f\u00e1bricas, empresas agropecuarias, y otras actividades productivas, brindando exoneraciones tributarias incrementales para promover el uso de veh\u00edculos el\u00e9ctricos.</p>\n",
+      protected: false,
+    },
+    author: 2,
+    featured_media: 1806,
+    comment_status: "open",
+    ping_status: "open",
+    sticky: false,
+    template: "",
+    format: "standard",
+    meta: {
+      _et_pb_use_builder: "",
+      _et_pb_old_content: "",
+      _et_gb_content_width: "",
+    },
+    categories: [23],
+    tags: [41, 55],
+    _links: {
+      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1251" }],
+      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
+      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
+      author: [
+        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
+      ],
+      replies: [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/comments?post=1251",
+        },
+      ],
+      "version-history": [
+        {
+          count: 2,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1251/revisions",
+        },
+      ],
+      "predecessor-version": [
+        {
+          id: 1956,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1251/revisions/1956",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1806",
+        },
+      ],
+      "wp:attachment": [
+        { href: "https://maqay.org/wp-json/wp/v2/media?parent=1251" },
+      ],
+      "wp:term": [
+        {
+          taxonomy: "category",
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/categories?post=1251",
+        },
+        {
+          taxonomy: "post_tag",
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/tags?post=1251",
+        },
+      ],
+      curies: [
+        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
+      ],
+    },
+  },
+  {
     id: 1248,
     date: "2021-02-09T09:50:46",
     date_gmt: "2021-02-09T14:50:46",
     guid: { rendered: "https://maqay.org/?p=1248" },
-    modified: "2021-02-09T09:50:46",
-    modified_gmt: "2021-02-09T14:50:46",
+    modified: "2021-02-25T14:47:14",
+    modified_gmt: "2021-02-25T19:47:14",
     slug: "propuesta-141",
     status: "publish",
     type: "post",
@@ -12244,7 +12935,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1805,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -12282,6 +12973,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1248/revisions/1250",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1805",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1248" },
       ],
@@ -12307,8 +13004,8 @@ const allPosts = [
     date: "2021-02-09T09:48:35",
     date_gmt: "2021-02-09T14:48:35",
     guid: { rendered: "https://maqay.org/?p=1245" },
-    modified: "2021-02-09T09:48:35",
-    modified_gmt: "2021-02-09T14:48:35",
+    modified: "2021-02-25T14:30:49",
+    modified_gmt: "2021-02-25T19:30:49",
     slug: "propuesta-108",
     status: "publish",
     type: "post",
@@ -12325,7 +13022,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1769,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -12363,6 +13060,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1245/revisions/1247",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1769",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1245" },
       ],
@@ -12388,8 +13091,8 @@ const allPosts = [
     date: "2021-02-09T09:48:26",
     date_gmt: "2021-02-09T14:48:26",
     guid: { rendered: "https://maqay.org/?p=1241" },
-    modified: "2021-02-09T09:48:26",
-    modified_gmt: "2021-02-09T14:48:26",
+    modified: "2021-02-25T14:47:11",
+    modified_gmt: "2021-02-25T19:47:11",
     slug: "propuesta-140",
     status: "publish",
     type: "post",
@@ -12406,7 +13109,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1804,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -12444,6 +13147,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1241/revisions/1246",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1804",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1241" },
       ],
@@ -12469,8 +13178,8 @@ const allPosts = [
     date: "2021-02-09T09:47:32",
     date_gmt: "2021-02-09T14:47:32",
     guid: { rendered: "https://maqay.org/?p=1243" },
-    modified: "2021-02-09T09:47:32",
-    modified_gmt: "2021-02-09T14:47:32",
+    modified: "2021-02-25T14:30:54",
+    modified_gmt: "2021-02-25T19:30:54",
     slug: "propuesta-107",
     status: "publish",
     type: "post",
@@ -12487,7 +13196,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1768,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -12525,6 +13234,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1243/revisions/1244",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1768",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1243" },
       ],
@@ -12550,8 +13265,8 @@ const allPosts = [
     date: "2021-02-09T09:46:37",
     date_gmt: "2021-02-09T14:46:37",
     guid: { rendered: "https://maqay.org/?p=1239" },
-    modified: "2021-02-09T09:46:37",
-    modified_gmt: "2021-02-09T14:46:37",
+    modified: "2021-02-25T14:30:40",
+    modified_gmt: "2021-02-25T19:30:40",
     slug: "propuesta-106",
     status: "publish",
     type: "post",
@@ -12568,7 +13283,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1767,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -12596,14 +13311,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1239/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1242,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1239/revisions/1242",
+          id: 1946,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1239/revisions/1946",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1767",
         },
       ],
       "wp:attachment": [
@@ -12631,8 +13352,8 @@ const allPosts = [
     date: "2021-02-09T09:46:02",
     date_gmt: "2021-02-09T14:46:02",
     guid: { rendered: "https://maqay.org/?p=1229" },
-    modified: "2021-02-09T09:46:02",
-    modified_gmt: "2021-02-09T14:46:02",
+    modified: "2021-02-25T14:44:29",
+    modified_gmt: "2021-02-25T19:44:29",
     slug: "propuesta-139",
     status: "publish",
     type: "post",
@@ -12649,7 +13370,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1803,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -12687,6 +13408,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1229/revisions/1240",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1803",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1229" },
       ],
@@ -12712,8 +13439,8 @@ const allPosts = [
     date: "2021-02-09T09:45:32",
     date_gmt: "2021-02-09T14:45:32",
     guid: { rendered: "https://maqay.org/?p=1237" },
-    modified: "2021-02-09T09:45:32",
-    modified_gmt: "2021-02-09T14:45:32",
+    modified: "2021-02-25T14:30:38",
+    modified_gmt: "2021-02-25T19:30:38",
     slug: "propuesta-105",
     status: "publish",
     type: "post",
@@ -12730,7 +13457,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1766,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -12758,14 +13485,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1237/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1238,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1237/revisions/1238",
+          id: 1947,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1237/revisions/1947",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1766",
         },
       ],
       "wp:attachment": [
@@ -12793,8 +13526,8 @@ const allPosts = [
     date: "2021-02-09T09:44:15",
     date_gmt: "2021-02-09T14:44:15",
     guid: { rendered: "https://maqay.org/?p=1235" },
-    modified: "2021-02-09T09:44:15",
-    modified_gmt: "2021-02-09T14:44:15",
+    modified: "2021-02-25T13:35:28",
+    modified_gmt: "2021-02-25T18:35:28",
     slug: "propuesta-104",
     status: "publish",
     type: "post",
@@ -12811,7 +13544,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1764,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -12849,6 +13582,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1235/revisions/1236",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1764",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1235" },
       ],
@@ -12874,8 +13613,8 @@ const allPosts = [
     date: "2021-02-09T09:42:59",
     date_gmt: "2021-02-09T14:42:59",
     guid: { rendered: "https://maqay.org/?p=1233" },
-    modified: "2021-02-09T09:42:59",
-    modified_gmt: "2021-02-09T14:42:59",
+    modified: "2021-02-25T13:35:25",
+    modified_gmt: "2021-02-25T18:35:25",
     slug: "propuesta-103",
     status: "publish",
     type: "post",
@@ -12892,7 +13631,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1763,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -12930,6 +13669,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1233/revisions/1234",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1763",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1233" },
       ],
@@ -12955,8 +13700,8 @@ const allPosts = [
     date: "2021-02-09T09:41:33",
     date_gmt: "2021-02-09T14:41:33",
     guid: { rendered: "https://maqay.org/?p=1231" },
-    modified: "2021-02-09T09:41:33",
-    modified_gmt: "2021-02-09T14:41:33",
+    modified: "2021-02-25T13:35:23",
+    modified_gmt: "2021-02-25T18:35:23",
     slug: "propuesta-102",
     status: "publish",
     type: "post",
@@ -12972,7 +13717,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1762,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -13010,6 +13755,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1231/revisions/1232",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1762",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1231" },
       ],
@@ -13035,8 +13786,8 @@ const allPosts = [
     date: "2021-02-09T09:40:24",
     date_gmt: "2021-02-09T14:40:24",
     guid: { rendered: "https://maqay.org/?p=1227" },
-    modified: "2021-02-09T09:40:24",
-    modified_gmt: "2021-02-09T14:40:24",
+    modified: "2021-02-25T13:35:19",
+    modified_gmt: "2021-02-25T18:35:19",
     slug: "propuesta-101",
     status: "publish",
     type: "post",
@@ -13051,7 +13802,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1761,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -13079,14 +13830,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1227/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1230,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1227/revisions/1230",
+          id: 1945,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1227/revisions/1945",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1761",
         },
       ],
       "wp:attachment": [
@@ -13114,8 +13871,8 @@ const allPosts = [
     date: "2021-02-09T09:39:32",
     date_gmt: "2021-02-09T14:39:32",
     guid: { rendered: "https://maqay.org/?p=1225" },
-    modified: "2021-02-09T09:39:32",
-    modified_gmt: "2021-02-09T14:39:32",
+    modified: "2021-02-25T14:44:27",
+    modified_gmt: "2021-02-25T19:44:27",
     slug: "propuesta-138",
     status: "publish",
     type: "post",
@@ -13132,7 +13889,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1802,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -13170,6 +13927,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1225/revisions/1228",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1802",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1225" },
       ],
@@ -13195,8 +13958,8 @@ const allPosts = [
     date: "2021-02-09T09:38:58",
     date_gmt: "2021-02-09T14:38:58",
     guid: { rendered: "https://maqay.org/?p=1223" },
-    modified: "2021-02-09T09:38:58",
-    modified_gmt: "2021-02-09T14:38:58",
+    modified: "2021-02-25T13:35:17",
+    modified_gmt: "2021-02-25T18:35:17",
     slug: "propuesta-100",
     status: "publish",
     type: "post",
@@ -13213,7 +13976,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1760,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -13251,6 +14014,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1223/revisions/1226",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1760",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1223" },
       ],
@@ -13276,8 +14045,8 @@ const allPosts = [
     date: "2021-02-09T09:37:53",
     date_gmt: "2021-02-09T14:37:53",
     guid: { rendered: "https://maqay.org/?p=1217" },
-    modified: "2021-02-09T09:37:53",
-    modified_gmt: "2021-02-09T14:37:53",
+    modified: "2021-02-25T14:44:21",
+    modified_gmt: "2021-02-25T19:44:21",
     slug: "propuesta-137",
     status: "publish",
     type: "post",
@@ -13294,7 +14063,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1801,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -13332,6 +14101,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1217/revisions/1222",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1801",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1217" },
       ],
@@ -13357,8 +14132,8 @@ const allPosts = [
     date: "2021-02-09T09:37:50",
     date_gmt: "2021-02-09T14:37:50",
     guid: { rendered: "https://maqay.org/?p=1216" },
-    modified: "2021-02-10T15:48:41",
-    modified_gmt: "2021-02-10T20:48:41",
+    modified: "2021-02-25T13:10:59",
+    modified_gmt: "2021-02-25T18:10:59",
     slug: "propuesta-099",
     status: "publish",
     type: "post",
@@ -13375,7 +14150,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1758,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -13403,14 +14178,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1216/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1612,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1216/revisions/1612",
+          id: 1944,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1216/revisions/1944",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1758",
         },
       ],
       "wp:attachment": [
@@ -13438,8 +14219,8 @@ const allPosts = [
     date: "2021-02-09T09:37:45",
     date_gmt: "2021-02-09T14:37:45",
     guid: { rendered: "https://maqay.org/?p=1202" },
-    modified: "2021-02-09T09:37:45",
-    modified_gmt: "2021-02-09T14:37:45",
+    modified: "2021-02-25T15:43:38",
+    modified_gmt: "2021-02-25T20:43:38",
     slug: "propuesta-209",
     status: "publish",
     type: "post",
@@ -13456,7 +14237,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1883,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -13484,14 +14265,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 1,
           href: "https://maqay.org/wp-json/wp/v2/posts/1202/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1221,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1202/revisions/1221",
+          id: 1219,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1202/revisions/1219",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1883",
         },
       ],
       "wp:attachment": [
@@ -13519,8 +14306,8 @@ const allPosts = [
     date: "2021-02-09T09:37:02",
     date_gmt: "2021-02-09T14:37:02",
     guid: { rendered: "https://maqay.org/?p=1213" },
-    modified: "2021-02-09T09:37:02",
-    modified_gmt: "2021-02-09T14:37:02",
+    modified: "2021-02-25T12:45:32",
+    modified_gmt: "2021-02-25T17:45:32",
     slug: "propuesta-050",
     status: "publish",
     type: "post",
@@ -13537,7 +14324,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1706,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -13575,6 +14362,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1213/revisions/1218",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1706",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1213" },
       ],
@@ -13600,8 +14393,8 @@ const allPosts = [
     date: "2021-02-09T09:36:22",
     date_gmt: "2021-02-09T14:36:22",
     guid: { rendered: "https://maqay.org/?p=1211" },
-    modified: "2021-02-09T09:36:22",
-    modified_gmt: "2021-02-09T14:36:22",
+    modified: "2021-02-25T13:10:59",
+    modified_gmt: "2021-02-25T18:10:59",
     slug: "propuesta-098",
     status: "publish",
     type: "post",
@@ -13618,7 +14411,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1757,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -13656,6 +14449,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1211/revisions/1214",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1757",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1211" },
       ],
@@ -13681,8 +14480,8 @@ const allPosts = [
     date: "2021-02-09T09:36:22",
     date_gmt: "2021-02-09T14:36:22",
     guid: { rendered: "https://maqay.org/?p=1207" },
-    modified: "2021-02-10T11:03:57",
-    modified_gmt: "2021-02-10T16:03:57",
+    modified: "2021-02-25T14:44:16",
+    modified_gmt: "2021-02-25T19:44:16",
     slug: "propuesta-136",
     status: "publish",
     type: "post",
@@ -13699,7 +14498,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1799,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -13737,6 +14536,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1207/revisions/1588",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1799",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1207" },
       ],
@@ -13762,8 +14567,8 @@ const allPosts = [
     date: "2021-02-09T09:35:28",
     date_gmt: "2021-02-09T14:35:28",
     guid: { rendered: "https://maqay.org/?p=1209" },
-    modified: "2021-02-09T09:35:28",
-    modified_gmt: "2021-02-09T14:35:28",
+    modified: "2021-02-25T12:45:30",
+    modified_gmt: "2021-02-25T17:45:30",
     slug: "propuesta-049",
     status: "publish",
     type: "post",
@@ -13780,7 +14585,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1705,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -13808,14 +14613,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1209/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1212,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1209/revisions/1212",
+          id: 1910,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1209/revisions/1910",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1705",
         },
       ],
       "wp:attachment": [
@@ -13843,8 +14654,8 @@ const allPosts = [
     date: "2021-02-09T09:34:54",
     date_gmt: "2021-02-09T14:34:54",
     guid: { rendered: "https://maqay.org/?p=1206" },
-    modified: "2021-02-09T09:34:54",
-    modified_gmt: "2021-02-09T14:34:54",
+    modified: "2021-02-25T13:10:56",
+    modified_gmt: "2021-02-25T18:10:56",
     slug: "propuesta-097",
     status: "publish",
     type: "post",
@@ -13861,7 +14672,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1756,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -13899,6 +14710,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1206/revisions/1210",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1756",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1206" },
       ],
@@ -13924,8 +14741,8 @@ const allPosts = [
     date: "2021-02-09T09:33:28",
     date_gmt: "2021-02-09T14:33:28",
     guid: { rendered: "https://maqay.org/?p=1203" },
-    modified: "2021-02-09T09:33:28",
-    modified_gmt: "2021-02-09T14:33:28",
+    modified: "2021-02-25T12:45:26",
+    modified_gmt: "2021-02-25T17:45:26",
     slug: "propuesta-048",
     status: "publish",
     type: "post",
@@ -13942,7 +14759,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1704,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -13970,14 +14787,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1203/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1208,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1203/revisions/1208",
+          id: 1916,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1203/revisions/1916",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1704",
         },
       ],
       "wp:attachment": [
@@ -14005,8 +14828,8 @@ const allPosts = [
     date: "2021-02-09T09:33:06",
     date_gmt: "2021-02-09T14:33:06",
     guid: { rendered: "https://maqay.org/?p=1199" },
-    modified: "2021-02-09T09:33:06",
-    modified_gmt: "2021-02-09T14:33:06",
+    modified: "2021-02-25T13:10:52",
+    modified_gmt: "2021-02-25T18:10:52",
     slug: "propuesta-096",
     status: "publish",
     type: "post",
@@ -14023,7 +14846,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1755,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -14051,14 +14874,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1199/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1205,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1199/revisions/1205",
+          id: 1943,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1199/revisions/1943",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1755",
         },
       ],
       "wp:attachment": [
@@ -14086,8 +14915,8 @@ const allPosts = [
     date: "2021-02-09T09:32:57",
     date_gmt: "2021-02-09T14:32:57",
     guid: { rendered: "https://maqay.org/?p=1197" },
-    modified: "2021-02-09T09:32:57",
-    modified_gmt: "2021-02-09T14:32:57",
+    modified: "2021-02-25T14:44:12",
+    modified_gmt: "2021-02-25T19:44:12",
     slug: "propuesta-135",
     status: "publish",
     type: "post",
@@ -14104,7 +14933,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1798,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -14142,6 +14971,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1197/revisions/1204",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1798",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1197" },
       ],
@@ -14167,8 +15002,8 @@ const allPosts = [
     date: "2021-02-09T09:32:12",
     date_gmt: "2021-02-09T14:32:12",
     guid: { rendered: "https://maqay.org/?p=1187" },
-    modified: "2021-02-09T09:32:12",
-    modified_gmt: "2021-02-09T14:32:12",
+    modified: "2021-02-25T15:43:33",
+    modified_gmt: "2021-02-25T20:43:33",
     slug: "propuesta-208",
     status: "publish",
     type: "post",
@@ -14185,7 +15020,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1882,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -14223,6 +15058,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1187/revisions/1200",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1882",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1187" },
       ],
@@ -14248,8 +15089,8 @@ const allPosts = [
     date: "2021-02-09T09:32:12",
     date_gmt: "2021-02-09T14:32:12",
     guid: { rendered: "https://maqay.org/?p=1194" },
-    modified: "2021-02-09T09:32:12",
-    modified_gmt: "2021-02-09T14:32:12",
+    modified: "2021-02-25T12:43:20",
+    modified_gmt: "2021-02-25T17:43:20",
     slug: "propuesta-047",
     status: "publish",
     type: "post",
@@ -14266,7 +15107,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1703,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -14304,6 +15145,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1194/revisions/1201",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1703",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1194" },
       ],
@@ -14329,8 +15176,8 @@ const allPosts = [
     date: "2021-02-09T09:31:50",
     date_gmt: "2021-02-09T14:31:50",
     guid: { rendered: "https://maqay.org/?p=1195" },
-    modified: "2021-02-09T09:31:50",
-    modified_gmt: "2021-02-09T14:31:50",
+    modified: "2021-02-25T13:10:50",
+    modified_gmt: "2021-02-25T18:10:50",
     slug: "propuesta-095",
     status: "publish",
     type: "post",
@@ -14347,7 +15194,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1754,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -14375,14 +15222,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1195/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1198,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1195/revisions/1198",
+          id: 1942,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1195/revisions/1942",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1754",
         },
       ],
       "wp:attachment": [
@@ -14410,8 +15263,8 @@ const allPosts = [
     date: "2021-02-09T09:31:16",
     date_gmt: "2021-02-09T14:31:16",
     guid: { rendered: "https://maqay.org/?p=1191" },
-    modified: "2021-02-09T09:31:16",
-    modified_gmt: "2021-02-09T14:31:16",
+    modified: "2021-02-25T14:42:00",
+    modified_gmt: "2021-02-25T19:42:00",
     slug: "propuesta-134",
     status: "publish",
     type: "post",
@@ -14428,7 +15281,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1797,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -14456,14 +15309,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1191/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1196,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1191/revisions/1196",
+          id: 1955,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1191/revisions/1955",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1797",
         },
       ],
       "wp:attachment": [
@@ -14491,8 +15350,8 @@ const allPosts = [
     date: "2021-02-09T09:30:41",
     date_gmt: "2021-02-09T14:30:41",
     guid: { rendered: "https://maqay.org/?p=1190" },
-    modified: "2021-02-09T09:30:41",
-    modified_gmt: "2021-02-09T14:30:41",
+    modified: "2021-02-25T13:08:46",
+    modified_gmt: "2021-02-25T18:08:46",
     slug: "propuesta-094",
     status: "publish",
     type: "post",
@@ -14509,7 +15368,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1753,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -14547,6 +15406,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1190/revisions/1193",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1753",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1190" },
       ],
@@ -14572,8 +15437,8 @@ const allPosts = [
     date: "2021-02-09T09:30:04",
     date_gmt: "2021-02-09T14:30:04",
     guid: { rendered: "https://maqay.org/?p=1185" },
-    modified: "2021-02-09T09:30:04",
-    modified_gmt: "2021-02-09T14:30:04",
+    modified: "2021-02-25T12:43:18",
+    modified_gmt: "2021-02-25T17:43:18",
     slug: "propuesta-046",
     status: "publish",
     type: "post",
@@ -14590,7 +15455,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1702,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -14628,6 +15493,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1185/revisions/1192",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1702",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1185" },
       ],
@@ -14653,8 +15524,8 @@ const allPosts = [
     date: "2021-02-09T09:29:31",
     date_gmt: "2021-02-09T14:29:31",
     guid: { rendered: "https://maqay.org/?p=1184" },
-    modified: "2021-02-09T09:29:31",
-    modified_gmt: "2021-02-09T14:29:31",
+    modified: "2021-02-25T13:08:44",
+    modified_gmt: "2021-02-25T18:08:44",
     slug: "propuesta-093",
     status: "publish",
     type: "post",
@@ -14671,7 +15542,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1752,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -14699,14 +15570,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1184/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1189,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1184/revisions/1189",
+          id: 1941,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1184/revisions/1941",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1752",
         },
       ],
       "wp:attachment": [
@@ -14734,8 +15611,8 @@ const allPosts = [
     date: "2021-02-09T09:29:27",
     date_gmt: "2021-02-09T14:29:27",
     guid: { rendered: "https://maqay.org/?p=1182" },
-    modified: "2021-02-09T09:29:27",
-    modified_gmt: "2021-02-09T14:29:27",
+    modified: "2021-02-25T14:41:55",
+    modified_gmt: "2021-02-25T19:41:55",
     slug: "propuesta-133",
     status: "publish",
     type: "post",
@@ -14752,7 +15629,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1796,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -14790,6 +15667,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1182/revisions/1188",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1796",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1182" },
       ],
@@ -14815,8 +15698,8 @@ const allPosts = [
     date: "2021-02-09T09:28:22",
     date_gmt: "2021-02-09T14:28:22",
     guid: { rendered: "https://maqay.org/?p=1159" },
-    modified: "2021-02-09T09:28:22",
-    modified_gmt: "2021-02-09T14:28:22",
+    modified: "2021-02-25T15:43:28",
+    modified_gmt: "2021-02-25T20:43:28",
     slug: "propuesta-207",
     status: "publish",
     type: "post",
@@ -14833,7 +15716,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1881,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -14861,14 +15744,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1159/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1186,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1159/revisions/1186",
+          id: 1963,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1159/revisions/1963",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1881",
         },
       ],
       "wp:attachment": [
@@ -14896,8 +15785,8 @@ const allPosts = [
     date: "2021-02-09T09:27:56",
     date_gmt: "2021-02-09T14:27:56",
     guid: { rendered: "https://maqay.org/?p=1179" },
-    modified: "2021-02-09T09:27:56",
-    modified_gmt: "2021-02-09T14:27:56",
+    modified: "2021-02-25T13:08:42",
+    modified_gmt: "2021-02-25T18:08:42",
     slug: "propuesta-092",
     status: "publish",
     type: "post",
@@ -14914,7 +15803,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1751,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -14952,6 +15841,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1179/revisions/1183",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1751",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1179" },
       ],
@@ -14977,8 +15872,8 @@ const allPosts = [
     date: "2021-02-09T09:27:12",
     date_gmt: "2021-02-09T14:27:12",
     guid: { rendered: "https://maqay.org/?p=1172" },
-    modified: "2021-02-09T09:27:12",
-    modified_gmt: "2021-02-09T14:27:12",
+    modified: "2021-02-25T12:43:16",
+    modified_gmt: "2021-02-25T17:43:16",
     slug: "propuesta-045",
     status: "publish",
     type: "post",
@@ -14995,7 +15890,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1701,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -15023,14 +15918,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1172/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1181,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1172/revisions/1181",
+          id: 1906,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1172/revisions/1906",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1701",
         },
       ],
       "wp:attachment": [
@@ -15058,8 +15959,8 @@ const allPosts = [
     date: "2021-02-09T09:27:03",
     date_gmt: "2021-02-09T14:27:03",
     guid: { rendered: "https://maqay.org/?p=1177" },
-    modified: "2021-02-09T09:27:03",
-    modified_gmt: "2021-02-09T14:27:03",
+    modified: "2021-02-25T14:41:54",
+    modified_gmt: "2021-02-25T19:41:54",
     slug: "propuesta-132",
     status: "publish",
     type: "post",
@@ -15076,7 +15977,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1795,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -15114,6 +16015,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1177/revisions/1180",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1795",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1177" },
       ],
@@ -15139,8 +16046,8 @@ const allPosts = [
     date: "2021-02-09T09:25:40",
     date_gmt: "2021-02-09T14:25:40",
     guid: { rendered: "https://maqay.org/?p=1169" },
-    modified: "2021-02-09T09:25:40",
-    modified_gmt: "2021-02-09T14:25:40",
+    modified: "2021-02-25T13:08:39",
+    modified_gmt: "2021-02-25T18:08:39",
     slug: "propuesta-091",
     status: "publish",
     type: "post",
@@ -15157,7 +16064,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1750,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -15185,14 +16092,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1169/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1178,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1169/revisions/1178",
+          id: 1940,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1169/revisions/1940",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1750",
         },
       ],
       "wp:attachment": [
@@ -15220,8 +16133,8 @@ const allPosts = [
     date: "2021-02-09T09:25:23",
     date_gmt: "2021-02-09T14:25:23",
     guid: { rendered: "https://maqay.org/?p=1171" },
-    modified: "2021-02-09T09:25:23",
-    modified_gmt: "2021-02-09T14:25:23",
+    modified: "2021-02-25T14:41:51",
+    modified_gmt: "2021-02-25T19:41:51",
     slug: "propuesta-131",
     status: "publish",
     type: "post",
@@ -15238,7 +16151,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1793,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -15266,14 +16179,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1171/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1176,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1171/revisions/1176",
+          id: 1954,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1171/revisions/1954",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1793",
         },
       ],
       "wp:attachment": [
@@ -15301,8 +16220,8 @@ const allPosts = [
     date: "2021-02-09T09:23:53",
     date_gmt: "2021-02-09T14:23:53",
     guid: { rendered: "https://maqay.org/?p=1164" },
-    modified: "2021-02-09T09:23:53",
-    modified_gmt: "2021-02-09T14:23:53",
+    modified: "2021-02-25T14:41:48",
+    modified_gmt: "2021-02-25T19:41:48",
     slug: "propuesta-130",
     status: "publish",
     type: "post",
@@ -15319,7 +16238,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1792,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -15357,6 +16276,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1164/revisions/1168",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1792",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1164" },
       ],
@@ -15382,8 +16307,8 @@ const allPosts = [
     date: "2021-02-09T09:23:50",
     date_gmt: "2021-02-09T14:23:50",
     guid: { rendered: "https://maqay.org/?p=1165" },
-    modified: "2021-02-09T09:23:50",
-    modified_gmt: "2021-02-09T14:23:50",
+    modified: "2021-02-25T13:08:36",
+    modified_gmt: "2021-02-25T18:08:36",
     slug: "propuesta-090",
     status: "publish",
     type: "post",
@@ -15398,7 +16323,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1749,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -15426,14 +16351,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1165/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1167,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1165/revisions/1167",
+          id: 1939,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1165/revisions/1939",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1749",
         },
       ],
       "wp:attachment": [
@@ -15461,8 +16392,8 @@ const allPosts = [
     date: "2021-02-09T09:22:54",
     date_gmt: "2021-02-09T14:22:54",
     guid: { rendered: "https://maqay.org/?p=1161" },
-    modified: "2021-02-09T10:14:18",
-    modified_gmt: "2021-02-09T15:14:18",
+    modified: "2021-02-25T15:05:45",
+    modified_gmt: "2021-02-25T20:05:45",
     slug: "propuesta-168",
     status: "publish",
     type: "post",
@@ -15479,7 +16410,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1837,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -15517,6 +16448,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1161/revisions/1298",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1837",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1161" },
       ],
@@ -15542,8 +16479,8 @@ const allPosts = [
     date: "2021-02-09T09:22:15",
     date_gmt: "2021-02-09T14:22:15",
     guid: { rendered: "https://maqay.org/?p=1157" },
-    modified: "2021-02-09T09:22:15",
-    modified_gmt: "2021-02-09T14:22:15",
+    modified: "2021-02-25T13:06:18",
+    modified_gmt: "2021-02-25T18:06:18",
     slug: "propuesta-089",
     status: "publish",
     type: "post",
@@ -15560,7 +16497,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1748,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -15598,6 +16535,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1157/revisions/1163",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1748",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1157" },
       ],
@@ -15623,8 +16566,8 @@ const allPosts = [
     date: "2021-02-09T09:22:08",
     date_gmt: "2021-02-09T14:22:08",
     guid: { rendered: "https://maqay.org/?p=1158" },
-    modified: "2021-02-09T09:22:08",
-    modified_gmt: "2021-02-09T14:22:08",
+    modified: "2021-02-25T14:39:54",
+    modified_gmt: "2021-02-25T19:39:54",
     slug: "propuesta-129",
     status: "publish",
     type: "post",
@@ -15641,7 +16584,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1791,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -15679,6 +16622,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1158/revisions/1162",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1791",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1158" },
       ],
@@ -15704,8 +16653,8 @@ const allPosts = [
     date: "2021-02-09T09:21:22",
     date_gmt: "2021-02-09T14:21:22",
     guid: { rendered: "https://maqay.org/?p=1151" },
-    modified: "2021-02-09T09:21:22",
-    modified_gmt: "2021-02-09T14:21:22",
+    modified: "2021-02-25T15:04:53",
+    modified_gmt: "2021-02-25T20:04:53",
     slug: "propuesta-167",
     status: "publish",
     type: "post",
@@ -15722,7 +16671,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1836,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -15760,6 +16709,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1151/revisions/1160",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1836",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1151" },
       ],
@@ -15785,8 +16740,8 @@ const allPosts = [
     date: "2021-02-09T09:20:09",
     date_gmt: "2021-02-09T14:20:09",
     guid: { rendered: "https://maqay.org/?p=1153" },
-    modified: "2021-02-10T11:01:54",
-    modified_gmt: "2021-02-10T16:01:54",
+    modified: "2021-02-25T13:06:16",
+    modified_gmt: "2021-02-25T18:06:16",
     slug: "propuesta-088",
     status: "publish",
     type: "post",
@@ -15803,7 +16758,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1747,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -15831,14 +16786,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1153/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1586,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1153/revisions/1586",
+          id: 1938,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1153/revisions/1938",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1747",
         },
       ],
       "wp:attachment": [
@@ -15866,8 +16827,8 @@ const allPosts = [
     date: "2021-02-09T09:20:04",
     date_gmt: "2021-02-09T14:20:04",
     guid: { rendered: "https://maqay.org/?p=1148" },
-    modified: "2021-02-09T09:20:04",
-    modified_gmt: "2021-02-09T14:20:04",
+    modified: "2021-02-25T14:39:53",
+    modified_gmt: "2021-02-25T19:39:53",
     slug: "propuesta-128",
     status: "publish",
     type: "post",
@@ -15884,7 +16845,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1790,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -15922,6 +16883,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1148/revisions/1155",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1790",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1148" },
       ],
@@ -15947,8 +16914,8 @@ const allPosts = [
     date: "2021-02-09T09:17:46",
     date_gmt: "2021-02-09T14:17:46",
     guid: { rendered: "https://maqay.org/?p=1149" },
-    modified: "2021-02-09T09:26:29",
-    modified_gmt: "2021-02-09T14:26:29",
+    modified: "2021-02-25T15:43:25",
+    modified_gmt: "2021-02-25T20:43:25",
     slug: "propuesta-206",
     status: "publish",
     type: "post",
@@ -15965,7 +16932,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1880,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -16003,6 +16970,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1149/revisions/1154",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1880",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1149" },
       ],
@@ -16028,8 +17001,8 @@ const allPosts = [
     date: "2021-02-09T09:16:56",
     date_gmt: "2021-02-09T14:16:56",
     guid: { rendered: "https://maqay.org/?p=1139" },
-    modified: "2021-02-10T16:00:56",
-    modified_gmt: "2021-02-10T21:00:56",
+    modified: "2021-02-25T13:06:13",
+    modified_gmt: "2021-02-25T18:06:13",
     slug: "propuesta-087",
     status: "publish",
     type: "post",
@@ -16046,7 +17019,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1746,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -16084,6 +17057,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1139/revisions/1620",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1746",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1139" },
       ],
@@ -16109,8 +17088,8 @@ const allPosts = [
     date: "2021-02-09T09:14:23",
     date_gmt: "2021-02-09T14:14:23",
     guid: { rendered: "https://maqay.org/?p=1145" },
-    modified: "2021-02-09T09:17:09",
-    modified_gmt: "2021-02-09T14:17:09",
+    modified: "2021-02-25T15:04:53",
+    modified_gmt: "2021-02-25T20:04:53",
     slug: "propuesta-166",
     status: "publish",
     type: "post",
@@ -16127,7 +17106,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1835,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -16165,6 +17144,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1145/revisions/1150",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1835",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1145" },
       ],
@@ -16190,8 +17175,8 @@ const allPosts = [
     date: "2021-02-09T09:12:49",
     date_gmt: "2021-02-09T14:12:49",
     guid: { rendered: "https://maqay.org/?p=1133" },
-    modified: "2021-02-09T09:25:43",
-    modified_gmt: "2021-02-09T14:25:43",
+    modified: "2021-02-25T15:39:31",
+    modified_gmt: "2021-02-25T20:39:31",
     slug: "propuesta-205",
     status: "publish",
     type: "post",
@@ -16208,7 +17193,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1879,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -16246,6 +17231,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1133/revisions/1147",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1879",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1133" },
       ],
@@ -16271,8 +17262,8 @@ const allPosts = [
     date: "2021-02-09T09:12:41",
     date_gmt: "2021-02-09T14:12:41",
     guid: { rendered: "https://maqay.org/?p=1144" },
-    modified: "2021-02-09T09:12:41",
-    modified_gmt: "2021-02-09T14:12:41",
+    modified: "2021-02-25T14:39:49",
+    modified_gmt: "2021-02-25T19:39:49",
     slug: "propuesta-127",
     status: "publish",
     type: "post",
@@ -16289,7 +17280,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1789,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -16327,6 +17318,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1144/revisions/1146",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1789",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1144" },
       ],
@@ -16352,8 +17349,8 @@ const allPosts = [
     date: "2021-02-09T09:10:52",
     date_gmt: "2021-02-09T14:10:52",
     guid: { rendered: "https://maqay.org/?p=1141" },
-    modified: "2021-02-09T09:10:52",
-    modified_gmt: "2021-02-09T14:10:52",
+    modified: "2021-02-25T14:39:47",
+    modified_gmt: "2021-02-25T19:39:47",
     slug: "propuesta-126",
     status: "publish",
     type: "post",
@@ -16370,7 +17367,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1788,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -16408,6 +17405,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1141/revisions/1143",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1788",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1141" },
       ],
@@ -16433,8 +17436,8 @@ const allPosts = [
     date: "2021-02-09T09:10:51",
     date_gmt: "2021-02-09T14:10:51",
     guid: { rendered: "https://maqay.org/?p=1137" },
-    modified: "2021-02-09T09:10:51",
-    modified_gmt: "2021-02-09T14:10:51",
+    modified: "2021-02-25T15:04:50",
+    modified_gmt: "2021-02-25T20:04:50",
     slug: "propuesta-165",
     status: "publish",
     type: "post",
@@ -16451,7 +17454,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1834,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -16489,6 +17492,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1137/revisions/1142",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1834",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1137" },
       ],
@@ -16514,8 +17523,8 @@ const allPosts = [
     date: "2021-02-09T09:09:02",
     date_gmt: "2021-02-09T14:09:02",
     guid: { rendered: "https://maqay.org/?p=1135" },
-    modified: "2021-02-09T09:09:02",
-    modified_gmt: "2021-02-09T14:09:02",
+    modified: "2021-02-25T14:39:44",
+    modified_gmt: "2021-02-25T19:39:44",
     slug: "propuesta-125",
     status: "publish",
     type: "post",
@@ -16532,7 +17541,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1787,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -16560,14 +17569,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1135/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1140,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1135/revisions/1140",
+          id: 1953,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1135/revisions/1953",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1787",
         },
       ],
       "wp:attachment": [
@@ -16595,8 +17610,8 @@ const allPosts = [
     date: "2021-02-09T09:08:31",
     date_gmt: "2021-02-09T14:08:31",
     guid: { rendered: "https://maqay.org/?p=1136" },
-    modified: "2021-02-09T09:08:31",
-    modified_gmt: "2021-02-09T14:08:31",
+    modified: "2021-02-25T13:06:24",
+    modified_gmt: "2021-02-25T18:06:24",
     slug: "propuesta-086",
     status: "publish",
     type: "post",
@@ -16613,7 +17628,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1745,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -16641,14 +17656,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1136/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1138,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1136/revisions/1138",
+          id: 1937,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1136/revisions/1937",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1745",
         },
       ],
       "wp:attachment": [
@@ -16676,8 +17697,8 @@ const allPosts = [
     date: "2021-02-09T09:05:14",
     date_gmt: "2021-02-09T14:05:14",
     guid: { rendered: "https://maqay.org/?p=1132" },
-    modified: "2021-02-09T09:05:14",
-    modified_gmt: "2021-02-09T14:05:14",
+    modified: "2021-02-25T13:04:42",
+    modified_gmt: "2021-02-25T18:04:42",
     slug: "propuesta-085",
     status: "publish",
     type: "post",
@@ -16694,7 +17715,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1744,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -16732,6 +17753,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1132/revisions/1134",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1744",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1132" },
       ],
@@ -16757,8 +17784,8 @@ const allPosts = [
     date: "2021-02-09T08:59:25",
     date_gmt: "2021-02-09T13:59:25",
     guid: { rendered: "https://maqay.org/?p=1130" },
-    modified: "2021-02-09T08:59:25",
-    modified_gmt: "2021-02-09T13:59:25",
+    modified: "2021-02-25T12:40:41",
+    modified_gmt: "2021-02-25T17:40:41",
     slug: "propuesta-040",
     status: "publish",
     type: "post",
@@ -16775,7 +17802,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1696,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -16813,6 +17840,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1130/revisions/1131",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1696",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1130" },
       ],
@@ -16838,8 +17871,8 @@ const allPosts = [
     date: "2021-02-09T08:58:22",
     date_gmt: "2021-02-09T13:58:22",
     guid: { rendered: "https://maqay.org/?p=1128" },
-    modified: "2021-02-09T08:58:22",
-    modified_gmt: "2021-02-09T13:58:22",
+    modified: "2021-02-25T12:36:27",
+    modified_gmt: "2021-02-25T17:36:27",
     slug: "propuesta-039",
     status: "publish",
     type: "post",
@@ -16856,7 +17889,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1695,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -16894,6 +17927,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1128/revisions/1129",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1695",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1128" },
       ],
@@ -16919,8 +17958,8 @@ const allPosts = [
     date: "2021-02-09T08:45:20",
     date_gmt: "2021-02-09T13:45:20",
     guid: { rendered: "https://maqay.org/?p=1126" },
-    modified: "2021-02-09T08:45:20",
-    modified_gmt: "2021-02-09T13:45:20",
+    modified: "2021-02-25T12:36:27",
+    modified_gmt: "2021-02-25T17:36:27",
     slug: "propuesta-038",
     status: "publish",
     type: "post",
@@ -16937,7 +17976,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1694,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -16975,6 +18014,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1126/revisions/1127",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1694",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1126" },
       ],
@@ -17000,8 +18045,8 @@ const allPosts = [
     date: "2021-02-09T08:37:29",
     date_gmt: "2021-02-09T13:37:29",
     guid: { rendered: "https://maqay.org/?p=1123" },
-    modified: "2021-02-09T08:37:29",
-    modified_gmt: "2021-02-09T13:37:29",
+    modified: "2021-02-25T12:36:22",
+    modified_gmt: "2021-02-25T17:36:22",
     slug: "propuesta-037",
     status: "publish",
     type: "post",
@@ -17081,8 +18126,8 @@ const allPosts = [
     date: "2021-02-08T20:33:20",
     date_gmt: "2021-02-09T01:33:20",
     guid: { rendered: "https://maqay.org/?p=1121" },
-    modified: "2021-02-08T20:33:20",
-    modified_gmt: "2021-02-09T01:33:20",
+    modified: "2021-02-25T12:36:17",
+    modified_gmt: "2021-02-25T17:36:17",
     slug: "propuesta-036",
     status: "publish",
     type: "post",
@@ -17099,7 +18144,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1692,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -17127,14 +18172,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1121/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1122,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1121/revisions/1122",
+          id: 1873,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1121/revisions/1873",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1692",
         },
       ],
       "wp:attachment": [
@@ -17162,8 +18213,8 @@ const allPosts = [
     date: "2021-02-08T20:32:33",
     date_gmt: "2021-02-09T01:32:33",
     guid: { rendered: "https://maqay.org/?p=1119" },
-    modified: "2021-02-08T20:32:33",
-    modified_gmt: "2021-02-09T01:32:33",
+    modified: "2021-02-25T12:34:14",
+    modified_gmt: "2021-02-25T17:34:14",
     slug: "propuesta-035",
     status: "publish",
     type: "post",
@@ -17180,7 +18231,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1691,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -17218,6 +18269,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1119/revisions/1120",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1691",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1119" },
       ],
@@ -17243,8 +18300,8 @@ const allPosts = [
     date: "2021-02-08T20:31:49",
     date_gmt: "2021-02-09T01:31:49",
     guid: { rendered: "https://maqay.org/?p=1117" },
-    modified: "2021-02-08T20:31:49",
-    modified_gmt: "2021-02-09T01:31:49",
+    modified: "2021-02-25T12:34:12",
+    modified_gmt: "2021-02-25T17:34:12",
     slug: "propuesta-034",
     status: "publish",
     type: "post",
@@ -17261,7 +18318,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1690,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -17299,6 +18356,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1117/revisions/1118",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1690",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1117" },
       ],
@@ -17324,8 +18387,8 @@ const allPosts = [
     date: "2021-02-08T20:30:50",
     date_gmt: "2021-02-09T01:30:50",
     guid: { rendered: "https://maqay.org/?p=1114" },
-    modified: "2021-02-10T15:53:26",
-    modified_gmt: "2021-02-10T20:53:26",
+    modified: "2021-02-25T12:34:08",
+    modified_gmt: "2021-02-25T17:34:08",
     slug: "propuesta-033",
     status: "publish",
     type: "post",
@@ -17342,7 +18405,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1689,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -17380,6 +18443,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1114/revisions/1615",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1689",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1114" },
       ],
@@ -17405,8 +18474,8 @@ const allPosts = [
     date: "2021-02-08T20:29:45",
     date_gmt: "2021-02-09T01:29:45",
     guid: { rendered: "https://maqay.org/?p=1112" },
-    modified: "2021-02-08T20:29:45",
-    modified_gmt: "2021-02-09T01:29:45",
+    modified: "2021-02-25T12:34:04",
+    modified_gmt: "2021-02-25T17:34:04",
     slug: "propuesta-032",
     status: "publish",
     type: "post",
@@ -17423,7 +18492,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1688,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -17461,6 +18530,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1112/revisions/1113",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1688",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1112" },
       ],
@@ -17486,8 +18561,8 @@ const allPosts = [
     date: "2021-02-08T20:27:49",
     date_gmt: "2021-02-09T01:27:49",
     guid: { rendered: "https://maqay.org/?p=1109" },
-    modified: "2021-02-08T20:27:49",
-    modified_gmt: "2021-02-09T01:27:49",
+    modified: "2021-02-25T12:31:50",
+    modified_gmt: "2021-02-25T17:31:50",
     slug: "propuesta-031",
     status: "publish",
     type: "post",
@@ -17504,7 +18579,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1687,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -17542,6 +18617,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1109/revisions/1110",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1687",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1109" },
       ],
@@ -17567,8 +18648,8 @@ const allPosts = [
     date: "2021-02-08T20:27:17",
     date_gmt: "2021-02-09T01:27:17",
     guid: { rendered: "https://maqay.org/?p=1107" },
-    modified: "2021-02-08T20:27:17",
-    modified_gmt: "2021-02-09T01:27:17",
+    modified: "2021-02-25T12:31:47",
+    modified_gmt: "2021-02-25T17:31:47",
     slug: "propuesta-030",
     status: "publish",
     type: "post",
@@ -17585,7 +18666,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1856,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -17623,6 +18704,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1107/revisions/1108",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1856",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1107" },
       ],
@@ -17648,8 +18735,8 @@ const allPosts = [
     date: "2021-02-08T20:26:13",
     date_gmt: "2021-02-09T01:26:13",
     guid: { rendered: "https://maqay.org/?p=1105" },
-    modified: "2021-02-08T20:26:13",
-    modified_gmt: "2021-02-09T01:26:13",
+    modified: "2021-02-25T12:31:44",
+    modified_gmt: "2021-02-25T17:31:44",
     slug: "propuesta-029",
     status: "publish",
     type: "post",
@@ -17657,16 +18744,16 @@ const allPosts = [
     title: { rendered: "Propuesta 029" },
     content: {
       rendered:
-        "<p>Capacitar en los tres niveles de gobierno sobre los da\u00f1os a los recursos producidos por la quema de la cobertura vegetal. E incrementar las sanciones a este tipo de pr\u00e1cticas. </p>\n",
+        "<p>Capacitar en los tres niveles de gobierno sobre los da\u00f1os a los recursos producidos por la quema de la cobertura vegetal e incrementar las sanciones a este tipo de pr\u00e1cticas. </p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Capacitar en los tres niveles de gobierno sobre los da\u00f1os a los recursos producidos por la quema de la cobertura vegetal. E incrementar las sanciones a este tipo de pr\u00e1cticas.</p>\n",
+        "<p>Capacitar en los tres niveles de gobierno sobre los da\u00f1os a los recursos producidos por la quema de la cobertura vegetal e incrementar las sanciones a este tipo de pr\u00e1cticas.</p>\n",
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1686,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -17694,14 +18781,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1105/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1106,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1105/revisions/1106",
+          id: 1860,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1105/revisions/1860",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1686",
         },
       ],
       "wp:attachment": [
@@ -17729,8 +18822,8 @@ const allPosts = [
     date: "2021-02-08T20:24:44",
     date_gmt: "2021-02-09T01:24:44",
     guid: { rendered: "https://maqay.org/?p=1103" },
-    modified: "2021-02-08T20:24:44",
-    modified_gmt: "2021-02-09T01:24:44",
+    modified: "2021-02-25T12:31:39",
+    modified_gmt: "2021-02-25T17:31:39",
     slug: "propuesta-028",
     status: "publish",
     type: "post",
@@ -17747,7 +18840,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1685,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -17785,6 +18878,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1103/revisions/1104",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1685",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1103" },
       ],
@@ -17810,8 +18909,8 @@ const allPosts = [
     date: "2021-02-08T20:21:40",
     date_gmt: "2021-02-09T01:21:40",
     guid: { rendered: "https://maqay.org/?p=1101" },
-    modified: "2021-02-08T20:21:40",
-    modified_gmt: "2021-02-09T01:21:40",
+    modified: "2021-02-25T12:26:57",
+    modified_gmt: "2021-02-25T17:26:57",
     slug: "propuesta-027",
     status: "publish",
     type: "post",
@@ -17819,16 +18918,16 @@ const allPosts = [
     title: { rendered: "Propuesta 027" },
     content: {
       rendered:
-        "<p>Promover la instalaci\u00f3n de plantas metal\u00fargicas que permitan dar valor agregado a los minerales y que respeten las normas ambientales y de salud. </p>\n",
+        "<p>Promover una miner\u00eda responsable que sea compatible con la preservaci\u00f3n del medio ambiente y la biodiversidad, promoviendo la inversi\u00f3n y el uso de tecnolog\u00edas limpias.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Promover la instalaci\u00f3n de plantas metal\u00fargicas que permitan dar valor agregado a los minerales y que respeten las normas ambientales y de salud.</p>\n",
+        "<p>Promover una miner\u00eda responsable que sea compatible con la preservaci\u00f3n del medio ambiente y la biodiversidad, promoviendo la inversi\u00f3n y el uso de tecnolog\u00edas limpias.</p>\n",
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1684,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -17840,7 +18939,7 @@ const allPosts = [
       _et_gb_content_width: "",
     },
     categories: [23],
-    tags: [45, 41],
+    tags: [41, 65],
     _links: {
       self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1101" }],
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
@@ -17856,14 +18955,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1101/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1102,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1101/revisions/1102",
+          id: 1656,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1101/revisions/1656",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1684",
         },
       ],
       "wp:attachment": [
@@ -17891,8 +18996,8 @@ const allPosts = [
     date: "2021-02-08T20:20:36",
     date_gmt: "2021-02-09T01:20:36",
     guid: { rendered: "https://maqay.org/?p=1099" },
-    modified: "2021-02-08T20:20:36",
-    modified_gmt: "2021-02-09T01:20:36",
+    modified: "2021-02-25T12:26:53",
+    modified_gmt: "2021-02-25T17:26:53",
     slug: "propuesta-026",
     status: "publish",
     type: "post",
@@ -17900,16 +19005,16 @@ const allPosts = [
     title: { rendered: "Propuesta 026" },
     content: {
       rendered:
-        "<p>Cumplir estrictamente con la consulta y aprobaci\u00f3n de las comunidades campesinas y nativas para la extracci\u00f3n de recursos en zonas cercanas a sus terrenos. </p>\n",
+        "<p>Dise\u00f1ar e implementar sistemas de participaci\u00f3n ciudadana para la protecci\u00f3n ambiental tanto en zonas urbanas como rurales.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Cumplir estrictamente con la consulta y aprobaci\u00f3n de las comunidades campesinas y nativas para la extracci\u00f3n de recursos en zonas cercanas a sus terrenos.</p>\n",
+        "<p>Dise\u00f1ar e implementar sistemas de participaci\u00f3n ciudadana para la protecci\u00f3n ambiental tanto en zonas urbanas como rurales.</p>\n",
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1683,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -17921,7 +19026,7 @@ const allPosts = [
       _et_gb_content_width: "",
     },
     categories: [23],
-    tags: [45, 41],
+    tags: [41, 65],
     _links: {
       self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1099" }],
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
@@ -17937,14 +19042,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1099/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1100,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1099/revisions/1100",
+          id: 1832,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1099/revisions/1832",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1683",
         },
       ],
       "wp:attachment": [
@@ -17972,8 +19083,8 @@ const allPosts = [
     date: "2021-02-08T20:19:42",
     date_gmt: "2021-02-09T01:19:42",
     guid: { rendered: "https://maqay.org/?p=1096" },
-    modified: "2021-02-08T20:19:57",
-    modified_gmt: "2021-02-09T01:19:57",
+    modified: "2021-02-25T12:26:51",
+    modified_gmt: "2021-02-25T17:26:51",
     slug: "propuesta-025",
     status: "publish",
     type: "post",
@@ -17981,16 +19092,16 @@ const allPosts = [
     title: { rendered: "Propuesta 025" },
     content: {
       rendered:
-        "<p>Capacitar en los tres niveles de gobierno sobre los da\u00f1os a los recursos producidos por la quema de la cobertura vegetal.E incrementar las sanciones a este tipo de pr\u00e1cticas.  </p>\n",
+        "<p>Fomentar la miner\u00eda sostenible y responsable, sea peque\u00f1a, mediana o grande.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Capacitar en los tres niveles de gobierno sobre los da\u00f1os a los recursos producidos por la quema de la cobertura vegetal.E incrementar las sanciones a este tipo de pr\u00e1cticas.</p>\n",
+        "<p>Fomentar la miner\u00eda sostenible y responsable, sea peque\u00f1a, mediana o grande.</p>\n",
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1682,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -18002,7 +19113,7 @@ const allPosts = [
       _et_gb_content_width: "",
     },
     categories: [23],
-    tags: [45, 41],
+    tags: [41, 65],
     _links: {
       self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1096" }],
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
@@ -18018,14 +19129,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 4,
           href: "https://maqay.org/wp-json/wp/v2/posts/1096/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1098,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1096/revisions/1098",
+          id: 1831,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1096/revisions/1831",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1682",
         },
       ],
       "wp:attachment": [
@@ -18053,8 +19170,8 @@ const allPosts = [
     date: "2021-02-08T20:16:52",
     date_gmt: "2021-02-09T01:16:52",
     guid: { rendered: "https://maqay.org/?p=1094" },
-    modified: "2021-02-08T20:16:52",
-    modified_gmt: "2021-02-09T01:16:52",
+    modified: "2021-02-25T12:26:48",
+    modified_gmt: "2021-02-25T17:26:48",
     slug: "propuesta-024",
     status: "publish",
     type: "post",
@@ -18062,16 +19179,16 @@ const allPosts = [
     title: { rendered: "Propuesta 024" },
     content: {
       rendered:
-        "<p>Eliminar la posibilidad de hacer miner\u00eda y extraer materiales en las cabeceras de cuenca y zonas cercanas a fuentes de recursos naturales. </p>\n",
+        "<p>Promover la formalizaci\u00f3n de la propiedad rural y de las comunidades campesinas y nativas.</p>\n",
       protected: false,
     },
     excerpt: {
       rendered:
-        "<p>Eliminar la posibilidad de hacer miner\u00eda y extraer materiales en las cabeceras de cuenca y zonas cercanas a fuentes de recursos naturales.</p>\n",
+        "<p>Promover la formalizaci\u00f3n de la propiedad rural y de las comunidades campesinas y nativas.</p>\n",
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1681,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -18083,7 +19200,7 @@ const allPosts = [
       _et_gb_content_width: "",
     },
     categories: [23],
-    tags: [45, 41],
+    tags: [65, 63, 40],
     _links: {
       self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1094" }],
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
@@ -18099,14 +19216,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1094/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1095,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1094/revisions/1095",
+          id: 1838,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1094/revisions/1838",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1681",
         },
       ],
       "wp:attachment": [
@@ -18134,8 +19257,8 @@ const allPosts = [
     date: "2021-02-08T20:13:48",
     date_gmt: "2021-02-09T01:13:48",
     guid: { rendered: "https://maqay.org/?p=1092" },
-    modified: "2021-02-08T20:13:48",
-    modified_gmt: "2021-02-09T01:13:48",
+    modified: "2021-02-25T12:24:50",
+    modified_gmt: "2021-02-25T17:24:50",
     slug: "propuesta-023",
     status: "publish",
     type: "post",
@@ -18152,7 +19275,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1680,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -18164,7 +19287,7 @@ const allPosts = [
       _et_gb_content_width: "",
     },
     categories: [23],
-    tags: [45, 61, 39],
+    tags: [45, 38, 40],
     _links: {
       self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1092" }],
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
@@ -18180,14 +19303,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1092/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1093,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1092/revisions/1093",
+          id: 1827,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1092/revisions/1827",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1680",
         },
       ],
       "wp:attachment": [
@@ -18215,8 +19344,8 @@ const allPosts = [
     date: "2021-02-08T20:05:11",
     date_gmt: "2021-02-09T01:05:11",
     guid: { rendered: "https://maqay.org/?p=1089" },
-    modified: "2021-02-10T17:04:29",
-    modified_gmt: "2021-02-10T22:04:29",
+    modified: "2021-02-25T12:24:49",
+    modified_gmt: "2021-02-25T17:24:49",
     slug: "propuesta-022",
     status: "publish",
     type: "post",
@@ -18233,7 +19362,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1679,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -18245,7 +19374,7 @@ const allPosts = [
       _et_gb_content_width: "",
     },
     categories: [23],
-    tags: [45, 61, 39],
+    tags: [45, 38, 40],
     _links: {
       self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1089" }],
       collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
@@ -18269,6 +19398,12 @@ const allPosts = [
         {
           id: 1629,
           href: "https://maqay.org/wp-json/wp/v2/posts/1089/revisions/1629",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1679",
         },
       ],
       "wp:attachment": [
@@ -18296,8 +19431,8 @@ const allPosts = [
     date: "2021-02-08T20:04:02",
     date_gmt: "2021-02-09T01:04:02",
     guid: { rendered: "https://maqay.org/?p=1087" },
-    modified: "2021-02-08T20:04:02",
-    modified_gmt: "2021-02-09T01:04:02",
+    modified: "2021-02-25T12:24:44",
+    modified_gmt: "2021-02-25T17:24:44",
     slug: "propuesta-021",
     status: "publish",
     type: "post",
@@ -18314,7 +19449,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1678,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -18342,14 +19477,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1087/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1088,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1087/revisions/1088",
+          id: 1826,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1087/revisions/1826",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1678",
         },
       ],
       "wp:attachment": [
@@ -18377,8 +19518,8 @@ const allPosts = [
     date: "2021-02-08T20:03:12",
     date_gmt: "2021-02-09T01:03:12",
     guid: { rendered: "https://maqay.org/?p=1085" },
-    modified: "2021-02-08T20:03:12",
-    modified_gmt: "2021-02-09T01:03:12",
+    modified: "2021-02-25T12:24:42",
+    modified_gmt: "2021-02-25T17:24:42",
     slug: "propuesta-020",
     status: "publish",
     type: "post",
@@ -18395,7 +19536,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1677,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -18433,6 +19574,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1085/revisions/1086",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1677",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1085" },
       ],
@@ -18458,8 +19605,8 @@ const allPosts = [
     date: "2021-02-08T20:02:18",
     date_gmt: "2021-02-09T01:02:18",
     guid: { rendered: "https://maqay.org/?p=1083" },
-    modified: "2021-02-08T20:02:18",
-    modified_gmt: "2021-02-09T01:02:18",
+    modified: "2021-02-25T12:22:35",
+    modified_gmt: "2021-02-25T17:22:35",
     slug: "propuesta-019",
     status: "publish",
     type: "post",
@@ -18476,7 +19623,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1676,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -18514,6 +19661,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1083/revisions/1084",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1676",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1083" },
       ],
@@ -18539,8 +19692,8 @@ const allPosts = [
     date: "2021-02-08T20:00:02",
     date_gmt: "2021-02-09T01:00:02",
     guid: { rendered: "https://maqay.org/?p=1081" },
-    modified: "2021-02-08T20:00:02",
-    modified_gmt: "2021-02-09T01:00:02",
+    modified: "2021-02-25T12:22:31",
+    modified_gmt: "2021-02-25T17:22:31",
     slug: "propuesta-018",
     status: "publish",
     type: "post",
@@ -18557,7 +19710,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1675,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -18595,6 +19748,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1081/revisions/1082",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1675",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1081" },
       ],
@@ -18620,8 +19779,8 @@ const allPosts = [
     date: "2021-02-08T19:59:15",
     date_gmt: "2021-02-09T00:59:15",
     guid: { rendered: "https://maqay.org/?p=1079" },
-    modified: "2021-02-08T19:59:15",
-    modified_gmt: "2021-02-09T00:59:15",
+    modified: "2021-02-25T12:22:30",
+    modified_gmt: "2021-02-25T17:22:30",
     slug: "propuesta-017",
     status: "publish",
     type: "post",
@@ -18638,7 +19797,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1674,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -18676,6 +19835,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1079/revisions/1080",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1674",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1079" },
       ],
@@ -18701,8 +19866,8 @@ const allPosts = [
     date: "2021-02-08T19:57:37",
     date_gmt: "2021-02-09T00:57:37",
     guid: { rendered: "https://maqay.org/?p=1077" },
-    modified: "2021-02-08T19:57:37",
-    modified_gmt: "2021-02-09T00:57:37",
+    modified: "2021-02-25T12:22:26",
+    modified_gmt: "2021-02-25T17:22:26",
     slug: "propuesta-016",
     status: "publish",
     type: "post",
@@ -18719,7 +19884,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1673,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -18757,6 +19922,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1077/revisions/1078",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1673",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1077" },
       ],
@@ -18782,8 +19953,8 @@ const allPosts = [
     date: "2021-02-08T19:56:54",
     date_gmt: "2021-02-09T00:56:54",
     guid: { rendered: "https://maqay.org/?p=1075" },
-    modified: "2021-02-08T19:56:54",
-    modified_gmt: "2021-02-09T00:56:54",
+    modified: "2021-02-25T12:19:00",
+    modified_gmt: "2021-02-25T17:19:00",
     slug: "propuesta-015",
     status: "publish",
     type: "post",
@@ -18800,7 +19971,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1672,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -18838,6 +20009,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1075/revisions/1076",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1672",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1075" },
       ],
@@ -18863,8 +20040,8 @@ const allPosts = [
     date: "2021-02-08T19:56:09",
     date_gmt: "2021-02-09T00:56:09",
     guid: { rendered: "https://maqay.org/?p=1073" },
-    modified: "2021-02-08T19:56:09",
-    modified_gmt: "2021-02-09T00:56:09",
+    modified: "2021-02-25T12:18:57",
+    modified_gmt: "2021-02-25T17:18:57",
     slug: "propuesta-014",
     status: "publish",
     type: "post",
@@ -18881,7 +20058,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1671,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -18909,14 +20086,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1073/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1074,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1073/revisions/1074",
+          id: 1794,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1073/revisions/1794",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1671",
         },
       ],
       "wp:attachment": [
@@ -18944,8 +20127,8 @@ const allPosts = [
     date: "2021-02-08T19:54:54",
     date_gmt: "2021-02-09T00:54:54",
     guid: { rendered: "https://maqay.org/?p=1071" },
-    modified: "2021-02-08T19:54:54",
-    modified_gmt: "2021-02-09T00:54:54",
+    modified: "2021-02-25T12:18:55",
+    modified_gmt: "2021-02-25T17:18:55",
     slug: "propuesta-013",
     status: "publish",
     type: "post",
@@ -18962,7 +20145,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1670,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -19000,6 +20183,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1071/revisions/1072",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1670",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1071" },
       ],
@@ -19021,93 +20210,12 @@ const allPosts = [
     },
   },
   {
-    id: 1069,
-    date: "2021-02-08T19:53:45",
-    date_gmt: "2021-02-09T00:53:45",
-    guid: { rendered: "https://maqay.org/?p=1069" },
-    modified: "2021-02-08T19:53:45",
-    modified_gmt: "2021-02-09T00:53:45",
-    slug: "propuesta-012",
-    status: "publish",
-    type: "post",
-    link: "https://maqay.org/propuesta-012/",
-    title: { rendered: "Propuesta 012" },
-    content: {
-      rendered:
-        "<p>Fusionar los Ministerios de Ambiente y Vivienda, Construcci\u00f3n y Saneamiento y crear el Ministerio de Ambiente, Ordenamiento Territorial y Urbanismo. </p>\n",
-      protected: false,
-    },
-    excerpt: {
-      rendered:
-        "<p>Fusionar los Ministerios de Ambiente y Vivienda, Construcci\u00f3n y Saneamiento y crear el Ministerio de Ambiente, Ordenamiento Territorial y Urbanismo.</p>\n",
-      protected: false,
-    },
-    author: 2,
-    featured_media: 0,
-    comment_status: "open",
-    ping_status: "open",
-    sticky: false,
-    template: "",
-    format: "standard",
-    meta: {
-      _et_pb_use_builder: "",
-      _et_pb_old_content: "",
-      _et_gb_content_width: "",
-    },
-    categories: [23],
-    tags: [30, 61, 39],
-    _links: {
-      self: [{ href: "https://maqay.org/wp-json/wp/v2/posts/1069" }],
-      collection: [{ href: "https://maqay.org/wp-json/wp/v2/posts" }],
-      about: [{ href: "https://maqay.org/wp-json/wp/v2/types/post" }],
-      author: [
-        { embeddable: true, href: "https://maqay.org/wp-json/wp/v2/users/2" },
-      ],
-      replies: [
-        {
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/comments?post=1069",
-        },
-      ],
-      "version-history": [
-        {
-          count: 1,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1069/revisions",
-        },
-      ],
-      "predecessor-version": [
-        {
-          id: 1070,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1069/revisions/1070",
-        },
-      ],
-      "wp:attachment": [
-        { href: "https://maqay.org/wp-json/wp/v2/media?parent=1069" },
-      ],
-      "wp:term": [
-        {
-          taxonomy: "category",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/categories?post=1069",
-        },
-        {
-          taxonomy: "post_tag",
-          embeddable: true,
-          href: "https://maqay.org/wp-json/wp/v2/tags?post=1069",
-        },
-      ],
-      curies: [
-        { name: "wp", href: "https://api.w.org/{rel}", templated: true },
-      ],
-    },
-  },
-  {
     id: 1067,
     date: "2021-02-08T19:52:59",
     date_gmt: "2021-02-09T00:52:59",
     guid: { rendered: "https://maqay.org/?p=1067" },
-    modified: "2021-02-08T19:52:59",
-    modified_gmt: "2021-02-09T00:52:59",
+    modified: "2021-02-25T12:14:40",
+    modified_gmt: "2021-02-25T17:14:40",
     slug: "propuesta-011",
     status: "publish",
     type: "post",
@@ -19123,7 +20231,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1668,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -19161,6 +20269,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1067/revisions/1068",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1668",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1067" },
       ],
@@ -19186,8 +20300,8 @@ const allPosts = [
     date: "2021-02-08T19:51:59",
     date_gmt: "2021-02-09T00:51:59",
     guid: { rendered: "https://maqay.org/?p=1065" },
-    modified: "2021-02-10T16:01:30",
-    modified_gmt: "2021-02-10T21:01:30",
+    modified: "2021-02-25T12:12:31",
+    modified_gmt: "2021-02-25T17:12:31",
     slug: "propuesta-010",
     status: "publish",
     type: "post",
@@ -19204,7 +20318,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1667,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -19242,6 +20356,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1065/revisions/1621",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1667",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1065" },
       ],
@@ -19267,8 +20387,8 @@ const allPosts = [
     date: "2021-02-08T19:51:00",
     date_gmt: "2021-02-09T00:51:00",
     guid: { rendered: "https://maqay.org/?p=1063" },
-    modified: "2021-02-10T16:14:11",
-    modified_gmt: "2021-02-10T21:14:11",
+    modified: "2021-02-25T12:10:11",
+    modified_gmt: "2021-02-25T17:10:11",
     slug: "propuesta-009",
     status: "publish",
     type: "post",
@@ -19285,7 +20405,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1666,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -19313,14 +20433,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 2,
+          count: 3,
           href: "https://maqay.org/wp-json/wp/v2/posts/1063/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1628,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1063/revisions/1628",
+          id: 1765,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1063/revisions/1765",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1666",
         },
       ],
       "wp:attachment": [
@@ -19348,8 +20474,8 @@ const allPosts = [
     date: "2021-02-08T19:50:08",
     date_gmt: "2021-02-09T00:50:08",
     guid: { rendered: "https://maqay.org/?p=1061" },
-    modified: "2021-02-08T19:50:08",
-    modified_gmt: "2021-02-09T00:50:08",
+    modified: "2021-02-25T12:09:04",
+    modified_gmt: "2021-02-25T17:09:04",
     slug: "propuesta-008",
     status: "publish",
     type: "post",
@@ -19366,7 +20492,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1665,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -19394,14 +20520,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1061/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1062,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1061/revisions/1062",
+          id: 1759,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1061/revisions/1759",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1665",
         },
       ],
       "wp:attachment": [
@@ -19429,8 +20561,8 @@ const allPosts = [
     date: "2021-02-08T19:41:21",
     date_gmt: "2021-02-09T00:41:21",
     guid: { rendered: "https://maqay.org/?p=1059" },
-    modified: "2021-02-08T19:41:21",
-    modified_gmt: "2021-02-09T00:41:21",
+    modified: "2021-02-25T12:06:35",
+    modified_gmt: "2021-02-25T17:06:35",
     slug: "propuesta-006",
     status: "publish",
     type: "post",
@@ -19445,7 +20577,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1663,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -19483,6 +20615,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1059/revisions/1060",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1663",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1059" },
       ],
@@ -19508,8 +20646,8 @@ const allPosts = [
     date: "2021-02-08T19:39:10",
     date_gmt: "2021-02-09T00:39:10",
     guid: { rendered: "https://maqay.org/?p=1057" },
-    modified: "2021-02-08T19:39:10",
-    modified_gmt: "2021-02-09T00:39:10",
+    modified: "2021-02-25T12:05:20",
+    modified_gmt: "2021-02-25T17:05:20",
     slug: "propuesta-005",
     status: "publish",
     type: "post",
@@ -19524,7 +20662,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1662,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -19562,6 +20700,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1057/revisions/1058",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1662",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1057" },
       ],
@@ -19587,8 +20731,8 @@ const allPosts = [
     date: "2021-02-08T19:37:24",
     date_gmt: "2021-02-09T00:37:24",
     guid: { rendered: "https://maqay.org/?p=1055" },
-    modified: "2021-02-08T19:37:24",
-    modified_gmt: "2021-02-09T00:37:24",
+    modified: "2021-02-25T12:01:33",
+    modified_gmt: "2021-02-25T17:01:33",
     slug: "propuesta-003",
     status: "publish",
     type: "post",
@@ -19603,7 +20747,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1660,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -19631,14 +20775,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1055/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1056,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1055/revisions/1056",
+          id: 1731,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1055/revisions/1731",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1660",
         },
       ],
       "wp:attachment": [
@@ -19666,8 +20816,8 @@ const allPosts = [
     date: "2021-02-08T19:19:05",
     date_gmt: "2021-02-09T00:19:05",
     guid: { rendered: "https://maqay.org/?p=1053" },
-    modified: "2021-02-08T19:19:05",
-    modified_gmt: "2021-02-09T00:19:05",
+    modified: "2021-02-25T12:07:49",
+    modified_gmt: "2021-02-25T17:07:49",
     slug: "propuesta-007",
     status: "publish",
     type: "post",
@@ -19684,7 +20834,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1664,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -19722,6 +20872,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1053/revisions/1054",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1664",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1053" },
       ],
@@ -19747,8 +20903,8 @@ const allPosts = [
     date: "2021-02-08T19:13:43",
     date_gmt: "2021-02-09T00:13:43",
     guid: { rendered: "https://maqay.org/?p=1051" },
-    modified: "2021-02-10T15:40:29",
-    modified_gmt: "2021-02-10T20:40:29",
+    modified: "2021-02-25T12:03:25",
+    modified_gmt: "2021-02-25T17:03:25",
     slug: "propuesta-004",
     status: "publish",
     type: "post",
@@ -19763,7 +20919,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1661,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -19791,14 +20947,20 @@ const allPosts = [
       ],
       "version-history": [
         {
-          count: 1,
+          count: 2,
           href: "https://maqay.org/wp-json/wp/v2/posts/1051/revisions",
         },
       ],
       "predecessor-version": [
         {
-          id: 1052,
-          href: "https://maqay.org/wp-json/wp/v2/posts/1051/revisions/1052",
+          id: 1737,
+          href: "https://maqay.org/wp-json/wp/v2/posts/1051/revisions/1737",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1661",
         },
       ],
       "wp:attachment": [
@@ -19826,8 +20988,8 @@ const allPosts = [
     date: "2021-02-08T19:06:39",
     date_gmt: "2021-02-09T00:06:39",
     guid: { rendered: "https://maqay.org/?p=1049" },
-    modified: "2021-02-08T19:06:39",
-    modified_gmt: "2021-02-09T00:06:39",
+    modified: "2021-02-25T11:56:11",
+    modified_gmt: "2021-02-25T16:56:11",
     slug: "propuesta-002-2",
     status: "publish",
     type: "post",
@@ -19844,7 +21006,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1659,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -19882,6 +21044,12 @@ const allPosts = [
           href: "https://maqay.org/wp-json/wp/v2/posts/1049/revisions/1050",
         },
       ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1659",
+        },
+      ],
       "wp:attachment": [
         { href: "https://maqay.org/wp-json/wp/v2/media?parent=1049" },
       ],
@@ -19907,8 +21075,8 @@ const allPosts = [
     date: "2021-02-08T19:05:41",
     date_gmt: "2021-02-09T00:05:41",
     guid: { rendered: "https://maqay.org/?p=1047" },
-    modified: "2021-02-10T16:03:20",
-    modified_gmt: "2021-02-10T21:03:20",
+    modified: "2021-02-25T10:50:17",
+    modified_gmt: "2021-02-25T15:50:17",
     slug: "propuesta-001",
     status: "publish",
     type: "post",
@@ -19925,7 +21093,7 @@ const allPosts = [
       protected: false,
     },
     author: 2,
-    featured_media: 0,
+    featured_media: 1657,
     comment_status: "open",
     ping_status: "open",
     sticky: false,
@@ -19961,6 +21129,12 @@ const allPosts = [
         {
           id: 1623,
           href: "https://maqay.org/wp-json/wp/v2/posts/1047/revisions/1623",
+        },
+      ],
+      "wp:featuredmedia": [
+        {
+          embeddable: true,
+          href: "https://maqay.org/wp-json/wp/v2/media/1657",
         },
       ],
       "wp:attachment": [

@@ -55,6 +55,10 @@ const Footer = () => {
             <i className='fab fa-linkedin'></i>
             <p>Laura Jimenez</p>
           </a>
+          <a href='https://carlosriscohuaraca.com/'>
+            <i className='fab fa-linkedin'></i>
+            <p>Carlos Risco</p>
+          </a>
         </div>
       </div>
       <div className='footer-contacto'>

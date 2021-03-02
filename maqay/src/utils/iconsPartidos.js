@@ -1,21 +1,22 @@
-import acciónpopular from "../assets/img/iconsPartidos/accionpopular.png";
-import alianzaparaelprogreso from "../assets/img/iconsPartidos/alianzaparaelprogreso.png";
+import acciónpopular from "../assets/img/iconsPartidos/accion-popular.png";
+import alianzaparaelprogreso from "../assets/img/iconsPartidos/alianza-para-el-progreso.png";
 import apra from "../assets/img/iconsPartidos/apra.png";
-import democraciadirecta from "../assets/img/iconsPartidos/democraciadirecta.png";
-import frenteamplio from "../assets/img/iconsPartidos/frenteamplio.png";
-import fuerzapopular from "../assets/img/iconsPartidos/fuerzapopular.png";
-import juntosporelperú from "../assets/img/iconsPartidos/juntosporelperu.png";
-import partidomorado from "../assets/img/iconsPartidos/partidomorado.png";
-import partidonacionalista from "../assets/img/iconsPartidos/partidonacionalista.png";
-import partidopopularcristiano from "../assets/img/iconsPartidos/partidopopularcristiano.png";
-import perúlibre from "../assets/img/iconsPartidos/perulibre.png";
-import perúpatriasegura from "../assets/img/iconsPartidos/perupatriasegura.png";
-import podemosperú from "../assets/img/iconsPartidos/podemosperu.png";
-import renacimientounidonacional from "../assets/img/iconsPartidos/renacimientounidonacional.png";
-import renovaciónpopular from "../assets/img/iconsPartidos/renovacionpopular.png";
-import somosperú from "../assets/img/iconsPartidos/somosperu.png";
-import uniónporelperú from "../assets/img/iconsPartidos/unionporelperu.png";
-import victorianacional from "../assets/img/iconsPartidos/victorianacional.png";
+import democraciadirecta from "../assets/img/iconsPartidos/democracia-directa.png";
+import frenteamplio from "../assets/img/iconsPartidos/frente-amplio.png";
+import fuerzapopular from "../assets/img/iconsPartidos/fuerza-popular.png";
+import juntosporelperú from "../assets/img/iconsPartidos/juntos-por-el-peru.png";
+import partidomorado from "../assets/img/iconsPartidos/partido-morado.png";
+import partidonacionalista from "../assets/img/iconsPartidos/partido-nacionalista.png";
+import partidopopularcristiano from "../assets/img/iconsPartidos/partido-popular-cristiano.png";
+import perúlibre from "../assets/img/iconsPartidos/peru-libre.png";
+import perúpatriasegura from "../assets/img/iconsPartidos/peru-patria-segura.png";
+import podemosperú from "../assets/img/iconsPartidos/podemos-peru.png";
+import renacimientounidonacionalruna from "../assets/img/iconsPartidos/renacimiento-unido-nacional-runa.png";
+import renovaciónpopular from "../assets/img/iconsPartidos/renovacion-popular.png";
+import somosperú from "../assets/img/iconsPartidos/somos-peru.png";
+import uniónporelperú from "../assets/img/iconsPartidos/union-por-el-peru.png";
+import victorianacional from "../assets/img/iconsPartidos/victoria-nacional.png";
+import avanzapais from "../assets/img/iconsPartidos/avanza-pais.png";
 
 const iconsPartidos = {
   30: acciónpopular,
@@ -31,11 +32,12 @@ const iconsPartidos = {
   48: perúlibre,
   51: perúpatriasegura,
   55: podemosperú,
-  64: renacimientounidonacional,
+  64: renacimientounidonacionalruna,
   53: renovaciónpopular,
   56: somosperú,
   57: uniónporelperú,
   31: victorianacional,
+  65: avanzapais,
 };
 
 export default iconsPartidos;

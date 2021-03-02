@@ -29,7 +29,6 @@ const Home = () => {
   /* Función al hacer clic. Recibe la categoría y 
   volvemos a solicitar los tags correspondientes a la categoría seleccionada para almacenarlas en el estado */
   const filterByCategorySelected = (mainCategory, mainCategoryURI) => {
-    console.log(mainCategoryURI);
     setMainCategoryURI(mainCategoryURI);
     const tags = [];
     setMainCategory(mainCategory);

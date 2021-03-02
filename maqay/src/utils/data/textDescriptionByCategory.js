@@ -182,7 +182,7 @@ const descriptionCategory = {
       </li>
     </ul>
   ),
-  residuossolidos: (
+  residuossolidosyeconomiacircular: (
     <ul className='description-category-list'>
       <li>
         1. En el año 2017, se generaron más de 7 millones de toneladas de

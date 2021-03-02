@@ -3,11 +3,13 @@ import "./Card.css";
 import { Link } from "react-router-dom";
 
 const Card = ({ post, mainCategory, path }) => {
-  const nameFile = post.name.replace(/ /g, "");
+  /* const nameFile = post.name.replace(/ /g, "");
+  console.log(nameFile);
   const nameSinTilde = nameFile
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "");
-  const background = `/img/${nameSinTilde}.png`;
+    .replace(/[\u0300-\u036f]/g, ""); */
+  const nameFile = post.slug;
+  const background = `/img/${nameFile}.png`;
 
   return (
     <div className='card-home'>
@@ -15,7 +17,7 @@ const Card = ({ post, mainCategory, path }) => {
         <img
           className='card-home-logo'
           src={background}
-          alt={`${post.name.replace(/ /g, "")}`}
+          alt={`${nameFile}`}
         ></img>
         <div className='sub-card-home'>
           <div className='card-footer'>

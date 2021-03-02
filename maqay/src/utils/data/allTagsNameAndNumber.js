@@ -15,7 +15,7 @@ const allTagsNameAndNumber = [
     taxonomy: "post_tag",
     description: "",
     groups: [1],
-    post_count: 15,
+    post_count: 11,
   },
   {
     id: 41,
@@ -24,7 +24,16 @@ const allTagsNameAndNumber = [
     taxonomy: "post_tag",
     description: "",
     groups: [3],
-    post_count: 73,
+    post_count: 72,
+  },
+  {
+    id: 65,
+    name: "avanza pa\u00eds",
+    slug: "avanza-pais",
+    taxonomy: "post_tag",
+    description: "",
+    groups: [1],
+    post_count: 4,
   },
   {
     id: 37,
@@ -38,7 +47,7 @@ const allTagsNameAndNumber = [
   {
     id: 60,
     name: "conservaci\u00f3n de ecosistemas",
-    slug: "conservacion-de-ecosistema",
+    slug: "conservacion-de-ecosistemas",
     taxonomy: "post_tag",
     description: "",
     groups: [2],
@@ -51,7 +60,7 @@ const allTagsNameAndNumber = [
     taxonomy: "post_tag",
     description: "",
     groups: [2],
-    post_count: 22,
+    post_count: 24,
   },
   {
     id: 54,
@@ -105,7 +114,7 @@ const allTagsNameAndNumber = [
     taxonomy: "post_tag",
     description: "",
     groups: [2],
-    post_count: 24,
+    post_count: 21,
   },
   {
     id: 29,
@@ -177,12 +186,12 @@ const allTagsNameAndNumber = [
     taxonomy: "post_tag",
     description: "",
     groups: [2],
-    post_count: 7,
+    post_count: 8,
   },
   {
     id: 64,
-    name: "Renacimiento Unido Nacional",
-    slug: "renacimiento-unido-nacional",
+    name: "Renacimiento Unido Nacional - RUNA",
+    slug: "renacimiento-unido-nacional-runa",
     taxonomy: "post_tag",
     description: "",
     groups: [1],
@@ -200,7 +209,7 @@ const allTagsNameAndNumber = [
   {
     id: 35,
     name: "residuos s\u00f3lidos y econom\u00eda circular",
-    slug: "residuos-solidos",
+    slug: "residuos-solidos-y-economia-circular",
     taxonomy: "post_tag",
     description: "",
     groups: [2],
@@ -213,7 +222,7 @@ const allTagsNameAndNumber = [
     taxonomy: "post_tag",
     description: "",
     groups: [3],
-    post_count: 13,
+    post_count: 9,
   },
   {
     id: 56,
@@ -240,7 +249,7 @@ const allTagsNameAndNumber = [
     taxonomy: "post_tag",
     description: "",
     groups: [3],
-    post_count: 158,
+    post_count: 162,
   },
   {
     id: 31,
