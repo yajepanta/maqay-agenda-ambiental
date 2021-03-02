@@ -50,8 +50,9 @@ const Card = ({ post }) => {
 
   //Aquí se llama al state "image"
   const location = useLocation();
-  const currentUrl =
-    "https://agendaambiental.info" + location.pathname + `#${post.id}`;
+  /* const currentUrl =
+    "https://agendaambiental.info" + location.pathname + `#${post.id}`; */
+  const currentUrl = "https://agendaambiental.info";
 
   const shareContent = {
     url: currentUrl,
