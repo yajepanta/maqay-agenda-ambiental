@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
 import "./Card.css";
 import { writeLike } from "../../../controller/likesController";
-import allTagsNameAndNumber from "../../../utils/data/allTagsNameAndNumber.js";
 import media from "../../../utils/data/media";
 import iconsPartidos from "../../../utils/iconsPartidos";
 import Share from "../Share/Share.js";
@@ -11,7 +9,7 @@ const Card = ({ post }) => {
   const [like, setLike] = useState(false);
   const [image, setImage] = useState("");
 
-  /* Numbers set by Wordpress */
+  /* Numbers set by Wordpress that define the background color */
   const alertRed = 39;
   const alertGreen = 40;
 
@@ -27,16 +25,19 @@ const Card = ({ post }) => {
 
   const stripPTags = (content) => content.replace(/<\/?p[^>]*>/g, "");
 
-  const getPartieName = () => {
+  /* Get Parties Name to show them (logo) at the card footer */
+
+  /*  const getPartieName = () => {
     const partieObject = allTagsNameAndNumber.find(
       (tag) => tag.id === post.tags[1]
     );
     if (partieObject) {
       return partieObject.name.toUpperCase();
     }
-  };
+  }; */
 
   //obtener string del link de la imagen o "No hay imagen" en el state "image"
+
   useEffect(() => {
     if (post.featured_media === 0) {
       setImage("No hay imagen");
@@ -49,16 +50,15 @@ const Card = ({ post }) => {
   }, [post]);
 
   //Aquí se llama al state "image"
-  const location = useLocation();
-  /* const currentUrl =
+
+  /* const location = useLocation();
+  const currentUrl =
     "https://agendaambiental.info" + location.pathname + `#${post.id}`; */
   const currentUrl = "https://agendaambiental.info";
 
   const shareContent = {
     url: currentUrl,
-    content: `${getPartieName()} propone: ${stripPTags(
-      post.content.rendered
-    ).substring(0, 99)}...`,
+    content: `Conoce las propuestas ambientales de los partidos políticos en la Agenda Ambiental 2021: ${currentUrl}`,
     img: `${image}`,
   };
 

@@ -83,12 +83,20 @@
   background: rgb(0, 155, 58, 0.9);
 }
 
+.alert-green:hover {
+  background: rgb(0, 155, 58, 0.95);
+}
 .alert-red {
   background: rgb(215, 10, 10, 0.85);
 }
-
+.alert-red:hover {
+  background: rgb(215, 10, 10, 0.9);
+}
 .no-alert {
   background: rgb(246, 168, 24, 0.9);
+}
+.no-alert:hover {
+  background: rgb(246, 168, 24, 0.95);
 }
 
 @media only screen and (max-width: 860px) {

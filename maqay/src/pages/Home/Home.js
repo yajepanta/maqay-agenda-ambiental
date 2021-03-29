@@ -87,7 +87,7 @@ const Home = () => {
                 post={post}
                 key={post.id}
                 mainCategory={mainCategory}
-                path={`/propuestas/${mainCategoryURI}/${post.slug}`}
+                path={`/${mainCategoryURI}/${post.slug}`}
               />
             );
           })}

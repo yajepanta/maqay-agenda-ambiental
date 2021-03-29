@@ -1,11 +1,10 @@
 footer {
   display: grid;
   width: 100vw;
-  grid-template-columns: 15% 15% 25% 45%;
+  grid-template-columns: 20% 20% 15% 45%;
   column-gap: 5%;
   font-size: 14px;
   padding-top: 30px;
-  /* background: url(../../../assets/img/header.png); */
   background-color: #00b2a8;
   color: #ffffff;
   overflow: hidden;
@@ -15,8 +14,7 @@ footer {
 .footer-logo {
   display: flex;
   flex-direction: column;
-  height: 150px;
-  text-align: left;
+  align-self: center;
 }
 
 .footer-logo > img {
@@ -31,9 +29,9 @@ footer {
 .footer-contacto {
   display: flex;
   flex-direction: column;
-  height: 150px;
   text-align: left;
   width: 25vw;
+  align-self: center;
 }
 .footer-contacto p {
   margin-block: 0px;
@@ -65,7 +63,9 @@ footer {
   flex-direction: column;
   width: 15vw;
   text-align: left;
+  align-self: center;
 }
+
 .footer-nosotros span {
   font-weight: bold;
   margin-block: 0;
@@ -130,6 +130,7 @@ footer {
   font-size: 16px;
   letter-spacing: 1px;
 }
+
 .list-social-links > a:visited {
   color: #ffffff;
 }

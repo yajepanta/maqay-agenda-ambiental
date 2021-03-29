@@ -263,3 +263,9 @@ const allTagsNameAndNumber = [
 ];
 
 export default allTagsNameAndNumber;
+/* https://maqay.org/wp-json/wp/v2/posts?page=1&per_page=100&categories=23
+https://maqay.org/wp-json/wp/v2/posts?page=2&per_page=100&categories=23 
+https://maqay.org/wp-json/wp/v2/posts?page=3&per_page=100&categories=23 
+https://maqay.org/wp-json/wp/v2/posts?page=4&per_page=100&categories=23 
+https://maqay.org/wp-json/wp/v2/posts?page=5&per_page=100&categories=23 
+*/

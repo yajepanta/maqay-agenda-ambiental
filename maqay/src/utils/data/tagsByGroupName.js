@@ -1,3 +1,4 @@
+/* http://maqay.org/wp-json/tag-groups/v1/groups/ */
 const tagsByGroupName = [
   { term_group: 0, label: "not assigned", position: 0, terms: [] },
   {

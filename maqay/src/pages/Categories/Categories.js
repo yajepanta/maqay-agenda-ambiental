@@ -4,7 +4,6 @@ import { useParams, useLocation } from "react-router-dom";
 import "./Categories.css";
 import { getTagsByGroupName } from "../../controller/postController";
 
-import MetaDecorator from "./MetaDecorator/MetaDecorator";
 import allPosts from "../../utils/data/allPosts.js";
 
 import allTagsNameAndNumber from "../../utils/data/allTagsNameAndNumber.js";
@@ -16,8 +15,6 @@ import Card from "./Card/Card";
 import CategoryDescription from "./CategoryDescription/CategoryDescription.js";
 import arrowDown from "../../assets/img/arrow-down.svg";
 import searchIcon from "../../assets/img/searchIcon2.svg";
-//import {SimpleSlider} from './slider'
-//import { getAllPosts } from '../../controller/postController'
 
 const Categories = () => {
   /* posts to render */
@@ -115,10 +112,6 @@ const Categories = () => {
     posts.filter((post) => {
       return post.tags.includes(40);
     });
-
-  const location = useLocation();
-  const currentUrl =
-    "https://maqay.netlify.app" + location.pathname.replace(/ /g, "-");
 
   const navClick = () => {
     if (navShow === 0) {
@@ -221,7 +214,7 @@ const Categories = () => {
                   <ButtonFilterNav
                     key={tag.id}
                     tagByTopic={tag}
-                    path={`/propuestas/${category}/${tag.slug}`}
+                    path={`/${category}/${tag.slug}`}
                   />
                 );
               })}
@@ -270,7 +263,7 @@ const Categories = () => {
               </div>
               <span className='leyenda-text'>
                 Propuestas alineadas con los 8 temas ambientales priorizados
-                para el país
+                para el país.
               </span>
             </div>
             <div className='flexLeyenda'>
@@ -282,7 +275,7 @@ const Categories = () => {
                 </span>
               </div>
               <span className='leyenda-text'>
-                Propuestas que no abordan los temas priorizados
+                Propuestas que no abordan los temas priorizados.
               </span>
             </div>
             <div className='flexLeyenda'>

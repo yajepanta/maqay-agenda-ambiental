@@ -139,7 +139,7 @@ const descriptionCategory = {
       </li>
     </ul>
   ),
-  conservaciondeecosistema: (
+  conservaciondeecosistemas: (
     <ul className='description-category-list'>
       <li>
         1. El Perú ha sido reconocido como uno de los 17 países llamados

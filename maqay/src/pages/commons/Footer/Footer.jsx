@@ -79,6 +79,10 @@ const Footer = () => {
           <i className='fab fa-facebook-square'></i>
           <p>ong.maqay</p>
         </a>
+        <a href='https://github.com/yajepanta/maqay-agenda-ambiental'>
+          <i className='fab fa-github-square'></i>
+          <p>Github</p>
+        </a>
       </div>
     </footer>
   );
