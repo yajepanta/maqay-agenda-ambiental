@@ -43,8 +43,7 @@ Y también enviamos un **build** a la ONG.
 
 ## Contribuyendo 🖇️
 
-Por favor lee el [CONTRIBUTING.md](https://github.com/yajepanta/maqay-agenda-ambiental/blob/16c840d27f2ade89ca8c3c46b172a97f6e33ba5e/CONTRIBUTING.md) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
+Por favor lee el [CONTRIBUTING.md](https://github.com/yajepanta/maqay-agenda-ambiental/blob/master/CONTRIBUTING.md) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
 ## Autores ✒️
 
@@ -57,15 +56,4 @@ Acá estamos todas las personas que contribuimos desde el código.
 * **Yaje** - [yajepanta](https://github.com/yajepanta)
 *
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/yajepanta/maqay-agenda-ambiental/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
 
