@@ -43,7 +43,7 @@ Y también enviamos un **build** a la ONG.
 
 ## Contribuyendo 🖇️
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+Por favor lee el [CONTRIBUTING.md](https://github.com/yajepanta/maqay-agenda-ambiental/blob/16c840d27f2ade89ca8c3c46b172a97f6e33ba5e/CONTRIBUTING.md) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
 
 ## Autores ✒️
