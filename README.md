@@ -50,11 +50,11 @@ Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) 
 
 Acá estamos todas las personas que contribuimos desde el código.
 
-* **Alejandra** - [villanuevand](https://github.com/villanuevand)
-* **David** - [fulanitodetal](#fulanito-de-tal)
-* **Ivy** - [fulanitodetal](#fulanito-de-tal)
-* **Laura** - [fulanitodetal](#fulanito-de-tal)
-* **Yaje** - [fulanitodetal](#fulanito-de-tal)
+*  - [**Alejandra**](https://github.com/dalejac)
+* **David** - [fulanitodetal](https://github.com/dbland87)
+* **Ivy** - [fulanitodetal](https://github.com/unjust)
+* **Laura** - [fulanitodetal](https://github.com/LauraJimenezB)
+* **Yaje** - [fulanitodetal](https://github.com/yajepanta)
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
