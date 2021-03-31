@@ -50,12 +50,13 @@ Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) 
 
 Acá estamos todas las personas que contribuimos desde el código.
 
-*  - [**Alejandra**](https://github.com/dalejac)
-* **David** - [fulanitodetal](https://github.com/dbland87)
-* **Ivy** - [fulanitodetal](https://github.com/unjust)
-* **Laura** - [fulanitodetal](https://github.com/LauraJimenezB)
-* **Yaje** - [fulanitodetal](https://github.com/yajepanta)
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+* **Alejandra** - [dalejac](https://github.com/dalejac)
+* **David** - [dbland87](https://github.com/dbland87)
+* **Ivy** - [unjust](https://github.com/unjust)
+* **Laura** - [LauraJimenezB](https://github.com/LauraJimenezB)
+* **Yaje** - [yajepanta](https://github.com/yajepanta)
+*
+También puedes mirar la lista de todos los [contribuyentes](https://github.com/yajepanta/maqay-agenda-ambiental/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
