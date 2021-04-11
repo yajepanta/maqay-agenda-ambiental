@@ -55,5 +55,5 @@ Acá estamos todas las personas que contribuimos desde el código.
 * **Laura** - [LauraJimenezB](https://github.com/LauraJimenezB)
 * **Yaje** - [yajepanta](https://github.com/yajepanta)
 *
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/yajepanta/maqay-agenda-ambiental/contributors) quíenes han participado en este proyecto. 
+También puedes mirar la lista de todos los [contribuyentes](https://github.com/yajepanta/maqay-agenda-ambiental/contributors) que han participado en este proyecto. 
 
