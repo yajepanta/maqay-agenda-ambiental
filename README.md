@@ -1,6 +1,6 @@
 # Agenda ambiental
 
-Este proyecto parte de la iniciativa de **ONG Maqay** en conjunto con **200.pe**.
+Este proyecto parte de la iniciativa de **ONG Maqay** en conjunto con **200.pe**. Puedes visitarlo [aquí.](https://agendaambiental.info)
 
 ## Descripción 🚀
 
